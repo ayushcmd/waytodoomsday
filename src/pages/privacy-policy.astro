@@ -1,146 +1,209 @@
 ---
-const year = new Date().getFullYear();
+import Layout from "../layouts/Layout.astro";
+
+const lastUpdated = "October 2026";
 ---
 
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-info">
-      <span class="brand-text">WAY TO <span class="accent">DOOMSDAY</span></span>
-      <p class="tagline">
-        Every MCU movie and series, in order, before Avengers: Doomsday hits theaters.
-        An unofficial fan project — not affiliated with Marvel Studios or Disney.
-      </p>
-      <p class="copyright">&copy; {year} Way to Doomsday. All rights reserved.</p>
-    </div>
-
-    <div class="footer-contact">
-      <span class="contact-heading">Contact</span>
-
-      <a href="https://linkedin.com/in/ayushcmd" target="_blank" rel="noopener noreferrer" class="contact-link">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-          <rect width="4" height="12" x="2" y="9"></rect>
-          <circle cx="4" cy="4" r="2"></circle>
-        </svg>
-        <span>LinkedIn</span>
+<Layout
+  title="Privacy Policy — Way to Doomsday"
+  description="Privacy policy and data practices for Way to Doomsday, an unofficial MCU watch order tracker and countdown."
+>
+  <header class="sticky top-0 z-40 border-b border-white/5 bg-bg/80 backdrop-blur-xl">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
+      <a href="/" class="font-display text-base tracking-widest text-white hover:text-accent-bright transition-colors">
+        WAY TO <span class="text-accent-bright">DOOMSDAY</span>
       </a>
-
-      <a href="mailto:ayushcmd@outlook.com" class="contact-link">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <rect width="20" height="16" x="2" y="4" rx="2"></rect>
-          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+      <a
+        href="/"
+        class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-muted hover:text-white transition-colors"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="m15 18-6-6 6-6" />
         </svg>
-        <span>ayushcmd@outlook.com</span>
-      </a>
-
-      <a href="/privacy-policy" class="contact-link">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-          <path d="M14 2v6h6"></path>
-          <path d="M16 13H8"></path>
-          <path d="M16 17H8"></path>
-          <path d="M10 9H8"></path>
-        </svg>
-        <span>Privacy Policy</span>
+        <span>Back to Tracker</span>
       </a>
     </div>
-  </div>
-</footer>
+  </header>
+
+  <main class="relative min-h-[75vh] py-12 sm:py-16 px-4 sm:px-6">
+    <div class="pointer-events-none absolute inset-0 bg-radial-gradient" aria-hidden="true"></div>
+
+    <div class="relative z-10 max-w-4xl mx-auto">
+      <!-- Page Header -->
+      <div class="mb-10 pb-8 border-b border-white/10">
+        <span class="inline-block text-[11px] uppercase tracking-widest text-accent-bright font-bold mb-3 px-2.5 py-1 rounded-full bg-accent-bright/10 border border-accent-bright/20">
+          Transparency & Legal
+        </span>
+        <h1 class="font-display text-4xl sm:text-6xl tracking-wide text-white leading-none">
+          PRIVACY <span class="text-accent-bright">POLICY</span>
+        </h1>
+        <p class="mt-3 text-sm text-muted">
+          Last updated: <span class="text-text font-medium">{lastUpdated}</span>
+        </p>
+      </div>
+
+      <!-- Content Sections -->
+      <div class="space-y-6">
+        <!-- 01 Overview -->
+        <section class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8 backdrop-blur-sm transition-colors hover:border-white/20">
+          <div class="flex items-start gap-4">
+            <span class="text-xs font-mono font-bold text-accent-bright px-2 py-1 rounded bg-accent-bright/10 border border-accent-bright/20">
+              01
+            </span>
+            <div class="flex-1">
+              <h2 class="text-lg sm:text-xl font-bold text-white mb-2">
+                Overview & Project Nature
+              </h2>
+              <p class="text-sm sm:text-base leading-relaxed text-muted">
+                <strong class="text-text">Way to Doomsday</strong> is an independent, non-commercial fan project created to provide Marvel fans with an organized watch-order timeline, phase breakdowns, and a countdown leading up to <em class="text-text">Avengers: Doomsday</em>.
+              </p>
+              <p class="mt-3 text-sm sm:text-base leading-relaxed text-muted">
+                This project is not affiliated with, endorsed by, sponsored by, or connected to Marvel Studios, Marvel Entertainment, or The Walt Disney Company. We respect your digital privacy and maintain a privacy-first approach by collecting no personal data on our servers.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 02 Information We Collect -->
+        <section class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8 backdrop-blur-sm transition-colors hover:border-white/20">
+          <div class="flex items-start gap-4">
+            <span class="text-xs font-mono font-bold text-accent-bright px-2 py-1 rounded bg-accent-bright/10 border border-accent-bright/20">
+              02
+            </span>
+            <div class="flex-1">
+              <h2 class="text-lg sm:text-xl font-bold text-white mb-2">
+                Information We Collect
+              </h2>
+              <p class="text-sm sm:text-base leading-relaxed text-muted mb-4">
+                We do not require account registration, passwords, or personal details (such as your name, email, or physical address). We do not run any server-side database storing user information.
+              </p>
+              <div class="grid sm:grid-cols-2 gap-3 mt-4">
+                <div class="p-4 rounded-xl border border-white/5 bg-black/30">
+                  <span class="text-xs font-semibold text-accent-bright block mb-1">Watch Status</span>
+                  <p class="text-xs text-muted leading-relaxed">
+                    Which films and series you mark as watched is stored exclusively in your own browser's local storage.
+                  </p>
+                </div>
+                <div class="p-4 rounded-xl border border-white/5 bg-black/30">
+                  <span class="text-xs font-semibold text-accent-bright block mb-1">Display Preferences</span>
+                  <p class="text-xs text-muted leading-relaxed">
+                    Any filter, sort, or phase view selection remains strictly on your device.
+                  </p>
+                </div>
+                <div class="p-4 rounded-xl border border-white/5 bg-black/30">
+                  <span class="text-xs font-semibold text-accent-bright block mb-1">Search Queries</span>
+                  <p class="text-xs text-muted leading-relaxed">
+                    Filter and search terms entered into the search bar are computed locally in real time and never dispatched to a backend.
+                  </p>
+                </div>
+                <div class="p-4 rounded-xl border border-white/5 bg-black/30">
+                  <span class="text-xs font-semibold text-accent-bright block mb-1">Zero Cloud Profiles</span>
+                  <p class="text-xs text-muted leading-relaxed">
+                    No analytics fingerprints or cross-site identity profiles are created or stored.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 03 Cookies & Local Storage -->
+        <section class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8 backdrop-blur-sm transition-colors hover:border-white/20">
+          <div class="flex items-start gap-4">
+            <span class="text-xs font-mono font-bold text-accent-bright px-2 py-1 rounded bg-accent-bright/10 border border-accent-bright/20">
+              03
+            </span>
+            <div class="flex-1">
+              <h2 class="text-lg sm:text-xl font-bold text-white mb-2">
+                Cookies & Local Storage
+              </h2>
+              <p class="text-sm sm:text-base leading-relaxed text-muted">
+                This site does not use third-party advertising cookies or cross-site tracking cookies. We utilize standard HTML5 LocalStorage solely to remember your progress so you can pick up where you left off when you return. You can erase this data at any time simply by clearing your browser's site data or cache for this domain.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 04 Third-Party Media & Intellectual Property -->
+        <section class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8 backdrop-blur-sm transition-colors hover:border-white/20">
+          <div class="flex items-start gap-4">
+            <span class="text-xs font-mono font-bold text-accent-bright px-2 py-1 rounded bg-accent-bright/10 border border-accent-bright/20">
+              04
+            </span>
+            <div class="flex-1">
+              <h2 class="text-lg sm:text-xl font-bold text-white mb-2">
+                Intellectual Property & Media
+              </h2>
+              <p class="text-sm sm:text-base leading-relaxed text-muted">
+                All titles, characters, imagery, movie posters, and related MCU assets are copyrighted intellectual property of Marvel Studios, Marvel Characters, Inc., and/or The Walt Disney Company. They are displayed here solely for informative, identification, and commentary purposes under fair use.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 05 Content Integrity & Piracy Notice -->
+        <section class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8 backdrop-blur-sm transition-colors hover:border-white/20">
+          <div class="flex items-start gap-4">
+            <span class="text-xs font-mono font-bold text-accent-bright px-2 py-1 rounded bg-accent-bright/10 border border-accent-bright/20">
+              05
+            </span>
+            <div class="flex-1">
+              <h2 class="text-lg sm:text-xl font-bold text-white mb-2">
+                Content Integrity & Anti-Piracy Commitment
+              </h2>
+              <p class="text-sm sm:text-base leading-relaxed text-muted">
+                Way to Doomsday does not host, stream, distribute, or provide downloads of full-length copyrighted movies or series. Furthermore, this project has no partnership, affiliation, or connection to piracy platforms, torrent repositories, or unauthorized streaming services. External links point solely to official release information and authorized platforms (such as Disney+).
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 06 Contact -->
+        <section class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8 backdrop-blur-sm transition-colors hover:border-white/20">
+          <div class="flex items-start gap-4">
+            <span class="text-xs font-mono font-bold text-accent-bright px-2 py-1 rounded bg-accent-bright/10 border border-accent-bright/20">
+              06
+            </span>
+            <div class="flex-1">
+              <h2 class="text-lg sm:text-xl font-bold text-white mb-2">
+                Contact & Questions
+              </h2>
+              <p class="text-sm sm:text-base leading-relaxed text-muted">
+                If you have any questions, feedback, or concerns regarding this policy, feel free to contact us:
+              </p>
+              <div class="mt-4 flex flex-wrap gap-4">
+                <a
+                  href="mailto:waytodoomsday@gmail.com"
+                  class="inline-flex items-center gap-2 text-xs font-semibold px-4 py-2.5 rounded-xl border border-white/10 bg-white/[0.04] text-white hover:border-accent-bright hover:text-accent-bright transition-colors"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                  <span>waytodoomsday@gmail.com</span>
+                </a>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+</Layout>
 
 <style>
-  .site-footer {
-    width: 100%;
-    background: #0a0a0a;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 3rem 1.5rem;
-    margin-top: 3rem;
-  }
-
-  .footer-inner {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2.5rem;
-    flex-wrap: wrap;
-  }
-
-  .footer-info {
-    max-width: 480px;
-    text-align: left;
-  }
-
-  .brand-text {
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    font-size: 1rem;
-    color: #ffffff;
-    text-transform: uppercase;
-  }
-
-  .accent {
-    color: #22c55e;
-  }
-
-  .tagline {
-    margin-top: 0.6rem;
-    font-size: 0.85rem;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.5);
-  }
-
-  .copyright {
-    margin-top: 1.25rem;
-    font-size: 0.75rem;
-    color: rgba(255, 255, 255, 0.35);
-  }
-
-  .footer-contact {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.9rem;
-    text-align: left;
-  }
-
-  .contact-heading {
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.4);
-    margin-bottom: 0.25rem;
-  }
-
-  .contact-link {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    color: rgba(255, 255, 255, 0.75);
-    text-decoration: none;
-    font-size: 0.875rem;
-    transition: color 0.2s ease;
-  }
-
-  .contact-link svg {
-    flex-shrink: 0;
-    color: rgba(255, 255, 255, 0.55);
-    transition: color 0.2s ease;
-  }
-
-  .contact-link:hover {
-    color: #22c55e;
-  }
-
-  .contact-link:hover svg {
-    color: #22c55e;
-  }
-
-  @media (max-width: 600px) {
-    .footer-inner {
-      flex-direction: column;
-      text-align: left;
-    }
+  .bg-radial-gradient {
+    background: radial-gradient(ellipse at 50% 0%, rgba(34, 197, 94, 0.08), transparent 60%);
   }
 </style>
