@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import Footer from '../components/Footer.astro';
+import EnquiryWidget from '../components/EnquiryWidget.jsx';
 
 interface Props {
   title?: string;
@@ -37,5 +38,6 @@ const {
   <body>
     <slot />
     <Footer />
+    <EnquiryWidget client:load />
   </body>
 </html>
