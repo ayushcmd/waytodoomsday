@@ -762,7 +762,8 @@
   {
     "actorName": "Zoe Saldaña",
     "portrayalSlugs": [
-      "gamora"
+      "gamora",
+      "gamora-2014-variant"
     ],
     "tmdb": {
       "personId": 8691,
@@ -816,7 +817,8 @@
   {
     "actorName": "Vin Diesel",
     "portrayalSlugs": [
-      "groot"
+      "groot",
+      "groot-young"
     ],
     "tmdb": {
       "personId": 12835,
@@ -834,7 +836,8 @@
   {
     "actorName": "Karen Gillan",
     "portrayalSlugs": [
-      "nebula"
+      "nebula",
+      "nebula-2014-variant"
     ],
     "tmdb": {
       "personId": 543261,
@@ -888,7 +891,8 @@
   {
     "actorName": "Josh Brolin",
     "portrayalSlugs": [
-      "thanos"
+      "thanos",
+      "thanos-2014-variant"
     ],
     "tmdb": {
       "personId": 16851,

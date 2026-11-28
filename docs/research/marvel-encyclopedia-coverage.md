@@ -21,11 +21,11 @@ Every entry published in this encyclopedia foundation satisfies strict evidentia
 
 ## 2. Representation Across Continuities
 
-Following Content Expansion Batch 1 (adding **25 verified portrayals** to the initial **46**), the dataset contains **71 verified character portrayals**, **62 identity families**, **67 unique verified TMDB actor identities**, and **15 verified teams/organizations** spanning **9 cinematic continuities**:
+Following Content Expansion Batch 1 (adding **29 verified portrayals** including separated 2014 Time Heist variants and Young Groot), the dataset contains **75 verified character portrayals**, **63 identity families**, **67 unique verified TMDB actor identities**, and **15 verified teams/organizations** spanning **9 cinematic continuities**:
 
 | Continuity ID | Cinematic Continuity Name | Designation | Portrayals | Teams & Organizations |
 |---|---|---|---|---|
-| `mcu` | Marvel Cinematic Universe | Earth-616 / Sacred Timeline | 37 | Avengers, Guardians of the Galaxy, S.H.I.E.L.D., HYDRA, Dora Milaje, Ravagers, TVA, Thunderbolts*, Eternals |
+| `mcu` | Marvel Cinematic Universe | Earth-616 / Sacred Timeline | 41 | Avengers, Guardians of the Galaxy, S.H.I.E.L.D., HYDRA, Dora Milaje, Ravagers, TVA, Thunderbolts*, Eternals |
 | `fox-xmen` | Fox X-Men Universe (Original & Prequel) | Earth-10005 | 17 | X-Men, Brotherhood of Mutants, X-Force |
 | `story-fantastic-four` | Tim Story Fantastic Four (2005/2007) | Earth-121698 | 5 | Fantastic Four |
 | `raimi-spiderman` | Sam Raimi Spider-Man Trilogy | Earth-96283 | 3 | — |
@@ -35,17 +35,17 @@ Following Content Expansion Batch 1 (adding **25 verified portrayals** to the in
 | `sony-ssu` | Sony's Spider-Man Universe | Earth-688 | 1 | — |
 | `trill-blade` | New Line Cinema Blade Trilogy | Earth-26320 | 1 | — |
 
-**Total Published Portrayals:** 71 (46 baseline + 25 Batch 1)  
+**Total Published Portrayals:** 75  
 **Total Verified Teams:** 15  
 
 ### Batch 1 Additions & Excluded/Deferred Candidates
-- **Added (+25):**
-  - *Guardians of the Galaxy (7):* Gamora, Drax, Rocket Raccoon, Groot, Nebula, Mantis, Yondu Udonta (Ravagers member / Guardians ally).
-  - *MCU Heroes & Villains (11):* Thanos, Hela, Erik Killmonger, Vulture, Mysterio, Shang-Chi, Yelena Belova (Thunderbolts*), Namor, Okoye (Dora Milaje / Avengers ally), Vision (Avengers), Wong (Avengers ally).
+- **Added (+29):**
+  - *Guardians of the Galaxy & Variants (9):* Gamora (`gamora`), Gamora 2014 Variant (`gamora-2014-variant`, Ravagers), Drax, Rocket Raccoon, Original Groot (`groot`), Groot Young / Son (`groot-young`, distinct `groot-junior` identity), Nebula, Mantis, Yondu Udonta (Ravagers member / Guardians ally).
+  - *MCU Heroes, Villains & Variants (13):* Thanos (`thanos`), Thanos 2014 Variant (`thanos-2014-variant`), Nebula 2014 Variant (`nebula-2014-variant`), Hela, Erik Killmonger, Vulture, Mysterio, Shang-Chi, Yelena Belova (Thunderbolts*), Namor, Okoye (Dora Milaje / Avengers ally), Vision (Avengers), Wong (Avengers ally).
   - *Fox X-Men (7):* Rogue, Nightcrawler, Iceman, Beast (Young), Quicksilver, Mystique (Young — Jennifer Lawrence), Mystique (Original Trilogy — Rebecca Romijn).
   - *New Film Catalog Entry:* `thunderbolts` (*Thunderbolts**, 2025, `mcu`, `isMcu: true`, synchronized with `movies.json`).
 - **Deferred to Batch 2 (Excluded from Batch 1):**
-  - Standalone early-2000s continuities (**Ghost Rider** — Nicolas Cage, **Daredevil** — Ben Affleck, **Elektra** — Jennifer Garner, **The Punisher** — Thomas Jane) and the **2025 Fantastic Four: First Steps** continuity cast require dedicated universe entries, non-MCU film catalogs, and team setup, so they are deferred to a dedicated Batch 2 expansion rather than over-stretching Batch 1.
+  - Standalone early-2000s continuities (**Ghost Rider** — Nicolas Cage, **Daredevil** — Ben Affleck, **Elektra** — Jennifer Garner, **The Punisher** — Thomas Jane) and the **2025 Fantastic Four: First Steps** continuity cast require dedicated universe entries, non-MCU film catalogs, and team setup, so they are deferred to a dedicated Batch 2 expansion.
 
 ---
 
@@ -63,11 +63,24 @@ Following Content Expansion Batch 1 (adding **25 verified portrayals** to the in
 - **Weapon XI (`weapon-xi-wade-wilson`):** *X-Men Origins: Wolverine* (2009) portrayal; Stryker's genetically altered mutant killer with sewn mouth, teleportation, optic blasts, and arm-blades. Villain role.
 - **Deadpool (`deadpool-ryan-reynolds`):** *Deadpool* (2016), *Deadpool 2* (2018), and *Deadpool & Wolverine* (2024) self-aware fourth-wall-breaking mercenary and anti-hero.
 
+### D. 2014 Time Heist Variants (Gamora, Thanos, Nebula)
+- **Gamora (`gamora` vs `gamora-2014-variant`):** Original Guardians Gamora died on Vormir in *Infinity War* (2018); the 2014 variant pulled into *Endgame* (2019) never joined the Guardians and instead became a Ravager (`ravagers-mcu`) in *Guardians Vol. 3* (2023).
+- **Thanos (`thanos` vs `thanos-2014-variant`):** Sacred Timeline Thanos completed the Snap and was killed by Thor in *Endgame*'s opening; 2014 Thanos intercepted the Time Heist and was disintegrated by Tony Stark in the Battle of Earth.
+- **Nebula (`nebula` vs `nebula-2014-variant`):** Redeemed 2023 Nebula survived the Blip and became a Guardian; loyalist 2014 Nebula infiltrated the Avengers Compound and was fatally shot by her future self in *Endgame*.
+
+### E. Groot Lineage (Father vs. Son)
+- **Original Groot (`groot`):** Founding Guardian who sacrificed himself on Xandar in *Guardians of the Galaxy* (2014).
+- **Groot (Young / Son — `groot-young`):** Distinct individual (`groot-junior` identity) grown from a surviving twig, appearing from *Guardians Vol. 1*'s epilogue through *Vol. 3*.
+
+### F. Mystique (Rebecca Romijn vs. Jennifer Lawrence)
+- **Mystique (`mystique-rebecca-romijn`):** Original X-Men trilogy Brotherhood lieutenant (*X-Men* 2000 – *The Last Stand* 2006).
+- **Mystique (Young — `mystique-jennifer-lawrence`):** Prequel-era shapeshifter who transitioned from the Brotherhood to field leader of the X-Men (*First Class* 2011 – *Dark Phoenix* 2019).
+
 ---
 
-## 4. Verified Character Portrayal Inventory (46 Portrayals)
+## 4. Verified Character Portrayal Inventory (75 Portrayals)
 
-### A. Marvel Cinematic Universe (Earth-616) — 19 Portrayals
+### A. Marvel Cinematic Universe (Earth-616) — 41 Portrayals
 1. **Iron Man (Tony Stark)** — Robert Downey Jr. (`iron-man`) [Legacy Route Preserved]
 2. **Thor Odinson** — Chris Hemsworth (`thor`) [Legacy Route Preserved]
 3. **Captain America (Steve Rogers)** — Chris Evans (`captain-america`) [Legacy Route Preserved]
@@ -87,49 +100,78 @@ Following Content Expansion Batch 1 (adding **25 verified portrayals** to the in
 17. **Loki Laufeyson** — Tom Hiddleston (`loki`)
 18. **Nick Fury** — Samuel L. Jackson (`nick-fury`)
 19. **Wolverine (Alternate Variant)** — Hugh Jackman (`wolverine-alternate-variant`)
+20. **Gamora** — Zoe Saldaña (`gamora`)
+21. **Gamora (2014 Variant)** — Zoe Saldaña (`gamora-2014-variant`)
+22. **Drax the Destroyer** — Dave Bautista (`drax`)
+23. **Rocket Raccoon** — Bradley Cooper (Voice) (`rocket-raccoon`)
+24. **Groot** — Vin Diesel (Voice) (`groot`)
+25. **Groot (Young / Son)** — Vin Diesel (Voice) (`groot-young`)
+26. **Nebula** — Karen Gillan (`nebula`)
+27. **Nebula (2014 Variant)** — Karen Gillan (`nebula-2014-variant`)
+28. **Mantis** — Pom Klementieff (`mantis`)
+29. **Yondu Udonta** — Michael Rooker (`yondu-udonta`)
+30. **Thanos** — Josh Brolin (`thanos`)
+31. **Thanos (2014 Variant)** — Josh Brolin (`thanos-2014-variant`)
+32. **Hela** — Cate Blanchett (`hela`)
+33. **Erik Killmonger** — Michael B. Jordan (`killmonger`)
+34. **Vulture (Adrian Toomes)** — Michael Keaton (`vulture-michael-keaton`)
+35. **Mysterio (Quentin Beck)** — Jake Gyllenhaal (`mysterio-jake-gyllenhaal`)
+36. **Shang-Chi** — Simu Liu (`shang-chi`)
+37. **Yelena Belova** — Florence Pugh (`yelena-belova`)
+38. **Namor** — Tenoch Huerta Mejía (`namor`)
+39. **Okoye** — Danai Gurira (`okoye`)
+40. **Vision** — Paul Bettany (`vision`)
+41. **Wong** — Benedict Wong (`wong`)
 
 ### B. Sam Raimi Spider-Man Trilogy (Earth-96283) — 3 Portrayals
-20. **Spider-Man (Peter Parker)** — Tobey Maguire (`spider-man-tobey-maguire`)
-21. **Green Goblin (Norman Osborn)** — Willem Dafoe (`green-goblin-willem-dafoe`)
-22. **Doctor Octopus (Otto Octavius)** — Alfred Molina (`doctor-octopus-alfred-molina`)
+42. **Spider-Man (Peter Parker)** — Tobey Maguire (`spider-man-tobey-maguire`)
+43. **Green Goblin (Norman Osborn)** — Willem Dafoe (`green-goblin-willem-dafoe`)
+44. **Doctor Octopus (Otto Octavius)** — Alfred Molina (`doctor-octopus-alfred-molina`)
 
 ### C. Marc Webb The Amazing Spider-Man (Earth-120703) — 2 Portrayals
-23. **Spider-Man (Peter Parker)** — Andrew Garfield (`spider-man-andrew-garfield`)
-24. **Electro (Max Dillon)** — Jamie Foxx (`electro-jamie-foxx`)
+45. **Spider-Man (Peter Parker)** — Andrew Garfield (`spider-man-andrew-garfield`)
+46. **Electro (Max Dillon)** — Jamie Foxx (`electro-jamie-foxx`)
 
 ### D. Sony's Animated Spider-Verse — 3 Portrayals
-25. **Spider-Man (Miles Morales)** — Shameik Moore (`miles-morales-spider-verse`)
-26. **Spider-Gwen (Gwen Stacy)** — Hailee Steinfeld (`spider-gwen-hailee-steinfeld`)
-27. **Spider-Man 2099 (Miguel O'Hara)** — Oscar Isaac (`spider-man-2099-oscar-isaac`)
+47. **Spider-Man (Miles Morales)** — Shameik Moore (`miles-morales-spider-verse`)
+48. **Spider-Gwen (Gwen Stacy)** — Hailee Steinfeld (`spider-gwen-hailee-steinfeld`)
+49. **Spider-Man 2099 (Miguel O'Hara)** — Oscar Isaac (`spider-man-2099-oscar-isaac`)
 
-### E. Fox X-Men Universe (Earth-10005) — 10 Portrayals
-28. **Wolverine (Logan - Earth-10005)** — Hugh Jackman (`wolverine-hugh-jackman`)
-29. **Professor X (Charles Xavier - Earth-10005)** — Patrick Stewart (`professor-x-patrick-stewart`)
-30. **Professor X (Young Charles Xavier)** — James McAvoy (`professor-x-james-mcavoy`)
-31. **Magneto (Erik Lehnsherr)** — Ian McKellen (`magneto-ian-mckellen`)
-32. **Magneto (Young Erik Lehnsherr)** — Michael Fassbender (`magneto-michael-fassbender`)
-33. **Deadpool (Wade Wilson)** — Ryan Reynolds (`deadpool-ryan-reynolds`)
-34. **Weapon XI (Wade Wilson)** — Ryan Reynolds (`weapon-xi-wade-wilson`)
-35. **Storm (Ororo Munroe)** — Halle Berry (`storm-halle-berry`)
-36. **Jean Grey / Phoenix** — Famke Janssen (`jean-grey-famke-janssen`)
-37. **Cyclops (Scott Summers)** — James Marsden (`cyclops-james-marsden`)
+### E. Fox X-Men Universe (Earth-10005) — 17 Portrayals
+50. **Wolverine (Logan - Earth-10005)** — Hugh Jackman (`wolverine-hugh-jackman`)
+51. **Professor X (Charles Xavier - Earth-10005)** — Patrick Stewart (`professor-x-patrick-stewart`)
+52. **Professor X (Young Charles Xavier)** — James McAvoy (`professor-x-james-mcavoy`)
+53. **Magneto (Erik Lehnsherr)** — Ian McKellen (`magneto-ian-mckellen`)
+54. **Magneto (Young Erik Lehnsherr)** — Michael Fassbender (`magneto-michael-fassbender`)
+55. **Deadpool (Wade Wilson)** — Ryan Reynolds (`deadpool-ryan-reynolds`)
+56. **Weapon XI (Wade Wilson)** — Ryan Reynolds (`weapon-xi-wade-wilson`)
+57. **Storm (Ororo Munroe)** — Halle Berry (`storm-halle-berry`)
+58. **Jean Grey / Phoenix** — Famke Janssen (`jean-grey-famke-janssen`)
+59. **Cyclops (Scott Summers)** — James Marsden (`cyclops-james-marsden`)
+60. **Rogue (Marie D'Ancanto)** — Anna Paquin (`rogue-anna-paquin`)
+61. **Nightcrawler (Kurt Wagner)** — Alan Cumming (`nightcrawler-alan-cumming`)
+62. **Iceman (Bobby Drake)** — Shawn Ashmore (`iceman-shawn-ashmore`)
+63. **Beast (Young Hank McCoy)** — Nicholas Hoult (`beast-nicholas-hoult`)
+64. **Quicksilver (Peter Maximoff)** — Evan Peters (`quicksilver-evan-peters`)
+65. **Mystique (Young Raven Darkhölme)** — Jennifer Lawrence (`mystique-jennifer-lawrence`)
+66. **Mystique (Raven Darkhölme)** — Rebecca Romijn (`mystique-rebecca-romijn`)
 
 ### F. Sony's Spider-Man Universe (SSU) — 1 Portrayal
-38. **Venom (Eddie Brock)** — Tom Hardy (`venom-tom-hardy`)
+67. **Venom (Eddie Brock)** — Tom Hardy (`venom-tom-hardy`)
 
 ### G. Tim Story Fantastic Four (Earth-121698) — 5 Portrayals
-39. **Mister Fantastic (Reed Richards)** — Ioan Gruffudd (`reed-richards-ioan-gruffudd`)
-40. **Invisible Woman (Sue Storm)** — Jessica Alba (`invisible-woman-jessica-alba`)
-41. **Human Torch (Johnny Storm)** — Chris Evans (`human-torch-chris-evans`)
-42. **The Thing (Ben Grimm)** — Michael Chiklis (`the-thing-michael-chiklis`)
-43. **Doctor Doom (Victor von Doom)** — Julian McMahon (`doctor-doom-julian-mcmahon`)
+68. **Mister Fantastic (Reed Richards)** — Ioan Gruffudd (`reed-richards-ioan-gruffudd`)
+69. **Invisible Woman (Sue Storm)** — Jessica Alba (`invisible-woman-jessica-alba`)
+70. **Human Torch (Johnny Storm)** — Chris Evans (`human-torch-chris-evans`)
+71. **The Thing (Ben Grimm)** — Michael Chiklis (`the-thing-michael-chiklis`)
+72. **Doctor Doom (Victor von Doom)** — Julian McMahon (`doctor-doom-julian-mcmahon`)
 
 ### H. Alternate Multiversal Variant (Earth-838) — 2 Portrayals
-44. **Mister Fantastic (Reed Richards - Earth-838)** — John Krasinski (`reed-richards-earth-838`)
-45. **Professor X (Charles Xavier - Earth-838)** — Patrick Stewart (`professor-x-earth-838`)
+73. **Mister Fantastic (Reed Richards - Earth-838)** — John Krasinski (`reed-richards-earth-838`)
+74. **Professor X (Charles Xavier - Earth-838)** — Patrick Stewart (`professor-x-earth-838`)
 
 ### I. Blade Trilogy (Earth-26320) — 1 Portrayal
-46. **Blade (Eric Brooks)** — Wesley Snipes (`blade-wesley-snipes`)
+75. **Blade (Eric Brooks)** — Wesley Snipes (`blade-wesley-snipes`)
 
 ---
 
@@ -156,7 +198,7 @@ Following Content Expansion Batch 1 (adding **25 verified portrayals** to the in
 ## 6. Automated Data Validation Suite
 
 All records are programmatically verified in `tests/encyclopedia.test.js`:
-- Unique ID and slug enforcement across all 46 portrayals
+- Unique ID and slug enforcement across all 75 portrayals
 - Existence of parent identity in `identities.json`
 - Valid continuity reference in `universes.json`
 - Valid film debut and appearance IDs in `films.json` / `movies.json`

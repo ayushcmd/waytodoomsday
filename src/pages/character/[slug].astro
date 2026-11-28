@@ -75,20 +75,20 @@ const hasMcuArc = movieIds && movieIds.length > 0;
 
   <!-- Breadcrumb Bar -->
   <div class="border-b border-white/5 bg-black/40 backdrop-blur-md">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between text-xs">
-      <div class="flex items-center gap-2 text-muted">
-        <a href="/" class="hover:text-white transition-colors">Home</a>
-        <span>/</span>
-        <a href="/characters" class="hover:text-white transition-colors">Characters</a>
-        <span>/</span>
-        <span class="text-white font-medium truncate max-w-[150px] sm:max-w-none">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-2 text-xs">
+      <div class="flex items-center gap-2 text-muted min-w-0 flex-1">
+        <a href="/" class="hover:text-white transition-colors shrink-0">Home</a>
+        <span class="shrink-0">/</span>
+        <a href="/characters" class="hover:text-white transition-colors shrink-0">Characters</a>
+        <span class="shrink-0">/</span>
+        <span class="text-white font-medium truncate">
           {character.name}
         </span>
       </div>
 
       <a
         href="/characters"
-        class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-accent hover:text-accent-bright transition-colors"
+        class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-accent hover:text-accent-bright transition-colors shrink-0 whitespace-nowrap"
       >
         ← Directory
       </a>

@@ -249,7 +249,13 @@
     "id": "groot",
     "name": "Groot",
     "heroName": "Groot",
-    "description": "Flora colossus from Planet X capable of regenerating, extending woody limbs, and communicating exclusively through 'I am Groot'."
+    "description": "Original Flora colossus from Planet X and founding Guardian of the Galaxy who sacrificed himself protecting his found family on Xandar."
+  },
+  {
+    "id": "groot-junior",
+    "name": "Groot (Son)",
+    "heroName": "Groot",
+    "description": "Son of the original Groot grown from a surviving twig after the Battle of Xandar, maturing from Baby Groot to Teen and Alpha Groot alongside the Guardians."
   },
   {
     "id": "nebula",
@@ -273,7 +279,7 @@
     "id": "thanos",
     "name": "Thanos",
     "heroName": "Thanos",
-    "description": "Eternal-Deviant warlord of Titan obsessed with halving all life in the universe via the six Infinity Stones."
+    "description": "Warlord from the ruined planet Titan obsessed with halving all life in the universe via the six Infinity Stones."
   },
   {
     "id": "hela",

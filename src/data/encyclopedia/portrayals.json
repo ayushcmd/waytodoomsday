@@ -4355,8 +4355,8 @@
     "role": "hero",
     "tagline": "Former assassin raised by Thanos who forged a new family with the Guardians of the Galaxy",
     "biography": "A Zehoberei survivor whose homeworld was halved by Thanos, Gamora was raised and cybernetically augmented by the Mad Titan to become his deadliest warrior. Tasked with retrieving the Orb on Xandar, she defected alongside Peter Quill, Rocket, Groot, and Drax to keep the Power Stone out of Ronan's hands, becoming a foundational Guardian of the Galaxy.",
-    "spoilerBio": "In Avengers: Infinity War, Thanos forced Gamora to reveal the Soul Stone's location on Vormir and threw her to her death from the cliff to claim it. During the 2023 Time Heist, an alternate 2014 variant of Gamora traveled to the present, aided the final battle against Thanos, and later found a new home among the Ravagers.",
-    "spoilerWarning": "Contains character death and timeline variant spoilers for Avengers: Infinity War and Endgame",
+    "spoilerBio": "In Avengers: Infinity War, Thanos forced Gamora to reveal the Soul Stone's location on Vormir and threw her to her death from the cliff to claim it. Following the 2023 Time Heist, an alternate 2014 variant of Gamora remained in the main timeline, though she never shared the original Gamora's history with the Guardians.",
+    "spoilerWarning": "Contains character death spoilers for Avengers: Infinity War (2018)",
     "powers": [
       "Cybernetically enhanced strength, speed, and durability",
       "Master swordsmanship and hand-to-hand martial arts",
@@ -4370,11 +4370,6 @@
       {
         "teamId": "guardians-of-the-galaxy-mcu",
         "role": "Founding Member",
-        "type": "member"
-      },
-      {
-        "teamId": "ravagers-mcu",
-        "role": "2014 Variant Crew Member",
         "type": "member"
       }
     ],
@@ -4401,18 +4396,6 @@
         "title": "Avengers: Infinity War",
         "year": 2018,
         "type": "starring"
-      },
-      {
-        "filmId": "avengers-endgame",
-        "title": "Avengers: Endgame",
-        "year": 2019,
-        "type": "supporting"
-      },
-      {
-        "filmId": "guardians-vol-3",
-        "title": "Guardians of the Galaxy Vol. 3",
-        "year": 2023,
-        "type": "starring"
       }
     ],
     "relationships": [
@@ -4423,13 +4406,18 @@
       },
       {
         "characterName": "Nebula",
-        "relation": "Adoptive Sister & Rival-turned-Ally",
+        "relation": "Adoptive Sister & Ally",
         "portrayalSlug": "nebula"
       },
       {
         "characterName": "Thanos",
         "relation": "Adoptive Father & Nemesis",
         "portrayalSlug": "thanos"
+      },
+      {
+        "characterName": "Gamora (2014 Variant)",
+        "relation": "Alternate-Timeline Counterpart",
+        "portrayalSlug": "gamora-2014-variant"
       }
     ],
     "poster": "/posters/Guardians_of_the_Galaxy.jpg",
@@ -4648,16 +4636,13 @@
     "identityId": "groot",
     "name": "Groot",
     "realName": "Groot",
-    "aliases": [
-      "Baby Groot",
-      "Teen Groot"
-    ],
+    "aliases": [],
     "actor": "Vin Diesel (Voice)",
     "universeId": "mcu",
     "role": "hero",
-    "tagline": "Gentle Flora colossus whose shapeshifting wooden form shields his beloved Guardians",
-    "biography": "A sentient tree-like Flora colossus from Planet X, Groot traveled the cosmos as Rocket's loyal partner and protector. Despite speaking only the phrase 'I am Groot', his companions understand the nuanced emotional intent behind every word, relying on his immense strength and self-growing branches in battle.",
-    "spoilerBio": "During the Battle of Xandar in Guardians Vol. 1, the original Groot sacrificed himself by wrapping the Guardians in a protective sphere of branches ('We are Groot'). Rocket planted a surviving twig, regrowing a new Groot who matured through Baby and Teen stages, forged Stormbreaker's handle for Thor, and grew into a towering protector in Vol. 3.",
+    "tagline": "Original Flora colossus and founding Guardian who gave his life shielding his friends on Xandar",
+    "biography": "A sentient tree-like Flora colossus from Planet X, the original Groot traveled the cosmos as Rocket's loyal partner and protector. Despite speaking only the phrase 'I am Groot', his companions understood the nuanced emotional intent behind his words as he fought alongside Star-Lord, Gamora, Drax, and Rocket to defend Xandar from Ronan the Accuser.",
+    "spoilerBio": "During the Battle of Xandar in Guardians of the Galaxy (2014), Groot sacrificed his life by wrapping the Guardians in a protective sphere of branches ('We are Groot') as the Dark Aster crashed. Rocket planted a surviving twig from his remains, giving life to Groot's son.",
     "spoilerWarning": "Contains character sacrifice spoilers for Guardians of the Galaxy (2014)",
     "powers": [
       "Elastic limb growth, wooden shield generation, and vine entanglement",
@@ -4683,36 +4668,6 @@
         "title": "Guardians of the Galaxy",
         "year": 2014,
         "type": "starring"
-      },
-      {
-        "filmId": "guardians-vol-2",
-        "title": "Guardians of the Galaxy Vol. 2",
-        "year": 2017,
-        "type": "starring"
-      },
-      {
-        "filmId": "avengers-infinity-war",
-        "title": "Avengers: Infinity War",
-        "year": 2018,
-        "type": "supporting"
-      },
-      {
-        "filmId": "avengers-endgame",
-        "title": "Avengers: Endgame",
-        "year": 2019,
-        "type": "supporting"
-      },
-      {
-        "filmId": "thor-love-and-thunder",
-        "title": "Thor: Love and Thunder",
-        "year": 2022,
-        "type": "supporting"
-      },
-      {
-        "filmId": "guardians-vol-3",
-        "title": "Guardians of the Galaxy Vol. 3",
-        "year": 2023,
-        "type": "starring"
       }
     ],
     "relationships": [
@@ -4722,9 +4677,9 @@
         "portrayalSlug": "rocket-raccoon"
       },
       {
-        "characterName": "Thor Odinson",
-        "relation": "Battle Ally (Stormbreaker Handle)",
-        "portrayalSlug": "thor"
+        "characterName": "Groot (Son / Young Groot)",
+        "relation": "Biological Son",
+        "portrayalSlug": "groot-young"
       }
     ],
     "poster": "/posters/Guardians_of_the_Galaxy.jpg",
@@ -4833,6 +4788,11 @@
         "characterName": "Thanos",
         "relation": "Abusive Adoptive Father",
         "portrayalSlug": "thanos"
+      },
+      {
+        "characterName": "Nebula (2014 Variant)",
+        "relation": "Alternate-Timeline Counterpart",
+        "portrayalSlug": "nebula-2014-variant"
       }
     ],
     "poster": "/posters/Guardians_of_the_Galaxy_Vol_2.jpg",
@@ -5024,9 +4984,9 @@
     "universeId": "mcu",
     "role": "villain",
     "tagline": "Genocidal Titan warlord obsessed with rebalancing the cosmos using all six Infinity Stones",
-    "biography": "A powerful Eternal-Deviant from the ruined planet Titan, Thanos became convinced that unchecked population growth doomed every civilization to extinction. Commanding the Black Order and Chitauri armies, he orchestrated proxy invasions for the Infinity Stones before embarking on a personal crusade to assemble the completed Infinity Gauntlet.",
-    "spoilerBio": "In Infinity War, Thanos killed Loki, sacrificed Gamora on Vormir, overpowered the Avengers on Titan and in Wakanda, and snapped away half of all life in the universe. After destroying the Stones and being decapitated by Thor in 2018, a 2014 variant traveled to 2023 via Nebula's network, only to be disintegrated along with his army when Tony Stark snapped the Nano Gauntlet.",
-    "spoilerWarning": "Contains major plot and death spoilers for Avengers: Infinity War and Avengers: Endgame",
+    "biography": "A powerful warlord from the ruined planet Titan, Thanos became convinced that unchecked population growth doomed every civilization to extinction. Commanding the Black Order and Chitauri armies, he orchestrated proxy invasions for the Infinity Stones before embarking on a personal crusade to assemble the completed Infinity Gauntlet.",
+    "spoilerBio": "In Infinity War, Thanos killed Loki, sacrificed Gamora on Vormir, overpowered the Avengers on Titan and in Wakanda, and snapped away half of all life in the universe. After destroying the Stones on the Garden so his work could never be undone, he was ambushed and decapitated by Thor in the opening weeks of Avengers: Endgame.",
+    "spoilerWarning": "Contains major plot and death spoilers for Avengers: Infinity War and Endgame",
     "powers": [
       "Immense superhuman strength, durability, and hand-to-hand combat mastery",
       "Genius-level military strategist",
@@ -5090,6 +5050,11 @@
         "characterName": "Iron Man (Tony Stark)",
         "relation": "Arch-Adversary",
         "portrayalSlug": "iron-man"
+      },
+      {
+        "characterName": "Thanos (2014 Variant)",
+        "relation": "Alternate-Timeline Counterpart",
+        "portrayalSlug": "thanos-2014-variant"
       }
     ],
     "poster": "/posters/Avengers_Infinity_War.jpg",
@@ -6352,6 +6317,316 @@
       {
         "title": "Marvel.com Mystique (Original Trilogy) Profile",
         "url": "https://www.marvel.com/characters/mystique/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-gamora-2014-variant",
+    "slug": "gamora-2014-variant",
+    "identityId": "gamora",
+    "name": "Gamora (2014 Variant)",
+    "realName": "Gamora Zen Whoberi Ben Titan",
+    "aliases": [
+      "Daughter of Thanos"
+    ],
+    "actor": "Zoe Saldaña",
+    "universeId": "mcu",
+    "role": "anti-hero",
+    "tagline": "Alternate-2014 Gamora brought to 2023 who forged an independent path with the Ravagers",
+    "biography": "Pulled from an alternate 2014 timeline prior to ever meeting the Guardians of the Galaxy, this Gamora was still serving as Thanos's reluctant assassin when her father intercepted the Avengers' Time Heist. Convinced by the 2023 Nebula that she would eventually betray Thanos, she turned against her 2014 past and later joined Stakar Ogord's Ravager clan.",
+    "spoilerBio": "During the Battle of Earth in Endgame, 2014 Gamora fought alongside the Avengers against Thanos's forces before disappearing afterward. By Guardians of the Galaxy Vol. 3, she operated as a hardened Ravager mercenary, briefly assisting the Guardians on Counter-Earth to save Rocket while making clear to Peter Quill that she was not the woman he had lost.",
+    "spoilerWarning": "Contains timeline variant spoilers for Avengers: Endgame and Guardians of the Galaxy Vol. 3",
+    "powers": [
+      "Cybernetically enhanced strength, speed, and durability",
+      "Master swordsmanship and hand-to-hand martial arts"
+    ],
+    "equipment": [
+      "Godslayer retractable sword",
+      "Ravager space gear and blaster"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "ravagers-mcu",
+        "role": "Stakar Ogord's Crew Member",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "filmId": "avengers-endgame"
+    },
+    "appearances": [
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "supporting"
+      },
+      {
+        "filmId": "guardians-vol-3",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "year": 2023,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Gamora (Sacred Timeline)",
+        "relation": "Original-Timeline Counterpart",
+        "portrayalSlug": "gamora"
+      },
+      {
+        "characterName": "Nebula",
+        "relation": "2023 Adoptive Sister & Confidante",
+        "portrayalSlug": "nebula"
+      },
+      {
+        "characterName": "Peter Quill (Star-Lord)",
+        "relation": "Reluctant Ally",
+        "portrayalSlug": "star-lord"
+      }
+    ],
+    "poster": "/posters/Guardians_of_the_Galaxy_Vol_3.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Gamora On Screen Profile",
+        "url": "https://www.marvel.com/characters/gamora/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-groot-young",
+    "slug": "groot-young",
+    "identityId": "groot-junior",
+    "name": "Groot (Young / Son)",
+    "realName": "Groot",
+    "aliases": [
+      "Baby Groot",
+      "Teen Groot",
+      "Alpha Groot"
+    ],
+    "actor": "Vin Diesel (Voice)",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Son of the original Groot raised by the Guardians from a potted sapling into a towering protector",
+    "biography": "Grown from a surviving twig of the original Groot after the Battle of Xandar, this younger Groot is a distinct individual raised by Rocket and the Guardians of the Galaxy. Maturing from a mischievous potted sapling into a video-game-obsessed teenager and eventually a muscular brawler, he inherited his father's gentle heart and fierce devotion to his found family.",
+    "spoilerBio": "In Avengers: Infinity War, Teen Groot severed his own left arm to bind the Uru pieces of Thor's axe Stormbreaker before being dusted in the Blip. Restored in Endgame, he fought in the Battle of Earth and later evolved into a massive multi-armed protector in Guardians Vol. 3, even speaking 'I love you guys' to the audience-understood family before defending Knowhere with Rocket's new Guardians.",
+    "spoilerWarning": "Contains major plot spoilers for Avengers: Infinity War and Guardians of the Galaxy Vol. 3",
+    "powers": [
+      "Elastic limb growth, wooden shield generation, and vine entanglement",
+      "Multi-armed combat transformation and spore illumination",
+      "Regenerative Flora colossus physiology"
+    ],
+    "equipment": [],
+    "teamMemberships": [
+      {
+        "teamId": "guardians-of-the-galaxy-mcu",
+        "role": "Core Member",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "filmId": "guardians-vol-1"
+    },
+    "appearances": [
+      {
+        "filmId": "guardians-vol-1",
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "type": "cameo"
+      },
+      {
+        "filmId": "guardians-vol-2",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "supporting"
+      },
+      {
+        "filmId": "thor-love-and-thunder",
+        "title": "Thor: Love and Thunder",
+        "year": 2022,
+        "type": "supporting"
+      },
+      {
+        "filmId": "guardians-vol-3",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "year": 2023,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Groot (Original)",
+        "relation": "Father",
+        "portrayalSlug": "groot"
+      },
+      {
+        "characterName": "Rocket Raccoon",
+        "relation": "Surrogate Father & Best Friend",
+        "portrayalSlug": "rocket-raccoon"
+      },
+      {
+        "characterName": "Thor Odinson",
+        "relation": "Battle Ally (Stormbreaker Handle)",
+        "portrayalSlug": "thor"
+      }
+    ],
+    "poster": "/posters/Guardians_of_the_Galaxy_Vol_2.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Groot On Screen Profile",
+        "url": "https://www.marvel.com/characters/groot/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-thanos-2014-variant",
+    "slug": "thanos-2014-variant",
+    "identityId": "thanos",
+    "name": "Thanos (2014 Variant)",
+    "realName": "Thanos of Titan",
+    "aliases": [
+      "The Mad Titan"
+    ],
+    "actor": "Josh Brolin",
+    "universeId": "mcu",
+    "role": "villain",
+    "tagline": "Alternate-2014 Thanos who discovered the Time Heist and invaded 2023 Earth to remake the universe",
+    "biography": "In an alternate 2014 timeline prior to assembling any Infinity Stones, Thanos discovered the Avengers' 2023 Time Heist when his daughter Nebula's cybernetic network entangled with her future self's memories. Witnessing his future victory and subsequent execution, this Thanos abandoned his original plan of halving life and vowed instead to shred the entire universe down to its last atom.",
+    "spoilerBio": "Brought into 2023 via the Avengers' Quantum Tunnel aboard Sanctuary II, 2014 Thanos obliterated the Avengers Compound and battled Iron Man, Captain America, and Thor. In the climax of the Battle of Earth, Tony Stark wrested the six Infinity Stones from the Nano Gauntlet into his own armor and snapped his fingers, disintegrating 2014 Thanos and his entire army.",
+    "spoilerWarning": "Contains climactic Battle of Earth death spoilers for Avengers: Endgame (2019)",
+    "powers": [
+      "Immense superhuman strength, durability, and hand-to-hand combat mastery",
+      "Master tactical commander"
+    ],
+    "equipment": [
+      "Double-edged Uru battle sword",
+      "Gold Titan battle armor",
+      "Sanctuary II warship"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "filmId": "avengers-endgame"
+    },
+    "appearances": [
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Thanos (Sacred Timeline)",
+        "relation": "Main-Timeline Counterpart",
+        "portrayalSlug": "thanos"
+      },
+      {
+        "characterName": "Nebula (2014 Variant)",
+        "relation": "Loyal Daughter & Infiltrator",
+        "portrayalSlug": "nebula-2014-variant"
+      },
+      {
+        "characterName": "Iron Man (Tony Stark)",
+        "relation": "Final Adversary",
+        "portrayalSlug": "iron-man"
+      }
+    ],
+    "poster": "/posters/Avengers_Endgame.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Thanos On Screen Profile",
+        "url": "https://www.marvel.com/characters/thanos/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-nebula-2014-variant",
+    "slug": "nebula-2014-variant",
+    "identityId": "nebula",
+    "name": "Nebula (2014 Variant)",
+    "realName": "Nebula",
+    "aliases": [
+      "Daughter of Thanos"
+    ],
+    "actor": "Karen Gillan",
+    "universeId": "mcu",
+    "role": "villain",
+    "tagline": "Thanos-loyal 2014 Nebula who infiltrated the Avengers Compound to summon Sanctuary II",
+    "biography": "Still fiercely loyal to Thanos and bitter toward Gamora in 2014, this Nebula variant was captured by her father when her cybernetic memory cloud entangled with 2023 Nebula's Time Heist feed. Taking her future self's gold head-plate and Pym Particles, 2014 Nebula infiltrated the 2023 Avengers Compound undetected to open the Quantum Tunnel for Thanos's flagship.",
+    "spoilerBio": "During the Battle of Earth in Endgame, 2014 Nebula attempted to retrieve the Nano Gauntlet from Hawkeye and 2014 Gamora. Confronted by her redeemed 2023 counterpart, 2014 Nebula refused to stand down and drew her weapon, forcing 2023 Nebula to shoot and kill her.",
+    "spoilerWarning": "Contains character death spoilers for Avengers: Endgame (2019)",
+    "powers": [
+      "Cybernetic strength, durability, and combat conditioning",
+      "Cybernetic memory network synchronization"
+    ],
+    "equipment": [
+      "Electro-shock batons",
+      "Energy blaster",
+      "Pym Particle suit (stolen)"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "filmId": "avengers-endgame"
+    },
+    "appearances": [
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "supporting"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Nebula (Sacred Timeline)",
+        "relation": "Future Counterpart",
+        "portrayalSlug": "nebula"
+      },
+      {
+        "characterName": "Thanos (2014 Variant)",
+        "relation": "Adoptive Father & Commander",
+        "portrayalSlug": "thanos-2014-variant"
+      },
+      {
+        "characterName": "Gamora (2014 Variant)",
+        "relation": "Adoptive Sister",
+        "portrayalSlug": "gamora-2014-variant"
+      }
+    ],
+    "poster": "/posters/Avengers_Endgame.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Nebula On Screen Profile",
+        "url": "https://www.marvel.com/characters/nebula/on-screen",
         "verifiedDate": "2026-11-28"
       }
     ]
