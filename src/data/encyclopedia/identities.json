@@ -376,5 +376,89 @@
     "name": "Raven Darkhölme",
     "heroName": "Mystique",
     "description": "Blue-skinned, yellow-eyed shapeshifting mutant infiltrator and martial artist whose loyalties shift between Brotherhood and X-Men."
+  },
+  {
+    "id": "galactus",
+    "name": "Galan",
+    "heroName": "Galactus",
+    "description": "Colossal cosmic entity known as the Devourer of Worlds who consumes entire planets to sustain his existence."
+  },
+  {
+    "id": "shalla-bal",
+    "name": "Shalla-Bal",
+    "heroName": "Silver Surfer",
+    "description": "Cosmic herald imbued with the Power Cosmic who travels ahead of Galactus on a silver board to mark worlds for consumption."
+  },
+  {
+    "id": "matt-murdock",
+    "name": "Matt Murdock",
+    "heroName": "Daredevil",
+    "description": "Blinded by radioactive waste as a child, Matt Murdock uses his heightened radar-like senses as a Hell's Kitchen lawyer by day and vigilante by night."
+  },
+  {
+    "id": "elektra-natchios",
+    "name": "Elektra Natchios",
+    "heroName": "Elektra",
+    "description": "Elite martial artist and twin-sai assassin trained in ancient ninjutsu arts."
+  },
+  {
+    "id": "wilson-fisk",
+    "name": "Wilson Fisk",
+    "heroName": "Kingpin",
+    "description": "Towering, ruthless crime lord who controls organized crime in New York City behind a veneer of corporate philanthropy."
+  },
+  {
+    "id": "bullseye",
+    "name": "Lester / Bullseye",
+    "heroName": "Bullseye",
+    "description": "Psychopathic contract assassin with uncanny accuracy who can turn any ordinary object into a lethal projectile."
+  },
+  {
+    "id": "stick",
+    "name": "Stick",
+    "heroName": "Stick",
+    "description": "Blind martial arts grandmaster who trains gifted warriors in sensory discipline and combat."
+  },
+  {
+    "id": "johnny-blaze",
+    "name": "Johnny Blaze",
+    "heroName": "Ghost Rider",
+    "description": "Stunt motorcyclist who sold his soul to save his father, becoming the flaming-skulled Spirit of Vengeance."
+  },
+  {
+    "id": "blackheart",
+    "name": "Blackheart",
+    "heroName": "Blackheart",
+    "description": "Demonic son of Mephistopheles seeking the Contract of San Venganza to unleash Hell on Earth."
+  },
+  {
+    "id": "mephistopheles",
+    "name": "Mephistopheles",
+    "heroName": "Mephistopheles",
+    "description": "Lord of Hell who binds mortals in Faustian bargains and commands the Ghost Rider as his bounty hunter."
+  },
+  {
+    "id": "roxanne-simpson",
+    "name": "Roxanne Simpson",
+    "heroName": "Roxanne Simpson",
+    "description": "Investigative television reporter and Johnny Blaze's childhood sweetheart."
+  },
+  {
+    "id": "frank-castle",
+    "name": "Frank Castle",
+    "heroName": "The Punisher",
+    "description": "Former military/FBI operative whose family's murder drives him to wage a one-man war against organized crime."
+  },
+  {
+    "id": "howard-saint",
+    "name": "Howard Saint",
+    "heroName": "Howard Saint",
+    "description": "Wealthy Tampa money launderer and crime boss whose vendetta against Frank Castle triggers the Punisher's crusade."
+  },
+  {
+    "id": "billy-russo",
+    "name": "Billy Russoti",
+    "heroName": "Jigsaw",
+    "description": "Vain mobster disfigured by glass-crushing machinery during a raid by the Punisher, reborn as the vengeful Jigsaw."
   }
 ]

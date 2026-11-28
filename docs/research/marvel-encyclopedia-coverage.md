@@ -2,7 +2,7 @@
 
 **Date of Verification:** 2026-11-28  
 **Scope:** Verified film portrayals across released Marvel cinematic continuities  
-**Repository Branch:** `feat/encyclopedia-expansion-batch-1`  
+**Repository Branch:** `feat/encyclopedia-expansion-batch-2`  
 **Related Issue:** #7 (Umbrella Feature Specification)
 
 ---
@@ -21,31 +21,40 @@ Every entry published in this encyclopedia foundation satisfies strict evidentia
 
 ## 2. Representation Across Continuities
 
-Following Content Expansion Batch 1 (adding **29 verified portrayals** including separated 2014 Time Heist variants and Young Groot), the dataset contains **75 verified character portrayals**, **63 identity families**, **67 unique verified TMDB actor identities**, and **15 verified teams/organizations** spanning **9 cinematic continuities**:
+Following Content Expansion Batch 2 (adding **20 verified portrayals** to the **75** baseline), the dataset contains **95 verified character portrayals**, **77 identity families**, **87 unique verified TMDB actor identities**, and **16 verified teams/organizations** spanning **15 cinematic continuities**:
 
 | Continuity ID | Cinematic Continuity Name | Designation | Portrayals | Teams & Organizations |
 |---|---|---|---|---|
 | `mcu` | Marvel Cinematic Universe | Earth-616 / Sacred Timeline | 41 | Avengers, Guardians of the Galaxy, S.H.I.E.L.D., HYDRA, Dora Milaje, Ravagers, TVA, Thunderbolts*, Eternals |
 | `fox-xmen` | Fox X-Men Universe (Original & Prequel) | Earth-10005 | 17 | X-Men, Brotherhood of Mutants, X-Force |
+| `mcu-828` | Earth-828 (Fantastic Four: First Steps) | Earth-828 | 6 | Fantastic Four (Earth-828) |
 | `story-fantastic-four` | Tim Story Fantastic Four (2005/2007) | Earth-121698 | 5 | Fantastic Four |
+| `fox-daredevil` | Daredevil & Elektra (2003 / 2005) | Earth-701306 | 5 | — |
+| `sony-ghost-rider` | Ghost Rider Films (2007 / 2012) | Earth-121347 / Soft-Reboot | 4 | — |
 | `raimi-spiderman` | Sam Raimi Spider-Man Trilogy | Earth-96283 | 3 | — |
 | `sony-spiderverse` | Sony's Spider-Verse Animated | Multiverse | 3 | Spider-Society |
 | `webb-spiderman` | Marc Webb The Amazing Spider-Man | Earth-120703 | 2 | — |
 | `mcu-838` | Multiverse of Madness Alternate Reality | Earth-838 | 2 | The Illuminati |
+| `punisher-2004` | The Punisher (2004) | Earth-58732 | 2 | — |
+| `punisher-war-zone-2008` | Punisher: War Zone (2008) | Earth-20082 | 2 | — |
 | `sony-ssu` | Sony's Spider-Man Universe | Earth-688 | 1 | — |
 | `trill-blade` | New Line Cinema Blade Trilogy | Earth-26320 | 1 | — |
+| `punisher-1989` | The Punisher (1989) | Earth-58627 | 1 | — |
 
-**Total Published Portrayals:** 75  
-**Total Verified Teams:** 15  
+**Total Published Portrayals:** 95  
+**Total Verified Teams:** 16  
 
-### Batch 1 Additions & Excluded/Deferred Candidates
-- **Added (+29):**
-  - *Guardians of the Galaxy & Variants (9):* Gamora (`gamora`), Gamora 2014 Variant (`gamora-2014-variant`, Ravagers), Drax, Rocket Raccoon, Original Groot (`groot`), Groot Young / Son (`groot-young`, distinct `groot-junior` identity), Nebula, Mantis, Yondu Udonta (Ravagers member / Guardians ally).
-  - *MCU Heroes, Villains & Variants (13):* Thanos (`thanos`), Thanos 2014 Variant (`thanos-2014-variant`), Nebula 2014 Variant (`nebula-2014-variant`), Hela, Erik Killmonger, Vulture, Mysterio, Shang-Chi, Yelena Belova (Thunderbolts*), Namor, Okoye (Dora Milaje / Avengers ally), Vision (Avengers), Wong (Avengers ally).
-  - *Fox X-Men (7):* Rogue, Nightcrawler, Iceman, Beast (Young), Quicksilver, Mystique (Young — Jennifer Lawrence), Mystique (Original Trilogy — Rebecca Romijn).
-  - *New Film Catalog Entry:* `thunderbolts` (*Thunderbolts**, 2025, `mcu`, `isMcu: true`, synchronized with `movies.json`).
-- **Deferred to Batch 2 (Excluded from Batch 1):**
-  - Standalone early-2000s continuities (**Ghost Rider** — Nicolas Cage, **Daredevil** — Ben Affleck, **Elektra** — Jennifer Garner, **The Punisher** — Thomas Jane) and the **2025 Fantastic Four: First Steps** continuity cast require dedicated universe entries, non-MCU film catalogs, and team setup, so they are deferred to a dedicated Batch 2 expansion.
+### Batch 2 Additions & Editorial Continuity Decisions
+- **The Fantastic Four: First Steps (2025 — Earth-828, 6 Portrayals):**
+  - Classified under dedicated alternate reality `mcu-828` (*Earth-828*) rather than Earth-616 (`mcu`), while linking `fantastic-four-first-steps` to the existing MCU watch-tracker anchor (`isMcu: true`).
+  - Added dedicated team `fantastic-four-828` (*Fantastic Four (Earth-828)*) with Pedro Pascal (Reed Richards), Vanessa Kirby (Sue Storm), Joseph Quinn (Johnny Storm), Ebon Moss-Bachrach (Ben Grimm), plus antagonists/heralds Ralph Ineson (Galactus) and Julia Garner (Silver Surfer / Shalla-Bal).
+- **Daredevil & Elektra (2003 / 2005 — Earth-701306, 5 Portrayals):**
+  - Added Matt Murdock (Ben Affleck), Elektra Natchios (Jennifer Garner, including her *Deadpool & Wolverine* 2024 Void appearance), Wilson Fisk (Michael Clarke Duncan), Bullseye (Colin Farrell), and Stick (Terence Stamp). No artificial team page was created.
+- **Ghost Rider (2007 / 2012 — `sony-ghost-rider`, 4 Portrayals):**
+  - Added Johnny Blaze (Nicolas Cage, spanning 2007 and the 2012 soft-rebooted continuation *Spirit of Vengeance*), Blackheart (Wes Bentley), Mephistopheles (Peter Fonda), and Roxanne Simpson (Eva Mendes). Explicitly documented *Spirit of Vengeance* as a soft-reboot continuation rather than manufacturing a rigid single-continuity claim for supporting characters.
+- **Punisher Film Continuities (1989 / 2004 / 2008, 5 Portrayals):**
+  - Kept the three theatrical adaptations strictly separate: Thomas Jane (`punisher-2004`) + John Travolta (Howard Saint); Ray Stevenson (`punisher-war-zone-2008`) + Dominic West (Jigsaw); and Dolph Lundgren (`punisher-1989`).
+- **Deferred Candidates:** Additional supporting characters from *The Fantastic Four: First Steps* (e.g., Harvey Elder / Mole Man, Rachel Rozman), *Blade II* / *Blade: Trinity* supporting cast, and *Fant4stic* (2015) are deferred to future batches to keep Batch 2 focused on primary verified leads and antagonists.
 
 ---
 
@@ -78,7 +87,7 @@ Following Content Expansion Batch 1 (adding **29 verified portrayals** including
 
 ---
 
-## 4. Verified Character Portrayal Inventory (75 Portrayals)
+## 4. Verified Character Portrayal Inventory (95 Portrayals)
 
 ### A. Marvel Cinematic Universe (Earth-616) — 41 Portrayals
 1. **Iron Man (Tony Stark)** — Robert Downey Jr. (`iron-man`) [Legacy Route Preserved]
@@ -173,9 +182,37 @@ Following Content Expansion Batch 1 (adding **29 verified portrayals** including
 ### I. Blade Trilogy (Earth-26320) — 1 Portrayal
 75. **Blade (Eric Brooks)** — Wesley Snipes (`blade-wesley-snipes`)
 
+### J. Earth-828 (The Fantastic Four: First Steps, 2025) — 6 Portrayals
+76. **Mister Fantastic (Reed Richards)** — Pedro Pascal (`reed-richards-pedro-pascal`)
+77. **Invisible Woman (Sue Storm)** — Vanessa Kirby (`sue-storm-vanessa-kirby`)
+78. **Human Torch (Johnny Storm)** — Joseph Quinn (`johnny-storm-joseph-quinn`)
+79. **The Thing (Ben Grimm)** — Ebon Moss-Bachrach (`ben-grimm-ebon-moss-bachrach`)
+80. **Galactus (Galan)** — Ralph Ineson (`galactus-ralph-ineson`)
+81. **Silver Surfer (Shalla-Bal)** — Julia Garner (`silver-surfer-shalla-bal`)
+
+### K. Daredevil & Elektra (2003 / 2005 — Earth-701306) — 5 Portrayals
+82. **Daredevil (Matt Murdock)** — Ben Affleck (`daredevil-ben-affleck`)
+83. **Elektra (Elektra Natchios)** — Jennifer Garner (`elektra-jennifer-garner`)
+84. **Kingpin (Wilson Fisk)** — Michael Clarke Duncan (`kingpin-michael-clarke-duncan`)
+85. **Bullseye** — Colin Farrell (`bullseye-colin-farrell`)
+86. **Stick** — Terence Stamp (`stick-terence-stamp`)
+
+### L. Ghost Rider Films (2007 / 2012) — 4 Portrayals
+87. **Ghost Rider (Johnny Blaze)** — Nicolas Cage (`ghost-rider-nicolas-cage`)
+88. **Blackheart** — Wes Bentley (`blackheart-wes-bentley`)
+89. **Mephistopheles** — Peter Fonda (`mephistopheles-peter-fonda`)
+90. **Roxanne Simpson** — Eva Mendes (`roxanne-simpson-eva-mendes`)
+
+### M. Punisher Film Continuities (1989 / 2004 / 2008) — 5 Portrayals
+91. **The Punisher (Frank Castle - 2004)** — Thomas Jane (`punisher-thomas-jane`)
+92. **Howard Saint** — John Travolta (`howard-saint-john-travolta`)
+93. **The Punisher (Frank Castle - War Zone, 2008)** — Ray Stevenson (`punisher-ray-stevenson`)
+94. **Jigsaw (Billy Russoti)** — Dominic West (`jigsaw-dominic-west`)
+95. **The Punisher (Frank Castle - 1989)** — Dolph Lundgren (`punisher-dolph-lundgren`)
+
 ---
 
-## 5. Verified Teams and Organizations (15 Groups)
+## 5. Verified Teams and Organizations (16 Groups)
 
 1. **The Avengers** (`avengers-mcu`) — Team — Leader: Steve Rogers & Tony Stark
 2. **Guardians of the Galaxy** (`guardians-of-the-galaxy-mcu`) — Team — Leader: Peter Quill
@@ -192,13 +229,14 @@ Following Content Expansion Batch 1 (adding **29 verified portrayals** including
 13. **Time Variance Authority (TVA)** (`tva-mcu`) — Organization — Leader: He Who Remains / B-15
 14. **Thunderbolts* / New Avengers** (`thunderbolts-new-avengers-mcu`) — Team — Leader: Valentina Allegra de Fontaine
 15. **The Eternals** (`eternals-mcu`) — Team — Leader: Ajak / Sersi
+16. **Fantastic Four (Earth-828)** (`fantastic-four-828`) — Team — Leader: Reed Richards (Mister Fantastic)
 
 ---
 
 ## 6. Automated Data Validation Suite
 
 All records are programmatically verified in `tests/encyclopedia.test.js`:
-- Unique ID and slug enforcement across all 75 portrayals
+- Unique ID and slug enforcement across all 95 portrayals
 - Existence of parent identity in `identities.json`
 - Valid continuity reference in `universes.json`
 - Valid film debut and appearance IDs in `films.json` / `movies.json`

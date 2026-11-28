@@ -245,6 +245,13 @@
     "isMcu": true
   },
   {
+    "id": "fantastic-four-first-steps",
+    "title": "The Fantastic Four: First Steps",
+    "releaseYear": 2025,
+    "universeId": "mcu-828",
+    "isMcu": true
+  },
+  {
     "id": "spider-man-2002",
     "title": "Spider-Man",
     "releaseYear": 2002,
@@ -431,6 +438,55 @@
     "title": "Blade: Trinity",
     "releaseYear": 2004,
     "universeId": "trill-blade",
+    "isMcu": false
+  },
+  {
+    "id": "daredevil-2003",
+    "title": "Daredevil",
+    "releaseYear": 2003,
+    "universeId": "fox-daredevil",
+    "isMcu": false
+  },
+  {
+    "id": "elektra-2005",
+    "title": "Elektra",
+    "releaseYear": 2005,
+    "universeId": "fox-daredevil",
+    "isMcu": false
+  },
+  {
+    "id": "ghost-rider-2007",
+    "title": "Ghost Rider",
+    "releaseYear": 2007,
+    "universeId": "sony-ghost-rider",
+    "isMcu": false
+  },
+  {
+    "id": "ghost-rider-spirit-of-vengeance-2012",
+    "title": "Ghost Rider: Spirit of Vengeance",
+    "releaseYear": 2012,
+    "universeId": "sony-ghost-rider",
+    "isMcu": false
+  },
+  {
+    "id": "the-punisher-1989",
+    "title": "The Punisher",
+    "releaseYear": 1989,
+    "universeId": "punisher-1989",
+    "isMcu": false
+  },
+  {
+    "id": "the-punisher-2004",
+    "title": "The Punisher",
+    "releaseYear": 2004,
+    "universeId": "punisher-2004",
+    "isMcu": false
+  },
+  {
+    "id": "punisher-war-zone-2008",
+    "title": "Punisher: War Zone",
+    "releaseYear": 2008,
+    "universeId": "punisher-war-zone-2008",
     "isMcu": false
   }
 ]

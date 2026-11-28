@@ -275,5 +275,21 @@
     "description": "An immortal synthetic race of ancient cosmic beings dispatched to Earth by the Celestial Arishem in 5000 BC to eliminate Deviants and incubate the planet.",
     "sourceUrl": "https://www.marvel.com/teams-and-groups/eternals",
     "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "fantastic-four-828",
+    "slug": "fantastic-four-828",
+    "name": "Fantastic Four (Earth-828)",
+    "universeId": "mcu-828",
+    "category": "team",
+    "leader": "Reed Richards (Mister Fantastic)",
+    "headquarters": "Baxter Building (Earth-828)",
+    "firstFilmAppearance": "The Fantastic Four: First Steps (2025)",
+    "filmAppearances": [
+      "fantastic-four-first-steps"
+    ],
+    "description": "Earth-828's celebrated retro-futuristic 1960s superhero family—Mister Fantastic, Invisible Woman, Human Torch, and The Thing—who defend their world from Galactus and Shalla-Bal.",
+    "sourceUrl": "https://www.marvel.com/movies/the-fantastic-four-first-steps",
+    "verifiedDate": "2026-11-28"
   }
 ]
