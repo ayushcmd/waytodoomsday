@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useId } from "react";
+import { useState, useEffect, useMemo, useId, useRef } from "react";
 import CharacterCard from "./CharacterCard.jsx";
 import {
   PORTRAYALS,
@@ -10,41 +10,126 @@ import {
 export default function CharacterDirectory() {
   const searchInputId = useId();
 
-  // Initialize state from URL params if available on client
+  // Default state matches SSR to prevent hydration mismatches
   const [query, setQuery] = useState("");
   const [universe, setUniverse] = useState("all");
   const [team, setTeam] = useState("all");
   const [role, setRole] = useState("all");
   const [sort, setSort] = useState("debut-asc");
 
-  // Read initial URL params on mount
+  // Read URL params safely on client mount without touching history
   useEffect(() => {
     if (typeof window === "undefined") return;
+
     const params = new URLSearchParams(window.location.search);
-    if (params.has("q")) setQuery(params.get("q"));
-    if (params.has("universe")) setUniverse(params.get("universe"));
-    if (params.has("team")) setTeam(params.get("team"));
-    if (params.has("role")) setRole(params.get("role"));
-    if (params.has("sort")) setSort(params.get("sort"));
+    const q = params.get("q") || "";
+    const u = params.get("universe") || "all";
+    const t = params.get("team") || "all";
+    const r = params.get("role") || "all";
+    const s = params.get("sort") || "debut-asc";
+
+    if (q) setQuery(q);
+    if (u !== "all") setUniverse(u);
+    if (t !== "all") setTeam(t);
+    if (r !== "all") setRole(r);
+    if (s !== "debut-asc") setSort(s);
+
+    // Seed current history entry with state so browser history tracks in-page transitions
+    window.history.replaceState(
+      { query: q, universe: u, team: t, role: r, sort: s },
+      "",
+      window.location.href
+    );
   }, []);
 
-  // Sync state to URL params
+  // Handle browser back / forward navigation via popstate
   useEffect(() => {
     if (typeof window === "undefined") return;
+
+    const handlePopState = (e) => {
+      const state = e.state;
+      const params = new URLSearchParams(window.location.search);
+      const q = state?.query ?? (params.get("q") || "");
+      const u = state?.universe ?? (params.get("universe") || "all");
+      const t = state?.team ?? (params.get("team") || "all");
+      const r = state?.role ?? (params.get("role") || "all");
+      const s = state?.sort ?? (params.get("sort") || "debut-asc");
+
+      setQuery(q);
+      setUniverse(u);
+      setTeam(t);
+      setRole(r);
+      setSort(s);
+    };
+
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
+
+  // Update URL helper: pushState for discrete navigation, replaceState for keystrokes
+  const updateUrl = (newQuery, newUniverse, newTeam, newRole, newSort, isPush = true) => {
+    if (typeof window === "undefined") return;
+
     const params = new URLSearchParams();
-    if (query.trim()) params.set("q", query.trim());
-    if (universe !== "all") params.set("universe", universe);
-    if (team !== "all") params.set("team", team);
-    if (role !== "all") params.set("role", role);
-    if (sort !== "debut-asc") params.set("sort", sort);
+    if (newQuery.trim()) params.set("q", newQuery.trim());
+    if (newUniverse !== "all") params.set("universe", newUniverse);
+    if (newTeam !== "all") params.set("team", newTeam);
+    if (newRole !== "all") params.set("role", newRole);
+    if (newSort !== "debut-asc") params.set("sort", newSort);
 
     const queryString = params.toString();
     const newUrl = queryString
       ? `${window.location.pathname}?${queryString}`
       : window.location.pathname;
 
-    window.history.replaceState(null, "", newUrl);
-  }, [query, universe, team, role, sort]);
+    const historyState = {
+      query: newQuery,
+      universe: newUniverse,
+      team: newTeam,
+      role: newRole,
+      sort: newSort,
+    };
+
+    if (isPush) {
+      window.history.pushState(historyState, "", newUrl);
+    } else {
+      window.history.replaceState(historyState, "", newUrl);
+    }
+  };
+
+  const handleQueryChange = (val) => {
+    setQuery(val);
+    updateUrl(val, universe, team, role, sort, false);
+  };
+
+  const handleUniverseChange = (val) => {
+    setUniverse(val);
+    updateUrl(query, val, team, role, sort, true);
+  };
+
+  const handleRoleChange = (val) => {
+    setRole(val);
+    updateUrl(query, universe, team, val, sort, true);
+  };
+
+  const handleTeamChange = (val) => {
+    setTeam(val);
+    updateUrl(query, universe, val, role, sort, true);
+  };
+
+  const handleSortChange = (val) => {
+    setSort(val);
+    updateUrl(query, universe, team, role, val, true);
+  };
+
+  const handleReset = () => {
+    setQuery("");
+    setUniverse("all");
+    setTeam("all");
+    setRole("all");
+    setSort("debut-asc");
+    updateUrl("", "all", "all", "all", "debut-asc", true);
+  };
 
   const filteredCharacters = useMemo(() => {
     return searchAndFilterPortrayals({
@@ -55,14 +140,6 @@ export default function CharacterDirectory() {
       sort,
     });
   }, [query, universe, team, role, sort]);
-
-  const handleReset = () => {
-    setQuery("");
-    setUniverse("all");
-    setTeam("all");
-    setRole("all");
-    setSort("debut-asc");
-  };
 
   const isFiltered = query || universe !== "all" || team !== "all" || role !== "all" || sort !== "debut-asc";
 
@@ -94,14 +171,14 @@ export default function CharacterDirectory() {
             id={searchInputId}
             type="search"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => handleQueryChange(e.target.value)}
             placeholder="Search by character, real name, actor, movie, or team..."
             className="w-full pl-11 pr-10 py-3.5 rounded-2xl bg-black/60 border border-white/15 text-white placeholder-muted text-sm sm:text-base focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-all"
           />
           {query && (
             <button
               type="button"
-              onClick={() => setQuery("")}
+              onClick={() => handleQueryChange("")}
               aria-label="Clear search"
               className="absolute inset-y-0 right-0 pr-3.5 flex items-center text-muted hover:text-white"
             >
@@ -120,7 +197,7 @@ export default function CharacterDirectory() {
           <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar pb-1">
             <button
               type="button"
-              onClick={() => setUniverse("all")}
+              onClick={() => handleUniverseChange("all")}
               className={`px-3 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-colors ${
                 universe === "all"
                   ? "bg-accent text-white shadow-sm"
@@ -137,7 +214,7 @@ export default function CharacterDirectory() {
                 <button
                   key={u.id}
                   type="button"
-                  onClick={() => setUniverse(u.id)}
+                  onClick={() => handleUniverseChange(u.id)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-colors ${
                     isActive
                       ? "bg-accent text-white shadow-sm"
@@ -160,7 +237,7 @@ export default function CharacterDirectory() {
             </label>
             <select
               value={role}
-              onChange={(e) => setRole(e.target.value)}
+              onChange={(e) => handleRoleChange(e.target.value)}
               className="w-full px-3 py-2 rounded-xl bg-black/60 border border-white/15 text-white text-xs focus:outline-none focus:border-accent"
             >
               <option value="all">All Roles</option>
@@ -178,7 +255,7 @@ export default function CharacterDirectory() {
             </label>
             <select
               value={team}
-              onChange={(e) => setTeam(e.target.value)}
+              onChange={(e) => handleTeamChange(e.target.value)}
               className="w-full px-3 py-2 rounded-xl bg-black/60 border border-white/15 text-white text-xs focus:outline-none focus:border-accent"
             >
               <option value="all">All Groups</option>
@@ -197,7 +274,7 @@ export default function CharacterDirectory() {
             </label>
             <select
               value={sort}
-              onChange={(e) => setSort(e.target.value)}
+              onChange={(e) => handleSortChange(e.target.value)}
               className="w-full px-3 py-2 rounded-xl bg-black/60 border border-white/15 text-white text-xs focus:outline-none focus:border-accent"
             >
               <option value="debut-asc">Film Debut (Oldest First)</option>

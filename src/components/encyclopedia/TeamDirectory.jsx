@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useId } from "react";
 import {
   TEAMS,
   UNIVERSES,
@@ -7,6 +7,7 @@ import {
 } from "../../data/encyclopedia/index.js";
 
 export default function TeamDirectory() {
+  const searchInputId = useId();
   const [universe, setUniverse] = useState("all");
   const [category, setCategory] = useState("all");
   const [search, setSearch] = useState("");
@@ -45,7 +46,11 @@ export default function TeamDirectory() {
         <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
           {/* Search bar */}
           <div className="relative w-full md:w-80">
+            <label htmlFor={searchInputId} className="sr-only">
+              Search teams and organizations
+            </label>
             <input
+              id={searchInputId}
               type="search"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
@@ -56,6 +61,7 @@ export default function TeamDirectory() {
               <button
                 type="button"
                 onClick={() => setSearch("")}
+                aria-label="Clear team search"
                 className="absolute inset-y-0 right-0 pr-3 flex items-center text-muted hover:text-white text-xs"
               >
                 ✕
@@ -117,7 +123,7 @@ export default function TeamDirectory() {
         {/* Results Bar */}
         <div className="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-xs text-muted">
           <span>
-            Showing <strong class="text-white">{filteredTeams.length}</strong> groups
+            Showing <strong className="text-white">{filteredTeams.length}</strong> groups
           </span>
           {(search || universe !== "all" || category !== "all") && (
             <button
@@ -159,7 +165,7 @@ export default function TeamDirectory() {
 
                 {t.leader && (
                   <p className="text-xs text-neutral-300 font-medium mt-1">
-                    Leader: <span class="text-white">{t.leader}</span>
+                    Leader: <span className="text-white">{t.leader}</span>
                   </p>
                 )}
 

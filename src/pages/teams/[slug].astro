@@ -5,6 +5,7 @@ import CharacterAvatar from "../../components/encyclopedia/CharacterAvatar.jsx";
 import {
   TEAMS,
   getTeamMembers,
+  getTeamAllies,
   getUniverseById,
   getFilmById,
 } from "../../data/encyclopedia/index.js";
@@ -20,6 +21,7 @@ const { team } = Astro.props;
 
 const universe = getUniverseById(team.universeId);
 const members = getTeamMembers(team.id);
+const allies = getTeamAllies(team.id);
 
 // Film appearances resolved
 const films = (team.filmAppearances || [])
@@ -158,6 +160,65 @@ const films = (team.filmAppearances || [])
       )}
     </section>
 
+    <!-- Key Allies & Affiliated Collaborators (if any) -->
+    {allies.length > 0 && (
+      <section class="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6 sm:p-8">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6">
+          <div>
+            <span class="text-[11px] uppercase tracking-widest text-amber-400 font-bold block mb-1">
+              Mission Partnerships & Support
+            </span>
+            <h2 class="font-display text-3xl sm:text-4xl text-white tracking-wide">
+              Key Allies & Collaborators ({allies.length})
+            </h2>
+          </div>
+          <span class="text-xs text-muted">
+            Fought alongside team in major battles without formal membership
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+          {allies.map((ally) => {
+            const membership = ally.teamMemberships?.find((m) => m.teamId === team.id);
+            return (
+              <a
+                href={`/character/${ally.slug}`}
+                class="group flex flex-col rounded-2xl overflow-hidden border border-white/10 bg-black/40 hover:bg-white/[0.05] hover:border-amber-400/50 transition-all duration-300 shadow-lg shadow-black/40 p-4"
+              >
+                <div class="aspect-[3/4] w-full rounded-xl overflow-hidden mb-3">
+                  <CharacterAvatar
+                    client:load
+                    src={ally.poster}
+                    alt={ally.name}
+                    accentColor="#f59e0b"
+                    aspectRatio="aspect-[3/4]"
+                  />
+                </div>
+
+                <div class="flex items-center justify-between gap-1 mb-1">
+                  <h3 class="font-display text-2xl text-white group-hover:text-amber-300 transition-colors leading-tight">
+                    {ally.name}
+                  </h3>
+                  <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border border-amber-400/30 text-amber-300 bg-amber-500/10">
+                    Ally
+                  </span>
+                </div>
+                <p class="text-xs text-muted font-medium">
+                  {ally.actor}
+                </p>
+
+                {membership?.role && (
+                  <div class="mt-2.5 pt-2 border-t border-white/5 text-[11px] text-amber-300/90 font-medium">
+                    {membership.role}
+                  </div>
+                )}
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
     <!-- Film Appearances History -->
     <section class="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6 sm:p-8">
       <span class="text-[11px] uppercase tracking-widest text-accent font-bold block mb-1">
@@ -178,9 +239,17 @@ const films = (team.filmAppearances || [])
                 {f.title}
               </h4>
             </div>
-            {f.isMcu && (
-              <div class="mt-3 pt-2 border-t border-white/5 text-[10px] text-emerald-400">
-                MCU Watch Order ✓
+            {f.isMcu ? (
+              <a
+                href={`/#${f.id}`}
+                class="mt-3 pt-2 border-t border-white/5 text-[11px] text-emerald-400 hover:text-emerald-300 transition-colors flex items-center justify-between font-medium"
+              >
+                <span>MCU Watch Order ✓</span>
+                <span class="text-[10px] uppercase font-bold tracking-wider">Jump to film →</span>
+              </a>
+            ) : (
+              <div class="mt-3 pt-2 border-t border-white/5 text-[10px] text-muted">
+                Non-MCU Release
               </div>
             )}
           </div>
