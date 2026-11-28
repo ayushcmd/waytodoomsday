@@ -758,5 +758,455 @@
         "mediaType": "movie"
       }
     }
+  },
+  {
+    "actorName": "Zoe Saldaña",
+    "portrayalSlugs": [
+      "gamora"
+    ],
+    "tmdb": {
+      "personId": 8691,
+      "profilePath": "/vQBwmsSOAd0JDaEcZ5p43J9xzsY.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 118340,
+      "matchCredit": {
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "character": "Gamora",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Dave Bautista",
+    "portrayalSlugs": [
+      "drax"
+    ],
+    "tmdb": {
+      "personId": 543530,
+      "profilePath": "/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 118340,
+      "matchCredit": {
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "character": "Drax",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Bradley Cooper",
+    "portrayalSlugs": [
+      "rocket-raccoon"
+    ],
+    "tmdb": {
+      "personId": 51329,
+      "profilePath": "/5Dhy50qOMOHfR1NZifKIfffjV9X.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 118340,
+      "matchCredit": {
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "character": "Rocket",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Vin Diesel",
+    "portrayalSlugs": [
+      "groot"
+    ],
+    "tmdb": {
+      "personId": 12835,
+      "profilePath": "/nZdVry7lnUkE24PnXakok9okvL4.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 118340,
+      "matchCredit": {
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "character": "Groot",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Karen Gillan",
+    "portrayalSlugs": [
+      "nebula"
+    ],
+    "tmdb": {
+      "personId": 543261,
+      "profilePath": "/rWx8u4F4aYIqmjJDeMK78ysPsu0.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 118340,
+      "matchCredit": {
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "character": "Nebula",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Pom Klementieff",
+    "portrayalSlugs": [
+      "mantis"
+    ],
+    "tmdb": {
+      "personId": 139820,
+      "profilePath": "/hfUKAI2kXTMMWjno0i4sLPJud5N.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 283995,
+      "matchCredit": {
+        "title": "Guardians of the Galaxy Vol. 2",
+        "year": 2017,
+        "character": "Mantis",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Michael Rooker",
+    "portrayalSlugs": [
+      "yondu-udonta"
+    ],
+    "tmdb": {
+      "personId": 12132,
+      "profilePath": "/ngOuHNIAGrKyY1O7F0f9C5Q9ONg.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 118340,
+      "matchCredit": {
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "character": "Yondu",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Josh Brolin",
+    "portrayalSlugs": [
+      "thanos"
+    ],
+    "tmdb": {
+      "personId": 16851,
+      "profilePath": "/7QpneI3HoZCCDVPyWx3p3t7yeo7.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 299536,
+      "matchCredit": {
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "character": "Thanos",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Cate Blanchett",
+    "portrayalSlugs": [
+      "hela"
+    ],
+    "tmdb": {
+      "personId": 112,
+      "profilePath": "/1Rd567YFdGfkJjSlhNPR8joYkaX.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 284053,
+      "matchCredit": {
+        "title": "Thor: Ragnarok",
+        "year": 2017,
+        "character": "Hela",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Michael B. Jordan",
+    "portrayalSlugs": [
+      "killmonger"
+    ],
+    "tmdb": {
+      "personId": 135651,
+      "profilePath": "/515xNvaMC6xOEOlo0sFqW69ZqUH.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 284054,
+      "matchCredit": {
+        "title": "Black Panther",
+        "year": 2018,
+        "character": "Erik",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Michael Keaton",
+    "portrayalSlugs": [
+      "vulture-michael-keaton"
+    ],
+    "tmdb": {
+      "personId": 2232,
+      "profilePath": "/tYSja1KByFnZ4Hkp3stPqkKHnNL.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 315635,
+      "matchCredit": {
+        "title": "Spider-Man: Homecoming",
+        "year": 2017,
+        "character": "Adrian Toomes",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Jake Gyllenhaal",
+    "portrayalSlugs": [
+      "mysterio-jake-gyllenhaal"
+    ],
+    "tmdb": {
+      "personId": 131,
+      "profilePath": "/ct2Gh2sJSxd4yaMrSsqSt1HpIC3.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 429617,
+      "matchCredit": {
+        "title": "Spider-Man: Far From Home",
+        "year": 2019,
+        "character": "Quentin Beck",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Simu Liu",
+    "portrayalSlugs": [
+      "shang-chi"
+    ],
+    "tmdb": {
+      "personId": 1489211,
+      "profilePath": "/cCx2OghLj9KN73oyRZe92i2p3Ih.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 566525,
+      "matchCredit": {
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "year": 2021,
+        "character": "Shang-Chi",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Florence Pugh",
+    "portrayalSlugs": [
+      "yelena-belova"
+    ],
+    "tmdb": {
+      "personId": 1373737,
+      "profilePath": "/qqDsryavx9rwSMhDAxW6OC7oNQg.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 986056,
+      "matchCredit": {
+        "title": "Thunderbolts*",
+        "year": 2025,
+        "character": "Yelena Belova",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Tenoch Huerta Mejía",
+    "portrayalSlugs": [
+      "namor"
+    ],
+    "tmdb": {
+      "personId": 87265,
+      "profilePath": "/5qoAmQpcPCjf4Pd6aTZOeINGYzk.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 505642,
+      "matchCredit": {
+        "title": "Black Panther: Wakanda Forever",
+        "year": 2022,
+        "character": "Namor",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Danai Gurira",
+    "portrayalSlugs": [
+      "okoye"
+    ],
+    "tmdb": {
+      "personId": 82104,
+      "profilePath": "/z7H7QeQvr24vskGlANQhG43vozQ.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 284054,
+      "matchCredit": {
+        "title": "Black Panther",
+        "year": 2018,
+        "character": "Okoye",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Paul Bettany",
+    "portrayalSlugs": [
+      "vision"
+    ],
+    "tmdb": {
+      "personId": 6162,
+      "profilePath": "/awlH20l93cgHOIDPNP6FCnGuIJy.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 85271,
+      "matchCredit": {
+        "title": "WandaVision",
+        "year": 2021,
+        "character": "Vision",
+        "mediaType": "tv"
+      }
+    }
+  },
+  {
+    "actorName": "Benedict Wong",
+    "portrayalSlugs": [
+      "wong"
+    ],
+    "tmdb": {
+      "personId": 30082,
+      "profilePath": "/yYfLyrC2CE6vBWSJfkpuVKL2POM.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 284052,
+      "matchCredit": {
+        "title": "Doctor Strange",
+        "year": 2016,
+        "character": "Wong",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Anna Paquin",
+    "portrayalSlugs": [
+      "rogue-anna-paquin"
+    ],
+    "tmdb": {
+      "personId": 10690,
+      "profilePath": "/5FjBCsn3kujldP8LizoCrc3hsHp.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Rogue",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Alan Cumming",
+    "portrayalSlugs": [
+      "nightcrawler-alan-cumming"
+    ],
+    "tmdb": {
+      "personId": 10697,
+      "profilePath": "/axil8ufunARfqyU4ceZNh36fkVQ.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36658,
+      "matchCredit": {
+        "title": "X2",
+        "year": 2003,
+        "character": "Nightcrawler",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Shawn Ashmore",
+    "portrayalSlugs": [
+      "iceman-shawn-ashmore"
+    ],
+    "tmdb": {
+      "personId": 11023,
+      "profilePath": "/tXA1gFtsp9HWnzlQsaZSoZC8L4r.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Bobby Drake",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Nicholas Hoult",
+    "portrayalSlugs": [
+      "beast-nicholas-hoult"
+    ],
+    "tmdb": {
+      "personId": 3292,
+      "profilePath": "/pXm8GWTm9eIA8pUGOjvmYjlxamu.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 49538,
+      "matchCredit": {
+        "title": "X-Men: First Class",
+        "year": 2011,
+        "character": "Hank / Beast",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Evan Peters",
+    "portrayalSlugs": [
+      "quicksilver-evan-peters"
+    ],
+    "tmdb": {
+      "personId": 55089,
+      "profilePath": "/m9okq20ca2Md38i2ekJeKs3vTwa.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 127585,
+      "matchCredit": {
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "character": "Peter",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Jennifer Lawrence",
+    "portrayalSlugs": [
+      "mystique-jennifer-lawrence"
+    ],
+    "tmdb": {
+      "personId": 72129,
+      "profilePath": "/6WTY6HjXMGxnHilJRVC3eLnu43F.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 49538,
+      "matchCredit": {
+        "title": "X-Men: First Class",
+        "year": 2011,
+        "character": "Raven",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Rebecca Romijn",
+    "portrayalSlugs": [
+      "mystique-rebecca-romijn"
+    ],
+    "tmdb": {
+      "personId": 11008,
+      "profilePath": "/doqFBHNbNhoLF9RX9SYPqwu1mvd.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Mystique",
+        "mediaType": "movie"
+      }
+    }
   }
 ]

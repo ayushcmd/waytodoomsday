@@ -2,7 +2,7 @@
 
 **Date of Verification:** 2026-11-28  
 **Scope:** Verified film portrayals across released Marvel cinematic continuities  
-**Repository Branch:** `fix/encyclopedia-accuracy-and-ux`  
+**Repository Branch:** `feat/encyclopedia-expansion-batch-1`  
 **Related Issue:** #7 (Umbrella Feature Specification)
 
 ---
@@ -21,12 +21,12 @@ Every entry published in this encyclopedia foundation satisfies strict evidentia
 
 ## 2. Representation Across Continuities
 
-The dataset contains **46 verified character portrayals** and **15 verified teams/organizations** spanning **9 cinematic continuities**:
+Following Content Expansion Batch 1 (adding **25 verified portrayals** to the initial **46**), the dataset contains **71 verified character portrayals**, **62 identity families**, **67 unique verified TMDB actor identities**, and **15 verified teams/organizations** spanning **9 cinematic continuities**:
 
 | Continuity ID | Cinematic Continuity Name | Designation | Portrayals | Teams & Organizations |
 |---|---|---|---|---|
-| `mcu` | Marvel Cinematic Universe | Earth-616 / Sacred Timeline | 19 | Avengers, Guardians of the Galaxy, S.H.I.E.L.D., HYDRA, Dora Milaje, Ravagers, TVA, Thunderbolts*, Eternals |
-| `fox-xmen` | Fox X-Men Universe (Original & Prequel) | Earth-10005 | 10 | X-Men, Brotherhood of Mutants, X-Force |
+| `mcu` | Marvel Cinematic Universe | Earth-616 / Sacred Timeline | 37 | Avengers, Guardians of the Galaxy, S.H.I.E.L.D., HYDRA, Dora Milaje, Ravagers, TVA, Thunderbolts*, Eternals |
+| `fox-xmen` | Fox X-Men Universe (Original & Prequel) | Earth-10005 | 17 | X-Men, Brotherhood of Mutants, X-Force |
 | `story-fantastic-four` | Tim Story Fantastic Four (2005/2007) | Earth-121698 | 5 | Fantastic Four |
 | `raimi-spiderman` | Sam Raimi Spider-Man Trilogy | Earth-96283 | 3 | — |
 | `sony-spiderverse` | Sony's Spider-Verse Animated | Multiverse | 3 | Spider-Society |
@@ -35,8 +35,17 @@ The dataset contains **46 verified character portrayals** and **15 verified team
 | `sony-ssu` | Sony's Spider-Man Universe | Earth-688 | 1 | — |
 | `trill-blade` | New Line Cinema Blade Trilogy | Earth-26320 | 1 | — |
 
-**Total Published Portrayals:** 46  
-**Total Verified Teams:** 15
+**Total Published Portrayals:** 71 (46 baseline + 25 Batch 1)  
+**Total Verified Teams:** 15  
+
+### Batch 1 Additions & Excluded/Deferred Candidates
+- **Added (+25):**
+  - *Guardians of the Galaxy (7):* Gamora, Drax, Rocket Raccoon, Groot, Nebula, Mantis, Yondu Udonta (Ravagers member / Guardians ally).
+  - *MCU Heroes & Villains (11):* Thanos, Hela, Erik Killmonger, Vulture, Mysterio, Shang-Chi, Yelena Belova (Thunderbolts*), Namor, Okoye (Dora Milaje / Avengers ally), Vision (Avengers), Wong (Avengers ally).
+  - *Fox X-Men (7):* Rogue, Nightcrawler, Iceman, Beast (Young), Quicksilver, Mystique (Young — Jennifer Lawrence), Mystique (Original Trilogy — Rebecca Romijn).
+  - *New Film Catalog Entry:* `thunderbolts` (*Thunderbolts**, 2025, `mcu`, `isMcu: true`, synchronized with `movies.json`).
+- **Deferred to Batch 2 (Excluded from Batch 1):**
+  - Standalone early-2000s continuities (**Ghost Rider** — Nicolas Cage, **Daredevil** — Ben Affleck, **Elektra** — Jennifer Garner, **The Punisher** — Thomas Jane) and the **2025 Fantastic Four: First Steps** continuity cast require dedicated universe entries, non-MCU film catalogs, and team setup, so they are deferred to a dedicated Batch 2 expansion rather than over-stretching Batch 1.
 
 ---
 

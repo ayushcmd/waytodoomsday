@@ -4339,5 +4339,2021 @@
     ],
     "spoilerBio": "Grief-stricken following Jean Grey's apparent death at Alkali Lake, Scott was haunted by telepathic whispers calling him back to the spillway. Arriving at Alkali Lake in X-Men: The Last Stand, Scott discovered the resurrected Jean, whose emerging Dark Phoenix persona overwhelmed him in an embrace that disintegrated his body, leaving behind only his floating ruby-quartz glasses.",
     "spoilerWarning": "Contains character death spoilers for X-Men: The Last Stand (2006)"
+  },
+  {
+    "id": "portrayal-gamora",
+    "slug": "gamora",
+    "identityId": "gamora",
+    "name": "Gamora",
+    "realName": "Gamora Zen Whoberi Ben Titan",
+    "aliases": [
+      "The Deadliest Woman in the Galaxy",
+      "Daughter of Thanos"
+    ],
+    "actor": "Zoe Saldaña",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Former assassin raised by Thanos who forged a new family with the Guardians of the Galaxy",
+    "biography": "A Zehoberei survivor whose homeworld was halved by Thanos, Gamora was raised and cybernetically augmented by the Mad Titan to become his deadliest warrior. Tasked with retrieving the Orb on Xandar, she defected alongside Peter Quill, Rocket, Groot, and Drax to keep the Power Stone out of Ronan's hands, becoming a foundational Guardian of the Galaxy.",
+    "spoilerBio": "In Avengers: Infinity War, Thanos forced Gamora to reveal the Soul Stone's location on Vormir and threw her to her death from the cliff to claim it. During the 2023 Time Heist, an alternate 2014 variant of Gamora traveled to the present, aided the final battle against Thanos, and later found a new home among the Ravagers.",
+    "spoilerWarning": "Contains character death and timeline variant spoilers for Avengers: Infinity War and Endgame",
+    "powers": [
+      "Cybernetically enhanced strength, speed, and durability",
+      "Master swordsmanship and hand-to-hand martial arts",
+      "Accelerated healing and high-altitude resilience"
+    ],
+    "equipment": [
+      "Godslayer retractable sword",
+      "Switchblade dagger gifted by Thanos"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "guardians-of-the-galaxy-mcu",
+        "role": "Founding Member",
+        "type": "member"
+      },
+      {
+        "teamId": "ravagers-mcu",
+        "role": "2014 Variant Crew Member",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "filmId": "guardians-vol-1"
+    },
+    "appearances": [
+      {
+        "filmId": "guardians-vol-1",
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "guardians-vol-2",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "supporting"
+      },
+      {
+        "filmId": "guardians-vol-3",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "year": 2023,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Peter Quill (Star-Lord)",
+        "relation": "Partner & Fellow Guardian",
+        "portrayalSlug": "star-lord"
+      },
+      {
+        "characterName": "Nebula",
+        "relation": "Adoptive Sister & Rival-turned-Ally",
+        "portrayalSlug": "nebula"
+      },
+      {
+        "characterName": "Thanos",
+        "relation": "Adoptive Father & Nemesis",
+        "portrayalSlug": "thanos"
+      }
+    ],
+    "poster": "/posters/Guardians_of_the_Galaxy.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Gamora On Screen Profile",
+        "url": "https://www.marvel.com/characters/gamora/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-drax",
+    "slug": "drax",
+    "identityId": "drax",
+    "name": "Drax the Destroyer",
+    "realName": "Drax",
+    "aliases": [
+      "Drax the Destroyer"
+    ],
+    "actor": "Dave Bautista",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Literal-minded Kylosian warrior fueled by vengeance and fierce loyalty to the Guardians",
+    "biography": "After Ronan the Accuser murdered his wife Ovette and daughter Kamaria under Thanos's orders, Drax carved a path of destruction across the galaxy seeking retribution. Imprisoned in the Kyln, he reluctantly joined Peter Quill, Gamora, Rocket, and Groot, discovering a second family among the Guardians of the Galaxy.",
+    "spoilerBio": "In Guardians of the Galaxy Vol. 3, Drax helped liberate hundreds of imprisoned Star Children from the High Evolutionary's Arête Laboratories. Realizing his true calling was as a father rather than a destroyer, Drax remained on Knowhere alongside Nebula to raise the rescued children.",
+    "spoilerWarning": "Contains ending plot spoilers for Guardians of the Galaxy Vol. 3 (2023)",
+    "powers": [
+      "Superhuman strength and dense, impact-resistant musculature",
+      "Master dual-blade close-quarters combatant",
+      "Extreme pain tolerance"
+    ],
+    "equipment": [
+      "Twin serrated combat daggers"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "guardians-of-the-galaxy-mcu",
+        "role": "Founding Member",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "filmId": "guardians-vol-1"
+    },
+    "appearances": [
+      {
+        "filmId": "guardians-vol-1",
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "guardians-vol-2",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "supporting"
+      },
+      {
+        "filmId": "thor-love-and-thunder",
+        "title": "Thor: Love and Thunder",
+        "year": 2022,
+        "type": "supporting"
+      },
+      {
+        "filmId": "guardians-vol-3",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "year": 2023,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Mantis",
+        "relation": "Close Friend & Confidante",
+        "portrayalSlug": "mantis"
+      },
+      {
+        "characterName": "Peter Quill (Star-Lord)",
+        "relation": "Teammate & Friend",
+        "portrayalSlug": "star-lord"
+      }
+    ],
+    "poster": "/posters/Guardians_of_the_Galaxy.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Drax On Screen Profile",
+        "url": "https://www.marvel.com/characters/drax/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-rocket-raccoon",
+    "slug": "rocket-raccoon",
+    "identityId": "rocket",
+    "name": "Rocket Raccoon",
+    "realName": "Subject 89P13",
+    "aliases": [
+      "Rocket",
+      "89P13"
+    ],
+    "actor": "Bradley Cooper (Voice)",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Cybernetically engineered tactical genius, weapons expert, and Guardian of the Galaxy",
+    "biography": "Created on Counter-Earth by the High Evolutionary through painful cybernetic and genetic experimentation, Rocket escaped his creator and survived as a bounty hunter alongside Groot. After a Kyln prison break united him with Star-Lord, Gamora, and Drax, Rocket became the Guardians' premier tactician, pilot, and heavy-weapons engineer.",
+    "spoilerBio": "When the Blip wiped out his teammates, Rocket remained on Earth for five years, collaborating with the Avengers on the Time Heist. In Guardians Vol. 3, after barely surviving a near-fatal attack by Adam Warlock, Rocket confronted the High Evolutionary, rescued the captive test animals, and succeeded Peter Quill as Captain of the new Guardians of the Galaxy.",
+    "spoilerWarning": "Contains major plot spoilers for Avengers: Endgame and Guardians of the Galaxy Vol. 3",
+    "powers": [
+      "Genius-level cybernetic, mechanical, and weapons engineering",
+      "Master starship pilot and battlefield tactician",
+      "Enhanced animalistic agility and acute hearing"
+    ],
+    "equipment": [
+      "Custom Hadron Enforcer and heavy energy cannons",
+      "Aero-Rigs flight harness",
+      "Cybernetic skeletal enhancements"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "guardians-of-the-galaxy-mcu",
+        "role": "Founding Member & Later Captain",
+        "type": "member"
+      },
+      {
+        "teamId": "avengers-mcu",
+        "role": "Blip-Era Time Heist Collaborator",
+        "type": "ally"
+      }
+    ],
+    "filmDebut": {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "filmId": "guardians-vol-1"
+    },
+    "appearances": [
+      {
+        "filmId": "guardians-vol-1",
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "guardians-vol-2",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "thor-love-and-thunder",
+        "title": "Thor: Love and Thunder",
+        "year": 2022,
+        "type": "supporting"
+      },
+      {
+        "filmId": "guardians-vol-3",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "year": 2023,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Groot",
+        "relation": "Best Friend & Longtime Partner",
+        "portrayalSlug": "groot"
+      },
+      {
+        "characterName": "Nebula",
+        "relation": "Fellow Blip Survivor & Teammate",
+        "portrayalSlug": "nebula"
+      }
+    ],
+    "poster": "/posters/Guardians_of_the_Galaxy.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Rocket On Screen Profile",
+        "url": "https://www.marvel.com/characters/rocket/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-groot",
+    "slug": "groot",
+    "identityId": "groot",
+    "name": "Groot",
+    "realName": "Groot",
+    "aliases": [
+      "Baby Groot",
+      "Teen Groot"
+    ],
+    "actor": "Vin Diesel (Voice)",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Gentle Flora colossus whose shapeshifting wooden form shields his beloved Guardians",
+    "biography": "A sentient tree-like Flora colossus from Planet X, Groot traveled the cosmos as Rocket's loyal partner and protector. Despite speaking only the phrase 'I am Groot', his companions understand the nuanced emotional intent behind every word, relying on his immense strength and self-growing branches in battle.",
+    "spoilerBio": "During the Battle of Xandar in Guardians Vol. 1, the original Groot sacrificed himself by wrapping the Guardians in a protective sphere of branches ('We are Groot'). Rocket planted a surviving twig, regrowing a new Groot who matured through Baby and Teen stages, forged Stormbreaker's handle for Thor, and grew into a towering protector in Vol. 3.",
+    "spoilerWarning": "Contains character sacrifice spoilers for Guardians of the Galaxy (2014)",
+    "powers": [
+      "Elastic limb growth, wooden shield generation, and vine entanglement",
+      "Superhuman strength and regenerative healing",
+      "Bioluminescent spore projection"
+    ],
+    "equipment": [],
+    "teamMemberships": [
+      {
+        "teamId": "guardians-of-the-galaxy-mcu",
+        "role": "Founding Member",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "filmId": "guardians-vol-1"
+    },
+    "appearances": [
+      {
+        "filmId": "guardians-vol-1",
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "guardians-vol-2",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "supporting"
+      },
+      {
+        "filmId": "thor-love-and-thunder",
+        "title": "Thor: Love and Thunder",
+        "year": 2022,
+        "type": "supporting"
+      },
+      {
+        "filmId": "guardians-vol-3",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "year": 2023,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Rocket Raccoon",
+        "relation": "Inseparable Partner & Best Friend",
+        "portrayalSlug": "rocket-raccoon"
+      },
+      {
+        "characterName": "Thor Odinson",
+        "relation": "Battle Ally (Stormbreaker Handle)",
+        "portrayalSlug": "thor"
+      }
+    ],
+    "poster": "/posters/Guardians_of_the_Galaxy.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Groot On Screen Profile",
+        "url": "https://www.marvel.com/characters/groot/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-nebula",
+    "slug": "nebula",
+    "identityId": "nebula",
+    "name": "Nebula",
+    "realName": "Nebula",
+    "aliases": [
+      "Daughter of Thanos"
+    ],
+    "actor": "Karen Gillan",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Cybernetically rebuilt Luphomoid assassin who overcame Thanos's torture to defend the galaxy",
+    "biography": "Raised alongside Gamora as Thanos's adoptive daughter, Nebula was repeatedly mutilated and rebuilt with cybernetic parts whenever she lost sparring matches to her sister. Initially serving Ronan the Accuser, Nebula later reconciled with Gamora on Ego's planet and turned her vengeance toward destroying Thanos.",
+    "spoilerBio": "Surviving the Blip alongside Rocket, Nebula fought alongside the Avengers in the Time Heist, where she shot and killed her own loyalist 2014 past self to protect Clint Barton and Gamora. Following the Battle of Earth, she became a core Guardian and ultimately remained on Knowhere to lead its peaceful reconstruction.",
+    "spoilerWarning": "Contains major plot spoilers for Avengers: Endgame and Guardians of the Galaxy Vol. 3",
+    "powers": [
+      "Extensive cybernetic strength, durability, and self-repairing nanotech limbs",
+      "Master assassin and weapons combatant",
+      "Built-in cybernetic memory projection and hacking interfaces"
+    ],
+    "equipment": [
+      "Nano-augmented cybernetic arm (gifted by Rocket)",
+      "Dual electro-shock batons",
+      "Energy blaster"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "guardians-of-the-galaxy-mcu",
+        "role": "Core Member",
+        "type": "member"
+      },
+      {
+        "teamId": "avengers-mcu",
+        "role": "Blip-Era Time Heist Collaborator",
+        "type": "ally"
+      }
+    ],
+    "filmDebut": {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "filmId": "guardians-vol-1"
+    },
+    "appearances": [
+      {
+        "filmId": "guardians-vol-1",
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "type": "supporting"
+      },
+      {
+        "filmId": "guardians-vol-2",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "thor-love-and-thunder",
+        "title": "Thor: Love and Thunder",
+        "year": 2022,
+        "type": "supporting"
+      },
+      {
+        "filmId": "guardians-vol-3",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "year": 2023,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Gamora",
+        "relation": "Adoptive Sister",
+        "portrayalSlug": "gamora"
+      },
+      {
+        "characterName": "Rocket Raccoon",
+        "relation": "Close Ally & Fellow Blip Survivor",
+        "portrayalSlug": "rocket-raccoon"
+      },
+      {
+        "characterName": "Thanos",
+        "relation": "Abusive Adoptive Father",
+        "portrayalSlug": "thanos"
+      }
+    ],
+    "poster": "/posters/Guardians_of_the_Galaxy_Vol_2.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Nebula On Screen Profile",
+        "url": "https://www.marvel.com/characters/nebula/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-mantis",
+    "slug": "mantis",
+    "identityId": "mantis",
+    "name": "Mantis",
+    "realName": "Mantis",
+    "aliases": [
+      "Ego's Empath"
+    ],
+    "actor": "Pom Klementieff",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Empathic Guardian capable of sensing and pacifying emotions—even those of a Celestial",
+    "biography": "Raised in isolation on Ego's living planet to soothe the Celestial's restless mind with her empathic touch, Mantis initially knew little of the outside universe. When the Guardians arrived, she risked Ego's wrath to warn Drax and Gamora of his true plans, earning a permanent place in the Guardians of the Galaxy.",
+    "spoilerBio": "In Guardians Vol. 3, having already been revealed as Ego's biological daughter and Peter Quill's half-sister, Mantis helped defeat the High Evolutionary and tamed three ferocious Abilisks. Feeling she had spent her entire life serving others' wishes, she departed the team with the Abilisks to discover her own identity.",
+    "spoilerWarning": "Contains ending plot spoilers for Guardians of the Galaxy Vol. 3 (2023)",
+    "powers": [
+      "Touch-based empathic sensing and emotional manipulation",
+      "Ability to induce sleep in powerful beings, including Ego and Thanos",
+      "Enhanced agility and martial arts proficiency"
+    ],
+    "equipment": [],
+    "teamMemberships": [
+      {
+        "teamId": "guardians-of-the-galaxy-mcu",
+        "role": "Core Member",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "Guardians of the Galaxy Vol. 2",
+      "year": 2017,
+      "filmId": "guardians-vol-2"
+    },
+    "appearances": [
+      {
+        "filmId": "guardians-vol-2",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "supporting"
+      },
+      {
+        "filmId": "thor-love-and-thunder",
+        "title": "Thor: Love and Thunder",
+        "year": 2022,
+        "type": "supporting"
+      },
+      {
+        "filmId": "guardians-vol-3",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "year": 2023,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Drax the Destroyer",
+        "relation": "Closest Friend & Confidant",
+        "portrayalSlug": "drax"
+      },
+      {
+        "characterName": "Peter Quill (Star-Lord)",
+        "relation": "Half-Brother",
+        "portrayalSlug": "star-lord"
+      }
+    ],
+    "poster": "/posters/Guardians_of_the_Galaxy_Vol_2.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Mantis On Screen Profile",
+        "url": "https://www.marvel.com/characters/mantis/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-yondu-udonta",
+    "slug": "yondu-udonta",
+    "identityId": "yondu-udonta",
+    "name": "Yondu Udonta",
+    "realName": "Yondu Udonta",
+    "aliases": [
+      "Mary Poppins"
+    ],
+    "actor": "Michael Rooker",
+    "universeId": "mcu",
+    "role": "anti-hero",
+    "tagline": "Centaurian Ravager captain and Peter Quill's true adoptive father figure",
+    "biography": "Leader of an exiled Ravager clan, Yondu Udonta was hired by Ego in 1988 to abduct eight-year-old Peter Quill from Earth. Upon discovering Ego's lethal fate for his offspring, Yondu defied his employer and raised Peter aboard the Eclector, teaching him thievery and survival while hiding deep paternal affection.",
+    "spoilerBio": "After Taserface staged a mutiny aboard the Eclector, Yondu escaped with Rocket and Groot and flew to Ego's planet to rescue Quill. In the film's climax, Yondu gave Peter the sole remaining Aero-Rig space suit, sacrificing his life in the vacuum of space ('He may have been your father, boy, but he wasn't your daddy') and earning a full Ravager funeral.",
+    "spoilerWarning": "Contains character death spoilers for Guardians of the Galaxy Vol. 2 (2017)",
+    "powers": [
+      "Mastery of whistle-guided telekinetic arrow trajectories",
+      "Seasoned starship captain and close-quarters brawler"
+    ],
+    "equipment": [
+      "Yaka Arrow (sound-sensitive Centaurian arrow)",
+      "Cybernetic prototype fin crest",
+      "Aero-Rig space suit"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "ravagers-mcu",
+        "role": "Clan Captain",
+        "type": "member"
+      },
+      {
+        "teamId": "guardians-of-the-galaxy-mcu",
+        "role": "Battle Ally",
+        "type": "ally"
+      }
+    ],
+    "filmDebut": {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "filmId": "guardians-vol-1"
+    },
+    "appearances": [
+      {
+        "filmId": "guardians-vol-1",
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "type": "supporting"
+      },
+      {
+        "filmId": "guardians-vol-2",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "year": 2017,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Peter Quill (Star-Lord)",
+        "relation": "Adoptive Son",
+        "portrayalSlug": "star-lord"
+      },
+      {
+        "characterName": "Rocket Raccoon",
+        "relation": "Prison Break Ally",
+        "portrayalSlug": "rocket-raccoon"
+      }
+    ],
+    "poster": "/posters/Guardians_of_the_Galaxy_Vol_2.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Yondu On Screen Profile",
+        "url": "https://www.marvel.com/characters/yondu/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-thanos",
+    "slug": "thanos",
+    "identityId": "thanos",
+    "name": "Thanos",
+    "realName": "Thanos of Titan",
+    "aliases": [
+      "The Mad Titan"
+    ],
+    "actor": "Josh Brolin",
+    "universeId": "mcu",
+    "role": "villain",
+    "tagline": "Genocidal Titan warlord obsessed with rebalancing the cosmos using all six Infinity Stones",
+    "biography": "A powerful Eternal-Deviant from the ruined planet Titan, Thanos became convinced that unchecked population growth doomed every civilization to extinction. Commanding the Black Order and Chitauri armies, he orchestrated proxy invasions for the Infinity Stones before embarking on a personal crusade to assemble the completed Infinity Gauntlet.",
+    "spoilerBio": "In Infinity War, Thanos killed Loki, sacrificed Gamora on Vormir, overpowered the Avengers on Titan and in Wakanda, and snapped away half of all life in the universe. After destroying the Stones and being decapitated by Thor in 2018, a 2014 variant traveled to 2023 via Nebula's network, only to be disintegrated along with his army when Tony Stark snapped the Nano Gauntlet.",
+    "spoilerWarning": "Contains major plot and death spoilers for Avengers: Infinity War and Avengers: Endgame",
+    "powers": [
+      "Immense superhuman strength, durability, and hand-to-hand combat mastery",
+      "Genius-level military strategist",
+      "Cosmic omnipotence when wielding the six Infinity Stones"
+    ],
+    "equipment": [
+      "Uru-forged Infinity Gauntlet",
+      "Double-edged Uru battle sword",
+      "Sanctuary II flagship"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "The Avengers",
+      "year": 2012,
+      "filmId": "avengers"
+    },
+    "appearances": [
+      {
+        "filmId": "avengers",
+        "title": "The Avengers",
+        "year": 2012,
+        "type": "post-credits"
+      },
+      {
+        "filmId": "guardians-vol-1",
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-age-of-ultron",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "type": "post-credits"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Gamora",
+        "relation": "Adoptive Daughter",
+        "portrayalSlug": "gamora"
+      },
+      {
+        "characterName": "Nebula",
+        "relation": "Adoptive Daughter",
+        "portrayalSlug": "nebula"
+      },
+      {
+        "characterName": "Iron Man (Tony Stark)",
+        "relation": "Arch-Adversary",
+        "portrayalSlug": "iron-man"
+      }
+    ],
+    "poster": "/posters/Avengers_Infinity_War.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Thanos On Screen Profile",
+        "url": "https://www.marvel.com/characters/thanos/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-hela",
+    "slug": "hela",
+    "identityId": "hela",
+    "name": "Hela",
+    "realName": "Hela Odinsdottir",
+    "aliases": [
+      "Goddess of Death",
+      "Executioner of Asgard"
+    ],
+    "actor": "Cate Blanchett",
+    "universeId": "mcu",
+    "role": "villain",
+    "tagline": "Odin's banished firstborn daughter who draws unstoppable power from Asgard itself",
+    "biography": "Once Odin's fierce executioner who helped conquer the Nine Realms, Hela's unquenchable bloodlust led Odin to imprison her in Hel for millennia. Released upon Odin's passing, she shattered Thor's enchanted hammer Mjolnir with a single hand and reclaimed Asgard's throne with an undead army.",
+    "spoilerBio": "Realizing Hela's strength grew infinitely as long as Asgard existed, Thor and Loki orchestrated Ragnarok by placing Surtur's crown into the Eternal Flame. As Thor evacuated the Asgardian people aboard the Statesman, the resurrected fire giant Surtur plunged his Twilight Sword into Asgard, obliterating Hela along with the realm.",
+    "spoilerWarning": "Contains ending spoilers for Thor: Ragnarok (2017)",
+    "powers": [
+      "Asgardian godlike strength, reflexes, and near-invulnerability",
+      "Infinite manifestation of razor-sharp necroswords and blades",
+      "Necromancy via the Eternal Flame"
+    ],
+    "equipment": [
+      "Antlered battle crown",
+      "Manifested necroswords"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Thor: Ragnarok",
+      "year": 2017,
+      "filmId": "thor-ragnarok"
+    },
+    "appearances": [
+      {
+        "filmId": "thor-ragnarok",
+        "title": "Thor: Ragnarok",
+        "year": 2017,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Thor Odinson",
+        "relation": "Half-Brother & Rival",
+        "portrayalSlug": "thor"
+      },
+      {
+        "characterName": "Loki Laufeyson",
+        "relation": "Adoptive Brother",
+        "portrayalSlug": "loki"
+      }
+    ],
+    "poster": "/posters/Thor_Ragnarok.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Hela On Screen Profile",
+        "url": "https://www.marvel.com/characters/hela/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-killmonger",
+    "slug": "killmonger",
+    "identityId": "erik-killmonger",
+    "name": "Erik Killmonger",
+    "realName": "N'Jadaka / Erik Stevens",
+    "aliases": [
+      "Killmonger",
+      "Golden Jaguar"
+    ],
+    "actor": "Michael B. Jordan",
+    "universeId": "mcu",
+    "role": "villain",
+    "tagline": "Exiled Wakandan prince and black-ops veteran who challenged the throne to arm the oppressed",
+    "biography": "Born in Oakland as N'Jadaka, son of Wakandan prince N'Jobu, Erik grew up orphaned after King T'Chaka killed his father for betraying Wakanda's secrecy. Excelling at MIT and as a US Navy SEAL black-ops assassin, Killmonger returned to Wakanda to claim the throne by ritual combat and distribute vibranium weaponry worldwide.",
+    "spoilerBio": "In the climax of Black Panther, T'Challa defeated Killmonger on the Wakandan vibranium maglev tracks using sonic stabilizers to disrupt his Golden Jaguar habit. Refusing medical imprisonment, Killmonger asked to watch the sunset over Wakanda before pulling out the spear blade, choosing death over bondage. He later appeared to Shuri in the Ancestral Plane in Wakanda Forever.",
+    "spoilerWarning": "Contains character death and sequel cameo spoilers for Black Panther and Wakanda Forever",
+    "powers": [
+      "Peak human combat conditioning enhanced by the Heart-Shaped Herb",
+      "Elite tactical strategist and military marksman"
+    ],
+    "equipment": [
+      "Golden Jaguar vibranium nanotech habit",
+      "Wakandan spear and short blade"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Black Panther",
+      "year": 2018,
+      "filmId": "black-panther"
+    },
+    "appearances": [
+      {
+        "filmId": "black-panther",
+        "title": "Black Panther",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "black-panther-wakanda-forever",
+        "title": "Black Panther: Wakanda Forever",
+        "year": 2022,
+        "type": "cameo"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Black Panther (T'Challa)",
+        "relation": "Cousin & Rival",
+        "portrayalSlug": "black-panther"
+      },
+      {
+        "characterName": "Shuri",
+        "relation": "Cousin (Ancestral Plane Vision)",
+        "portrayalSlug": "shuri"
+      }
+    ],
+    "poster": "/posters/Black_Panther.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Killmonger On Screen Profile",
+        "url": "https://www.marvel.com/characters/erik-killmonger/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-vulture-michael-keaton",
+    "slug": "vulture-michael-keaton",
+    "identityId": "adrian-toomes",
+    "name": "Vulture",
+    "realName": "Adrian Toomes",
+    "aliases": [
+      "Vulture"
+    ],
+    "actor": "Michael Keaton",
+    "universeId": "mcu",
+    "role": "villain",
+    "tagline": "Working-class salvage contractor turned black-market Chitauri weapons dealer",
+    "biography": "After Damage Control forced his salvage crew off the 2012 Battle of New York cleanup site, Adrian Toomes retained salvaged Chitauri technology to provide for his family. Working alongside Phineas Mason, Toomes engineered a winged flight harness and spent eight years discreetly selling alien-hybrid weapons across the East Coast until Spider-Man intervened.",
+    "spoilerBio": "Deduceing Peter Parker's secret identity as his daughter Liz's prom date, Toomes threatened Peter to stay out of his final Avengers cargo plane heist. After Spider-Man rescued Toomes from an exploding Chitauri power core and left him for the authorities, Toomes showed gratitude in prison by refusing to reveal Spider-Man's identity to Mac Gargan.",
+    "spoilerWarning": "Contains ending plot spoilers for Spider-Man: Homecoming (2017)",
+    "powers": [
+      "Experienced aerial combatant and black-market strategist"
+    ],
+    "equipment": [
+      "Chitauri-powered winged Exo-Suit with talon boots",
+      "Matter-phase shifting device",
+      "Chitauri energy cannon"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Spider-Man: Homecoming",
+      "year": 2017,
+      "filmId": "spider-man-homecoming"
+    },
+    "appearances": [
+      {
+        "filmId": "spider-man-homecoming",
+        "title": "Spider-Man: Homecoming",
+        "year": 2017,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Spider-Man (Peter Parker)",
+        "relation": "Adversary & Daughter's Date",
+        "portrayalSlug": "spider-man"
+      }
+    ],
+    "poster": "/posters/Spider-Man_Homecoming.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Vulture On Screen Profile",
+        "url": "https://www.marvel.com/characters/vulture-adrian-toomes/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-mysterio-jake-gyllenhaal",
+    "slug": "mysterio-jake-gyllenhaal",
+    "identityId": "quentin-beck",
+    "name": "Mysterio",
+    "realName": "Quentin Beck",
+    "aliases": [
+      "Mysterio"
+    ],
+    "actor": "Jake Gyllenhaal",
+    "universeId": "mcu",
+    "role": "villain",
+    "tagline": "Former Stark hologram engineer who weaponized illusion drones to pose as Earth's new hero",
+    "biography": "Dismissed as unstable by Tony Stark after creating the B.A.R.F. holographic system, Quentin Beck united fellow disgruntled Stark Industries alumni to fabricate the persona of Mysterio—a supposed multiversal hero battling Elemental monsters. Using hundreds of weaponized Stark illusion drones, Beck manipulated Peter Parker into handing over the E.D.I.T.H. satellite network.",
+    "spoilerBio": "During the London Tower Bridge battle in Far From Home, Peter Parker mastered his 'Peter Tingle' spider-sense to fight blind through Beck's lethal illusions and reclaim E.D.I.T.H. Fatally wounded by a ricocheting drone shot, Beck died—but his team doctored battle footage and leaked it to TheDailyBugle.net, framing Spider-Man for murder and exposing Peter Parker's identity to the world.",
+    "spoilerWarning": "Contains character death and identity reveal spoilers for Spider-Man: Far From Home (2019)",
+    "powers": [
+      "Master illusionist and psychological manipulator",
+      "Expert engineer of holographic drone combat choreography"
+    ],
+    "equipment": [
+      "E.D.I.T.H. tactical Stark combat drones",
+      "B.A.R.F. holographic projector array",
+      "Motion-capture illusion suit with fishbowl helmet"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Spider-Man: Far From Home",
+      "year": 2019,
+      "filmId": "spider-man-far-from-home"
+    },
+    "appearances": [
+      {
+        "filmId": "spider-man-far-from-home",
+        "title": "Spider-Man: Far From Home",
+        "year": 2019,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Spider-Man (Peter Parker)",
+        "relation": "Manipulated Victim & Nemesis",
+        "portrayalSlug": "spider-man"
+      }
+    ],
+    "poster": "/posters/Spider-Man_Far_From_Home.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Mysterio On Screen Profile",
+        "url": "https://www.marvel.com/characters/mysterio-quentin-beck/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-shang-chi",
+    "slug": "shang-chi",
+    "identityId": "xu-shang-chi",
+    "name": "Shang-Chi",
+    "realName": "Xu Shang-Chi",
+    "aliases": [
+      "Shaun"
+    ],
+    "actor": "Simu Liu",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Master martial artist who confronted his father's Ten Rings empire to protect the mystic realm of Ta Lo",
+    "biography": "Trained from childhood as an elite assassin by his immortal father Xu Wenwu, Shang-Chi fled the Ten Rings organization as a teenager to live quietly in San Francisco under the name 'Shaun'. When Wenwu's assassins ambushed him for his mother's pendant, Shang-Chi traveled to the hidden village of Ta Lo alongside his sister Xialing and friend Katy.",
+    "spoilerBio": "In Ta Lo, Shang-Chi mastered his mother's wind-based martial arts. After Wenwu realized he had been deceived by the Dweller-in-Darkness, he sacrificed himself and passed the mystic Ten Rings to Shang-Chi, who rode the Great Protector dragon to destroy the soul-eating creature. Afterward, Wong summoned Shang-Chi to Kamar-Taj to investigate the Rings' mysterious beacon alongside Bruce Banner and Carol Danvers.",
+    "spoilerWarning": "Contains ending and post-credits spoilers for Shang-Chi (2021)",
+    "powers": [
+      "Peak human martial arts mastery across multiple disciplines",
+      "Ta Lo mystical wind and chi manipulation",
+      "Immortality, energy projection, and kinetic force control via the Ten Rings"
+    ],
+    "equipment": [
+      "The Ten Rings (mystic forearm bands)",
+      "Dragon-scale armor and staff"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "year": 2021,
+      "filmId": "shang-chi"
+    },
+    "appearances": [
+      {
+        "filmId": "shang-chi",
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "year": 2021,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Wong",
+        "relation": "Mystic Advisor",
+        "portrayalSlug": "wong"
+      },
+      {
+        "characterName": "Hulk (Bruce Banner)",
+        "relation": "Ten Rings Researcher",
+        "portrayalSlug": "hulk-bruce-banner"
+      },
+      {
+        "characterName": "Captain Marvel (Carol Danvers)",
+        "relation": "Ten Rings Researcher",
+        "portrayalSlug": "captain-marvel"
+      }
+    ],
+    "poster": "/posters/Shang-Chi_and_the_Legend_of_the_Ten_Rings.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Shang-Chi On Screen Profile",
+        "url": "https://www.marvel.com/characters/shang-chi/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-yelena-belova",
+    "slug": "yelena-belova",
+    "identityId": "yelena-belova",
+    "name": "Yelena Belova",
+    "realName": "Yelena Belova",
+    "aliases": [
+      "Black Widow"
+    ],
+    "actor": "Florence Pugh",
+    "universeId": "mcu",
+    "role": "anti-hero",
+    "tagline": "Red Room-trained assassin freed from mind control who fights alongside the Thunderbolts*",
+    "biography": "Raised in a covert 1990s Ohio sleeper cell alongside Natasha Romanoff, Alexei Shostakov, and Melina Vostokoff, Yelena Belova was subjected to General Dreykov's chemical mind control in the Red Room. Freed by an antidote vial, Yelena tracked down Natasha in Budapest and teamed with her surrogate family to bring down the airborne Red Room Fortress.",
+    "spoilerBio": "After Natasha Romanoff's death in Endgame, Yelena worked as a covert operative before being caught in Valentina Allegra de Fontaine's O.X.E. vault trap alongside Bucky Barnes, U.S. Agent, Ghost, and Red Guardian, ultimately forming the Thunderbolts* / New Avengers.",
+    "spoilerWarning": "Contains plot spoilers for Black Widow (2021) and Thunderbolts* (2025)",
+    "powers": [
+      "Master Red Room martial artist, acrobat, and espionage infiltrator",
+      "Expert marksman and close-quarters knife combatant"
+    ],
+    "equipment": [
+      "Widow's Bite electro-shock gauntlets",
+      "Tactical vest with concealed utility pockets",
+      "Dual combat batons and sidearms"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "thunderbolts-new-avengers-mcu",
+        "role": "Core Operative",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "Black Widow",
+      "year": 2021,
+      "filmId": "black-widow"
+    },
+    "appearances": [
+      {
+        "filmId": "black-widow",
+        "title": "Black Widow",
+        "year": 2021,
+        "type": "starring"
+      },
+      {
+        "filmId": "thunderbolts",
+        "title": "Thunderbolts*",
+        "year": 2025,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Black Widow (Natasha Romanoff)",
+        "relation": "Surrogate Sister",
+        "portrayalSlug": "black-widow"
+      },
+      {
+        "characterName": "Winter Soldier (Bucky Barnes)",
+        "relation": "Thunderbolts* Teammate",
+        "portrayalSlug": "winter-soldier"
+      }
+    ],
+    "poster": "/posters/Black_Widow.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Yelena Belova On Screen Profile",
+        "url": "https://www.marvel.com/characters/yelena-belova/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-namor",
+    "slug": "namor",
+    "identityId": "namor",
+    "name": "Namor",
+    "realName": "Ch'ah Toh Almehen / K'uk'ulkan",
+    "aliases": [
+      "K'uk'ulkan",
+      "The Feathered Serpent God"
+    ],
+    "actor": "Tenoch Huerta Mejía",
+    "universeId": "mcu",
+    "role": "anti-hero",
+    "tagline": "Mutant ruler of underwater Talokan blessed with winged ankles and vibranium-forged might",
+    "biography": "Born in 1571 after his pregnant mother ingested a vibranium-mutated underwater herb, Ch'ah Toh Almehen became a mutant endowed with winged ankles, aquatic breathing, and centuries-long youth. Revered as K'uk'ulkan by his hidden underwater kingdom of Talokan, Namor aggressively protected his people's vibranium from surface-world exploitation, sparking a fierce war with Wakanda.",
+    "spoilerBio": "After slaying Queen Ramonda in a retaliatory flood of Birnin Zana, Namor battled the new Black Panther, Shuri, in an arid desert arena that dehydrated his aquatic strength. Choosing mercy over execution, Shuri offered an honorable yield, forging a fragile peace and tactical alliance between Talokan and Wakanda.",
+    "spoilerWarning": "Contains major plot spoilers for Black Panther: Wakanda Forever (2022)",
+    "powers": [
+      "Mutant flight via ankle wings",
+      "Superhuman strength rivaling Hulk-tier adversaries while hydrated",
+      "Amphibious physiology and extreme longevity"
+    ],
+    "equipment": [
+      "Vibranium-tipped ceremonial spear",
+      "Gold and jade Talokanil royal headdress and armor"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Black Panther: Wakanda Forever",
+      "year": 2022,
+      "filmId": "black-panther-wakanda-forever"
+    },
+    "appearances": [
+      {
+        "filmId": "black-panther-wakanda-forever",
+        "title": "Black Panther: Wakanda Forever",
+        "year": 2022,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Shuri (Black Panther)",
+        "relation": "Rival-turned-Ally",
+        "portrayalSlug": "shuri"
+      },
+      {
+        "characterName": "Okoye",
+        "relation": "Adversary",
+        "portrayalSlug": "okoye"
+      }
+    ],
+    "poster": "/posters/Black_Panther_Wakanda_Forever.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Namor On Screen Profile",
+        "url": "https://www.marvel.com/characters/namor/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-okoye",
+    "slug": "okoye",
+    "identityId": "okoye",
+    "name": "Okoye",
+    "realName": "Okoye",
+    "aliases": [
+      "General Okoye",
+      "Midnight Angel"
+    ],
+    "actor": "Danai Gurira",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Unwavering General of Wakanda's Dora Milaje royal guard and Midnight Angel warrior",
+    "biography": "Commander of Wakanda's elite all-female Dora Milaje, Okoye served as King T'Challa's chief military strategist and protector. Fiercely devoted to the Wakandan throne, she fought alongside the Avengers against Thanos's Outriders in Infinity War and during the Battle of Earth in Endgame.",
+    "spoilerBio": "During Wakanda Forever, after Talokanil warriors abducted Shuri and Riri Williams, Queen Ramonda stripped Okoye of her General rank. Redeemed when Shuri gifted her an experimental vibranium Midnight Angel suit, Okoye rescued Everett Ross and helped defend Wakanda alongside the Dora Milaje.",
+    "spoilerWarning": "Contains plot spoilers for Black Panther: Wakanda Forever (2022)",
+    "powers": [
+      "Master vibranium spear fighting and close-quarters combat",
+      "Peak tactical battlefield command"
+    ],
+    "equipment": [
+      "Collapsible vibranium spear",
+      "Vibranium Midnight Angel armor (Wakanda Forever)"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "dora-milaje-mcu",
+        "role": "General / Commander",
+        "type": "member"
+      },
+      {
+        "teamId": "avengers-mcu",
+        "role": "Battle Ally (Infinity War / Endgame)",
+        "type": "ally"
+      }
+    ],
+    "filmDebut": {
+      "title": "Black Panther",
+      "year": 2018,
+      "filmId": "black-panther"
+    },
+    "appearances": [
+      {
+        "filmId": "black-panther",
+        "title": "Black Panther",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "supporting"
+      },
+      {
+        "filmId": "black-panther-wakanda-forever",
+        "title": "Black Panther: Wakanda Forever",
+        "year": 2022,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Black Panther (T'Challa)",
+        "relation": "King & Trusted Ally",
+        "portrayalSlug": "black-panther"
+      },
+      {
+        "characterName": "Shuri",
+        "relation": "Princess & Ally",
+        "portrayalSlug": "shuri"
+      }
+    ],
+    "poster": "/posters/Black_Panther.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Okoye On Screen Profile",
+        "url": "https://www.marvel.com/characters/okoye/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-vision",
+    "slug": "vision",
+    "identityId": "vision",
+    "name": "Vision",
+    "realName": "Vision",
+    "aliases": [
+      "The Vision"
+    ],
+    "actor": "Paul Bettany",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Mind Stone-powered vibranium synthezoid born from J.A.R.V.I.S. and Ultron's cradle",
+    "biography": "Forged by Ultron inside Helen Cho's Regeneration Cradle from cellular vibranium and the Mind Stone, Vision was awakened when Tony Stark and Bruce Banner uploaded the J.A.R.V.I.S. AI and Thor struck the cradle with lightning. Proving worthy to lift Mjolnir, Vision joined the Avengers and formed a profound romantic bond with Wanda Maximoff.",
+    "spoilerBio": "In Avengers: Infinity War, to prevent Thanos from completing the Infinity Gauntlet, Vision urged Wanda to destroy the Mind Stone inside his forehead. Though Wanda shattered the stone and killed him, Thanos used the Time Stone to rewind Vision's death and tear the Mind Stone from his skull, killing him a second time.",
+    "spoilerWarning": "Contains character death spoilers for Avengers: Infinity War (2018)",
+    "powers": [
+      "Intangibility and molecular density manipulation",
+      "Solar energy beam projection from the Mind Stone",
+      "Flight, superhuman strength, and synthetic intellect"
+    ],
+    "equipment": [
+      "Vibranium-synthesized cellular body",
+      "Mind Stone (forehead)"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "avengers-mcu",
+        "role": "Core Member",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "Avengers: Age of Ultron",
+      "year": 2015,
+      "filmId": "avengers-age-of-ultron"
+    },
+    "appearances": [
+      {
+        "filmId": "avengers-age-of-ultron",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "type": "starring"
+      },
+      {
+        "filmId": "captain-america-civil-war",
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Scarlet Witch (Wanda Maximoff)",
+        "relation": "Partner",
+        "portrayalSlug": "scarlet-witch"
+      },
+      {
+        "characterName": "Iron Man (Tony Stark)",
+        "relation": "Co-Creator & Teammate",
+        "portrayalSlug": "iron-man"
+      }
+    ],
+    "poster": "/posters/Avengers_Age_of_Ultron.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Vision On Screen Profile",
+        "url": "https://www.marvel.com/characters/vision/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-wong",
+    "slug": "wong",
+    "identityId": "wong",
+    "name": "Wong",
+    "realName": "Wong",
+    "aliases": [
+      "Sorcerer Supreme"
+    ],
+    "actor": "Benedict Wong",
+    "universeId": "mcu",
+    "role": "supporting",
+    "tagline": "Steadfast Master of the Mystic Arts, guardian of Kamar-Taj, and Earth's Sorcerer Supreme",
+    "biography": "Dedicated librarian and Master of the Mystic Arts at Kamar-Taj, Wong guarded the Ancient One's forbidden texts and fought alongside Stephen Strange against Kaecilius and Dormammu. During the Battle of Earth, Wong opened mystic Sling Ring portals across the cosmos to assemble every resurrected hero against Thanos.",
+    "spoilerBio": "Because Stephen Strange was dusted during the five-year Blip, Wong legitimately inherited the mantle of Earth's Sorcerer Supreme, later leading Kamar-Taj's defense against the Darkhold-corrupted Scarlet Witch in Multiverse of Madness.",
+    "spoilerWarning": "Contains plot spoilers for Spider-Man: No Way Home and Multiverse of Madness",
+    "powers": [
+      "Mastery of Eldritch Magic shields, whips, and portals",
+      "Encyclopedic knowledge of multiversal sorcery and artifacts"
+    ],
+    "equipment": [
+      "Sling Ring",
+      "Wand of Watoomb"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "avengers-mcu",
+        "role": "Mystic Battle Ally",
+        "type": "ally"
+      }
+    ],
+    "filmDebut": {
+      "title": "Doctor Strange",
+      "year": 2016,
+      "filmId": "doctor-strange"
+    },
+    "appearances": [
+      {
+        "filmId": "doctor-strange",
+        "title": "Doctor Strange",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "supporting"
+      },
+      {
+        "filmId": "shang-chi",
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "year": 2021,
+        "type": "supporting"
+      },
+      {
+        "filmId": "spider-man-no-way-home",
+        "title": "Spider-Man: No Way Home",
+        "year": 2021,
+        "type": "supporting"
+      },
+      {
+        "filmId": "doctor-strange-multiverse-of-madness",
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "year": 2022,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Doctor Strange (Stephen Strange)",
+        "relation": "Closest Ally & Predecessor",
+        "portrayalSlug": "doctor-strange"
+      },
+      {
+        "characterName": "Shang-Chi",
+        "relation": "Mystic Mentor",
+        "portrayalSlug": "shang-chi"
+      }
+    ],
+    "poster": "/posters/Doctor_Strange.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Wong On Screen Profile",
+        "url": "https://www.marvel.com/characters/wong/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-rogue-anna-paquin",
+    "slug": "rogue-anna-paquin",
+    "identityId": "rogue-marie",
+    "name": "Rogue",
+    "realName": "Marie D'Ancanto",
+    "aliases": [
+      "Rogue"
+    ],
+    "actor": "Anna Paquin",
+    "universeId": "fox-xmen",
+    "role": "hero",
+    "tagline": "Runaway mutant whose skin contact absorbs others' life force, memories, and mutant powers",
+    "biography": "After accidentally putting her boyfriend into a coma with her first kiss, Marie fled Mississippi and encountered Logan in the Canadian wilderness. Rescued from Magneto's Brotherhood on Liberty Island, Rogue enrolled at Xavier's School for Gifted Youngsters, forming a close romance with Bobby Drake while struggling with the isolation of her lethal touch.",
+    "spoilerBio": "In X-Men: The Last Stand, yearning for normal human intimacy with Bobby, Rogue voluntarily lined up to receive Worthington Labs' mutant 'cure', temporarily neutralizing her mutation so she could hold Bobby's hand without harming him.",
+    "spoilerWarning": "Contains plot spoilers for X-Men: The Last Stand (2006)",
+    "powers": [
+      "Involuntary life-force, memory, and mutant ability absorption through skin contact"
+    ],
+    "equipment": [
+      "Full-coverage leather gloves and X-Men flight uniform"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "x-men-fox",
+        "role": "Student & Junior Member",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "X-Men",
+      "year": 2000,
+      "filmId": "x-men-2000"
+    },
+    "appearances": [
+      {
+        "filmId": "x-men-2000",
+        "title": "X-Men",
+        "year": 2000,
+        "type": "starring"
+      },
+      {
+        "filmId": "x2-2003",
+        "title": "X2: X-Men United",
+        "year": 2003,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-the-last-stand-2006",
+        "title": "X-Men: The Last Stand",
+        "year": 2006,
+        "type": "supporting"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "cameo"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Iceman (Bobby Drake)",
+        "relation": "Partner",
+        "portrayalSlug": "iceman-shawn-ashmore"
+      },
+      {
+        "characterName": "Wolverine (Logan)",
+        "relation": "Protective Mentor",
+        "portrayalSlug": "wolverine-hugh-jackman"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Rogue (Fox Films) Archive",
+        "url": "https://www.marvel.com/characters/rogue/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-nightcrawler-alan-cumming",
+    "slug": "nightcrawler-alan-cumming",
+    "identityId": "kurt-wagner",
+    "name": "Nightcrawler",
+    "realName": "Kurt Wagner",
+    "aliases": [
+      "The Incredible Nightcrawler"
+    ],
+    "actor": "Alan Cumming",
+    "universeId": "fox-xmen",
+    "role": "hero",
+    "tagline": "Devout, acrobatic mutant teleporter who infiltrated the White House under Stryker's control",
+    "biography": "A gentle, deeply religious former Munich circus acrobat marked by indigo skin, yellow eyes, and a prehensile tail, Kurt Wagner was brainwashed by William Stryker into attacking the US President. Rescued and cleared by Storm and Jean Grey in Boston, Nightcrawler joined the X-Men's Alkali Lake rescue mission.",
+    "spoilerBio": "During the Alkali Lake climax of X2, Nightcrawler risked fatal collision by teleporting blindly through solid walls into Stryker's underground Cerebro chamber alongside Storm, freeing Professor Xavier just in time to save both mutants and humans worldwide.",
+    "spoilerWarning": "Contains climax spoilers for X2: X-Men United (2003)",
+    "powers": [
+      "Instantaneous line-of-sight teleportation with sulfurous smoke burst",
+      "Wall-crawling adhesion and prehensile tail dexterity",
+      "Peak acrobatic agility"
+    ],
+    "equipment": [],
+    "teamMemberships": [
+      {
+        "teamId": "x-men-fox",
+        "role": "Field Operative",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "X2: X-Men United",
+      "year": 2003,
+      "filmId": "x2-2003"
+    },
+    "appearances": [
+      {
+        "filmId": "x2-2003",
+        "title": "X2: X-Men United",
+        "year": 2003,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Storm (Ororo Munroe)",
+        "relation": "X-Men Ally",
+        "portrayalSlug": "storm-halle-berry"
+      },
+      {
+        "characterName": "Professor X (Charles Xavier)",
+        "relation": "Mentor",
+        "portrayalSlug": "professor-x-patrick-stewart"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "20th Century Studios X2 Archive",
+        "url": "https://www.marvel.com/characters/nightcrawler/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-iceman-shawn-ashmore",
+    "slug": "iceman-shawn-ashmore",
+    "identityId": "bobby-drake",
+    "name": "Iceman",
+    "realName": "Robert 'Bobby' Drake",
+    "aliases": [
+      "Iceman"
+    ],
+    "actor": "Shawn Ashmore",
+    "universeId": "fox-xmen",
+    "role": "hero",
+    "tagline": "Cryokinetic X-Men student who froze Pyro in combat and mastered full organic ice armor",
+    "biography": "An early student at Xavier's Institute who befriended Rogue upon her arrival, Bobby Drake struggled with his family's rejection after coming out as a mutant in Boston. Rising from student to full X-Men field combatant, Bobby faced off against former classmate Pyro during the Battle of Alcatraz, unlocking his full organic ice form.",
+    "spoilerBio": "In the dystopian 2023 future of Days of Future Past, Iceman died fighting adaptive Sentinels to buy time for Kitty Pryde and Wolverine's time-travel mission. Once Logan altered 1973 history, Bobby was restored alive and well at the peaceful Westchester school.",
+    "spoilerWarning": "Contains timeline death and restoration spoilers for Days of Future Past (2014)",
+    "powers": [
+      "Cryokinesis and sub-zero thermal manipulation",
+      "Full-body organic ice armor transformation",
+      "Creation of ice walls and shields"
+    ],
+    "equipment": [],
+    "teamMemberships": [
+      {
+        "teamId": "x-men-fox",
+        "role": "Field Member",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "X-Men",
+      "year": 2000,
+      "filmId": "x-men-2000"
+    },
+    "appearances": [
+      {
+        "filmId": "x-men-2000",
+        "title": "X-Men",
+        "year": 2000,
+        "type": "supporting"
+      },
+      {
+        "filmId": "x2-2003",
+        "title": "X2: X-Men United",
+        "year": 2003,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-the-last-stand-2006",
+        "title": "X-Men: The Last Stand",
+        "year": 2006,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "supporting"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Rogue (Marie D'Ancanto)",
+        "relation": "Partner",
+        "portrayalSlug": "rogue-anna-paquin"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Iceman On Screen Archive",
+        "url": "https://www.marvel.com/characters/iceman/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-beast-nicholas-hoult",
+    "slug": "beast-nicholas-hoult",
+    "identityId": "hank-mccoy",
+    "name": "Beast (Young)",
+    "realName": "Dr. Henry 'Hank' McCoy",
+    "aliases": [
+      "Beast"
+    ],
+    "actor": "Nicholas Hoult",
+    "universeId": "fox-xmen",
+    "role": "hero",
+    "tagline": "Mutant prodigy biochemist who built Cerebro and the X-Jet while embracing his bestial form",
+    "biography": "A teenage genius recruited by CIA agent Moira MacTaggert and Charles Xavier in 1962, Hank McCoy designed the original Cerebro helmet, X-Men flight suits, and the Blackbird SR-71 jet. Attempting to suppress his prehensile feet with Mystique's DNA, Hank accidentally triggered his blue-furred, super-strong Beast transformation, becoming Xavier's steadfast deputy.",
+    "spoilerBio": "In Dark Phoenix, devastated when Jean Grey accidentally killed Mystique, Hank briefly defected to Magneto's Genosha faction seeking vengeance. Recognizing Jean's innocence during the train ambush, Hank reconciled with Xavier and succeeded him as headmaster of the Jean Grey School for Gifted Youngsters.",
+    "spoilerWarning": "Contains plot spoilers for Dark Phoenix (2019)",
+    "powers": [
+      "Superhuman strength, claw dexterity, and acrobatic leaps",
+      "Genius-level biochemistry, aeronautics, and engineering intellect"
+    ],
+    "equipment": [
+      "Cerebro telemetry designs",
+      "X-Jet (Blackbird) aircraft",
+      "Suppressant serum (1970s)"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "x-men-fox",
+        "role": "Founding Member & Later Headmaster",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "X-Men: First Class",
+      "year": 2011,
+      "filmId": "x-men-first-class-2011"
+    },
+    "appearances": [
+      {
+        "filmId": "x-men-first-class-2011",
+        "title": "X-Men: First Class",
+        "year": 2011,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-apocalypse-2016",
+        "title": "X-Men: Apocalypse",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "dark-phoenix-2019",
+        "title": "Dark Phoenix",
+        "year": 2019,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Professor X (Young Charles Xavier)",
+        "relation": "Closest Confidant",
+        "portrayalSlug": "professor-x-james-mcavoy"
+      },
+      {
+        "characterName": "Mystique (Young Raven)",
+        "relation": "Close Friend & Love Interest",
+        "portrayalSlug": "mystique-jennifer-lawrence"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Beast (First Class) Profile",
+        "url": "https://www.marvel.com/characters/beast/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-quicksilver-evan-peters",
+    "slug": "quicksilver-evan-peters",
+    "identityId": "peter-maximoff",
+    "name": "Quicksilver",
+    "realName": "Peter Maximoff",
+    "aliases": [
+      "Quicksilver"
+    ],
+    "actor": "Evan Peters",
+    "universeId": "fox-xmen",
+    "role": "hero",
+    "tagline": "Supersonic mutant speedster who broke Magneto out of the Pentagon and saved the X-Mansion",
+    "biography": "Living in his mother's basement in Washington D.C. in 1973, teenage speedster Peter Maximoff was recruited by Logan and Charles Xavier to break Erik Lehnsherr out of a plastic cell deep beneath the Pentagon. A decade later, searching for Erik—secretly his biological father—Peter arrived at the X-Mansion just in time to join the X-Men against Apocalypse.",
+    "spoilerBio": "When Havok's energy blast detonated the X-Mansion's Blackbird hangar in X-Men: Apocalypse, Peter raced through the expanding fireball in microseconds, tossing every single student, teacher, and pet safely onto the front lawn before the building collapsed.",
+    "spoilerWarning": "Contains set-piece spoilers for X-Men: Apocalypse (2016)",
+    "powers": [
+      "Extreme supersonic speed, perception, and reaction time",
+      "Momentum-amplified kinetic strikes"
+    ],
+    "equipment": [
+      "High-velocity wind goggles",
+      "Sony Walkman headphones"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "x-men-fox",
+        "role": "Field Operative",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "X-Men: Days of Future Past",
+      "year": 2014,
+      "filmId": "x-men-days-of-future-past-2014"
+    },
+    "appearances": [
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "supporting"
+      },
+      {
+        "filmId": "x-men-apocalypse-2016",
+        "title": "X-Men: Apocalypse",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "dark-phoenix-2019",
+        "title": "Dark Phoenix",
+        "year": 2019,
+        "type": "supporting"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Magneto (Young Erik Lehnsherr)",
+        "relation": "Biological Father (Unbeknownst to Erik)",
+        "portrayalSlug": "magneto-michael-fassbender"
+      },
+      {
+        "characterName": "Beast (Young Hank McCoy)",
+        "relation": "Teammate",
+        "portrayalSlug": "beast-nicholas-hoult"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Quicksilver (Fox) Profile",
+        "url": "https://www.marvel.com/characters/quicksilver/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-mystique-jennifer-lawrence",
+    "slug": "mystique-jennifer-lawrence",
+    "identityId": "raven-darkholme",
+    "name": "Mystique (Young)",
+    "realName": "Raven Darkhölme",
+    "aliases": [
+      "Raven",
+      "Mystique"
+    ],
+    "actor": "Jennifer Lawrence",
+    "universeId": "fox-xmen",
+    "role": "anti-hero",
+    "tagline": "Shapeshifting mutant who evolved from Magneto's Brotherhood into field leader of the X-Men",
+    "biography": "Raised from childhood as Charles Xavier's adoptive sister, Raven Darkhölme struggled to conceal her blue-skinned mutation until Magneto encouraged her to embrace 'mutant and proud'. Following the Cuban Missile Crisis, she joined the Brotherhood before halting Bolivar Trask's assassination in 1973, inspiring a new generation of X-Men as their reluctant field commander.",
+    "spoilerBio": "In Dark Phoenix, while attempting to talk down a cosmic-power-destabilized Jean Grey in Red Hook, Raven was accidentally hurled onto broken wooden rafters by Jean's telekinetic surge, dying in Hank McCoy's arms.",
+    "spoilerWarning": "Contains character death spoilers for Dark Phoenix (2019)",
+    "powers": [
+      "Cellular-level shapeshifting into any human form and voice",
+      "Enhanced agility, martial combat skill, and decelerated aging"
+    ],
+    "equipment": [],
+    "teamMemberships": [
+      {
+        "teamId": "brotherhood-of-mutants-fox",
+        "role": "Founding Member (1962)",
+        "type": "former-member"
+      },
+      {
+        "teamId": "x-men-fox",
+        "role": "Field Leader (1980s–1992)",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "X-Men: First Class",
+      "year": 2011,
+      "filmId": "x-men-first-class-2011"
+    },
+    "appearances": [
+      {
+        "filmId": "x-men-first-class-2011",
+        "title": "X-Men: First Class",
+        "year": 2011,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-apocalypse-2016",
+        "title": "X-Men: Apocalypse",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "dark-phoenix-2019",
+        "title": "Dark Phoenix",
+        "year": 2019,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Professor X (Young Charles Xavier)",
+        "relation": "Adoptive Brother",
+        "portrayalSlug": "professor-x-james-mcavoy"
+      },
+      {
+        "characterName": "Beast (Young Hank McCoy)",
+        "relation": "Close Ally & Partner",
+        "portrayalSlug": "beast-nicholas-hoult"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Mystique (First Class) Profile",
+        "url": "https://www.marvel.com/characters/mystique/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-mystique-rebecca-romijn",
+    "slug": "mystique-rebecca-romijn",
+    "identityId": "raven-darkholme",
+    "name": "Mystique",
+    "realName": "Raven Darkhölme",
+    "aliases": [
+      "Mystique"
+    ],
+    "actor": "Rebecca Romijn",
+    "universeId": "fox-xmen",
+    "role": "villain",
+    "tagline": "Lethal shapeshifting Brotherhood infiltrator and Magneto's most trusted lieutenant",
+    "biography": "Acting as Magneto's chief espionage operative and ruthless second-in-command in the original X-Men trilogy, Mystique used her flawless shapeshifting to impersonate Senator Kelly, infiltrate Stryker's Alkali Lake base, and sabotage Cerebro. Agile and deadly in hand-to-hand combat, she remained fiercely loyal to the Brotherhood of Mutants.",
+    "spoilerBio": "In X-Men: The Last Stand, after Magneto rescued her from a prison transport convoy, Mystique dove in front of a mutant-cure dart fired at Erik. Stripped of her mutation and reverted to ordinary human form, she was coldly abandoned by Magneto ('You're not one of us anymore'), prompting her to reveal the Brotherhood's camp location to the US government.",
+    "spoilerWarning": "Contains plot spoilers for X-Men: The Last Stand (2006)",
+    "powers": [
+      "Instantaneous cellular shapeshifting and vocal mimicry",
+      "Expert martial artist and acrobatic marksman"
+    ],
+    "equipment": [],
+    "teamMemberships": [
+      {
+        "teamId": "brotherhood-of-mutants-fox",
+        "role": "Chief Lieutenant",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "X-Men",
+      "year": 2000,
+      "filmId": "x-men-2000"
+    },
+    "appearances": [
+      {
+        "filmId": "x-men-2000",
+        "title": "X-Men",
+        "year": 2000,
+        "type": "starring"
+      },
+      {
+        "filmId": "x2-2003",
+        "title": "X2: X-Men United",
+        "year": 2003,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-the-last-stand-2006",
+        "title": "X-Men: The Last Stand",
+        "year": 2006,
+        "type": "supporting"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Magneto (Erik Lehnsherr)",
+        "relation": "Leader & Former Ally",
+        "portrayalSlug": "magneto-ian-mckellen"
+      },
+      {
+        "characterName": "Wolverine (Logan)",
+        "relation": "Adversary",
+        "portrayalSlug": "wolverine-hugh-jackman"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Mystique (Original Trilogy) Profile",
+        "url": "https://www.marvel.com/characters/mystique/on-screen",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
   }
 ]

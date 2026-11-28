@@ -226,5 +226,149 @@
     "name": "Scott Summers",
     "heroName": "Cyclops",
     "description": "Field commander of the X-Men whose eyes emit continuous beams of concussive force, controlled exclusively by ruby-quartz lenses and visors."
+  },
+  {
+    "id": "gamora",
+    "name": "Gamora",
+    "heroName": "Gamora",
+    "description": "Zehoberei assassin raised by Thanos as his deadliest weapon before defecting to join the Guardians of the Galaxy."
+  },
+  {
+    "id": "drax",
+    "name": "Drax",
+    "heroName": "Drax the Destroyer",
+    "description": "Kylosian warrior driven by vengeance for his murdered family who finds a new found family with the Guardians of the Galaxy."
+  },
+  {
+    "id": "rocket",
+    "name": "89P13 / Rocket",
+    "heroName": "Rocket Raccoon",
+    "description": "Cybernetically and genetically engineered raccoon tactical genius and weapons specialist of the Guardians of the Galaxy."
+  },
+  {
+    "id": "groot",
+    "name": "Groot",
+    "heroName": "Groot",
+    "description": "Flora colossus from Planet X capable of regenerating, extending woody limbs, and communicating exclusively through 'I am Groot'."
+  },
+  {
+    "id": "nebula",
+    "name": "Nebula",
+    "heroName": "Nebula",
+    "description": "Luphomoid cyborg assassin adopted and tortured by Thanos, who overcomes her rivalry with Gamora to become a Guardian of the Galaxy."
+  },
+  {
+    "id": "mantis",
+    "name": "Mantis",
+    "heroName": "Mantis",
+    "description": "Empath raised by the Celestial Ego who joins the Guardians of the Galaxy, using touch-based emotion manipulation in combat."
+  },
+  {
+    "id": "yondu-udonta",
+    "name": "Yondu Udonta",
+    "heroName": "Yondu",
+    "description": "Centaurian Ravager faction leader who raised Peter Quill and wields a whistle-controlled Yaka Arrow."
+  },
+  {
+    "id": "thanos",
+    "name": "Thanos",
+    "heroName": "Thanos",
+    "description": "Eternal-Deviant warlord of Titan obsessed with halving all life in the universe via the six Infinity Stones."
+  },
+  {
+    "id": "hela",
+    "name": "Hela",
+    "heroName": "Goddess of Death",
+    "description": "Odin's firstborn daughter and former executioner of Asgard, capable of manifesting infinite necroswords and drawing power from Asgard itself."
+  },
+  {
+    "id": "erik-killmonger",
+    "name": "N'Jadaka / Erik Stevens",
+    "heroName": "Killmonger",
+    "description": "Exiled Wakandan royal and former US black-ops soldier who challenges T'Challa for the Wakandan throne."
+  },
+  {
+    "id": "adrian-toomes",
+    "name": "Adrian Toomes",
+    "heroName": "Vulture",
+    "description": "Salvage contractor turned black-market arms dealer wielding an exo-suit forged from salvaged Chitauri technology."
+  },
+  {
+    "id": "quentin-beck",
+    "name": "Quentin Beck",
+    "heroName": "Mysterio",
+    "description": "Disgruntled former Stark Industries illusion engineer who uses B.A.R.F. hologram drones to pose as a multiverse hero."
+  },
+  {
+    "id": "xu-shang-chi",
+    "name": "Xu Shang-Chi",
+    "heroName": "Shang-Chi",
+    "description": "Master martial artist trained by the Ten Rings organization who unlocks Ta Lo's wind-based arts and inherits the mystic Ten Rings."
+  },
+  {
+    "id": "yelena-belova",
+    "name": "Yelena Belova",
+    "heroName": "Black Widow",
+    "description": "Red Room-trained assassin and surrogate sister to Natasha Romanoff who liberates fellow Widows and joins the Thunderbolts*."
+  },
+  {
+    "id": "namor",
+    "name": "K'uk'ulkan / Namor",
+    "heroName": "Namor",
+    "description": "Mutant king of the underwater vibranium nation of Talokan, possessing winged ankles, superhuman strength, and hydrokinetic mastery."
+  },
+  {
+    "id": "okoye",
+    "name": "Okoye",
+    "heroName": "General Okoye",
+    "description": "General of Wakanda's Dora Milaje royal guard and master vibranium spear warrior fiercely loyal to the Wakandan throne."
+  },
+  {
+    "id": "vision",
+    "name": "Vision",
+    "heroName": "Vision",
+    "description": "Synthezoid created from vibranium, Ultron's cradle, J.A.R.V.I.S., and the Mind Stone, serving as an Avenger."
+  },
+  {
+    "id": "wong",
+    "name": "Wong",
+    "heroName": "Sorcerer Supreme",
+    "description": "Master of the Mystic Arts, guardian of Kamar-Taj's library, and later Sorcerer Supreme of Earth."
+  },
+  {
+    "id": "rogue-marie",
+    "name": "Marie D'Ancanto",
+    "heroName": "Rogue",
+    "description": "Mutant whose skin contact involuntarily drains the life force, memories, and abilities of anyone she touches."
+  },
+  {
+    "id": "kurt-wagner",
+    "name": "Kurt Wagner",
+    "heroName": "Nightcrawler",
+    "description": "Devout, acrobatic blue-furred mutant capable of instantaneous line-of-sight teleportation accompanied by sulfurous smoke."
+  },
+  {
+    "id": "bobby-drake",
+    "name": "Robert 'Bobby' Drake",
+    "heroName": "Iceman",
+    "description": "Cryokinetic mutant able to lower ambient temperatures, freeze moisture into ice constructs, and armor his body in organic ice."
+  },
+  {
+    "id": "hank-mccoy",
+    "name": "Dr. Henry 'Hank' McCoy",
+    "heroName": "Beast",
+    "description": "Brilliant mutant biochemist and X-Men strategist whose self-experimentation transformed him into a blue-furred powerhouse."
+  },
+  {
+    "id": "peter-maximoff",
+    "name": "Peter Maximoff",
+    "heroName": "Quicksilver",
+    "description": "Mutant speedster capable of moving, thinking, and perceiving events at extreme supersonic velocities."
+  },
+  {
+    "id": "raven-darkholme",
+    "name": "Raven Darkhölme",
+    "heroName": "Mystique",
+    "description": "Blue-skinned, yellow-eyed shapeshifting mutant infiltrator and martial artist whose loyalties shift between Brotherhood and X-Men."
   }
 ]
