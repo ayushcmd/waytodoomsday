@@ -1,0 +1,214 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import SiteNav from "../../components/SiteNav.astro";
+import CharacterAvatar from "../../components/encyclopedia/CharacterAvatar.jsx";
+import {
+  TEAMS,
+  getTeamMembers,
+  getUniverseById,
+  getFilmById,
+} from "../../data/encyclopedia/index.js";
+
+export function getStaticPaths() {
+  return TEAMS.map((team) => ({
+    params: { slug: team.slug },
+    props: { team },
+  }));
+}
+
+const { team } = Astro.props;
+
+const universe = getUniverseById(team.universeId);
+const members = getTeamMembers(team.id);
+
+// Film appearances resolved
+const films = (team.filmAppearances || [])
+  .map((filmId) => getFilmById(filmId))
+  .filter(Boolean);
+---
+
+<Layout
+  title={`${team.name} — Marvel Cinematic Team Profile | Way to Doomsday`}
+  description={`Verified film history and roster of ${team.name} in the ${universe?.name || 'Marvel Universe'}. Verified members, leadership, and movie appearances.`}
+>
+  <SiteNav />
+
+  <!-- Breadcrumb Bar -->
+  <div class="border-b border-white/5 bg-black/40 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between text-xs">
+      <div class="flex items-center gap-2 text-muted">
+        <a href="/" class="hover:text-white transition-colors">Home</a>
+        <span>/</span>
+        <a href="/teams" class="hover:text-white transition-colors">Teams</a>
+        <span>/</span>
+        <span class="text-white font-medium truncate max-w-[150px] sm:max-w-none">
+          {team.name}
+        </span>
+      </div>
+
+      <a
+        href="/teams"
+        class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-accent hover:text-accent-bright transition-colors"
+      >
+        ← All Teams
+      </a>
+    </div>
+  </div>
+
+  <!-- Hero Header -->
+  <header class="relative pt-14 pb-12 border-b border-white/5 bg-neutral-950 overflow-hidden">
+    <div class="pointer-events-none absolute -top-24 -left-24 w-96 h-96 rounded-full opacity-15 blur-3xl" style={`background-color: ${universe?.accentColor || '#15803d'}`} />
+
+    <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-wrap items-center gap-2.5 mb-4">
+        <span class={`text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full border backdrop-blur-md ${universe?.badgeColor || 'border-white/20 text-white bg-black/60'}`}>
+          {universe?.name || team.universeId}
+        </span>
+
+        <span class="text-[11px] font-mono uppercase px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-neutral-300">
+          Classification: {team.category}
+        </span>
+
+        {team.firstFilmAppearance && (
+          <span class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-neutral-300">
+            Debut: {team.firstFilmAppearance}
+          </span>
+        )}
+      </div>
+
+      <h1 class="font-display text-5xl sm:text-7xl lg:text-8xl tracking-wide leading-none text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.7)]">
+        {team.name}
+      </h1>
+
+      <div class="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-neutral-300 font-medium">
+        {team.leader && (
+          <div>
+            Leadership: <strong class="text-white">{team.leader}</strong>
+          </div>
+        )}
+        {team.headquarters && (
+          <div>
+            Headquarters: <strong class="text-white">{team.headquarters}</strong>
+          </div>
+        )}
+      </div>
+
+      <p class="mt-4 text-neutral-300 max-w-3xl text-sm sm:text-base leading-relaxed">
+        {team.description}
+      </p>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 py-12 space-y-12">
+    <!-- Verified Members Roster -->
+    <section class="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6 sm:p-8">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6">
+        <div>
+          <span class="text-[11px] uppercase tracking-widest text-accent font-bold block mb-1">
+            Verified Roster
+          </span>
+          <h2 class="font-display text-3xl sm:text-4xl text-white tracking-wide">
+            Onscreen Members ({members.length})
+          </h2>
+        </div>
+        <span class="text-xs text-muted">
+          Click any card to open the character profile
+        </span>
+      </div>
+
+      {members.length > 0 ? (
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+          {members.map((member) => {
+            const membership = member.teamMemberships?.find((m) => m.teamId === team.id);
+            return (
+              <a
+                href={`/character/${member.slug}`}
+                class="group flex flex-col rounded-2xl overflow-hidden border border-white/10 bg-black/40 hover:bg-white/[0.05] hover:border-accent transition-all duration-300 shadow-lg shadow-black/40 p-4"
+              >
+                <div class="aspect-[3/4] w-full rounded-xl overflow-hidden mb-3">
+                  <CharacterAvatar
+                    client:load
+                    src={member.poster}
+                    alt={member.name}
+                    accentColor={universe?.accentColor}
+                    aspectRatio="aspect-[3/4]"
+                  />
+                </div>
+
+                <h3 class="font-display text-2xl text-white group-hover:text-accent-bright transition-colors leading-tight">
+                  {member.name}
+                </h3>
+                <p class="text-xs text-muted font-medium">
+                  {member.actor}
+                </p>
+
+                {membership?.role && (
+                  <div class="mt-2.5 pt-2 border-t border-white/5 text-[11px] text-emerald-400 font-medium">
+                    {membership.role}
+                  </div>
+                )}
+              </a>
+            );
+          })}
+        </div>
+      ) : (
+        <div class="p-8 text-center text-muted text-sm">
+          Roster members for this group are being reviewed against film credits.
+        </div>
+      )}
+    </section>
+
+    <!-- Film Appearances History -->
+    <section class="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6 sm:p-8">
+      <span class="text-[11px] uppercase tracking-widest text-accent font-bold block mb-1">
+        Cinematic History
+      </span>
+      <h2 class="font-display text-3xl sm:text-4xl text-white tracking-wide mb-6">
+        Film Appearances ({films.length})
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {films.map((f) => (
+          <div class="p-4 rounded-2xl border border-white/10 bg-black/40 flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] font-mono text-muted uppercase">
+                {f.releaseYear}
+              </span>
+              <h4 class="font-display text-xl text-white mt-1 leading-snug">
+                {f.title}
+              </h4>
+            </div>
+            {f.isMcu && (
+              <div class="mt-3 pt-2 border-t border-white/5 text-[10px] text-emerald-400">
+                MCU Watch Order ✓
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Source Documentation -->
+    <footer class="p-6 rounded-2xl border border-white/5 bg-white/[0.01] text-xs text-muted flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <div>
+        <p class="font-semibold text-neutral-300">Verified Evidence & Review</p>
+        <p class="mt-0.5">
+          Group status, roster membership, and appearances verified from official Marvel Studios and studio archives.
+        </p>
+      </div>
+
+      {team.sourceUrl && (
+        <a
+          href={team.sourceUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-white/15 bg-white/5 text-neutral-200 hover:text-white hover:border-accent transition-colors shrink-0"
+        >
+          <span>Official Source Documentation</span>
+          <span class="text-[10px] text-muted">({team.verifiedDate})</span>
+          <span>↗</span>
+        </a>
+      )}
+    </footer>
+  </main>
+</Layout>

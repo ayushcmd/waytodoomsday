@@ -1,54 +1,441 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import SiteNav from "../../components/SiteNav.astro";
 import CharacterTimeline from "../../components/CharacterTimeline.jsx";
+import CharacterAvatar from "../../components/encyclopedia/CharacterAvatar.jsx";
+import {
+  PORTRAYALS,
+  getAlternatePortrayals,
+  getUniverseById,
+  getTeamById,
+  getFilmById,
+} from "../../data/encyclopedia/index.js";
 import { CHARACTERS } from "../../data/characters.js";
+import mcuMovies from "../../data/movies.json" with { type: "json" };
 
 export function getStaticPaths() {
-  return CHARACTERS.map((character) => ({
-    params: { slug: character.slug },
-    props: { character },
-  }));
+  const legacyMap = new Map(CHARACTERS.map((c) => [c.slug, c]));
+  const mcuIds = new Set(mcuMovies.map((m) => m.id));
+
+  return PORTRAYALS.map((portrayal) => {
+    const legacy = legacyMap.get(portrayal.slug);
+
+    // Compute MCU movieIds for watch progress integration
+    let movieIds = [];
+    if (legacy && Array.isArray(legacy.movieIds)) {
+      movieIds = legacy.movieIds;
+    } else if (Array.isArray(portrayal.appearances)) {
+      movieIds = portrayal.appearances
+        .map((a) => a.filmId)
+        .filter((id) => mcuIds.has(id));
+    }
+
+    return {
+      params: { slug: portrayal.slug },
+      props: {
+        character: portrayal,
+        movieIds,
+      },
+    };
+  });
 }
 
-const { character } = Astro.props;
+const { character, movieIds } = Astro.props;
+
+const universe = getUniverseById(character.universeId);
+const alternates = getAlternatePortrayals(character.slug);
+
+// Resolve team memberships
+const teams = (character.teamMemberships || [])
+  .map((m) => {
+    const team = getTeamById(m.teamId);
+    return team ? { ...team, memberRole: m.role } : null;
+  })
+  .filter(Boolean);
+
+const roleColors = {
+  hero: "bg-emerald-500/10 text-emerald-400 border-emerald-500/30",
+  villain: "bg-red-500/10 text-red-400 border-red-500/30",
+  "anti-hero": "bg-purple-500/10 text-purple-400 border-purple-500/30",
+  supporting: "bg-blue-500/10 text-blue-400 border-blue-500/30",
+};
+
+const hasMcuArc = movieIds && movieIds.length > 0;
 ---
 
-<Layout>
-  <!-- Character hero banner -->
-  <section class="relative min-h-[50vh] flex items-end overflow-hidden border-b border-white/5">
-    <div class="absolute inset-0">
-      <img
-        src={character.poster}
-        alt={character.name}
-        class="absolute inset-0 w-full h-full object-cover"
-      />
-      <div class="absolute inset-0 bg-gradient-to-t from-bg via-bg/70 to-black/40" />
-      <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-transparent" />
-    </div>
+<Layout
+  title={`${character.name} (${character.actor}) — Marvel Cinematic Profile | Way to Doomsday`}
+  description={`${character.name} in the ${universe?.name || 'Marvel universe'}, portrayed by ${character.actor}. Verified film appearances, movie-established powers, team memberships, and multiversal variants.`}
+>
+  <SiteNav />
 
-    <div class="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 pb-12 pt-24">
+  <!-- Breadcrumb Bar -->
+  <div class="border-b border-white/5 bg-black/40 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between text-xs">
+      <div class="flex items-center gap-2 text-muted">
+        <a href="/" class="hover:text-white transition-colors">Home</a>
+        <span>/</span>
+        <a href="/characters" class="hover:text-white transition-colors">Characters</a>
+        <span>/</span>
+        <span class="text-white font-medium truncate max-w-[150px] sm:max-w-none">
+          {character.name}
+        </span>
+      </div>
+
       <a
-        href="/"
-        class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-muted hover:text-white transition-colors mb-6"
+        href="/characters"
+        class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-accent hover:text-accent-bright transition-colors"
       >
-        ← Back to timeline
+        ← Directory
       </a>
-      <span class="text-[11px] uppercase tracking-widest text-accent font-bold">
-        Character Spotlight
-      </span>
-      <h1 class="font-display text-5xl sm:text-7xl tracking-wide leading-none mt-2">
-        {character.name}
-      </h1>
-      <p class="text-muted mt-3 text-sm sm:text-base">
-        Played by {character.actor} · {character.tagline}
-      </p>
     </div>
-  </section>
+  </div>
 
-  <!-- Character's movie playlist -->
-  <section class="relative pt-12">
-    <CharacterTimeline client:load movieIds={character.movieIds} />
-  </section>
+  <!-- Hero Banner -->
+  <header class="relative min-h-[46vh] sm:min-h-[52vh] flex items-end overflow-hidden border-b border-white/5 bg-neutral-950">
+    <div class="absolute inset-0 z-0">
+      {character.poster ? (
+        <img
+          src={character.poster}
+          alt={character.name}
+          class="w-full h-full object-cover object-top opacity-30 blur-sm scale-105"
+        />
+      ) : (
+        <div
+          class="w-full h-full opacity-20"
+          style={`background: radial-gradient(circle at 60% 40%, ${universe?.accentColor || '#15803d'}, transparent 70%)`}
+        />
+      )}
+      <div class="absolute inset-0 bg-gradient-to-t from-bg via-bg/85 to-transparent" />
+      <div class="absolute inset-0 bg-gradient-to-r from-bg via-bg/60 to-transparent" />
+    </div>
 
- 
+    <div class="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 pt-16 pb-10">
+      <div class="grid grid-cols-1 md:grid-cols-[220px_1fr] lg:grid-cols-[260px_1fr] gap-6 md:gap-8 items-end">
+        <!-- Main Portrait Area -->
+        <div class="w-44 sm:w-52 md:w-full mx-auto md:mx-0 rounded-2xl overflow-hidden border border-white/20 shadow-2xl shadow-black/80 aspect-[3/4]">
+          <CharacterAvatar
+            client:load
+            src={character.poster}
+            alt={character.name}
+            accentColor={universe?.accentColor}
+            aspectRatio="aspect-[3/4]"
+          />
+        </div>
+
+        <!-- Identity & Metadata -->
+        <div class="flex flex-col items-center md:items-start text-center md:text-left">
+          <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 mb-3">
+            <span class={`text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full border backdrop-blur-md ${universe?.badgeColor || 'border-white/20 text-white bg-black/60'}`}>
+              {universe?.name || character.universeId}
+            </span>
+
+            <span class={`text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full border backdrop-blur-md ${roleColors[character.role] || 'border-white/20 text-white bg-black/60'}`}>
+              {character.role}
+            </span>
+
+            {character.filmDebut && (
+              <span class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-neutral-300">
+                Debut: {character.filmDebut.title} ({character.filmDebut.year})
+              </span>
+            )}
+          </div>
+
+          <h1 class="font-display text-5xl sm:text-7xl lg:text-8xl tracking-wide leading-none text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.7)]">
+            {character.name}
+          </h1>
+
+          <p class="text-base sm:text-xl text-neutral-300 font-medium mt-2">
+            Portrayed by <strong class="text-white">{character.actor}</strong>
+            {character.realName && character.realName !== character.name && (
+              <span class="text-muted text-sm sm:text-base font-normal">
+                {" "}· Real Name: <span class="text-neutral-200">{character.realName}</span>
+              </span>
+            )}
+          </p>
+
+          {character.aliases && character.aliases.length > 0 && (
+            <p class="text-xs text-muted mt-1.5">
+              Aliases: <span class="text-neutral-300">{character.aliases.join(", ")}</span>
+            </p>
+          )}
+
+          <p class="text-sm sm:text-base text-accent-bright mt-3 font-medium max-w-2xl">
+            {character.tagline}
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Profile Content Sections -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 py-12 space-y-12">
+    <!-- Biography & Overview Grid -->
+    <section class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Left 2 cols: Biography & Powers -->
+      <div class="lg:col-span-2 space-y-8">
+        <!-- Biography Card -->
+        <div class="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6 sm:p-8">
+          <span class="text-[11px] uppercase tracking-widest text-accent font-bold block mb-2">
+            Cinematic Chronicle
+          </span>
+          <h2 class="font-display text-3xl sm:text-4xl text-white tracking-wide mb-4">
+            Biography
+          </h2>
+          <p class="text-neutral-300 leading-relaxed text-sm sm:text-base whitespace-pre-line">
+            {character.biography}
+          </p>
+
+          {character.spoilerWarning && (
+            <div class="mt-6 p-4 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs flex items-start gap-3">
+              <span class="text-base">⚠️</span>
+              <div>
+                <strong class="font-bold">Spoiler Notice:</strong> {character.spoilerWarning}
+              </div>
+            </div>
+          )}
+        </div>
+
+        <!-- Powers, Abilities, and Equipment -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <!-- Powers & Skills -->
+          <div class="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6">
+            <span class="text-[11px] uppercase tracking-widest text-accent font-bold block mb-2">
+              Capabilities
+            </span>
+            <h3 class="font-display text-2xl text-white tracking-wide mb-4">
+              Powers & Skills
+            </h3>
+            <ul class="space-y-2.5 text-xs sm:text-sm text-neutral-300">
+              {character.powers?.map((power) => (
+                <li class="flex items-start gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0" />
+                  <span>{power}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <!-- Equipment & Suits -->
+          <div class="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6">
+            <span class="text-[11px] uppercase tracking-widest text-accent font-bold block mb-2">
+              Arsenal
+            </span>
+            <h3 class="font-display text-2xl text-white tracking-wide mb-4">
+              Equipment & Gear
+            </h3>
+            <ul class="space-y-2.5 text-xs sm:text-sm text-neutral-300">
+              {character.equipment?.length ? (
+                character.equipment.map((item) => (
+                  <li class="flex items-start gap-2.5">
+                    <span class="w-1.5 h-1.5 rounded-full bg-blue-400 mt-2 shrink-0" />
+                    <span>{item}</span>
+                  </li>
+                ))
+              ) : (
+                <li class="text-muted italic">No signature external equipment recorded.</li>
+              )}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right 1 col: Team Memberships, Relationships & Multiverse Variants -->
+      <div class="space-y-6">
+        <!-- Multiverse Variants (Other cinematic versions) -->
+        {alternates.length > 0 && (
+          <div class="rounded-3xl border border-accent/30 bg-accent/[0.04] backdrop-blur-xl p-6">
+            <span class="text-[11px] uppercase tracking-widest text-accent-bright font-bold block mb-1">
+              Multiverse Variants
+            </span>
+            <h3 class="font-display text-2xl text-white tracking-wide mb-2">
+              Alternate Incarnations
+            </h3>
+            <p class="text-xs text-muted mb-4">
+              Explore other cinematic adaptations of this identity:
+            </p>
+
+            <div class="space-y-3">
+              {alternates.map((alt) => {
+                const altUni = getUniverseById(alt.universeId);
+                return (
+                  <a
+                    href={`/character/${alt.slug}`}
+                    class="block p-3 rounded-2xl border border-white/10 bg-white/[0.03] hover:bg-white/[0.08] hover:border-accent transition-all group"
+                  >
+                    <div class="flex items-center justify-between">
+                      <span class="font-display text-lg text-white group-hover:text-accent-bright transition-colors">
+                        {alt.name}
+                      </span>
+                      <span class={`text-[10px] font-bold uppercase px-2 py-0.5 rounded-full border ${altUni?.badgeColor || 'border-white/10 text-white'}`}>
+                        {altUni?.shortName || alt.universeId}
+                      </span>
+                    </div>
+                    <p class="text-xs text-muted mt-1">
+                      Portrayed by <strong class="text-neutral-300">{alt.actor}</strong>
+                    </p>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        <!-- Team Affiliations -->
+        <div class="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6">
+          <span class="text-[11px] uppercase tracking-widest text-accent font-bold block mb-2">
+            Alliances
+          </span>
+          <h3 class="font-display text-2xl text-white tracking-wide mb-4">
+            Team Memberships
+          </h3>
+
+          {teams.length > 0 ? (
+            <div class="space-y-3">
+              {teams.map((t) => (
+                <a
+                  href={`/teams/${t.slug}`}
+                  class="block p-3 rounded-2xl border border-white/10 bg-white/[0.03] hover:bg-white/[0.08] hover:border-accent transition-all group"
+                >
+                  <div class="flex items-center justify-between">
+                    <span class="font-display text-lg text-white group-hover:text-accent-bright transition-colors">
+                      {t.name}
+                    </span>
+                    <span class="text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-white/5 border border-white/10 text-muted">
+                      {t.category}
+                    </span>
+                  </div>
+                  {t.memberRole && (
+                    <p class="text-xs text-emerald-400 font-medium mt-1">
+                      Role: {t.memberRole}
+                    </p>
+                  )}
+                </a>
+              ))}
+            </div>
+          ) : (
+            <p class="text-xs text-muted italic">
+              Operates independently without formal film-established team membership.
+            </p>
+          )}
+        </div>
+
+        <!-- Key Character Relationships -->
+        {character.relationships && character.relationships.length > 0 && (
+          <div class="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6">
+            <span class="text-[11px] uppercase tracking-widest text-accent font-bold block mb-2">
+              Cinematic Ties
+            </span>
+            <h3 class="font-display text-2xl text-white tracking-wide mb-4">
+              Relationships
+            </h3>
+            <ul class="space-y-3 text-xs">
+              {character.relationships.map((rel) => (
+                <li class="pb-2.5 border-b border-white/5 last:border-0 last:pb-0">
+                  <div class="flex items-center justify-between">
+                    {rel.portrayalSlug ? (
+                      <a
+                        href={`/character/${rel.portrayalSlug}`}
+                        class="font-semibold text-white hover:text-accent-bright transition-colors"
+                      >
+                        {rel.characterName} ↗
+                      </a>
+                    ) : (
+                      <span class="font-semibold text-white">{rel.characterName}</span>
+                    )}
+                  </div>
+                  <p class="text-muted mt-0.5">{rel.relation}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </section>
+
+    <!-- Complete Verified Filmography Section -->
+    <section class="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6 sm:p-8">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6">
+        <div>
+          <span class="text-[11px] uppercase tracking-widest text-accent font-bold block mb-1">
+            Filmography
+          </span>
+          <h2 class="font-display text-3xl sm:text-4xl text-white tracking-wide">
+            Verified Movie Appearances ({character.appearances?.length || 0})
+          </h2>
+        </div>
+        <span class="text-xs text-muted">
+          Chronological film release record
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {character.appearances?.map((app) => {
+          const filmMeta = getFilmById(app.filmId);
+          return (
+            <div class="p-4 rounded-2xl border border-white/10 bg-black/40 flex flex-col justify-between">
+              <div>
+                <span class="text-[10px] font-mono text-muted uppercase">
+                  {app.year} · {app.type}
+                </span>
+                <h4 class="font-display text-xl text-white mt-1 leading-snug">
+                  {app.title}
+                </h4>
+              </div>
+              {filmMeta?.isMcu && (
+                <div class="mt-3 pt-2 border-t border-white/5 flex items-center justify-between text-[10px] text-emerald-400">
+                  <span>MCU Watch-Order</span>
+                  <span>✓</span>
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- Interactive MCU Watch-Progress Timeline (Preserved from legacy design) -->
+    {hasMcuArc && (
+      <section class="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6 sm:p-8">
+        <div class="text-center max-w-xl mx-auto mb-8">
+          <span class="text-[11px] uppercase tracking-widest text-accent font-bold block mb-1">
+            Watch Tracker Integration
+          </span>
+          <h2 class="font-display text-3xl sm:text-4xl text-white tracking-wide">
+            {character.name} Character Arc Watchlist
+          </h2>
+          <p class="text-xs sm:text-sm text-muted mt-2">
+            Track your progress across every MCU movie featuring this portrayal. Syncs automatically with your local watch history.
+          </p>
+        </div>
+
+        <CharacterTimeline client:load movieIds={movieIds} />
+      </section>
+    )}
+
+    <!-- Source Documentation & Fact-Check Metadata -->
+    <footer class="p-6 rounded-2xl border border-white/5 bg-white/[0.01] text-xs text-muted flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <div>
+        <p class="font-semibold text-neutral-300">Verified Evidence & Review Citation</p>
+        <p class="mt-0.5">
+          Researched strictly against primary film credits, official Marvel Studios portals, and studio production records.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-3">
+        {character.sources?.map((s) => (
+          <a
+            href={s.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg border border-white/10 bg-white/5 text-neutral-300 hover:text-white hover:border-accent transition-colors"
+          >
+            <span>{s.title}</span>
+            <span class="text-[10px] text-muted">({s.verifiedDate})</span>
+            <span>↗</span>
+          </a>
+        ))}
+      </div>
+    </footer>
+  </main>
 </Layout>
