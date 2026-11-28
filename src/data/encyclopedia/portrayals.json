@@ -6832,7 +6832,7 @@
       },
       {
         "characterName": "Silver Surfer (Shalla-Bal)",
-        "relation": "Adversary-turned-Ally",
+        "relation": "Cosmic Adversary",
         "portrayalSlug": "silver-surfer-shalla-bal"
       },
       {
@@ -6923,7 +6923,7 @@
     "slug": "galactus-ralph-ineson",
     "identityId": "galactus",
     "name": "Galactus",
-    "realName": "Galan",
+    "realName": "Galactus",
     "aliases": [
       "Devourer of Worlds"
     ],
@@ -6989,9 +6989,9 @@
     "actor": "Julia Garner",
     "universeId": "mcu-828",
     "role": "anti-hero",
-    "tagline": "Silver-skinned herald of Galactus who spared her homeworld of Zenn-La by serving as his scout",
-    "biography": "A scientist from Zenn-La who volunteered to become Galactus's herald in exchange for sparing her own planet, Shalla-Bal was transformed into the Silver Surfer and granted a fraction of the Power Cosmic. Arriving on Earth-828 atop her silver board, she announced the planet's impending consumption.",
-    "spoilerBio": "After Johnny Storm confronted her with recordings of the millions of lives lost on worlds she had marked, Shalla-Bal turned against her master during the New York climax, propelling herself into Galactus to shove him into the dimensional portal and sacrificing herself in the process.",
+    "tagline": "Silver-skinned herald of Galactus wielding the Power Cosmic to mark worlds for consumption",
+    "biography": "Transformed into the Silver Surfer and granted a fraction of the Power Cosmic, Shalla-Bal serves as Galactus's cosmic herald, scouting inhabited worlds ahead of the Devourer's arrival. Descending onto Earth-828 atop her silver board, she delivered the chilling announcement of the planet's impending consumption.",
+    "spoilerBio": "Originally a scientist from Zenn-La who volunteered to become Galactus's herald in exchange for sparing her own homeworld, Shalla-Bal carried the guilt of countless doomed civilizations. After Johnny Storm confronted her with recordings of the millions of lives lost on worlds she had marked, Shalla-Bal turned against her master during the New York climax, propelling herself into Galactus to shove him into the dimensional portal and sacrificing herself in the process.",
     "spoilerWarning": "Contains sacrifice and ending spoilers for The Fantastic Four: First Steps (2025)",
     "powers": [
       "Power Cosmic energy projection and matter phasing",
@@ -7017,12 +7017,12 @@
     "relationships": [
       {
         "characterName": "Galactus",
-        "relation": "Master-turned-Adversary",
+        "relation": "Cosmic Master",
         "portrayalSlug": "galactus-ralph-ineson"
       },
       {
         "characterName": "Human Torch (Johnny Storm - Earth-828)",
-        "relation": "Rival-turned-Conscience",
+        "relation": "Earth-828 Adversary",
         "portrayalSlug": "johnny-storm-joseph-quinn"
       }
     ],
@@ -7096,8 +7096,8 @@
     "status": "published",
     "sources": [
       {
-        "title": "20th Century Studios Daredevil (2003) Archive",
-        "url": "https://www.marvel.com/movies/daredevil",
+        "title": "Wikipedia: Daredevil (film)",
+        "url": "https://en.wikipedia.org/wiki/Daredevil_(film)",
         "verifiedDate": "2026-11-28"
       }
     ]
@@ -7114,9 +7114,9 @@
     "actor": "Jennifer Garner",
     "universeId": "fox-daredevil",
     "role": "anti-hero",
-    "tagline": "Twin-sai martial artist resurrected by Stick who later joined the Void resistance",
-    "biography": "Daughter of Greek billionaire Nikolas Natchios, Elektra trained extensively in martial arts before crossing paths with Matt Murdock in New York. After Bullseye murdered her father and fatally impaled her in Daredevil (2003), Elektra was resurrected by the blind master Stick and became an elite contract assassin.",
-    "spoilerBio": "In Elektra (2005), she defied the Hand by protecting targets Mark and Abby Miller, slaying Kirigi in her childhood home. Years later, pruned into the Void in Deadpool & Wolverine (2024), Elektra fought alongside Blade, Gambit, and X-23 to help Deadpool and Wolverine overthrow Cassandra Nova.",
+    "tagline": "Disciplined twin-sai martial artist and heiress trained in secret combat arts",
+    "biography": "Daughter of Greek billionaire Nikolas Natchios, Elektra trained extensively in martial arts and twin-sai combat from a young age. Sharp, guarded, and formidably skilled, she crossed paths with Matt Murdock in New York during Daredevil (2003), drawing her into the city's dangerous criminal underworld.",
+    "spoilerBio": "After Bullseye murdered her father and fatally impaled her in Daredevil (2003), Elektra was resurrected by the blind master Stick and became an elite contract assassin. In Elektra (2005), she defied the Hand by protecting targets Mark and Abby Miller, slaying Kirigi in her childhood home. Years later, pruned into the Void in Deadpool & Wolverine (2024), Elektra fought alongside Blade, Gambit, and X-23 to help Deadpool and Wolverine overthrow Cassandra Nova.",
     "spoilerWarning": "Contains resurrection and crossover spoilers for Daredevil (2003), Elektra (2005), and Deadpool & Wolverine (2024)",
     "powers": [
       "Master ninjutsu, acrobatics, and twin-sai combat",
@@ -7159,12 +7159,12 @@
       },
       {
         "characterName": "Stick",
-        "relation": "Resurrector & Sensei",
+        "relation": "Sensei",
         "portrayalSlug": "stick-terence-stamp"
       },
       {
         "characterName": "Blade (Eric Brooks)",
-        "relation": "Void Resistance Ally",
+        "relation": "Multiverse Ally",
         "portrayalSlug": "blade-wesley-snipes"
       }
     ],
@@ -7172,8 +7172,8 @@
     "status": "published",
     "sources": [
       {
-        "title": "Marvel.com Elektra (2005) Archive",
-        "url": "https://www.marvel.com/movies/elektra",
+        "title": "Wikipedia: Elektra (2005 film)",
+        "url": "https://en.wikipedia.org/wiki/Elektra_(2005_film)",
         "verifiedDate": "2026-11-28"
       }
     ]
@@ -7190,9 +7190,9 @@
     "actor": "Michael Clarke Duncan",
     "universeId": "fox-daredevil",
     "role": "villain",
-    "tagline": "Imposing New York crime syndicate boss who ordered Jack Murdock's and Nikolas Natchios's murders",
-    "biography": "A physically colossal criminal mastermind posing as a legitimate New York philanthropist, Wilson Fisk ruled the city's underworld as the Kingpin. Years after personally beating boxer Jack Murdock to death as a mob enforcer, Fisk hired Bullseye to assassinate Nikolas Natchios, drawing the wrath of Daredevil.",
-    "spoilerBio": "When Daredevil infiltrated Fisk's penthouse and used breaking sprinklers to visualize his towering frame, Fisk was overpowered, unmasked Matt Murdock, and was left in police custody vowing retribution.",
+    "tagline": "Imposing New York crime syndicate boss hiding an underworld empire behind public philanthropy",
+    "biography": "A physically colossal criminal mastermind posing as a legitimate New York philanthropist, Wilson Fisk ruled the city's underworld as the Kingpin. Operating from a heavily fortified penthouse, Fisk eliminated rivals and business obstacles through ruthless enforcers like Bullseye, inevitably drawing the wrath of Daredevil.",
+    "spoilerBio": "Years earlier, Fisk had personally beaten boxer Jack Murdock to death as a mob enforcer—a secret Matt Murdock uncovered during their final confrontation. When Daredevil infiltrated Fisk's penthouse and used breaking sprinklers to visualize his towering frame, Fisk was overpowered, unmasked Matt Murdock, and was left in police custody vowing retribution.",
     "spoilerWarning": "Contains ending spoilers for Daredevil (2003)",
     "powers": [
       "Colossal physical strength and brute-force brawling"
@@ -7230,8 +7230,8 @@
     "status": "published",
     "sources": [
       {
-        "title": "20th Century Studios Daredevil (2003) Archive",
-        "url": "https://www.marvel.com/movies/daredevil",
+        "title": "Wikipedia: Daredevil (film)",
+        "url": "https://en.wikipedia.org/wiki/Daredevil_(film)",
         "verifiedDate": "2026-11-28"
       }
     ]
@@ -7249,8 +7249,8 @@
     "universeId": "fox-daredevil",
     "role": "villain",
     "tagline": "Sadistic Irish contract killer with flawless projectile accuracy hired by Kingpin",
-    "biography": "A tattooed, trench-coat-wearing assassin obsessed with never missing a target, Bullseye could kill effortlessly with paperclips, peanuts, playing cards, or shards of glass. Hired by Wilson Fisk to eliminate Nikolas Natchios, Bullseye framed Daredevil for the murder and pursued Elektra into St. Patrick's Cathedral.",
-    "spoilerBio": "After fatally stabbing Elektra with her own sai inside the cathedral, Bullseye dueled Daredevil atop the pipe organ, where Daredevil manipulated a sniper's bullet to pierce both of Bullseye's hands before throwing him through a stained-glass window.",
+    "biography": "A tattooed, trench-coat-wearing Irish assassin obsessed with never missing a target, Bullseye can turn ordinary objects—paperclips, peanuts, playing cards, or shards of glass—into lethal projectiles. Contracted by New York's criminal underworld, he became one of Daredevil's deadliest adversaries.",
+    "spoilerBio": "Hired by Wilson Fisk to eliminate Nikolas Natchios, Bullseye framed Daredevil for the murder and fatally stabbed Elektra with her own sai inside St. Patrick's Cathedral. In the ensuing duel atop the cathedral pipe organ, Daredevil manipulated a sniper's bullet to pierce both of Bullseye's hands before throwing him through a stained-glass window.",
     "spoilerWarning": "Contains climax spoilers for Daredevil (2003)",
     "powers": [
       "Infallible projectile aim with any improvised object"
@@ -7293,8 +7293,8 @@
     "status": "published",
     "sources": [
       {
-        "title": "20th Century Studios Daredevil (2003) Archive",
-        "url": "https://www.marvel.com/movies/daredevil",
+        "title": "Wikipedia: Daredevil (film)",
+        "url": "https://en.wikipedia.org/wiki/Daredevil_(film)",
         "verifiedDate": "2026-11-28"
       }
     ]
@@ -7311,12 +7311,12 @@
     "actor": "Terence Stamp",
     "universeId": "fox-daredevil",
     "role": "supporting",
-    "tagline": "Blind Chaste grandmaster who resurrected Elektra and trained her in Kimagure",
-    "biography": "Leader of the virtuous Chaste order opposing the Hand, the blind martial arts master Stick resurrected Elektra Natchios after her death in New York and trained her in sensory mastery and the ancient Kimagure technique. Though he dismissed Elektra when her inner rage proved too volatile, he secretly arranged her final redemption test.",
-    "spoilerBio": "Stick revealed that he had hired Elektra to assassinate Mark and Abby Miller specifically so she would choose to protect Abby—the next 'Treasure' sought by the Hand—proving her heart remained pure.",
+    "tagline": "Blind martial arts grandmaster of the Chaste order who trained Elektra in sensory discipline",
+    "biography": "Leader of the virtuous Chaste order opposing the Hand, the blind martial arts master Stick is a stern, enigmatic sensei who taught Elektra Natchios sensory mastery and strict physical discipline. Recognizing the volatility beneath her lethal skill, Stick maintained a guarded distance while watching her path from afar.",
+    "spoilerBio": "After Elektra's death in New York, Stick used the ancient Kimagure technique to resurrect her, only to dismiss her when her inner rage proved too volatile. Stick later revealed that he had secretly arranged Elektra's contract on Mark and Abby Miller specifically so she would choose to protect Abby—the next 'Treasure' sought by the Hand—proving her heart remained pure.",
     "spoilerWarning": "Contains ending plot twist spoilers for Elektra (2005)",
     "powers": [
-      "Grandmaster bo-staff combat and Kimagure resurrection mastery",
+      "Grandmaster bo-staff combat and disciplined martial arts",
       "Heightened blind sensory awareness"
     ],
     "equipment": [
@@ -7339,7 +7339,7 @@
     "relationships": [
       {
         "characterName": "Elektra Natchios",
-        "relation": "Student & Resurrected Protégé",
+        "relation": "Former Student",
         "portrayalSlug": "elektra-jennifer-garner"
       }
     ],
@@ -7347,8 +7347,8 @@
     "status": "published",
     "sources": [
       {
-        "title": "Marvel.com Elektra (2005) Archive",
-        "url": "https://www.marvel.com/movies/elektra",
+        "title": "Wikipedia: Elektra (2005 film)",
+        "url": "https://en.wikipedia.org/wiki/Elektra_(2005_film)",
         "verifiedDate": "2026-11-28"
       }
     ]
@@ -7368,7 +7368,7 @@
     "role": "anti-hero",
     "tagline": "Daredevil stunt motorcyclist bound by Mephistopheles's pact to ride as the flaming Spirit of Vengeance",
     "biography": "To save his dying father Barton Blaze from cancer, young stunt motorcyclist Johnny Blaze signed a pact in blood with Mephistopheles—only for his father to die the next day in a stunt crash. Years later, Mephistopheles activated the contract, transforming Johnny by night into the hellfire-wreathed Ghost Rider to hunt rogue demons.",
-    "spoilerBio": "After defeating Blackheart in Ghost Rider (2007), Johnny refused Mephistopheles's offer to return his soul, choosing to keep the curse to fight evil. In the soft-rebooted sequel Spirit of Vengeance (2012), Blaze exiled himself to Eastern Europe before rescuing young Danny Ketch from Roarke, purging the dark side of Zarathos to wield angelic blue hellfire.",
+    "spoilerBio": "After defeating Blackheart in Ghost Rider (2007), Johnny refused Mephistopheles's offer to return his soul, choosing to keep the curse to fight evil. In Spirit of Vengeance (2012)—a soft-rebooted continuation whose exact continuity with the 2007 film remains intentionally ambiguous—Blaze exiled himself to Eastern Europe before rescuing young Danny Ketch from Roarke, purging the dark side of Zarathos to wield angelic blue hellfire.",
     "spoilerWarning": "Contains ending spoilers for Ghost Rider (2007) and Spirit of Vengeance (2012)",
     "powers": [
       "Hellfire manipulation and Penance Stare",
@@ -7419,8 +7419,13 @@
     "status": "published",
     "sources": [
       {
-        "title": "Sony Pictures Ghost Rider (2007)",
+        "title": "Sony Pictures: Ghost Rider (2007)",
         "url": "https://www.sonypictures.com/movies/ghostrider",
+        "verifiedDate": "2026-11-28"
+      },
+      {
+        "title": "Sony Pictures: Ghost Rider: Spirit of Vengeance (2012)",
+        "url": "https://www.sonypictures.com/movies/ghostriderspiritofvengeance",
         "verifiedDate": "2026-11-28"
       }
     ]
@@ -7476,7 +7481,7 @@
     "status": "published",
     "sources": [
       {
-        "title": "Sony Pictures Ghost Rider (2007)",
+        "title": "Sony Pictures: Ghost Rider (2007)",
         "url": "https://www.sonypictures.com/movies/ghostrider",
         "verifiedDate": "2026-11-28"
       }
@@ -7532,7 +7537,7 @@
     "status": "published",
     "sources": [
       {
-        "title": "Sony Pictures Ghost Rider (2007)",
+        "title": "Sony Pictures: Ghost Rider (2007)",
         "url": "https://www.sonypictures.com/movies/ghostrider",
         "verifiedDate": "2026-11-28"
       }
@@ -7583,7 +7588,7 @@
     "status": "published",
     "sources": [
       {
-        "title": "Sony Pictures Ghost Rider (2007)",
+        "title": "Sony Pictures: Ghost Rider (2007)",
         "url": "https://www.sonypictures.com/movies/ghostrider",
         "verifiedDate": "2026-11-28"
       }
@@ -7649,8 +7654,8 @@
     "status": "published",
     "sources": [
       {
-        "title": "Marvel.com The Punisher (2004)",
-        "url": "https://www.marvel.com/movies/the-punisher",
+        "title": "Wikipedia: The Punisher (2004 film)",
+        "url": "https://en.wikipedia.org/wiki/The_Punisher_(2004_film)",
         "verifiedDate": "2026-11-28"
       }
     ]
@@ -7700,8 +7705,8 @@
     "status": "published",
     "sources": [
       {
-        "title": "Marvel.com The Punisher (2004)",
-        "url": "https://www.marvel.com/movies/the-punisher",
+        "title": "Wikipedia: The Punisher (2004 film)",
+        "url": "https://en.wikipedia.org/wiki/The_Punisher_(2004_film)",
         "verifiedDate": "2026-11-28"
       }
     ]
@@ -7764,8 +7769,8 @@
     "status": "published",
     "sources": [
       {
-        "title": "Marvel.com Punisher: War Zone (2008)",
-        "url": "https://www.marvel.com/movies/punisher-war-zone",
+        "title": "Wikipedia: Punisher: War Zone",
+        "url": "https://en.wikipedia.org/wiki/Punisher:_War_Zone",
         "verifiedDate": "2026-11-28"
       }
     ]
@@ -7818,8 +7823,8 @@
     "status": "published",
     "sources": [
       {
-        "title": "Marvel.com Punisher: War Zone (2008)",
-        "url": "https://www.marvel.com/movies/punisher-war-zone",
+        "title": "Wikipedia: Punisher: War Zone",
+        "url": "https://en.wikipedia.org/wiki/Punisher:_War_Zone",
         "verifiedDate": "2026-11-28"
       }
     ]
@@ -7876,8 +7881,8 @@
     "status": "published",
     "sources": [
       {
-        "title": "AFI Catalog The Punisher (1989)",
-        "url": "https://catalog.afi.com/Catalog/moviedetails/58195",
+        "title": "Wikipedia: The Punisher (1989 film)",
+        "url": "https://en.wikipedia.org/wiki/The_Punisher_(1989_film)",
         "verifiedDate": "2026-11-28"
       }
     ]

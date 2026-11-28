@@ -649,3 +649,64 @@ test("20. Batch 2 continuities: Fantastic Four (Earth-828), Daredevil/Elektra, G
     assert.ok(p.spoilerWarning && p.spoilerBio && p.spoilerBio.length > 30, `${slug} must have spoiler protection`);
   }
 });
+
+test("21. Batch 2 editorial & spoiler-protection audit: Elektra, Stick, Silver Surfer, Kingpin, Galactus, and sources", () => {
+  const publicText = (p) =>
+    `${p.tagline} ${p.biography} ${(p.relationships || []).map((r) => r.relation).join(" ")}`.toLowerCase();
+
+  // Elektra: no death, resurrection, or Void spoilers in public fields
+  const elektra = getPortrayalBySlug("elektra-jennifer-garner");
+  const elektraPublic = publicText(elektra);
+  for (const term of ["resurrect", "impaled", "void", "fatally"]) {
+    assert.ok(!elektraPublic.includes(term), `Elektra public profile must not contain spoiler term '${term}'`);
+  }
+  assert.ok(elektra.spoilerBio.toLowerCase().includes("resurrected"));
+  assert.ok(elektra.spoilerBio.toLowerCase().includes("void"));
+
+  // Stick: no Elektra resurrection or late test spoilers in public fields
+  const stick = getPortrayalBySlug("stick-terence-stamp");
+  const stickPublic = publicText(stick);
+  for (const term of ["resurrect", "kimagure", "treasure", "abandoned"]) {
+    assert.ok(!stickPublic.includes(term), `Stick public profile must not contain spoiler term '${term}'`);
+  }
+  assert.ok(stick.spoilerBio.toLowerCase().includes("resurrect"));
+
+  // Silver Surfer: no Zenn-La bargain or betrayal spoilers in public fields
+  const surfer = getPortrayalBySlug("silver-surfer-shalla-bal");
+  const surferPublic = publicText(surfer);
+  for (const term of ["zenn-la", "spared", "sparing", "exchange", "turned-adversary", "sacrific"]) {
+    assert.ok(!surferPublic.includes(term), `Silver Surfer public profile must not contain spoiler term '${term}'`);
+  }
+  assert.ok(surfer.spoilerBio.toLowerCase().includes("zenn-la"));
+
+  // Kingpin: no Jack Murdock murder revelation in public fields
+  const kingpin = getPortrayalBySlug("kingpin-michael-clarke-duncan");
+  assert.ok(!publicText(kingpin).includes("jack murdock"));
+  assert.ok(kingpin.spoilerBio.toLowerCase().includes("jack murdock"));
+
+  // Bullseye: no cathedral / Elektra death spoilers in public fields
+  const bullseye = getPortrayalBySlug("bullseye-colin-farrell");
+  assert.ok(!publicText(bullseye).includes("cathedral"));
+  assert.ok(bullseye.spoilerBio.toLowerCase().includes("cathedral"));
+
+  // Galactus: realName reflects released 2025 film without unsupported comics-only 'Galan'
+  const galactus = getPortrayalBySlug("galactus-ralph-ineson");
+  assert.equal(galactus.realName, "Galactus");
+
+  // Ghost Rider: retains Spirit of Vengeance continuity ambiguity
+  const grUniverse = UNIVERSES.find((u) => u.id === "sony-ghost-rider");
+  assert.ok(grUniverse.description.toLowerCase().includes("ambiguous"));
+
+  // Legacy-film sources must not use non-existent marvel.com/movies/* stubs
+  const badUrls = [
+    "https://www.marvel.com/movies/daredevil",
+    "https://www.marvel.com/movies/elektra",
+    "https://www.marvel.com/movies/the-punisher",
+    "https://www.marvel.com/movies/punisher-war-zone",
+  ];
+  for (const p of PORTRAYALS) {
+    for (const s of p.sources || []) {
+      assert.ok(!badUrls.includes(s.url), `Invalid/non-existent source URL found on ${p.id}: ${s.url}`);
+    }
+  }
+});
