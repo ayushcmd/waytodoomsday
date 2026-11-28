@@ -1,4 +1,5 @@
 import castEntries from "./doomsdayCast.json" with { type: "json" };
+import evidenceEntries from "./doomsdayCandidates.json" with { type: "json" };
 
 // Editorial display categories, never automatic claims of team membership.
 // Update procedure and research caveats: docs/doomsday-cast.md.
@@ -9,7 +10,7 @@ export const CAST_GROUPS = {
   mutants: "X-Men & mutant legacy",
   newAvengers: "New Avengers / Thunderbolts",
   wakanda: "Wakanda & Talokan",
-  others: "Other returning characters",
+  others: "Other characters",
 };
 
 export const CAST_SOURCES = {
@@ -46,12 +47,11 @@ export const CAST_SOURCES = {
 export const DOOMSDAY_CAST = castEntries;
 
 // Actor confirmation alone is not enough to publish a character identity.
-export const UNDISCLOSED_CAST = [{
-  actorName: "Alex Livanalli",
+export const UNDISCLOSED_CAST = evidenceEntries.filter((entry) =>
+  entry.researchStatus === "studio-cast-actor-identity-not-disclosed").map((entry) => ({
+  ...entry,
   status: "role-not-officially-disclosed",
-  sourceUrl: CAST_SOURCES.film,
-  verifiedAt: "2026-11-28",
-}];
+}));
 
 export const VERIFIED_CAST = DOOMSDAY_CAST
   .filter((entry) => entry.status === "officially-confirmed")
@@ -64,10 +64,14 @@ const normalize = (value) => value.normalize("NFD").replace(/\p{M}/gu, "")
   .toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
 
 export function filterCast(query = "", group = "all") {
+  return filterCastEntries(VERIFIED_CAST, query, group);
+}
+
+export function filterCastEntries(entries, query = "", group = "all") {
   const words = normalize(query).split(/\s+/).filter(Boolean);
-  return VERIFIED_CAST.filter((entry) => {
+  return entries.filter((entry) => {
     if (group !== "all" && entry.displayGroup !== group) return false;
-    const text = normalize([entry.characterName, entry.actorName, ...entry.aliases].join(" "));
+    const text = normalize([entry.characterName ?? "", entry.actorName, ...(entry.aliases ?? [])].join(" "));
     return words.every((word) => text.includes(word));
   });
 }

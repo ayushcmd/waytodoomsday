@@ -786,5 +786,42 @@
         "mediaType": "movie"
       }
     }
+  },
+  {
+    "id": "doomsday-kate-bishop-steinfeld",
+    "characterName": "Kate Bishop",
+    "actorName": "Hailee Steinfeld",
+    "researchStatus": "studio-character-confirmed",
+    "recommendedUiSection": "confirmed",
+    "displayGroup": "others",
+    "evidenceSummary": "Marvel Studios and Disney Animation jointly announced Steinfeld's Doomsday appearance in a Nov 22 Instagram video. She is known as Kate Bishop; Variety and TheWrap identified the portrayal. Official 31-character Disney+ guide has not yet added her. Do not assume Young Avengers team membership.",
+    "sourceUrl": "https://www.instagram.com/reels/DgEIM1quijm/",
+    "sourcePublishedAt": "2026-11-22",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://au.variety.com/2026/film/global/hailee-steinfeld-avengers-doomsday-kate-bishop-42838/",
+      "https://www.thewrap.com/creative-content/movies/hailee-steinfeld-will-be-in-avengers-doomsday/"
+    ],
+    "sourceType": "studio-social-and-trade",
+    "kind": "character",
+    "section": "confirmed",
+    "aliases": [],
+    "sourcePublisher": "Marvel Studios / Disney Animation",
+    "publicSummary": "Marvel Studios and Disney Animation announced Steinfeld’s return on November 22. Variety and TheWrap identify Kate Bishop. The Disney+ guide has not yet added her; no team membership is implied.",
+    "tmdb": {
+      "personId": 130640,
+      "profilePath": "/dxSDWkiVaC6JYjrV3XRAZI7HOSS.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 88329,
+      "matchCredit": {
+        "title": "Hawkeye",
+        "year": 2021,
+        "character": "Kate Bishop",
+        "mediaType": "tv"
+      }
+    },
+    "status": "officially-confirmed",
+    "featured": false,
+    "sortOrder": 32
   }
 ]

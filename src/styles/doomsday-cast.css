@@ -158,6 +158,32 @@
   background-position: right .75rem center;
 }
 .cast-results { font-size: .875rem; color: #bbf7d0; margin: 1rem 0; }
+.cast-evidence-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; margin-block: 1rem; }
+.cast-evidence-tabs button {
+  display: flex; align-items: center; justify-content: center; gap: .5rem;
+  min-width: 0; min-height: 2.75rem; padding: .5rem; border-radius: .625rem;
+  border: 1px solid rgb(255 255 255 / .2); background: rgb(255 255 255 / .04);
+  color: #e4e4e7; font-size: .875rem; line-height: 1.4; cursor: pointer;
+}
+.cast-evidence-tabs button:last-child { grid-column: 1 / -1; }
+.cast-evidence-tabs button[aria-selected="true"] { border-color: #86efac; background: #163122; color: #dcfce7; }
+.cast-tab-count { font-variant-numeric: tabular-nums; font-weight: 700; }
+.cast-tier-note { font-size: .875rem; line-height: 1.5; margin-bottom: 1rem; color: #c4c4cc; }
+.cast-status { display: inline-block; margin-top: .625rem; border: 1px solid; border-radius: .375rem; padding: .25rem .375rem; font-size: .8125rem; line-height: 1.4; }
+.cast-status[data-tone="confirmed"] { color: #bbf7d0; border-color: #4b8560; background: #163122; }
+.cast-status[data-tone="preview"] { color: #a5f3fc; border-color: #347a85; background: #153035; }
+.cast-status[data-tone="reported"] { color: #fde68a; border-color: #94712c; background: #362b14; }
+.cast-status[data-tone="speculation"] { color: #e9d5ff; border-color: #82629b; background: #2d2036; }
+.cast-evidence-summary { font-size: .875rem; line-height: 1.5; color: #d4d4d8; margin-block: .625rem; }
+.cast-evidence-date { font-size: .75rem; line-height: 1.5; color: #b8b8bf; }
+.cast-extra-sources { font-size: .8125rem; color: #d4d4d8; }
+.cast-extra-sources summary, .cast-extra-sources a { display: flex; align-items: center; min-height: 2.75rem; }
+.cast-extra-sources summary { cursor: pointer; }
+.cast-extra-sources summary:focus-visible { outline: 2px solid #86efac; outline-offset: 2px; }
+@media (min-width: 640px) {
+  .cast-evidence-tabs { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .cast-evidence-tabs button:last-child { grid-column: auto; }
+}
 .cast-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; list-style: none; }
 .cast-empty { padding: 1rem; text-align: center; }
 .cast-empty button { margin-top: .75rem; padding: .5rem .75rem; }

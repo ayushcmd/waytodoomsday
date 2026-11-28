@@ -1,0 +1,588 @@
+{
+  "schemaVersion": "2026-11-28-v2",
+  "project": "ayushcmd/waytodoomsday",
+  "researchDate": "2026-11-28",
+  "film": "Avengers: Doomsday",
+  "scope": "Publicly sourced character and actor evidence, not leaked full cast or plot prediction",
+  "countSummary": {
+    "existingConfirmedNamedCharacters": 31,
+    "newStudioConfirmedNamedCharacters": 1,
+    "studioConfirmedNamedTotalAfterAddition": 32,
+    "additionalOfficialPreviewNamedCharactersNotOnGuide": 4,
+    "officialCastActorRoleUndisclosed": 1,
+    "tradeReportedActorRoleUndisclosed": 1,
+    "unconfirmedCandidatesForEditorialReview": 9,
+    "excludedOrResearchOnly": 6
+  },
+  "sourceHierarchy": [
+    "Official character/actor mapping from Disney/Marvel",
+    "Official Disney/Marvel preview (separate evidence tier; not guaranteed final cut)",
+    "Marvel/Disney official social media announcement reported by professional outlets",
+    "Trade press report of specific project/actor or role",
+    "Actor self-report with studio confirmation outstanding",
+    "Narrative hints in related films/series",
+    "Credited behind-the-scenes work or fan/insider speculation"
+  ],
+  "statusDefinitions": {
+    "studio-character-confirmed": "Disney/Marvel officially identifies performer and Doomsday role; use Confirmed.",
+    "studio-preview-identification": "Disney/Marvel explicitly identifies performer/role in preview for Doomsday, but not named in official cast guide; use Official preview and avoid calling formal cast announcement.",
+    "studio-cast-actor-identity-not-disclosed": "Official cast materials name performer but not role; do not fabricate character.",
+    "industry-reported-actor-unknown-role": "Reputable press specifically links performer to Doomsday; character unconfirmed.",
+    "actor-claim-disputed": "Performer made contradictory public remarks about participation; not official cast confirmation.",
+    "official-story-tease": "Marvel/Disney canon scene implies possible Doomsday connection, but film appearance unconfirmed.",
+    "insider-rumor-unverified": "Industry scooper claim not independently verified by studio or robust trade reporting.",
+    "unverified-fan-speculation": "Fan discussion without credible affirmative casting proof.",
+    "actor-denied": "Actor publicly denied appearing; do not present as credible reported appearance.",
+    "nonacting-credit-only": "Behind-the-scenes credit; cannot infer acting role.",
+    "fan-theory": "Reasoning about possible story/actor return only.",
+    "rumor-retracted": "Suggestive actor statement later explained in way that undermines inference."
+  },
+  "existingConfirmedAudit": {
+    "count": 31,
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "note": "This reproduces the existing actor-character pairings for research audit only. Codex must NOT replace the existing src/data/doomsdayCast.json or overwrite TMDB metadata.",
+    "entries": [
+      {
+        "characterName": "Doctor Doom",
+        "actorName": "Robert Downey Jr.",
+        "displayGroup": "antagonist",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Steve Rogers",
+        "actorName": "Chris Evans",
+        "displayGroup": "avengers",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Thor",
+        "actorName": "Chris Hemsworth",
+        "displayGroup": "avengers",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Sam Wilson",
+        "actorName": "Anthony Mackie",
+        "displayGroup": "avengers",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Scott Lang",
+        "actorName": "Paul Rudd",
+        "displayGroup": "avengers",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Shang-Chi",
+        "actorName": "Simu Liu",
+        "displayGroup": "avengers",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Reed Richards",
+        "actorName": "Pedro Pascal",
+        "displayGroup": "fantastic",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Sue Storm",
+        "actorName": "Vanessa Kirby",
+        "displayGroup": "fantastic",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Johnny Storm",
+        "actorName": "Joseph Quinn",
+        "displayGroup": "fantastic",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Ben Grimm",
+        "actorName": "Ebon Moss-Bachrach",
+        "displayGroup": "fantastic",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Charles Xavier",
+        "actorName": "Patrick Stewart",
+        "displayGroup": "mutants",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Erik Lehnsherr",
+        "actorName": "Ian McKellen",
+        "displayGroup": "mutants",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Scott Summers",
+        "actorName": "James Marsden",
+        "displayGroup": "mutants",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Hank McCoy",
+        "actorName": "Kelsey Grammer",
+        "displayGroup": "mutants",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Kurt Wagner",
+        "actorName": "Alan Cumming",
+        "displayGroup": "mutants",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Raven Darkholme",
+        "actorName": "Rebecca Romijn",
+        "displayGroup": "mutants",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Remy LeBeau",
+        "actorName": "Channing Tatum",
+        "displayGroup": "mutants",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Yelena Belova",
+        "actorName": "Florence Pugh",
+        "displayGroup": "newAvengers",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Bucky Barnes",
+        "actorName": "Sebastian Stan",
+        "displayGroup": "newAvengers",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "John Walker",
+        "actorName": "Wyatt Russell",
+        "displayGroup": "newAvengers",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Alexei Shostakov",
+        "actorName": "David Harbour",
+        "displayGroup": "newAvengers",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Ava Starr",
+        "actorName": "Hannah John-Kamen",
+        "displayGroup": "newAvengers",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Bob Reynolds",
+        "actorName": "Lewis Pullman",
+        "displayGroup": "newAvengers",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Shuri",
+        "actorName": "Letitia Wright",
+        "displayGroup": "wakanda",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "M’Baku",
+        "actorName": "Winston Duke",
+        "displayGroup": "wakanda",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Namor",
+        "actorName": "Tenoch Huerta Mejía",
+        "displayGroup": "wakanda",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Namora",
+        "actorName": "Mabel Cadena",
+        "displayGroup": "wakanda",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Loki",
+        "actorName": "Tom Hiddleston",
+        "displayGroup": "others",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Peggy Carter",
+        "actorName": "Hayley Atwell",
+        "displayGroup": "others",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Joaquin Torres",
+        "actorName": "Danny Ramirez",
+        "displayGroup": "others",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      },
+      {
+        "characterName": "Cassie Lang",
+        "actorName": "Kathryn Newton",
+        "displayGroup": "others",
+        "status": "studio-character-confirmed",
+        "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      }
+    ]
+  },
+  "newOfficiallyConfirmedCharacterAdditions": [
+    {
+      "id": "doomsday-kate-bishop-steinfeld",
+      "characterName": "Kate Bishop",
+      "actorName": "Hailee Steinfeld",
+      "researchStatus": "studio-character-confirmed",
+      "recommendedUiSection": "confirmed",
+      "displayGroup": "others",
+      "evidenceSummary": "Marvel Studios and Disney Animation jointly announced Steinfeld's Doomsday appearance in a Nov 22 Instagram video. She is known as Kate Bishop; Variety and TheWrap identified the portrayal. Official 31-character Disney+ guide has not yet added her. Do not assume Young Avengers team membership.",
+      "sourceUrl": "https://www.instagram.com/reels/DgEIM1quijm/",
+      "sourcePublishedAt": "2026-11-22",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://au.variety.com/2026/film/global/hailee-steinfeld-avengers-doomsday-kate-bishop-42838/",
+        "https://www.thewrap.com/creative-content/movies/hailee-steinfeld-will-be-in-avengers-doomsday/"
+      ],
+      "sourceType": "studio-social-and-trade"
+    }
+  ],
+  "officialPreviewIdentificationsNotInPublishedCastGuide": [
+    {
+      "id": "doomsday-bruce-banner-ruffalo",
+      "characterName": "Bruce Banner / Hulk",
+      "actorName": "Mark Ruffalo",
+      "researchStatus": "studio-preview-identification",
+      "recommendedUiSection": "official-preview",
+      "displayGroup": "others",
+      "evidenceSummary": "Disney describes Doom meeting/collecting Bruce Banner in official Doomsday preview footage from Endgame: Encore; NOT present in the 31-person Disney+ guide.",
+      "sourceUrl": "https://thewaltdisneycompany.com/news/russo-brothers-avengers-endgame-doomsday/",
+      "sourcePublishedAt": "2026-09-29",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://d23.com/russo-brothers-unpack-explosive-avengers-doomsday-footage-in-endgame-encore/"
+      ],
+      "sourceType": "studio-preview"
+    },
+    {
+      "id": "doomsday-mobius-wilson",
+      "characterName": "Mobius M. Mobius",
+      "actorName": "Owen Wilson",
+      "researchStatus": "studio-preview-identification",
+      "recommendedUiSection": "official-preview",
+      "displayGroup": "others",
+      "evidenceSummary": "Disney explicitly names Mobius (Owen Wilson) in an official Doomsday preview scene at the TVA; not a formally announced main cast member.",
+      "sourceUrl": "https://thewaltdisneycompany.com/news/russo-brothers-avengers-endgame-doomsday/",
+      "sourcePublishedAt": "2026-09-29",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://d23.com/russo-brothers-unpack-explosive-avengers-doomsday-footage-in-endgame-encore/"
+      ],
+      "sourceType": "studio-preview"
+    },
+    {
+      "id": "doomsday-casey-cordero",
+      "characterName": "Casey",
+      "actorName": "Eugene Cordero",
+      "researchStatus": "studio-preview-identification",
+      "recommendedUiSection": "official-preview",
+      "displayGroup": "others",
+      "evidenceSummary": "Disney explicitly names Casey (Eugene Cordero) in an official Doomsday preview scene at the TVA; not a formally announced main cast member.",
+      "sourceUrl": "https://thewaltdisneycompany.com/news/russo-brothers-avengers-endgame-doomsday/",
+      "sourcePublishedAt": "2026-09-29",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://d23.com/russo-brothers-unpack-explosive-avengers-doomsday-footage-in-endgame-encore/"
+      ],
+      "sourceType": "studio-preview"
+    },
+    {
+      "id": "doomsday-ob-quan",
+      "characterName": "O.B. / Ouroboros",
+      "actorName": "Ke Huy Quan",
+      "researchStatus": "studio-preview-identification",
+      "recommendedUiSection": "official-preview",
+      "displayGroup": "others",
+      "evidenceSummary": "Disney explicitly names O.B. (Ke Huy Quan) in an official Doomsday preview scene at the TVA; not a formally announced main cast member.",
+      "sourceUrl": "https://thewaltdisneycompany.com/news/russo-brothers-avengers-endgame-doomsday/",
+      "sourcePublishedAt": "2026-09-29",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://d23.com/russo-brothers-unpack-explosive-avengers-doomsday-footage-in-endgame-encore/"
+      ],
+      "sourceType": "studio-preview"
+    }
+  ],
+  "officiallyListedActorsWithoutCharacterIdentifications": [
+    {
+      "actorName": "Alex Livinalli",
+      "characterName": null,
+      "researchStatus": "studio-cast-actor-identity-not-disclosed",
+      "evidenceSummary": "Disney UK official press project profile includes Alex Livinalli but does not specify a Doomsday character. Do not assume Attuma based on earlier film credits. Current repo has spelling Alex Livanalli; standardize to Disney spelling after verification.",
+      "sourceUrl": "https://lumiere-a.akamaihd.net/v1/documents/avengers_doomsday_uk_project_profile_updated_4b024a7e.pdf",
+      "verifiedAt": "2026-11-28",
+      "recommendedUiSection": "official-role-undisclosed"
+    }
+  ],
+  "reputableTradeReportsWithoutCharacterIdentifications": [
+    {
+      "id": "reported-sandra-huller",
+      "characterName": null,
+      "actorName": "Sandra Hüller",
+      "researchStatus": "industry-reported-actor-unknown-role",
+      "recommendedUiSection": "reported-actor",
+      "displayGroup": "others",
+      "evidenceSummary": "The Hollywood Reporter reported a cameo in the film in October. No reliable source publicly establishes a character identity; DO NOT call her a Latverian witch or Doctor Doom relative.",
+      "sourceUrl": "https://es.hollywoodreporter.com/sandra-huller-se-suma-al-reparto-de-avengers-doomsday/",
+      "sourcePublishedAt": "2026-10-26",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://variety.com/2026/film/news/sandra-huller-avengers-doomsday-cameo-role-1236930032/"
+      ],
+      "sourceType": "trade-report"
+    }
+  ],
+  "candidateCharacterEntriesDoNotLabelConfirmed": [
+    {
+      "id": "candidate-doctor-strange",
+      "characterName": "Stephen Strange / Doctor Strange",
+      "actorName": "Benedict Cumberbatch",
+      "researchStatus": "actor-claim-disputed",
+      "recommendedUiSection": "reported-or-unresolved",
+      "displayGroup": "others",
+      "evidenceSummary": "In Jan 2025 Cumberbatch said he would not appear, then corrected himself and said he was in the next Avengers film. No matching Disney/Marvel cast announcement in the 31-person guide as of research date. Present as actor statement with studio confirmation pending, not confirmed cast.",
+      "sourceUrl": "https://ew.com/benedict-cumberbatch-clarifies-doctor-strange-avengers-doomsday-8783071",
+      "sourcePublishedAt": "2025-01-30",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://www.latimes.com/entertainment-arts/movies/story/2025-01-22/benedict-cumberbatch-avengers-doomsday-secrets-because-hes-not-in-it"
+      ],
+      "sourceType": "actor-interview"
+    },
+    {
+      "id": "candidate-wanda",
+      "characterName": "Wanda Maximoff / Scarlet Witch",
+      "actorName": "Elizabeth Olsen",
+      "researchStatus": "official-story-tease",
+      "recommendedUiSection": "speculation-with-official-story-evidence",
+      "displayGroup": "others",
+      "evidenceSummary": "The VisionQuest finale post-credits scene shows Doom awakening Wanda, explicitly tying the series into Doomsday. This confirms Wanda alive/in VisionQuest, but does not independently establish Olsen appears in the Doomsday theatrical cut; major outlets disagree on whether it constitutes casting confirmation.",
+      "sourceUrl": "https://ew.com/visionquest-avengers-doomsday-post-credits-scene-elizabeth-olsen-scarlet-witch-return-12248438",
+      "sourcePublishedAt": "2026-11-11",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://www.slashfilm.com/2313195/visionquest-avengers-doomsday-post-credits-scene-scarlet-witch/",
+        "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+      ],
+      "sourceType": "studio-tv-tease-and-editorial"
+    },
+    {
+      "id": "candidate-tobey",
+      "characterName": "Peter Parker / Spider-Man (Raimi films)",
+      "actorName": "Tobey Maguire",
+      "researchStatus": "insider-rumor-unverified",
+      "recommendedUiSection": "fan-speculation",
+      "displayGroup": "others",
+      "evidenceSummary": "Alex Perez said in an Aug 2026 Q&A the intended Doomsday opening was to feature Spider-Man against X-Men. This is an unverified insider statement about story intent, NOT a studio casting confirmation or proof of final footage.",
+      "sourceUrl": "https://thecosmiccircus.com/alex-perez-aug2026-qa1-avengers-doomsday-secret-wars/",
+      "sourcePublishedAt": "2026-08-09",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://www.9to5marvel.com/is-tobey-maguire-in-avengers-doomsday/"
+      ],
+      "sourceType": "insider-qa"
+    },
+    {
+      "id": "candidate-holland",
+      "characterName": "Peter Parker / Spider-Man (MCU)",
+      "actorName": "Tom Holland",
+      "researchStatus": "unverified-fan-speculation",
+      "recommendedUiSection": "fan-speculation",
+      "displayGroup": "others",
+      "evidenceSummary": "Not in the official announced list. A viral claimed Instagram confirmation in Nov 2026 was debunked; filming Brand New Day is not evidence of Doomsday appearance.",
+      "sourceUrl": "https://news.meaww.com/fact-check-did-tom-holland-announce-his-return-as-spider-man-in-avengers-doomsday",
+      "sourcePublishedAt": "2026-11-22",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://nerdist.com/article/characters-not-confirmed-avengers-doomsday/"
+      ],
+      "sourceType": "fact-check-and-editorial"
+    },
+    {
+      "id": "candidate-garfield",
+      "characterName": "Peter Parker / Spider-Man (Amazing Spider-Man films)",
+      "actorName": "Andrew Garfield",
+      "researchStatus": "actor-denied",
+      "recommendedUiSection": "fan-speculation-with-denial",
+      "displayGroup": "others",
+      "evidenceSummary": "Garfield publicly denied being in Doomsday in an October 2025 GQ interview. A denial is not a guarantee about surprises, but there is no verified affirmative casting evidence.",
+      "sourceUrl": "https://www.thewrap.com/andrew-garfield-avengers-doomsday-appearance-denial/",
+      "sourcePublishedAt": "2025-10-09",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://au.variety.com/2025/film/global/andrew-garfield-spider-man-avengers-doomsday-28811/"
+      ],
+      "sourceType": "actor-denial"
+    },
+    {
+      "id": "candidate-deadpool",
+      "characterName": "Wade Wilson / Deadpool",
+      "actorName": "Ryan Reynolds",
+      "researchStatus": "nonacting-credit-only",
+      "recommendedUiSection": "fan-speculation",
+      "displayGroup": "others",
+      "evidenceSummary": "The Writers Guild reportedly lists Reynolds as contributing additional literary material to Doomsday. This is NOT an acting credit. Reynolds appeared in Deadpool costume at the Comic-Con panel but no official theatrical role is verified.",
+      "sourceUrl": "https://www.gamesradar.com/entertainment/marvel-movies/are-deadpool-and-wolverine-in-avengers-doomsday-new-wga-listing-reveals-ryan-reynolds-and-hugh-jackman-have-writing-credits/",
+      "sourcePublishedAt": "2026-11-12",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://ew.com/ryan-reynolds-crashes-avengers-doomsday-comic-con-panel-jean-pool-12027056"
+      ],
+      "sourceType": "wga-report-and-event"
+    },
+    {
+      "id": "candidate-wolverine",
+      "characterName": "Logan / Wolverine",
+      "actorName": "Hugh Jackman",
+      "researchStatus": "nonacting-credit-only",
+      "recommendedUiSection": "fan-speculation",
+      "displayGroup": "others",
+      "evidenceSummary": "A reported WGA additional-literary-material writing credit does not confirm acting in Doomsday, despite the character appearing in Deadpool & Wolverine.",
+      "sourceUrl": "https://www.gamesradar.com/entertainment/marvel-movies/are-deadpool-and-wolverine-in-avengers-doomsday-new-wga-listing-reveals-ryan-reynolds-and-hugh-jackman-have-writing-credits/",
+      "sourcePublishedAt": "2026-11-12",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://nerdist.com/article/ryan-reynolds-hugh-jackman-writing-credit-avengers-doomsday/"
+      ],
+      "sourceType": "wga-report"
+    },
+    {
+      "id": "candidate-ms-marvel",
+      "characterName": "Kamala Khan / Ms. Marvel",
+      "actorName": "Iman Vellani",
+      "researchStatus": "fan-theory",
+      "recommendedUiSection": "fan-speculation",
+      "displayGroup": "others",
+      "evidenceSummary": "Vellani hosts the official Countdown to Doomsday podcast; EW reported fan theories after Kate Bishop announcement. Hosting promotional material does not establish an acting appearance.",
+      "sourceUrl": "https://ew.com/avengers-doomsday-young-avengers-speculation-12274661",
+      "sourcePublishedAt": "2026-11-23",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://www.gamesradar.com/entertainment/marvel-movies/mcu-fans-think-ms-marvel-star-iman-vellani-will-return-in-avengers-doomsday-and-the-evidence-is-hiding-in-plain-sight-in-the-countdown-to-doomsday-podcast/"
+      ],
+      "sourceType": "industry-editorial"
+    },
+    {
+      "id": "candidate-vision",
+      "characterName": "Vision",
+      "actorName": "Paul Bettany",
+      "researchStatus": "rumor-retracted",
+      "recommendedUiSection": "fan-speculation",
+      "displayGroup": "others",
+      "evidenceSummary": "Anthony Mackie mentioned Bettany near filming, then clarified Bettany was on a nearby VisionQuest set. Studio has not announced Vision for Doomsday.",
+      "sourceUrl": "https://www.independent.co.uk/arts-entertainment/films/news/avengers-doomsday-spoiler-anthony-mackie-paul-bettany-b3086135.html",
+      "sourcePublishedAt": "2026-11-17",
+      "verifiedAt": "2026-11-28",
+      "additionalSources": [
+        "https://www.9to5marvel.com/is-vision-in-avengers-doomsday/"
+      ],
+      "sourceType": "actor-comment-clarification"
+    }
+  ],
+  "excludedResearchOnly": [
+    {
+      "characterName": "Clint Barton / Hawkeye",
+      "actorName": "Jeremy Renner",
+      "reason": "Actor said he is not in Doomsday. Do not render as an affirmative rumored character without conspicuous denial.",
+      "sourceUrl": "https://www.the-independent.com/arts-entertainment/films/news/avengers-doomsday-jeremy-renner-hawkeye-marvel-b3067118.html"
+    },
+    {
+      "characterName": "Ororo Munroe / Storm",
+      "actorName": "Halle Berry",
+      "reason": "Berry said Storm was not appearing; absent from the studio list.",
+      "sourceUrl": "https://www.gamesradar.com/entertainment/marvel-movies/halle-berry-promises-marvel-fans-that-x-mens-storm-isnt-in-avengers-doomsday-but-weve-been-here-before-with-spider-mans-andrew-garfield/"
+    },
+    {
+      "characterName": null,
+      "actorName": "Katya Hazel Boirand",
+      "reason": "Stunt-double listing reporting is not a studio confirmation; any Latverian-witch role is unverified. Research only.",
+      "sourceUrl": "https://www.murphysmultiverse.com/doomsday-casting-may-shoot-down-popular-scarlet-witch-rumor/"
+    },
+    {
+      "characterName": null,
+      "actorName": "Josie Pocock",
+      "reason": "Stunt-double listing reporting is not a studio confirmation; any Latverian-witch role is unverified. Research only.",
+      "sourceUrl": "https://www.murphysmultiverse.com/doomsday-casting-may-shoot-down-popular-scarlet-witch-rumor/"
+    },
+    {
+      "characterName": "Franklin Richards",
+      "actorName": null,
+      "reason": "Story connections in Fantastic Four: First Steps do not by themselves confirm Franklin in the Doomsday film. No confirmed actor/role mapping found in the Disney+ cast guide.",
+      "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+    },
+    {
+      "characterName": "H.E.R.B.I.E.",
+      "actorName": null,
+      "reason": "No identified Doomsday appearance in the official guide; presence in a prior Fantastic Four film is insufficient.",
+      "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+    }
+  ],
+  "implementationConstraints": [
+    "Merge new named confirmed record (Kate) with dedupe after rechecking latest main; existing 31 unchanged.",
+    "Keep source tier visible. Official preview records may be displayed in an Official preview subsection, not silently counted as announced cast.",
+    "Do not insert actors without verified characters into character cards; allow actor-only informational panel if desired.",
+    "Use exact source URL, explanation and verification date in each card, with spoiler avoidance when applicable.",
+    "Do not equate comic-lore or another MCU film with Doomsday casting.",
+    "Preserve original TMDB image metadata and fallback; new portraits require verified person IDs.",
+    "Recheck all claims against Marvel and Disney before publishing changes after 2026-11-28."
+  ],
+  "primarySources": {
+    "officialCastGuide": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "officialFilmPage": "https://movies.disney.com/avengers-doomsday",
+    "studioPreview": "https://thewaltdisneycompany.com/news/russo-brothers-avengers-endgame-doomsday/",
+    "kateOfficialSocialLink": "https://www.instagram.com/reels/DgEIM1quijm/",
+    "kateTradeConfirmation": "https://au.variety.com/2026/film/global/hailee-steinfeld-avengers-doomsday-kate-bishop-42838/",
+    "officialUKProjectProfile": "https://lumiere-a.akamaihd.net/v1/documents/avengers_doomsday_uk_project_profile_updated_4b024a7e.pdf"
+  },
+  "accuracyNotes": [
+    "NO publicly available source guarantees every secret cameo in the finished movie.",
+    "The 31-character Disney guide was revised Nov 25 2026 but does not yet include Nov 22 social-confirmed Kate Bishop.",
+    "The official preview identifies Banner, Mobius, Casey and O.B.; those records are clearly differentiated from formal cast-guide confirmations.",
+    "VisionQuest confirms Wanda alive in that series and links her to Doom. Whether Olsen is in the Doomsday theatrical film is not expressly established by the published official cast list.",
+    "The WGA additional-literary-material credit for Reynolds and Jackman is not an acting credit.",
+    "Research verified on 2026-11-28; status may change with official promotions."
+  ]
+}

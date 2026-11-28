@@ -1,5 +1,8 @@
 # Doomsday cast editorial notes
 
+For the subsequent November 28 expansion, see [Doomsday cast evidence](doomsday-evidence.md).
+This document retains the original 31-character implementation's editorial history.
+
 Last checked: **2026-11-28**. The roster describes confirmed character/actor
 portrayals in this film, not every possible appearance or a complete leaked cast.
 

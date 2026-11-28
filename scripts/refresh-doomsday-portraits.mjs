@@ -132,6 +132,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   catch (error) { if (error.code !== "ENOENT") { console.error("Unable to load local .env safely."); process.exit(1); } }
   try {
     await refreshPortraits({ token: process.env.TMDB_API_READ_ACCESS_TOKEN,
+      rosterUrl: process.argv.includes("--evidence") ? new URL("../src/data/doomsdayCandidates.json", import.meta.url) : dataUrl,
       licenseReviewed: process.env.TMDB_LICENSE_REVIEWED === "1", clear: process.argv.includes("--clear") });
   } catch (error) {
     console.error(error.message);
