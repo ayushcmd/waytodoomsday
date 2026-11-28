@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import SiteNav from "../components/SiteNav.astro";
 import CountdownTimer from "../components/CountdownTimer.jsx";
+import DoomsdayCastShowcase from "../components/DoomsdayCastShowcase.jsx";
 import SectionVideo from "../components/SectionVideo.jsx";
 import CharacterSpotlight from "../components/CharacterSpotlight.jsx";
 import RoadToDoomsday from "../components/RoadToDoomsday.jsx";
@@ -19,7 +20,7 @@ const HERO_PLAYLIST = ["/bg/doomsday.mp4"];
 
     <div class="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 py-16">
       <div class="grid lg:grid-cols-[1fr_320px] gap-10 lg:gap-14 items-center">
-        <div class="relative rounded-3xl border border-white/15 bg-white/[0.04] backdrop-blur-md shadow-2xl shadow-black/40 px-6 py-10 sm:px-10 sm:py-14 flex flex-col items-center lg:items-start text-center lg:text-left gap-6 overflow-hidden">
+        <div class="relative min-w-0 rounded-3xl border border-white/15 bg-white/[0.04] backdrop-blur-md shadow-2xl shadow-black/40 px-6 py-10 sm:px-10 sm:py-14 flex flex-col items-center lg:items-start text-center lg:text-left gap-6 overflow-hidden">
           <div class="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/[0.08] via-transparent to-transparent" />
           <div class="pointer-events-none absolute -top-24 -left-24 w-64 h-64 rounded-full bg-accent/10 blur-3xl" />
 
@@ -35,10 +36,12 @@ const HERO_PLAYLIST = ["/bg/doomsday.mp4"];
             Every MCU movie and series, in order, before Avengers: Doomsday hits theaters.
           </p>
 
-          <div class="relative flex flex-col items-center lg:items-start gap-2 mt-2">
+          <div class="hero-countdown relative w-full sm:w-auto flex flex-col items-center lg:items-start gap-2 mt-2">
             <span class="text-xs uppercase tracking-widest text-muted">Countdown to release</span>
             <CountdownTimer client:load />
           </div>
+
+          <DoomsdayCastShowcase client:load />
 
           <div class="relative flex flex-col sm:flex-row items-center lg:items-start gap-3 mt-2">
             <a href="#timeline" class="inline-flex items-center justify-center text-xs font-bold uppercase tracking-wide px-5 py-3 rounded-full bg-accent text-white hover:bg-accent-bright transition-colors">
@@ -73,6 +76,20 @@ const HERO_PLAYLIST = ["/bg/doomsday.mp4"];
 </Layout>
 
 <style>
+  /* Fit the existing timer in the narrow hero without changing its component. */
+  @media (max-width: 639px) {
+    .hero-countdown :global(astro-island > div) {
+      width: 100%;
+      justify-content: space-between;
+      gap: .375rem;
+      padding-inline: .5rem;
+    }
+    .hero-countdown :global(astro-island > div > div) {
+      min-width: 0;
+      flex: 1;
+    }
+  }
+
   .starfield {
     position: absolute;
     inset: 0;
