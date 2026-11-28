@@ -250,22 +250,22 @@ test("10. Draft/unverified records are strictly excluded from published PORTRAYA
 });
 
 test("11. Published count integrity and research document synchronization", () => {
-  assert.equal(PORTRAYALS.length, 46, "Expected exactly 46 published character portrayals");
+  assert.equal(PORTRAYALS.length, 75, "Expected exactly 75 published character portrayals");
 
   const docPath = path.resolve(__dirname, "../docs/research/marvel-encyclopedia-coverage.md");
   assert.ok(fs.existsSync(docPath), "Research coverage document must exist");
   const docContent = fs.readFileSync(docPath, "utf-8");
 
-  // Verify documentation claims 46 portrayals, not stale 38 or 43
+  // Verify documentation claims 75 portrayals
   assert.match(
     docContent,
-    /\*\*46 verified character portrayals\*\*/,
-    "Research documentation must specify exactly 46 verified character portrayals"
+    /\*\*75 verified character portrayals\*\*/,
+    "Research documentation must specify exactly 75 verified character portrayals"
   );
   assert.match(
     docContent,
-    /\*\*Total Published Portrayals:\*\* 46/,
-    "Research documentation summary must state 46 published portrayals"
+    /\*\*Total Published Portrayals:\*\* 75/,
+    "Research documentation summary must state 75 published portrayals"
   );
 
   // Check per-universe count synchronization in documentation table
@@ -273,8 +273,8 @@ test("11. Published count integrity and research document synchronization", () =
   for (const p of PORTRAYALS) {
     universeCounts[p.universeId] = (universeCounts[p.universeId] || 0) + 1;
   }
-  assert.equal(universeCounts["mcu"], 19);
-  assert.equal(universeCounts["fox-xmen"], 10);
+  assert.equal(universeCounts["mcu"], 41);
+  assert.equal(universeCounts["fox-xmen"], 17);
   assert.equal(universeCounts["story-fantastic-four"], 5);
   assert.equal(universeCounts["raimi-spiderman"], 3);
   assert.equal(universeCounts["sony-spiderverse"], 3);
@@ -492,4 +492,89 @@ test("17. CharacterDirectory search and filter normalization resilience", () => 
   assert.equal(parsed.get("universe"), "fox-xmen");
   assert.equal(parsed.get("role"), "hero");
   assert.equal(parsed.get("sort"), "name-asc");
+});
+
+test("18. Batch 1 expansion: Guardians roster, Mystique variants, and spoiler integrity", () => {
+  // Guardians of the Galaxy roster members vs Yondu ally
+  const guardianMembers = getTeamMembers("guardians-of-the-galaxy-mcu");
+  const guardianAllies = getTeamAllies("guardians-of-the-galaxy-mcu");
+  for (const slug of ["star-lord", "gamora", "drax", "rocket-raccoon", "groot", "nebula", "mantis"]) {
+    assert.ok(guardianMembers.some((m) => m.slug === slug), `${slug} must be a Guardians member`);
+  }
+  assert.ok(!guardianMembers.some((m) => m.slug === "yondu-udonta"), "Yondu is an ally, not a core Guardians member");
+  assert.ok(guardianAllies.some((a) => a.slug === "yondu-udonta"), "Yondu must appear in Guardians allies");
+
+  // Mystique dual-incarnation variant separation
+  const mystiques = getPortrayalsByIdentity("raven-darkholme");
+  assert.equal(mystiques.length, 2);
+  const youngMystique = getPortrayalBySlug("mystique-jennifer-lawrence");
+  const origMystique = getPortrayalBySlug("mystique-rebecca-romijn");
+  assert.equal(youngMystique.actor, "Jennifer Lawrence");
+  assert.equal(origMystique.actor, "Rebecca Romijn");
+  assert.ok(getAlternatePortrayals("mystique-jennifer-lawrence").some((p) => p.slug === "mystique-rebecca-romijn"));
+
+  // Batch 1 spoiler checks
+  for (const slug of [
+    "gamora",
+    "gamora-2014-variant",
+    "groot",
+    "groot-young",
+    "yondu-udonta",
+    "thanos",
+    "thanos-2014-variant",
+    "nebula-2014-variant",
+    "vision",
+    "mysterio-jake-gyllenhaal",
+    "mystique-jennifer-lawrence",
+  ]) {
+    const p = getPortrayalBySlug(slug);
+    assert.ok(p.spoilerWarning, `${slug} must have spoilerWarning`);
+    assert.ok(p.spoilerBio && p.spoilerBio.length > 30, `${slug} must have spoilerBio`);
+  }
+});
+
+test("19. Gamora, Groot, Thanos, and Nebula variant & lineage separation", () => {
+  // Gamora separation: original Guardians Gamora vs 2014 Ravager Gamora
+  const origGamora = getPortrayalBySlug("gamora");
+  const varGamora = getPortrayalBySlug("gamora-2014-variant");
+  assert.ok(origGamora && varGamora);
+  assert.equal(origGamora.identityId, "gamora");
+  assert.equal(varGamora.identityId, "gamora");
+  assert.deepEqual(
+    origGamora.appearances.map((a) => a.filmId),
+    ["guardians-vol-1", "guardians-vol-2", "avengers-infinity-war"]
+  );
+  assert.deepEqual(
+    varGamora.appearances.map((a) => a.filmId),
+    ["avengers-endgame", "guardians-vol-3"]
+  );
+  assert.ok(origGamora.teamMemberships.some((m) => m.teamId === "guardians-of-the-galaxy-mcu"));
+  assert.ok(!origGamora.teamMemberships.some((m) => m.teamId === "ravagers-mcu"));
+  assert.ok(varGamora.teamMemberships.some((m) => m.teamId === "ravagers-mcu"));
+  assert.ok(!varGamora.teamMemberships.some((m) => m.teamId === "guardians-of-the-galaxy-mcu"));
+  assert.ok(!getTeamMembers("guardians-of-the-galaxy-mcu").some((m) => m.slug === "gamora-2014-variant"));
+
+  // Groot lineage: original Groot vs son (Young Groot) as distinct identities
+  const origGroot = getPortrayalBySlug("groot");
+  const youngGroot = getPortrayalBySlug("groot-young");
+  assert.ok(origGroot && youngGroot);
+  assert.notEqual(origGroot.identityId, youngGroot.identityId, "Father and son Groot must have distinct identities");
+  assert.deepEqual(origGroot.appearances.map((a) => a.filmId), ["guardians-vol-1"]);
+  assert.ok(youngGroot.appearances.some((a) => a.filmId === "guardians-vol-2"));
+  assert.ok(youngGroot.appearances.some((a) => a.filmId === "guardians-vol-3"));
+  assert.ok(origGroot.relationships.some((r) => r.portrayalSlug === "groot-young"));
+  assert.ok(youngGroot.relationships.some((r) => r.portrayalSlug === "groot"));
+
+  // Thanos & Nebula 2014 variants + no unsupported Eternal-Deviant claim
+  const origThanos = getPortrayalBySlug("thanos");
+  const varThanos = getPortrayalBySlug("thanos-2014-variant");
+  assert.ok(origThanos && varThanos);
+  assert.ok(!origThanos.biography.includes("Eternal-Deviant"));
+  assert.deepEqual(varThanos.appearances.map((a) => a.filmId), ["avengers-endgame"]);
+
+  const varNebula = getPortrayalBySlug("nebula-2014-variant");
+  assert.ok(varNebula);
+  assert.equal(varNebula.role, "villain");
+  assert.equal(varNebula.teamMemberships.length, 0);
+  assert.deepEqual(varNebula.appearances.map((a) => a.filmId), ["avengers-endgame"]);
 });

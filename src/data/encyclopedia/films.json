@@ -238,6 +238,13 @@
     "isMcu": true
   },
   {
+    "id": "thunderbolts",
+    "title": "Thunderbolts*",
+    "releaseYear": 2025,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
     "id": "spider-man-2002",
     "title": "Spider-Man",
     "releaseYear": 2002,
