@@ -1,23 +1,84 @@
 ---
-const links = [
-  { href: "#timeline", label: "Timeline" },
-  { href: "#phases", label: "Phases" },
-  { href: "#official-watchlist", label: "Official Watchlist" },
-  { href: "#road-to-doomsday", label: "Road to Doomsday" },
+const navLinks = [
+  { href: "/#timeline", label: "Timeline" },
+  { href: "/#phases", label: "Phases" },
+  { href: "/#official-watchlist", label: "Watchlist" },
+  { href: "/characters", label: "Characters", highlight: true },
+  { href: "/teams", label: "Teams", highlight: true },
+  { href: "/#road-to-doomsday", label: "Road to Doomsday" },
 ];
 ---
 
-<nav class="sticky top-0 z-40 border-b border-white/5 bg-bg/70 backdrop-blur-xl">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
-    <a href="/" class="font-display text-sm sm:text-base tracking-widest text-white">
+<nav class="sticky top-0 z-40 border-b border-white/5 bg-bg/80 backdrop-blur-xl">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
+    <a href="/" class="font-display text-sm sm:text-base tracking-widest text-white shrink-0 hover:opacity-90 transition-opacity">
       WAY TO <span class="text-accent">DOOMSDAY</span>
     </a>
-    <div class="hidden sm:flex items-center gap-6">
-      {links.map((link) => (
-        <a href={link.href} class="text-xs uppercase tracking-widest text-muted hover:text-white transition-colors">
+
+    <!-- Desktop Navigation -->
+    <div class="hidden md:flex items-center gap-5 lg:gap-6">
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          class={`text-xs uppercase tracking-widest transition-colors ${
+            link.highlight
+              ? "text-accent-bright font-bold hover:text-white"
+              : "text-muted hover:text-white"
+          }`}
+        >
           {link.label}
         </a>
       ))}
     </div>
+
+    <!-- Mobile Menu Button -->
+    <button
+      id="mobile-nav-toggle"
+      type="button"
+      aria-label="Toggle navigation menu"
+      aria-expanded="false"
+      class="md:hidden p-2 rounded-lg text-muted hover:text-white hover:bg-white/5 focus:outline-none focus:ring-1 focus:ring-accent"
+    >
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile Dropdown Menu -->
+  <div id="mobile-nav-menu" class="hidden md:hidden border-t border-white/5 bg-bg/95 backdrop-blur-2xl px-4 py-4 space-y-3">
+    {navLinks.map((link) => (
+      <a
+        href={link.href}
+        class={`block text-xs uppercase tracking-widest py-1.5 transition-colors ${
+          link.highlight
+            ? "text-accent-bright font-bold hover:text-white"
+            : "text-muted hover:text-white"
+        }`}
+      >
+        {link.label}
+      </a>
+    ))}
   </div>
 </nav>
+
+<script>
+  const toggle = document.getElementById("mobile-nav-toggle");
+  const menu = document.getElementById("mobile-nav-menu");
+
+  if (toggle && menu) {
+    toggle.addEventListener("click", () => {
+      const isExpanded = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!isExpanded));
+      menu.classList.toggle("hidden");
+    });
+
+    // Close when clicking an anchor
+    menu.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        toggle.setAttribute("aria-expanded", "false");
+        menu.classList.add("hidden");
+      });
+    });
+  }
+</script>
