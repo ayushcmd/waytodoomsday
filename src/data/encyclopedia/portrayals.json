@@ -151,7 +151,7 @@
     "universeId": "mcu",
     "role": "hero",
     "tagline": "Asgardian god of thunder and founding Avenger",
-    "biography": "Thor Odinson is the Asgardian God of Thunder and son of King Odin Borson and Queen Frigga. Initially arrogant and eager for war against the Frost Giants, Thor was stripped of his divine abilities and cast down to Earth as a mortal until he proved himself worthy to wield the enchanted hammer Mjolnir. Learning humility, selflessness, and valor, Thor became a founding cornerstone of the Avengers. Across his journey, Thor endured the destruction of Asgard during Ragnarok, the deaths of his brother Loki, parents, and closest companions, yet channeled his grief into forged resolve, wielding the devastating king's weapon Stormbreaker to turn the tide against Thanos.",
+    "biography": "Thor Odinson is the Asgardian God of Thunder and son of King Odin Borson and Queen Frigga. Initially arrogant and eager for war against the Frost Giants, Thor was stripped of his divine abilities and cast down to Earth as a mortal until he proved himself worthy to wield the enchanted hammer Mjolnir. Learning humility, selflessness, and valor, Thor became a founding cornerstone of the Avengers, wielding thunder, lightning, and divine strength to defend Midgard and the Nine Realms.",
     "powers": [
       "Godlike superhuman physical strength, stamina, and longevity",
       "Atmospheric electrokinesis and weather control",
@@ -260,7 +260,9 @@
         "url": "https://www.marvel.com/characters/thor-thor-odinson",
         "verifiedDate": "2026-11-28"
       }
-    ]
+    ],
+    "spoilerBio": "Across his journey, Thor endured the destruction of Asgard during Ragnarok, followed by the execution of his brother Loki and half his people by Thanos in Infinity War. Channeling his grief into the forged king's weapon Stormbreaker, Thor struck Thanos in the chest but failed to stop the Snap. After decapitating a retired Thanos in 2018, Thor fell into severe depression in New Asgard. Rejoining the Avengers for the Time Heist, an unworthy-feeling Thor re-summoned Mjolnir from 2013 and fought alongside Cap and Iron Man in the Battle of Earth. Later, after fighting with the Guardians, Thor reunited with a cancer-stricken Jane Foster (the Mighty Thor) to defeat Gorr the God Butcher, adopting Gorr's resurrected daughter Love as his own.",
+    "spoilerWarning": "Contains major plot spoilers for Thor: Ragnarok, Avengers: Infinity War, Avengers: Endgame, and Thor: Love and Thunder"
   },
   {
     "id": "portrayal-captain-america-mcu",
@@ -726,7 +728,7 @@
     "universeId": "webb-spiderman",
     "role": "hero",
     "tagline": "The brilliant Oscorp skateboarder and acrobatic protector of Manhattan",
-    "biography": "Peter Parker was an inquisitive science student abandoned by his parents, geneticist Richard Parker and Mary Parker, under mysterious circumstances. Uncovering his father's old briefcase led Peter directly into Oscorp, where he snuck into the biocable laboratory and was bitten by a genetically altered arachnid. Leveraging his father's decay rate algorithm, Peter designed high-tensile mechanical web-shooters using Oscorp biocable. After a burglar shot Uncle Ben, Peter spent months tracking the killer before embracing heroic purpose as Spider-Man. The devastating loss of Gwen Stacy at the hands of the Green Goblin sent Peter into a dark spiral until being pulled across dimensions to the MCU, where catching MJ granted him profound personal redemption.",
+    "biography": "Peter Parker was an inquisitive science student abandoned by his parents, geneticist Richard Parker and Mary Parker, under mysterious circumstances. Uncovering his father's old briefcase led Peter directly into Oscorp, where he snuck into the biocable laboratory and was bitten by a genetically altered arachnid. Leveraging his father's decay rate algorithm, Peter designed high-tensile mechanical web-shooters using Oscorp biocable. After a burglar shot Uncle Ben, Peter embraced heroic purpose as Spider-Man, defending New York from the Lizard and Oscorp's creations.",
     "powers": [
       "Wall-crawling surface adhesion",
       "Dynamic acrobatic agility and proportionate spider strength",
@@ -794,7 +796,9 @@
         "url": "https://www.sonypictures.com/movies/theamazingspiderman",
         "verifiedDate": "2026-11-28"
       }
-    ]
+    ],
+    "spoilerBio": "At the top of the Manhattan clock tower in The Amazing Spider-Man 2, Peter battled Harry Osborn's Green Goblin. Although Peter defeated Osborn, Gwen Stacy fell down the tower; Peter's web caught her a fraction of a second too late, and the whiplash snapped her neck, plunging Peter into grief and vengeful darkness. Pulled across dimensions to the MCU in No Way Home, Peter found profound emotional redemption when he dove from the Statue of Liberty to catch a falling MJ, successfully saving her and letting go of his self-directed bitterness.",
+    "spoilerWarning": "Contains major character death spoilers for The Amazing Spider-Man 2 (2014) and Spider-Man: No Way Home (2021)"
   },
   {
     "id": "portrayal-miles-morales-spiderverse",
@@ -1157,8 +1161,8 @@
         "verifiedDate": "2026-11-28"
       }
     ],
-    "spoilerBio": "In 2029, with his mutant healing factor poisoned by decades of adamantium toxicity, Logan fought to escort young Laura (X-23) and mutant youth refugees to safety across the Canadian border. In an exhausting final battle against Donald Pierce's Reavers and his savage genetic clone X-24, Logan was impaled on a tree limb and died peacefully holding Laura's hand.",
-    "spoilerWarning": "Contains character death spoilers for Logan (2017)"
+    "spoilerBio": "In 2006 on Alcatraz, Logan was forced to euthanize the woman he loved, Jean Grey, when her unchecked Dark Phoenix persona threatened to incinerate the island. In 2029, with his mutant healing factor poisoned by decades of adamantium toxicity, Logan fought to escort young Laura (X-23) and mutant youth refugees to safety across the Canadian border. In an exhausting final battle against Donald Pierce's Reavers and his savage genetic clone X-24, Logan was impaled on a tree limb and died peacefully holding Laura's hand.",
+    "spoilerWarning": "Contains character death and plot spoilers for X-Men: The Last Stand (2006) and Logan (2017)"
   },
   {
     "id": "portrayal-wolverine-alternate-variant",
@@ -1175,7 +1179,7 @@
     "universeId": "mcu",
     "role": "hero",
     "tagline": "The grieving alternate Wolverine who redeemed his fallen world alongside Deadpool",
-    "biography": "This alternate Logan was a haunted mutant survivor from a timeline where his fellow X-Men were ambushed and slaughtered while he was drinking at a local bar. Overwhelmed by survivor's guilt, Logan donned his yellow-and-blue uniform in bitter penance and fell into drunken despair. Pulled across the multiverse by Wade Wilson to serve as an anchor being for Earth-10005, Logan was cast into the Void by rogue TVA agent Mr. Paradox, where he joined forces with the Void resistance to overthrow Cassandra Nova.",
+    "biography": "This alternate Logan hailed from an alternate timeline where his fellow X-Men were slaughtered while he was drinking at a local bar. Overwhelmed by survivor's guilt, Logan donned his yellow-and-blue uniform in bitter penance and fell into drunken despair. Pulled across the multiverse by Wade Wilson to serve as an anchor being for Earth-10005, Logan was cast into the Void by rogue TVA agent Mr. Paradox, where he joined forces with the Void resistance to overthrow Cassandra Nova.",
     "spoilerBio": "In the climax of Deadpool & Wolverine, Logan finally forgave himself for failing his original team. Donning his iconic cowl, he joined hands with Deadpool across the unstable matter-antimatter core of the Time Ripper, withstanding the cosmic energy load to destroy the device, preserve the timeline, and find a renewed home with Wade's family.",
     "spoilerWarning": "Contains climactic plot details from Deadpool & Wolverine (2024)",
     "powers": [
@@ -1189,13 +1193,7 @@
       "Yellow-and-blue comic-accurate sleeveless battle uniform",
       "Iconic black-winged combat cowl / battle mask"
     ],
-    "teamMemberships": [
-      {
-        "teamId": "x-men-fox",
-        "role": "Former Member (Alternate Reality X-Men)",
-        "type": "former-member"
-      }
-    ],
+    "teamMemberships": [],
     "filmDebut": {
       "title": "Deadpool & Wolverine",
       "year": 2024,
@@ -2481,7 +2479,7 @@
     "universeId": "raimi-spiderman",
     "role": "villain",
     "tagline": "The manic, glider-riding arch-nemesis of Spider-Man",
-    "biography": "Dr. Norman Osborn was the brilliant, cutthroat founder and CEO of Oscorp Technologies. Facing the loss of crucial military contracts and imminent board dismissal, Osborn tested an unstable chemical performance enhancer on himself. The gas drastically augmented his physical strength and reflexes while fracturing his psyche, creating a sadistic alter ego that manifested as the Green Goblin. Riding a high-speed Goblin Glider and hurling explosive pumpkin bombs, Osborn terrorized New York City before fatally impaling himself on his own glider during a rooftop clash with Tobey Maguire's Spider-Man. Transported to the MCU during No Way Home, Osborn broke his mask and manipulated Peter Parker before being successfully cured.",
+    "biography": "Dr. Norman Osborn was the brilliant, cutthroat founder and CEO of Oscorp Technologies. Facing the loss of crucial military contracts and imminent board dismissal, Osborn tested an unstable chemical performance enhancer on himself. The formula drastically augmented his physical strength, reflexes, and intelligence while fracturing his psyche, giving birth to the sadistic Green Goblin alter ego. Equipped with the high-speed Goblin Glider and an arsenal of explosive pumpkin bombs, Osborn terrorized New York City as Spider-Man's most personal and dangerous nemesis.",
     "powers": [
       "Superhuman physical strength, durability, agility, and reflexes",
       "Genius-level intellect in advanced weaponry and cybernetics",
@@ -2548,7 +2546,9 @@
         "url": "https://www.marvel.com/characters/green-goblin-norman-osborn",
         "verifiedDate": "2026-11-28"
       }
-    ]
+    ],
+    "spoilerBio": "During his final rooftop duel with Tobey Maguire's Spider-Man in 2002, Osborn attempted a sneak attack with his remote glider, but Peter dodged, causing the glider to fatally impale Osborn. Pulled across the multiverse into the MCU just moments before his death in No Way Home, Osborn broke his goblin mask and sought help from Peter Parker, but the Goblin persona reasserted control, murdering Aunt May with his glider. At the Statue of Liberty, Holland's Peter was stopped from killing Osborn by Maguire's Spider-Man, and Osborn was injected with a cure that permanently restored his sanity before returning home.",
+    "spoilerWarning": "Contains climactic plot and character death spoilers for Spider-Man (2002) and Spider-Man: No Way Home (2021)"
   },
   {
     "id": "portrayal-doctor-octopus-raimi",
@@ -2564,7 +2564,7 @@
     "universeId": "raimi-spiderman",
     "role": "villain",
     "tagline": "The four-tentacled fusion scientist who conquered his artificial mind",
-    "biography": "Dr. Otto Octavius was a brilliant, compassionate nuclear scientist sponsored by Oscorp to achieve sustainable self-sustaining fusion power. To manipulate the dangerous fusion core safely, Octavius created four artificial-intelligence-assisted titanium mechanical tentacles fused to his spine, protected by a neural inhibitory chip. When the fusion experiment destabilized into a miniature artificial sun, the runaway energy overload fried the chip, allowing the tentacles' artificial intelligence to corrupt his mind. In Spider-Man 2, Peter Parker broke through the neural override, inspiring Octavius to sacrifice himself to drown the reactor. Pulled into the MCU just prior to his demise, Doc Ock was freed by Peter's new inhibitor chip and turned to aid the Spider-Men.",
+    "biography": "Dr. Otto Octavius was a brilliant, compassionate nuclear scientist sponsored by Oscorp to achieve sustainable self-sustaining fusion power. To manipulate the volatile fusion core safely, Octavius developed four artificial-intelligence-assisted titanium mechanical tentacles fused to his spine, protected by a neural inhibitory chip. When his demonstration destabilized into a miniature runaway sun, the energy surge fried his inhibitor chip, allowing the tentacles' artificial intelligence to corrupt his mind and compel him to rebuild the reactor at any cost.",
     "powers": [
       "Four highly articulate, super-strong titanium mechanical tentacles",
       "Tentacle-enabled wall-scaling, heavy lifting, and rapid locomotion",
@@ -2618,7 +2618,9 @@
         "url": "https://www.marvel.com/characters/doctor-octopus-otto-octavius",
         "verifiedDate": "2026-11-28"
       }
-    ]
+    ],
+    "spoilerBio": "In the climax of Spider-Man 2, Peter Parker unmasked himself and broke through the tentacles' neural override, inspiring Octavius to reassert conscious control. Overcoming the AI, Octavius sacrificed his life by dragging the runaway fusion machine into the Hudson River to save New York City. Pulled into the MCU moments prior to drowning, Doc Ock was freed from the tentacles' corruption when Peter fabricated a replacement neural inhibitor chip, allowing Octavius to ally with the three Spider-Men in the final battle.",
+    "spoilerWarning": "Contains climactic plot and sacrifice spoilers for Spider-Man 2 (2004) and Spider-Man: No Way Home (2021)"
   },
   {
     "id": "portrayal-electro-webb",
@@ -2633,7 +2635,7 @@
     "universeId": "webb-spiderman",
     "role": "villain",
     "tagline": "The living electrical lightning storm seeking recognition",
-    "biography": "Maxwell 'Max' Dillon was a chronically overlooked and underappreciated electrical engineer at Oscorp who idolized Spider-Man after the hero saved his life in traffic. On his birthday, while attempting to repair a power cable over an Oscorp bio-electric vat, Dillon was electrocuted and fell into a holding tank of genetically modified electric eels. The incident mutated his cellular matrix into pure electrical current. Misunderstood and feeling betrayed when police attacked him in Times Square, Electro went on a rampage. In No Way Home, Electro crossed into the MCU and discovered that its dimensional grid gave him an uncorrupted golden charge, before Andrew Garfield's Peter Parker helped cure him.",
+    "biography": "Maxwell 'Max' Dillon was a chronically overlooked and underappreciated electrical engineer at Oscorp who idolized Spider-Man after the hero saved his life in traffic. On his birthday, while attempting to repair a power cable over an Oscorp bio-electric vat, Dillon was electrocuted and fell into a holding tank of genetically modified electric eels. The incident mutated his cellular matrix into pure electrical current. Misunderstood and feeling betrayed when police attacked him in Times Square, Electro turned his devastating high-voltage power against Spider-Man and the city's power grid.",
     "powers": [
       "Pure electrical manipulation, lightning projection, and electro-magnetism",
       "Conversion into electrical current enabling instantaneous wire transmission",
@@ -2678,7 +2680,9 @@
         "url": "https://www.marvel.com/characters/electro-max-dillon",
         "verifiedDate": "2026-11-28"
       }
-    ]
+    ],
+    "spoilerBio": "At the climax of The Amazing Spider-Man 2, Spider-Man and Gwen Stacy overloaded Dillon with power from the Ravenswood electrical grid, causing Electro's body to explode. Pulled into the MCU prior to his death in No Way Home, Dillon discovered that the new dimension's grid granted him a yellow, stabilized electrical charge. Siphoning energy from an arc reactor, Electro battled the Spider-Men until Andrew Garfield and Doc Ock removed the reactor and cured him, restoring Dillon to ordinary human form.",
+    "spoilerWarning": "Contains climactic plot spoilers for The Amazing Spider-Man 2 (2014) and Spider-Man: No Way Home (2021)"
   },
   {
     "id": "portrayal-doctor-strange-mcu",
@@ -2926,7 +2930,7 @@
     "universeId": "mcu",
     "role": "hero",
     "tagline": "The gamma-irradiated titan who fused brains with brawn",
-    "biography": "Dr. Robert Bruce Banner was a renowned nuclear physicist who attempted to recreate Abraham Erskine's Super Soldier Serum using gamma radiation instead of Vita-Rays. When an experiment went awry, Banner shielded a colleague and absorbed a lethal dose of gamma rays, resulting in a cellular mutation that causes him to transform into the giant, rage-fueled Hulk whenever his heart rate spikes or emotions flare. Joining the Avengers, Banner spent years viewing the Hulk as a curse until retreating to a Mexican beach lab during the Blip, spending 18 months in a gamma chamber to merge Banner's genius intellect with the Hulk's physical invulnerability ('Smart Hulk'). In Endgame, Banner channeled the Nano Gauntlet to bring back everyone snapped away by Thanos.",
+    "biography": "Dr. Robert Bruce Banner was a renowned nuclear physicist who attempted to recreate Abraham Erskine's Super Soldier Serum using gamma radiation instead of Vita-Rays. When an experiment went awry, Banner shielded a colleague and absorbed a lethal dose of gamma rays, resulting in a cellular mutation that causes him to transform into the giant, rage-fueled Hulk whenever his heart rate spikes or emotions flare. Joining the Avengers, Banner spent years viewing the Hulk as a curse until retreating to a Mexican beach lab during the Blip, spending 18 months in a gamma chamber to merge Banner's genius intellect with the Hulk's physical invulnerability ('Smart Hulk').",
     "powers": [
       "Virtually limitless superhuman strength scaling with emotional adrenaline",
       "Near-absolute physical invulnerability and regenerative tissue repair",
@@ -3018,7 +3022,9 @@
         "url": "https://www.marvel.com/characters/hulk-bruce-banner",
         "verifiedDate": "2026-11-28"
       }
-    ]
+    ],
+    "spoilerBio": "In 2023, during the Time Heist, Banner traveled to 2012 New York to convince the Ancient One to surrender the Time Stone. With his body capable of surviving immense gamma radiation, Banner donned the Nano Gauntlet in the Avengers Compound, snapping his fingers to resurrect everyone dusted by Thanos five years earlier, suffering permanent burns down his right arm in the process.",
+    "spoilerWarning": "Contains climactic plot spoilers for Avengers: Endgame (2019)"
   },
   {
     "id": "portrayal-scarlet-witch-mcu",
@@ -3134,7 +3140,7 @@
     "universeId": "mcu",
     "role": "hero",
     "tagline": "The peerless archer and grounding heart of the Avengers",
-    "biography": "Clinton Francis Barton was an elite marksman recruited into S.H.I.E.L.D. by Director Nick Fury as one of the agency's primary tactical assets. Assigned to assassinate the Black Widow in Budapest, Barton defied orders to spare Romanoff, forging a legendary partnership. As a founding Avenger, Hawkeye fought in New York and Sokovia. When his entire family vanished during the Blip, grief drove Barton to adopt the blood-soaked persona of Ronin, slaughtering global criminal syndicates before Romanoff found him in Tokyo to bring him home for the Time Heist.",
+    "biography": "Clinton Francis Barton was an elite marksman recruited into S.H.I.E.L.D. by Director Nick Fury as one of the agency's primary tactical assets. Assigned to assassinate the Black Widow in Budapest, Barton defied orders to spare Romanoff, forging a legendary partnership. Armed with a customized recurve bow and a versatile quiver of high-tech trick arrows, Hawkeye became a founding member of the Avengers, fighting heroically in New York and Sokovia.",
     "powers": [
       "Flawless peak-human marksmanship with bows, firearms, and thrown projectiles",
       "Mastery of master-level hand-to-hand martial arts and swordsmanship (as Ronin)",
@@ -3217,7 +3223,9 @@
         "url": "https://www.marvel.com/characters/hawkeye-clint-barton",
         "verifiedDate": "2026-11-28"
       }
-    ]
+    ],
+    "spoilerBio": "When his wife Laura and three children vanished during the Blip in 2018, overwhelming grief drove Barton to adopt the blood-soaked persona of Ronin, traveling the globe to butcher cartels and syndicates. In 2023, Natasha Romanoff found him in Tokyo to recruit him for the Time Heist. On Vormir, Barton fought desperately to sacrifice himself for the Soul Stone, but was forced to watch Romanoff sacrifice her life instead. Returning to the Battle of Earth, Barton guarded the Nano Gauntlet until the Snap brought his family safely home.",
+    "spoilerWarning": "Contains major plot spoilers for Avengers: Infinity War and Avengers: Endgame"
   },
   {
     "id": "portrayal-black-panther-mcu",
@@ -3716,7 +3724,7 @@
     "universeId": "mcu",
     "role": "hero",
     "tagline": "The high-flying pararescue airman who accepted the shield of Captain America",
-    "biography": "Samuel Thomas Wilson was a former United States Air Force Pararescue airman who operated the experimental EXO-7 Falcon flight harness during tactical night missions. Following the loss of his wingman Riley, Wilson worked as a VA counselor in Washington D.C., where he befriended Steve Rogers. When HYDRA compromised S.H.I.E.L.D., Wilson donned his Falcon wings to aid Rogers in taking down Project Insight. Wilson became a devoted Avenger, took Steve's side in the Civil War, and fought Thanos' forces in Infinity War and Endgame. At the end of Endgame, an aged Steve Rogers formally passed his shield to Wilson, who eventually accepted the mantle of Captain America.",
+    "biography": "Samuel Thomas Wilson was a former United States Air Force Pararescue airman who operated the experimental EXO-7 Falcon flight harness during tactical night missions. Following the loss of his wingman Riley, Wilson worked as a VA counselor in Washington D.C., where he befriended Steve Rogers. When HYDRA compromised S.H.I.E.L.D., Wilson donned his Falcon wings to aid Rogers in taking down Project Insight. Wilson became a devoted Avenger, took Steve's side in the Civil War, and fought Thanos' forces in Infinity War and Endgame.",
     "powers": [
       "Exceptional aerial dogfighting agility and combat maneuvering",
       "Peak human military martial combat and shield-throwing trajectory calculations",
@@ -3801,7 +3809,9 @@
         "url": "https://www.marvel.com/characters/captain-america-sam-wilson",
         "verifiedDate": "2026-11-28"
       }
-    ]
+    ],
+    "spoilerBio": "Following the Battle of Earth in Endgame, an elderly Steve Rogers passed his original circular vibranium shield to Wilson. Initially donating the shield to the Smithsonian due to the complex racial history of America, Wilson reclaimed it after John Walker disgraced the mantle, formally flying into action as the new Captain America in a custom Wakandan vibranium flight suit.",
+    "spoilerWarning": "Contains major plot spoilers for Avengers: Endgame and The Falcon and the Winter Soldier"
   },
   {
     "id": "portrayal-loki-mcu",
@@ -3818,7 +3828,7 @@
     "universeId": "mcu",
     "role": "anti-hero",
     "tagline": "The God of Mischief whose path from conqueror to savior bound the multiverse",
-    "biography": "Loki Laufeyson was the biological son of King Laufey of Jotunheim, adopted as an abandoned infant by King Odin of Asgard and raised alongside Thor. Learning in adulthood of his Frost Giant heritage, Loki's feelings of inferiority and betrayal exploded into a succession of schemes: attempting to destroy Jotunheim, leading a Chitauri invasion of New York City for the Tesseract, and seizing the Asgardian throne under Odin's guise. Reconciling with Thor during Ragnarok, Loki sacrificed himself in Infinity War defying Thanos. An alternate 2012 variant escaped with the Tesseract to the TVA, evolving to master time-slipping and sacrificing personal freedom to hold together the branches of the multiverse as the God of Stories.",
+    "biography": "Loki Laufeyson was the biological son of King Laufey of Jotunheim, adopted as an abandoned infant by King Odin of Asgard and raised alongside Thor. Learning in adulthood of his Frost Giant heritage, Loki's feelings of inferiority and betrayal exploded into a succession of schemes: attempting to destroy Jotunheim, leading a Chitauri invasion of New York City for the Tesseract, and seizing the Asgardian throne under Odin's guise before fighting alongside his brother during the defense of Asgard against Hela.",
     "powers": [
       "Mastery of Asgardian sorcery, astral projections, duplicates, and illusions",
       "Telekinesis, energy blast projection, and shape-shifting",
@@ -4155,7 +4165,7 @@
     "universeId": "fox-xmen",
     "role": "hero",
     "tagline": "The Class 5 telekinetic mutant carrying the devastating Phoenix force",
-    "biography": "Dr. Jean Grey was an accomplished geneticist, physician, and founding senior member of the X-Men. Possessing Class 5 telepathy and telekinesis, Jean's boundless psionic potential was guarded by mental blocks installed by Charles Xavier in childhood to shield her sanity. Sacrificing her life to hold back the bursting Alkali Lake dam in X2, Jean re-emerged in The Last Stand as the unrestrained, omnipotent Phoenix. Torn between her compassionate nature and the destructive entity within, Jean begged Logan to end her life on Alcatraz to stop the catastrophe.",
+    "biography": "Dr. Jean Grey was an accomplished geneticist, physician, and senior member of the X-Men. Possessing Class 5 telepathy and telekinesis, Jean's boundless psionic potential was guarded by mental blocks installed by Charles Xavier in childhood to shield her sanity. Working from the Xavier Institute, Jean served as the emotional and scientific core of the team, treating injured students and standing alongside Cyclops, Storm, and Professor X in advocating for peaceful mutant coexistence.",
     "powers": [
       "Class 5 molecular telekinesis capable of disintegrating matter at an atomic level",
       "Vast psionic telepathy and mind reading",
@@ -4233,7 +4243,9 @@
         "url": "https://www.marvel.com/characters/jean-grey",
         "verifiedDate": "2026-11-28"
       }
-    ]
+    ],
+    "spoilerBio": "In the climax of X2: X-Men United, Jean sacrificed her life holding back millions of gallons of water from the breached Alkali Lake dam to allow the X-Jet to escape. Re-emerging in X-Men: The Last Stand as the unrestrained, omnipotent Phoenix, her destructive split persona killed Scott Summers and disintegrated Charles Xavier. During the Battle of Alcatraz, Jean briefly regained conscious control and pleaded with Logan to end her life, dying at his claws to stop the catastrophe.",
+    "spoilerWarning": "Contains major character death spoilers for X2 and X-Men: The Last Stand"
   },
   {
     "id": "portrayal-cyclops-fox",
@@ -4324,6 +4336,8 @@
         "url": "https://www.marvel.com/characters/cyclops-scott-summers",
         "verifiedDate": "2026-11-28"
       }
-    ]
+    ],
+    "spoilerBio": "Grief-stricken following Jean Grey's apparent death at Alkali Lake, Scott was haunted by telepathic whispers calling him back to the spillway. Arriving at Alkali Lake in X-Men: The Last Stand, Scott discovered the resurrected Jean, whose emerging Dark Phoenix persona overwhelmed him in an embrace that disintegrated his body, leaving behind only his floating ruby-quartz glasses.",
+    "spoilerWarning": "Contains character death spoilers for X-Men: The Last Stand (2006)"
   }
 ]

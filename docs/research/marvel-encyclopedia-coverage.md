@@ -47,8 +47,8 @@ The dataset contains **46 verified character portrayals** and **15 verified team
 - **Earth-838 (`professor-x-earth-838`):** Co-leader of the Illuminati on Earth-838 in *Doctor Strange in the Multiverse of Madness* (2022); operates the hoverchair and mental telepathy defense against the Scarlet Witch. Distinct continuity, distinct team affiliations, distinct fate.
 
 ### B. Wolverine / Logan (Hugh Jackman)
-- **Earth-10005 (`wolverine-hugh-jackman`):** Original Fox continuity Logan; sacrificed himself protecting Laura and mutant children in *Logan* (2017).
-- **Alternate Timeline / Anchor Being Variant (`wolverine-alternate-variant`):** Introduced in *Deadpool & Wolverine* (2024); the "worst Wolverine" who let down his own universe's X-Men and subsequently co-anchors Earth-10005 alongside Wade Wilson.
+- **Earth-10005 (`wolverine-hugh-jackman`):** Original Fox continuity Logan; veteran of the Weapon X program and core field leader of the Earth-10005 X-Men; sacrificed himself protecting Laura and mutant children in *Logan* (2017).
+- **Alternate Timeline / Anchor Being Variant (`wolverine-alternate-variant`):** Introduced in *Deadpool & Wolverine* (2024); the "worst Wolverine" who let down his own universe's X-Men and subsequently co-anchors Earth-10005 alongside Wade Wilson. Not a member of Earth-10005's X-Men roster, preserving continuity accuracy while linked to the MCU film.
 
 ### C. Deadpool / Wade Wilson (Ryan Reynolds)
 - **Weapon XI (`weapon-xi-wade-wilson`):** *X-Men Origins: Wolverine* (2009) portrayal; Stryker's genetically altered mutant killer with sewn mouth, teleportation, optic blasts, and arm-blades. Villain role.

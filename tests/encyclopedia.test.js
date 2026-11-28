@@ -328,6 +328,21 @@ test("13. Wolverine variant separation: Earth-10005 vs Deadpool & Wolverine alte
   assert.equal(altLogan.appearances.length, 1);
   assert.equal(altLogan.appearances[0].filmId, "deadpool-and-wolverine");
 
+  // Alternate Wolverine must NOT be affiliated with Earth-10005 Fox X-Men
+  assert.ok(
+    !altLogan.teamMemberships || !altLogan.teamMemberships.some((m) => m.teamId === "x-men-fox"),
+    "Alternate Wolverine must not be affiliated with Earth-10005 Fox X-Men"
+  );
+  const foxXmen = getTeamMembers("x-men-fox");
+  assert.ok(
+    !foxXmen.some((m) => m.slug === "wolverine-alternate-variant"),
+    "Alternate Wolverine must not appear in Earth-10005 Fox X-Men roster"
+  );
+  assert.ok(
+    foxXmen.some((m) => m.slug === "wolverine-hugh-jackman"),
+    "Original Fox Wolverine must be in Fox X-Men roster"
+  );
+
   // Shared identity
   assert.equal(foxLogan.identityId, "logan-wolverine");
   assert.equal(altLogan.identityId, "logan-wolverine");
@@ -393,7 +408,7 @@ test("15. Team roster vs ally distinction", () => {
 
 test("16. Spoiler concealing integrity: sensitive narrative data is separated", () => {
   const charactersWithSpoilers = PORTRAYALS.filter((p) => p.spoilerWarning);
-  assert.ok(charactersWithSpoilers.length >= 6, "Must have spoiler protection on major fate-bearing characters");
+  assert.ok(charactersWithSpoilers.length >= 14, "Must have spoiler protection on major fate-bearing characters");
 
   for (const c of charactersWithSpoilers) {
     assert.ok(c.spoilerBio && c.spoilerBio.length > 30, `${c.slug} must have a non-empty spoilerBio`);
@@ -415,4 +430,66 @@ test("16. Spoiler concealing integrity: sensitive narrative data is separated", 
   const foxLogan = getPortrayalBySlug("wolverine-hugh-jackman");
   assert.ok(foxLogan.spoilerWarning);
   assert.ok(foxLogan.spoilerBio.includes("holding Laura's hand"));
+
+  // Specific check for Jean Grey
+  const jean = getPortrayalBySlug("jean-grey-famke-janssen");
+  assert.ok(jean.spoilerWarning);
+  assert.ok(jean.spoilerBio.includes("pleaded with Logan to end her life"));
+  assert.ok(!jean.biography.includes("begged Logan to end her life"));
+
+  // Specific check for Thor
+  const thor = getPortrayalBySlug("thor");
+  assert.ok(thor.spoilerWarning);
+  assert.ok(thor.spoilerBio.includes("Jane Foster"));
+  assert.ok(!thor.biography.includes("destruction of Asgard"));
+
+  // Specific check for Hawkeye
+  const hawkeye = getPortrayalBySlug("hawkeye");
+  assert.ok(hawkeye.spoilerWarning);
+  assert.ok(hawkeye.spoilerBio.includes("Ronin"));
+  assert.ok(!hawkeye.biography.includes("blood-soaked persona of Ronin"));
+
+  // Specific check for Andrew Garfield Spider-Man
+  const andrew = getPortrayalBySlug("spider-man-andrew-garfield");
+  assert.ok(andrew.spoilerWarning);
+  assert.ok(andrew.spoilerBio.includes("Gwen Stacy fell"));
+  assert.ok(!andrew.biography.includes("devastating loss of Gwen Stacy"));
+
+  // Specific check for Sam Wilson
+  const sam = getPortrayalBySlug("sam-wilson");
+  assert.ok(sam.spoilerWarning);
+  assert.ok(sam.spoilerBio.includes("passed his original circular vibranium shield to Wilson"));
+  assert.ok(!sam.biography.includes("passed his shield to Wilson"));
+});
+
+test("17. CharacterDirectory search and filter normalization resilience", () => {
+  // Test search covering aliases, actors, and movies
+  const searchResults = searchAndFilterPortrayals({ query: "Gwen" });
+  assert.ok(searchResults.some((p) => p.slug === "spider-gwen-hailee-steinfeld"));
+
+  // Test URL query string parameter formatting matches expected keys
+  const formatParams = (filters) => {
+    const params = new URLSearchParams();
+    if (filters.query?.trim()) params.set("q", filters.query.trim());
+    if (filters.universe && filters.universe !== "all") params.set("universe", filters.universe);
+    if (filters.team && filters.team !== "all") params.set("team", filters.team);
+    if (filters.role && filters.role !== "all") params.set("role", filters.role);
+    if (filters.sort && filters.sort !== "debut-asc") params.set("sort", filters.sort);
+    return params.toString();
+  };
+
+  const formatted = formatParams({
+    query: "Logan",
+    universe: "fox-xmen",
+    role: "hero",
+    sort: "name-asc",
+  });
+  assert.equal(formatted, "q=Logan&universe=fox-xmen&role=hero&sort=name-asc");
+
+  // Re-parsing gives exact same values
+  const parsed = new URLSearchParams(formatted);
+  assert.equal(parsed.get("q"), "Logan");
+  assert.equal(parsed.get("universe"), "fox-xmen");
+  assert.equal(parsed.get("role"), "hero");
+  assert.equal(parsed.get("sort"), "name-asc");
 });
