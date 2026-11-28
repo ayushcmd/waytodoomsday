@@ -1,5 +1,10 @@
 # TMDB actor portraits
 
+For the subsequent cast expansion and its separate evidence roster, see
+[Doomsday cast evidence](doomsday-evidence.md). The dated verification below
+documents the original 31-portrait implementation. The refresh now also accepts
+`--evidence` to select `src/data/doomsdayCandidates.json`, including with `--clear`.
+
 This follow-up to Issue #8 changes thumbnails only. Marvel/Disney remain the
 authority for the confirmed character/actor roster; TMDB supplies actor photos.
 The existing layouts, modal, search, categories, countdown and watchlists remain.

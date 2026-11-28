@@ -1,0 +1,493 @@
+[
+  {
+    "id": "doomsday-bruce-banner-ruffalo",
+    "characterName": "Bruce Banner / Hulk",
+    "actorName": "Mark Ruffalo",
+    "researchStatus": "studio-preview-identification",
+    "recommendedUiSection": "official-preview",
+    "displayGroup": "others",
+    "evidenceSummary": "Disney describes Doom meeting/collecting Bruce Banner in official Doomsday preview footage from Endgame: Encore; NOT present in the 31-person Disney+ guide.",
+    "sourceUrl": "https://thewaltdisneycompany.com/news/russo-brothers-avengers-endgame-doomsday/",
+    "sourcePublishedAt": "2026-09-29",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://d23.com/russo-brothers-unpack-explosive-avengers-doomsday-footage-in-endgame-encore/"
+    ],
+    "sourceType": "studio-preview",
+    "kind": "character",
+    "section": "preview",
+    "aliases": [],
+    "sourcePublisher": "The Walt Disney Company",
+    "publicSummary": "Disney identifies this performer and character in an official Doomsday preview, separately from its published cast guide. Preview footage does not guarantee the final theatrical cut.",
+    "tmdb": {
+      "personId": 103,
+      "profilePath": "/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 24428,
+      "matchCredit": {
+        "title": "The Avengers",
+        "year": 2012,
+        "character": "Bruce Banner",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "id": "doomsday-mobius-wilson",
+    "characterName": "Mobius M. Mobius",
+    "actorName": "Owen Wilson",
+    "researchStatus": "studio-preview-identification",
+    "recommendedUiSection": "official-preview",
+    "displayGroup": "others",
+    "evidenceSummary": "Disney explicitly names Mobius (Owen Wilson) in an official Doomsday preview scene at the TVA; not a formally announced main cast member.",
+    "sourceUrl": "https://thewaltdisneycompany.com/news/russo-brothers-avengers-endgame-doomsday/",
+    "sourcePublishedAt": "2026-09-29",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://d23.com/russo-brothers-unpack-explosive-avengers-doomsday-footage-in-endgame-encore/"
+    ],
+    "sourceType": "studio-preview",
+    "kind": "character",
+    "section": "preview",
+    "aliases": [],
+    "sourcePublisher": "The Walt Disney Company",
+    "publicSummary": "Disney identifies this performer and character in an official Doomsday preview, separately from its published cast guide. Preview footage does not guarantee the final theatrical cut.",
+    "tmdb": {
+      "personId": 887,
+      "profilePath": "/5A46lNOwmpX77jAdhyKxU7e2Hub.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 84958,
+      "matchCredit": {
+        "title": "Loki",
+        "year": 2021,
+        "character": "Mobius",
+        "mediaType": "tv"
+      }
+    }
+  },
+  {
+    "id": "doomsday-casey-cordero",
+    "characterName": "Casey",
+    "actorName": "Eugene Cordero",
+    "researchStatus": "studio-preview-identification",
+    "recommendedUiSection": "official-preview",
+    "displayGroup": "others",
+    "evidenceSummary": "Disney explicitly names Casey (Eugene Cordero) in an official Doomsday preview scene at the TVA; not a formally announced main cast member.",
+    "sourceUrl": "https://thewaltdisneycompany.com/news/russo-brothers-avengers-endgame-doomsday/",
+    "sourcePublishedAt": "2026-09-29",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://d23.com/russo-brothers-unpack-explosive-avengers-doomsday-footage-in-endgame-encore/"
+    ],
+    "sourceType": "studio-preview",
+    "kind": "character",
+    "section": "preview",
+    "aliases": [],
+    "sourcePublisher": "The Walt Disney Company",
+    "publicSummary": "Disney identifies this performer and character in an official Doomsday preview, separately from its published cast guide. Preview footage does not guarantee the final theatrical cut.",
+    "tmdb": {
+      "personId": 1370567,
+      "profilePath": "/waruLSR8lXBjhAFL0J6ihuVY62d.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 84958,
+      "matchCredit": {
+        "title": "Loki",
+        "year": 2021,
+        "character": "Casey",
+        "mediaType": "tv"
+      }
+    }
+  },
+  {
+    "id": "doomsday-ob-quan",
+    "characterName": "O.B. / Ouroboros",
+    "actorName": "Ke Huy Quan",
+    "researchStatus": "studio-preview-identification",
+    "recommendedUiSection": "official-preview",
+    "displayGroup": "others",
+    "evidenceSummary": "Disney explicitly names O.B. (Ke Huy Quan) in an official Doomsday preview scene at the TVA; not a formally announced main cast member.",
+    "sourceUrl": "https://thewaltdisneycompany.com/news/russo-brothers-avengers-endgame-doomsday/",
+    "sourcePublishedAt": "2026-09-29",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://d23.com/russo-brothers-unpack-explosive-avengers-doomsday-footage-in-endgame-encore/"
+    ],
+    "sourceType": "studio-preview",
+    "kind": "character",
+    "section": "preview",
+    "aliases": [],
+    "sourcePublisher": "The Walt Disney Company",
+    "publicSummary": "Disney identifies this performer and character in an official Doomsday preview, separately from its published cast guide. Preview footage does not guarantee the final theatrical cut.",
+    "tmdb": {
+      "personId": 690,
+      "profilePath": "/iestHyn7PLuVowj5Jaa1SGPboQ4.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 84958,
+      "matchCredit": {
+        "title": "Loki",
+        "year": 2021,
+        "character": "OB",
+        "mediaType": "tv"
+      }
+    }
+  },
+  {
+    "id": "candidate-doctor-strange",
+    "characterName": "Stephen Strange / Doctor Strange",
+    "actorName": "Benedict Cumberbatch",
+    "researchStatus": "actor-claim-disputed",
+    "recommendedUiSection": "reported-or-unresolved",
+    "displayGroup": "others",
+    "evidenceSummary": "In Jan 2025 Cumberbatch said he would not appear, then corrected himself and said he was in the next Avengers film. No matching Disney/Marvel cast announcement in the 31-person guide as of research date. Present as actor statement with studio confirmation pending, not confirmed cast.",
+    "sourceUrl": "https://ew.com/benedict-cumberbatch-clarifies-doctor-strange-avengers-doomsday-8783071",
+    "sourcePublishedAt": "2025-01-30",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://www.latimes.com/entertainment-arts/movies/story/2025-01-22/benedict-cumberbatch-avengers-doomsday-secrets-because-hes-not-in-it"
+    ],
+    "sourceType": "actor-interview",
+    "kind": "character",
+    "section": "reported",
+    "aliases": [],
+    "sourcePublisher": "Entertainment Weekly",
+    "publicSummary": "Actor statement, studio confirmation pending. Cumberbatch first denied involvement, then said he was in the next Avengers film. His contradictory remarks are not an official cast announcement.",
+    "tmdb": {
+      "personId": 71580,
+      "profilePath": "/wz3MRiMmoz6b5X3oSzMRC9nLxY1.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 284052,
+      "matchCredit": {
+        "title": "Doctor Strange",
+        "year": 2016,
+        "character": "Stephen Strange",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "id": "candidate-wanda",
+    "characterName": "Wanda Maximoff / Scarlet Witch",
+    "actorName": "Elizabeth Olsen",
+    "researchStatus": "official-story-tease",
+    "recommendedUiSection": "speculation-with-official-story-evidence",
+    "displayGroup": "others",
+    "evidenceSummary": "The VisionQuest finale post-credits scene shows Doom awakening Wanda, explicitly tying the series into Doomsday. This confirms Wanda alive/in VisionQuest, but does not independently establish Olsen appears in the Doomsday theatrical cut; major outlets disagree on whether it constitutes casting confirmation.",
+    "sourceUrl": "https://ew.com/visionquest-avengers-doomsday-post-credits-scene-elizabeth-olsen-scarlet-witch-return-12248438",
+    "sourcePublishedAt": "2026-11-11",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://www.slashfilm.com/2313195/visionquest-avengers-doomsday-post-credits-scene-scarlet-witch/",
+      "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters"
+    ],
+    "sourceType": "studio-tv-tease-and-editorial",
+    "kind": "character",
+    "section": "speculation",
+    "aliases": [],
+    "sourcePublisher": "Entertainment Weekly",
+    "publicSummary": "A VisionQuest story tease suggests a connection, but does not establish an appearance in the Doomsday theatrical cut. The published studio cast list has not confirmed this role.",
+    "tmdb": {
+      "personId": 550843,
+      "profilePath": "/kV1PPpUtxRE7lXYvur7DW41LEDn.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 85271,
+      "matchCredit": {
+        "title": "WandaVision",
+        "year": 2021,
+        "character": "Wanda Maximoff",
+        "mediaType": "tv"
+      }
+    }
+  },
+  {
+    "id": "candidate-tobey",
+    "characterName": "Peter Parker / Spider-Man (Raimi films)",
+    "actorName": "Tobey Maguire",
+    "researchStatus": "insider-rumor-unverified",
+    "recommendedUiSection": "fan-speculation",
+    "displayGroup": "others",
+    "evidenceSummary": "Alex Perez said in an Aug 2026 Q&A the intended Doomsday opening was to feature Spider-Man against X-Men. This is an unverified insider statement about story intent, NOT a studio casting confirmation or proof of final footage.",
+    "sourceUrl": "https://thecosmiccircus.com/alex-perez-aug2026-qa1-avengers-doomsday-secret-wars/",
+    "sourcePublishedAt": "2026-08-09",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://www.9to5marvel.com/is-tobey-maguire-in-avengers-doomsday/"
+    ],
+    "sourceType": "insider-qa",
+    "kind": "character",
+    "section": "speculation",
+    "aliases": [],
+    "sourcePublisher": "The Cosmic Circus",
+    "publicSummary": "An unverified insider Q&A is the source of this rumor. It does not establish studio casting or final footage; no casting confirmation has been established.",
+    "tmdb": {
+      "personId": 2219,
+      "profilePath": "/s6PwSvq6gC7PGEjIku69tPbvR8M.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 557,
+      "matchCredit": {
+        "title": "Spider-Man",
+        "year": 2002,
+        "character": "Peter Parker",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "id": "candidate-holland",
+    "characterName": "Peter Parker / Spider-Man (MCU)",
+    "actorName": "Tom Holland",
+    "researchStatus": "unverified-fan-speculation",
+    "recommendedUiSection": "fan-speculation",
+    "displayGroup": "others",
+    "evidenceSummary": "Not in the official announced list. A viral claimed Instagram confirmation in Nov 2026 was debunked; filming Brand New Day is not evidence of Doomsday appearance.",
+    "sourceUrl": "https://news.meaww.com/fact-check-did-tom-holland-announce-his-return-as-spider-man-in-avengers-doomsday",
+    "sourcePublishedAt": "2026-11-22",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://nerdist.com/article/characters-not-confirmed-avengers-doomsday/"
+    ],
+    "sourceType": "fact-check-and-editorial",
+    "kind": "character",
+    "section": "speculation",
+    "aliases": [],
+    "sourcePublisher": "MEAWW",
+    "publicSummary": "A claimed November Instagram casting announcement was debunked. Work on another Spider-Man film does not establish a Doomsday appearance; no casting confirmation has been established.",
+    "tmdb": {
+      "personId": 1136406,
+      "profilePath": "/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 315635,
+      "matchCredit": {
+        "title": "Spider-Man: Homecoming",
+        "year": 2017,
+        "character": "Peter Parker",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "id": "candidate-garfield",
+    "characterName": "Peter Parker / Spider-Man (Amazing Spider-Man films)",
+    "actorName": "Andrew Garfield",
+    "researchStatus": "actor-denied",
+    "recommendedUiSection": "fan-speculation-with-denial",
+    "displayGroup": "others",
+    "evidenceSummary": "Garfield publicly denied being in Doomsday in an October 2025 GQ interview. A denial is not a guarantee about surprises, but there is no verified affirmative casting evidence.",
+    "sourceUrl": "https://www.thewrap.com/andrew-garfield-avengers-doomsday-appearance-denial/",
+    "sourcePublishedAt": "2025-10-09",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://au.variety.com/2025/film/global/andrew-garfield-spider-man-avengers-doomsday-28811/"
+    ],
+    "sourceType": "actor-denial",
+    "kind": "character",
+    "section": "speculation",
+    "aliases": [],
+    "sourcePublisher": "TheWrap",
+    "publicSummary": "Garfield publicly denied a Doomsday appearance in October 2025. There is no verified affirmative casting evidence; this fan-interest entry must not be read as a reported return.",
+    "tmdb": {
+      "personId": 37625,
+      "profilePath": "/beO5YvbTjrr5yy8hW26KVDMSr35.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1930,
+      "matchCredit": {
+        "title": "The Amazing Spider-Man",
+        "year": 2012,
+        "character": "Peter Parker",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "id": "candidate-deadpool",
+    "characterName": "Wade Wilson / Deadpool",
+    "actorName": "Ryan Reynolds",
+    "researchStatus": "nonacting-credit-only",
+    "recommendedUiSection": "fan-speculation",
+    "displayGroup": "others",
+    "evidenceSummary": "The Writers Guild reportedly lists Reynolds as contributing additional literary material to Doomsday. This is NOT an acting credit. Reynolds appeared in Deadpool costume at the Comic-Con panel but no official theatrical role is verified.",
+    "sourceUrl": "https://www.gamesradar.com/entertainment/marvel-movies/are-deadpool-and-wolverine-in-avengers-doomsday-new-wga-listing-reveals-ryan-reynolds-and-hugh-jackman-have-writing-credits/",
+    "sourcePublishedAt": "2026-11-12",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://ew.com/ryan-reynolds-crashes-avengers-doomsday-comic-con-panel-jean-pool-12027056"
+    ],
+    "sourceType": "wga-report-and-event",
+    "kind": "character",
+    "section": "speculation",
+    "aliases": [],
+    "sourcePublisher": "GamesRadar+",
+    "publicSummary": "Reported additional-literary-material credits and a promotional costume appearance do not establish an acting role. No theatrical-film casting confirmation has been established.",
+    "tmdb": {
+      "personId": 10859,
+      "profilePath": "/trzgptffGvAlAT6MEu01fz47cLW.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 293660,
+      "matchCredit": {
+        "title": "Deadpool",
+        "year": 2016,
+        "character": "Wade / Deadpool",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "id": "candidate-wolverine",
+    "characterName": "Logan / Wolverine",
+    "actorName": "Hugh Jackman",
+    "researchStatus": "nonacting-credit-only",
+    "recommendedUiSection": "fan-speculation",
+    "displayGroup": "others",
+    "evidenceSummary": "A reported WGA additional-literary-material writing credit does not confirm acting in Doomsday, despite the character appearing in Deadpool & Wolverine.",
+    "sourceUrl": "https://www.gamesradar.com/entertainment/marvel-movies/are-deadpool-and-wolverine-in-avengers-doomsday-new-wga-listing-reveals-ryan-reynolds-and-hugh-jackman-have-writing-credits/",
+    "sourcePublishedAt": "2026-11-12",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://nerdist.com/article/ryan-reynolds-hugh-jackman-writing-credit-avengers-doomsday/"
+    ],
+    "sourceType": "wga-report",
+    "kind": "character",
+    "section": "speculation",
+    "aliases": [],
+    "sourcePublisher": "GamesRadar+",
+    "publicSummary": "A reported additional-literary-material credit is a writing credit, not an acting credit. No Doomsday acting confirmation has been established.",
+    "tmdb": {
+      "personId": 6968,
+      "profilePath": "/4Xujtewxqt6aU0Y81tsS9gkjizk.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 533535,
+      "matchCredit": {
+        "title": "Deadpool & Wolverine",
+        "year": 2024,
+        "character": "Logan",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "id": "candidate-ms-marvel",
+    "characterName": "Kamala Khan / Ms. Marvel",
+    "actorName": "Iman Vellani",
+    "researchStatus": "fan-theory",
+    "recommendedUiSection": "fan-speculation",
+    "displayGroup": "others",
+    "evidenceSummary": "Vellani hosts the official Countdown to Doomsday podcast; EW reported fan theories after Kate Bishop announcement. Hosting promotional material does not establish an acting appearance.",
+    "sourceUrl": "https://ew.com/avengers-doomsday-young-avengers-speculation-12274661",
+    "sourcePublishedAt": "2026-11-23",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://www.gamesradar.com/entertainment/marvel-movies/mcu-fans-think-ms-marvel-star-iman-vellani-will-return-in-avengers-doomsday-and-the-evidence-is-hiding-in-plain-sight-in-the-countdown-to-doomsday-podcast/"
+    ],
+    "sourceType": "industry-editorial",
+    "kind": "character",
+    "section": "speculation",
+    "aliases": [],
+    "sourcePublisher": "Entertainment Weekly",
+    "publicSummary": "Vellani’s promotional podcast and fan theories are not acting evidence. No Doomsday casting confirmation has been established.",
+    "tmdb": {
+      "personId": 2798462,
+      "profilePath": "/oBpOjLAH8heYNNJZN1Z5jVQhAKC.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 92782,
+      "matchCredit": {
+        "title": "Ms. Marvel",
+        "year": 2022,
+        "character": "Kamala Khan",
+        "mediaType": "tv"
+      }
+    }
+  },
+  {
+    "id": "candidate-vision",
+    "characterName": "Vision",
+    "actorName": "Paul Bettany",
+    "researchStatus": "rumor-retracted",
+    "recommendedUiSection": "fan-speculation",
+    "displayGroup": "others",
+    "evidenceSummary": "Anthony Mackie mentioned Bettany near filming, then clarified Bettany was on a nearby VisionQuest set. Studio has not announced Vision for Doomsday.",
+    "sourceUrl": "https://www.independent.co.uk/arts-entertainment/films/news/avengers-doomsday-spoiler-anthony-mackie-paul-bettany-b3086135.html",
+    "sourcePublishedAt": "2026-11-17",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://www.9to5marvel.com/is-vision-in-avengers-doomsday/"
+    ],
+    "sourceType": "actor-comment-clarification",
+    "kind": "character",
+    "section": "speculation",
+    "aliases": [],
+    "sourcePublisher": "The Independent",
+    "publicSummary": "A suggestive comment was later clarified: Bettany was working on the nearby VisionQuest set. The studio has not announced Vision for Doomsday.",
+    "tmdb": {
+      "personId": 6162,
+      "profilePath": "/awlH20l93cgHOIDPNP6FCnGuIJy.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 85271,
+      "matchCredit": {
+        "title": "WandaVision",
+        "year": 2021,
+        "character": "Vision",
+        "mediaType": "tv"
+      }
+    }
+  },
+  {
+    "actorName": "Alex Livinalli",
+    "characterName": null,
+    "researchStatus": "studio-cast-actor-identity-not-disclosed",
+    "evidenceSummary": "Disney UK official press project profile includes Alex Livinalli but does not specify a Doomsday character. Do not assume Attuma based on earlier film credits. Current repo has spelling Alex Livanalli; standardize to Disney spelling after verification.",
+    "sourceUrl": "https://lumiere-a.akamaihd.net/v1/documents/avengers_doomsday_uk_project_profile_updated_4b024a7e.pdf",
+    "verifiedAt": "2026-11-28",
+    "recommendedUiSection": "official-role-undisclosed",
+    "id": "actor-alex-livinalli",
+    "kind": "actor",
+    "section": "undisclosed",
+    "aliases": [],
+    "displayGroup": "others",
+    "sourcePublisher": "Disney UK",
+    "publicSummary": "Disney UK lists Alex Livinalli in official cast materials without identifying his character. His prior roles do not establish a role in this film.",
+    "tmdb": {
+      "personId": 992386,
+      "profilePath": "/kcPcUfbPMiuNfY3Ox48lXc50NHS.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 505642,
+      "matchCredit": {
+        "title": "Black Panther: Wakanda Forever",
+        "year": 2022,
+        "character": "Attuma",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "id": "reported-sandra-huller",
+    "characterName": null,
+    "actorName": "Sandra Hüller",
+    "researchStatus": "industry-reported-actor-unknown-role",
+    "recommendedUiSection": "reported-actor",
+    "displayGroup": "others",
+    "evidenceSummary": "The Hollywood Reporter reported a cameo in the film in October. No reliable source publicly establishes a character identity; DO NOT call her a Latverian witch or Doctor Doom relative.",
+    "sourceUrl": "https://es.hollywoodreporter.com/sandra-huller-se-suma-al-reparto-de-avengers-doomsday/",
+    "sourcePublishedAt": "2026-10-26",
+    "verifiedAt": "2026-11-28",
+    "additionalSources": [
+      "https://variety.com/2026/film/news/sandra-huller-avengers-doomsday-cameo-role-1236930032/"
+    ],
+    "sourceType": "trade-report",
+    "kind": "actor",
+    "section": "undisclosed",
+    "aliases": [],
+    "sourcePublisher": "The Hollywood Reporter",
+    "publicSummary": "The Hollywood Reporter reports a cameo, but no character identity has been established. This is a reported actor appearance, not a confirmed named character.",
+    "tmdb": {
+      "personId": 7152,
+      "profilePath": "/gDiFGzVbpjFU44QJGKsEVk8WuVw.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 915935,
+      "matchCredit": {
+        "title": "Anatomy of a Fall",
+        "year": 2023,
+        "character": "Sandra",
+        "mediaType": "movie"
+      }
+    }
+  }
+]
