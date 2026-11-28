@@ -1,0 +1,40 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import SiteNav from "../../components/SiteNav.astro";
+import CharacterDirectory from "../../components/encyclopedia/CharacterDirectory.jsx";
+import { PORTRAYALS, UNIVERSES } from "../../data/encyclopedia/index.js";
+---
+
+<Layout
+  title="Marvel Character Encyclopedia — All Movie Universes | Way to Doomsday"
+  description="Explore verified Marvel movie character portrayals spanning the MCU, Fox X-Men, Raimi and Webb Spider-Man, Spider-Verse, Fantastic Four, and beyond."
+>
+  <SiteNav />
+
+  <!-- Hero Section -->
+  <header class="relative pt-12 pb-10 border-b border-white/5 overflow-hidden">
+    <div class="pointer-events-none absolute -top-32 -left-32 w-96 h-96 rounded-full bg-accent/10 blur-3xl" />
+    <div class="pointer-events-none absolute top-0 right-0 w-80 h-80 rounded-full bg-blue-500/5 blur-3xl" />
+
+    <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-accent mb-3">
+        <a href="/" class="hover:text-accent-bright transition-colors">Home</a>
+        <span class="text-muted/60">/</span>
+        <span>Encyclopedia</span>
+      </div>
+
+      <h1 class="font-display text-5xl sm:text-7xl lg:text-8xl tracking-wide leading-none text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
+        EXPLORE THE <span class="text-accent">MULTIVERSE</span>
+      </h1>
+
+      <p class="mt-4 text-muted text-sm sm:text-base max-w-2xl leading-relaxed">
+        A verified cinematic directory spanning <strong class="text-white">{PORTRAYALS.length} portrayals</strong> across <strong class="text-white">{UNIVERSES.length} movie continuities</strong>. Filter by universe, team affiliation, or character identity with zero comic-lore guesswork.
+      </p>
+    </div>
+  </header>
+
+  <!-- Directory Main Section -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+    <CharacterDirectory client:load />
+  </main>
+</Layout>

@@ -1,0 +1,429 @@
+[
+  {
+    "id": "iron-man",
+    "title": "Iron Man",
+    "releaseYear": 2008,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "incredible-hulk",
+    "title": "The Incredible Hulk",
+    "releaseYear": 2008,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "iron-man-2",
+    "title": "Iron Man 2",
+    "releaseYear": 2010,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "thor",
+    "title": "Thor",
+    "releaseYear": 2011,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "captain-america-first-avenger",
+    "title": "Captain America: The First Avenger",
+    "releaseYear": 2011,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "avengers",
+    "title": "The Avengers",
+    "releaseYear": 2012,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "iron-man-3",
+    "title": "Iron Man 3",
+    "releaseYear": 2013,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "thor-dark-world",
+    "title": "Thor: The Dark World",
+    "releaseYear": 2013,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "captain-america-winter-soldier",
+    "title": "Captain America: The Winter Soldier",
+    "releaseYear": 2014,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "guardians-vol-1",
+    "title": "Guardians of the Galaxy",
+    "releaseYear": 2014,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "avengers-age-of-ultron",
+    "title": "Avengers: Age of Ultron",
+    "releaseYear": 2015,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "ant-man",
+    "title": "Ant-Man",
+    "releaseYear": 2015,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "captain-america-civil-war",
+    "title": "Captain America: Civil War",
+    "releaseYear": 2016,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "doctor-strange",
+    "title": "Doctor Strange",
+    "releaseYear": 2016,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "guardians-vol-2",
+    "title": "Guardians of the Galaxy Vol. 2",
+    "releaseYear": 2017,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "spider-man-homecoming",
+    "title": "Spider-Man: Homecoming",
+    "releaseYear": 2017,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "thor-ragnarok",
+    "title": "Thor: Ragnarok",
+    "releaseYear": 2017,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "black-panther",
+    "title": "Black Panther",
+    "releaseYear": 2018,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "avengers-infinity-war",
+    "title": "Avengers: Infinity War",
+    "releaseYear": 2018,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "ant-man-wasp",
+    "title": "Ant-Man and the Wasp",
+    "releaseYear": 2018,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "captain-marvel",
+    "title": "Captain Marvel",
+    "releaseYear": 2019,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "avengers-endgame",
+    "title": "Avengers: Endgame",
+    "releaseYear": 2019,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "spider-man-far-from-home",
+    "title": "Spider-Man: Far From Home",
+    "releaseYear": 2019,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "black-widow",
+    "title": "Black Widow",
+    "releaseYear": 2021,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "shang-chi",
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "releaseYear": 2021,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "eternals",
+    "title": "Eternals",
+    "releaseYear": 2021,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "spider-man-no-way-home",
+    "title": "Spider-Man: No Way Home",
+    "releaseYear": 2021,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "doctor-strange-multiverse-of-madness",
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "releaseYear": 2022,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "thor-love-and-thunder",
+    "title": "Thor: Love and Thunder",
+    "releaseYear": 2022,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "black-panther-wakanda-forever",
+    "title": "Black Panther: Wakanda Forever",
+    "releaseYear": 2022,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "ant-man-quantumania",
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "releaseYear": 2023,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "guardians-vol-3",
+    "title": "Guardians of the Galaxy Vol. 3",
+    "releaseYear": 2023,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "the-marvels",
+    "title": "The Marvels",
+    "releaseYear": 2023,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "deadpool-and-wolverine",
+    "title": "Deadpool & Wolverine",
+    "releaseYear": 2024,
+    "universeId": "mcu",
+    "isMcu": true
+  },
+  {
+    "id": "spider-man-2002",
+    "title": "Spider-Man",
+    "releaseYear": 2002,
+    "universeId": "raimi-spiderman",
+    "isMcu": false
+  },
+  {
+    "id": "spider-man-2-2004",
+    "title": "Spider-Man 2",
+    "releaseYear": 2004,
+    "universeId": "raimi-spiderman",
+    "isMcu": false
+  },
+  {
+    "id": "spider-man-3-2007",
+    "title": "Spider-Man 3",
+    "releaseYear": 2007,
+    "universeId": "raimi-spiderman",
+    "isMcu": false
+  },
+  {
+    "id": "the-amazing-spider-man-2012",
+    "title": "The Amazing Spider-Man",
+    "releaseYear": 2012,
+    "universeId": "webb-spiderman",
+    "isMcu": false
+  },
+  {
+    "id": "the-amazing-spider-man-2-2014",
+    "title": "The Amazing Spider-Man 2",
+    "releaseYear": 2014,
+    "universeId": "webb-spiderman",
+    "isMcu": false
+  },
+  {
+    "id": "into-the-spider-verse-2018",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "releaseYear": 2018,
+    "universeId": "sony-spiderverse",
+    "isMcu": false
+  },
+  {
+    "id": "across-the-spider-verse-2023",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "releaseYear": 2023,
+    "universeId": "sony-spiderverse",
+    "isMcu": false
+  },
+  {
+    "id": "venom-2018",
+    "title": "Venom",
+    "releaseYear": 2018,
+    "universeId": "sony-ssu",
+    "isMcu": false
+  },
+  {
+    "id": "venom-let-there-be-carnage-2021",
+    "title": "Venom: Let There Be Carnage",
+    "releaseYear": 2021,
+    "universeId": "sony-ssu",
+    "isMcu": false
+  },
+  {
+    "id": "venom-the-last-dance-2024",
+    "title": "Venom: The Last Dance",
+    "releaseYear": 2024,
+    "universeId": "sony-ssu",
+    "isMcu": false
+  },
+  {
+    "id": "x-men-2000",
+    "title": "X-Men",
+    "releaseYear": 2000,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "x2-2003",
+    "title": "X2: X-Men United",
+    "releaseYear": 2003,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "x-men-the-last-stand-2006",
+    "title": "X-Men: The Last Stand",
+    "releaseYear": 2006,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "x-men-origins-wolverine-2009",
+    "title": "X-Men Origins: Wolverine",
+    "releaseYear": 2009,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "x-men-first-class-2011",
+    "title": "X-Men: First Class",
+    "releaseYear": 2011,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "the-wolverine-2013",
+    "title": "The Wolverine",
+    "releaseYear": 2013,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "x-men-days-of-future-past-2014",
+    "title": "X-Men: Days of Future Past",
+    "releaseYear": 2014,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "deadpool-2016",
+    "title": "Deadpool",
+    "releaseYear": 2016,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "x-men-apocalypse-2016",
+    "title": "X-Men: Apocalypse",
+    "releaseYear": 2016,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "logan-2017",
+    "title": "Logan",
+    "releaseYear": 2017,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "deadpool-2-2018",
+    "title": "Deadpool 2",
+    "releaseYear": 2018,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "dark-phoenix-2019",
+    "title": "Dark Phoenix",
+    "releaseYear": 2019,
+    "universeId": "fox-xmen",
+    "isMcu": false
+  },
+  {
+    "id": "fantastic-four-2005",
+    "title": "Fantastic Four",
+    "releaseYear": 2005,
+    "universeId": "story-fantastic-four",
+    "isMcu": false
+  },
+  {
+    "id": "fantastic-four-rise-of-the-silver-surfer-2007",
+    "title": "Fantastic Four: Rise of the Silver Surfer",
+    "releaseYear": 2007,
+    "universeId": "story-fantastic-four",
+    "isMcu": false
+  },
+  {
+    "id": "blade-1998",
+    "title": "Blade",
+    "releaseYear": 1998,
+    "universeId": "trill-blade",
+    "isMcu": false
+  },
+  {
+    "id": "blade-2-2002",
+    "title": "Blade II",
+    "releaseYear": 2002,
+    "universeId": "trill-blade",
+    "isMcu": false
+  },
+  {
+    "id": "blade-trinity-2004",
+    "title": "Blade: Trinity",
+    "releaseYear": 2004,
+    "universeId": "trill-blade",
+    "isMcu": false
+  }
+]

@@ -1,0 +1,279 @@
+[
+  {
+    "id": "avengers-mcu",
+    "slug": "avengers-mcu",
+    "name": "The Avengers",
+    "universeId": "mcu",
+    "category": "team",
+    "leader": "Steve Rogers & Tony Stark",
+    "headquarters": "Avengers Tower / Avengers Compound (Upstate New York)",
+    "firstFilmAppearance": "The Avengers (2012)",
+    "filmAppearances": [
+      "avengers",
+      "avengers-age-of-ultron",
+      "captain-america-civil-war",
+      "avengers-infinity-war",
+      "avengers-endgame"
+    ],
+    "description": "Earth's Mightiest Heroes brought together under S.H.I.E.L.D.'s Avengers Initiative to fight battles that humanity never could. Founding roster: Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/avengers",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "guardians-of-the-galaxy-mcu",
+    "slug": "guardians-of-the-galaxy-mcu",
+    "name": "Guardians of the Galaxy",
+    "universeId": "mcu",
+    "category": "team",
+    "leader": "Peter Quill (Star-Lord)",
+    "headquarters": "The Milano / The Bowie / Knowhere",
+    "firstFilmAppearance": "Guardians of the Galaxy (2014)",
+    "filmAppearances": [
+      "guardians-vol-1",
+      "guardians-vol-2",
+      "avengers-infinity-war",
+      "avengers-endgame",
+      "thor-love-and-thunder",
+      "guardians-vol-3"
+    ],
+    "description": "An eccentric intergalactic crew of outlaws, mercenaries, and assassins who banded together in the Kyln prison to defend the cosmos against Ronan the Accuser and Thanos.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/guardians-of-the-galaxy",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "x-men-fox",
+    "slug": "x-men-fox",
+    "name": "The X-Men",
+    "universeId": "fox-xmen",
+    "category": "team",
+    "leader": "Professor Charles Xavier",
+    "headquarters": "Xavier's School for Gifted Youngsters (Westchester County, New York)",
+    "firstFilmAppearance": "X-Men (2000)",
+    "filmAppearances": [
+      "x-men-2000",
+      "x2-2003",
+      "x-men-the-last-stand-2006",
+      "x-men-first-class-2011",
+      "x-men-days-of-future-past-2014",
+      "x-men-apocalypse-2016",
+      "dark-phoenix-2019"
+    ],
+    "description": "A team of mutant heroes assembled by Charles Xavier dedicated to peaceful coexistence between mutants and humans while opposing hostile threats to both species.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/x-men",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "brotherhood-of-mutants-fox",
+    "slug": "brotherhood-of-mutants-fox",
+    "name": "Brotherhood of Mutants",
+    "universeId": "fox-xmen",
+    "category": "faction",
+    "leader": "Erik Lehnsherr (Magneto)",
+    "headquarters": "Liberty Island / The Savage Land / Genosha",
+    "firstFilmAppearance": "X-Men (2000)",
+    "filmAppearances": [
+      "x-men-2000",
+      "x2-2003",
+      "x-men-the-last-stand-2006",
+      "x-men-first-class-2011"
+    ],
+    "description": "Radical mutant militant faction formed by Magneto, believing that mutants are Homo superior and that war with humanity is both inevitable and necessary for survival.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/brotherhood-of-mutants",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "fantastic-four-story",
+    "slug": "fantastic-four-story",
+    "name": "Fantastic Four",
+    "universeId": "story-fantastic-four",
+    "category": "team",
+    "leader": "Reed Richards (Mister Fantastic)",
+    "headquarters": "Baxter Building (Manhattan, New York)",
+    "firstFilmAppearance": "Fantastic Four (2005)",
+    "filmAppearances": [
+      "fantastic-four-2005",
+      "fantastic-four-rise-of-the-silver-surfer-2007"
+    ],
+    "description": "Four astronauts genetically altered by cosmic radiation on a private space station who became celebrated public heroes: Mister Fantastic, Invisible Woman, Human Torch, and The Thing.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/fantastic-four",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "illuminati-earth-838",
+    "slug": "illuminati-earth-838",
+    "name": "The Illuminati",
+    "universeId": "mcu-838",
+    "category": "team",
+    "leader": "Charles Xavier & Reed Richards",
+    "headquarters": "Illuminati Headquarters (New York, Earth-838)",
+    "firstFilmAppearance": "Doctor Strange in the Multiverse of Madness (2022)",
+    "filmAppearances": [
+      "doctor-strange-multiverse-of-madness"
+    ],
+    "description": "A covert clandestine council of premier heroes assembled on Earth-838 to make paramount moral and multiversal decisions and prevent incursions.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/illuminati",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "spider-society",
+    "slug": "spider-society",
+    "name": "Spider-Society",
+    "universeId": "sony-spiderverse",
+    "category": "organization",
+    "leader": "Miguel O'Hara (Spider-Man 2099)",
+    "headquarters": "Nueva York Citadel (Earth-928)",
+    "firstFilmAppearance": "Spider-Man: Across the Spider-Verse (2023)",
+    "filmAppearances": [
+      "across-the-spider-verse-2023"
+    ],
+    "description": "A coalition of hundreds of Spider-heroes across the multiverse founded by Miguel O'Hara to monitor the Web of Life and Destiny, eliminate anomalies, and protect canon events.",
+    "sourceUrl": "https://www.sonypictures.com/movies/spidermanacrossthespiderverse",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "x-force-fox",
+    "slug": "x-force-fox",
+    "name": "X-Force",
+    "universeId": "fox-xmen",
+    "category": "team",
+    "leader": "Wade Wilson (Deadpool)",
+    "headquarters": "Sister Margaret's School for Wayward Girls (New York)",
+    "firstFilmAppearance": "Deadpool 2 (2018)",
+    "filmAppearances": [
+      "deadpool-2-2018"
+    ],
+    "description": "A makeshift mutant strike squad recruited by Deadpool to intercept Cable and protect Russell Collins, famous for its calamitous initial parachute drop.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/x-force",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "shield-mcu",
+    "slug": "shield-mcu",
+    "name": "S.H.I.E.L.D.",
+    "universeId": "mcu",
+    "category": "organization",
+    "leader": "Director Nick Fury",
+    "headquiries": "The Triskelion (Washington, D.C.) / Helicarriers",
+    "firstFilmAppearance": "Iron Man (2008)",
+    "filmAppearances": [
+      "iron-man",
+      "iron-man-2",
+      "thor",
+      "captain-america-first-avenger",
+      "avengers",
+      "captain-america-winter-soldier",
+      "avengers-age-of-ultron",
+      "captain-marvel"
+    ],
+    "description": "Strategic Homeland Intervention, Enforcement and Logistics Division — global security agency monitoring enhanced individuals and alien threats, founded by Peggy Carter and Howard Stark.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/s-h-i-e-l-d",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "hydra-mcu",
+    "slug": "hydra-mcu",
+    "name": "HYDRA",
+    "universeId": "mcu",
+    "category": "organization",
+    "leader": "Red Skull / Alexander Pierce / Baron von Strucker",
+    "headquarters": "Castle Rock / Secret bases worldwide",
+    "firstFilmAppearance": "Captain America: The First Avenger (2011)",
+    "filmAppearances": [
+      "captain-america-first-avenger",
+      "captain-america-winter-soldier",
+      "avengers-age-of-ultron",
+      "ant-man"
+    ],
+    "description": "Authoritarian subversive organization dedicated to global dominance. Originating in WWII under Johann Schmidt, HYDRA secretly infiltrated S.H.I.E.L.D. for over six decades.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/hydra",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "dora-milaje-mcu",
+    "slug": "dora-milaje-mcu",
+    "name": "Dora Milaje",
+    "universeId": "mcu",
+    "category": "organization",
+    "leader": "General Okoye",
+    "headquarters": "Birnin Zana (Wakanda)",
+    "firstFilmAppearance": "Captain America: Civil War (2016)",
+    "filmAppearances": [
+      "captain-america-civil-war",
+      "black-panther",
+      "avengers-infinity-war",
+      "avengers-endgame",
+      "black-panther-wakanda-forever"
+    ],
+    "description": "The elite, all-female royal guard and special forces unit of the Kingdom of Wakanda, sworn to protect the Golden Tribe and defend Wakanda with vibranium spears.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/dora-milaje",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "ravagers-mcu",
+    "slug": "ravagers-mcu",
+    "name": "The Ravagers",
+    "universeId": "mcu",
+    "category": "faction",
+    "leader": "Yondu Udonta / Stakar Ogord",
+    "headquarters": "The Eclector / Contraxia",
+    "firstFilmAppearance": "Guardians of the Galaxy (2014)",
+    "filmAppearances": [
+      "guardians-vol-1",
+      "guardians-vol-2",
+      "avengers-endgame",
+      "guardians-vol-3"
+    ],
+    "description": "An interstellar confederation of space pirates, thieves, and smugglers bound by an honor code forbidding trafficking in children, divided into distinct clans.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/ravagers",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "tva-mcu",
+    "slug": "tva-mcu",
+    "name": "Time Variance Authority (TVA)",
+    "universeId": "mcu",
+    "category": "organization",
+    "leader": "He Who Remains / Judge Ravonna Renslayer / B-15",
+    "headquarters": "The Null-Time Zone Citadel",
+    "firstFilmAppearance": "Deadpool & Wolverine (2024)",
+    "filmAppearances": [
+      "deadpool-and-wolverine"
+    ],
+    "description": "A bureaucratic multiversal entity operating outside time and space, originally tasked with pruning branched timelines to maintain the Sacred Timeline.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/time-variance-authority",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "thunderbolts-new-avengers-mcu",
+    "slug": "thunderbolts-new-avengers-mcu",
+    "name": "Thunderbolts* / New Avengers",
+    "universeId": "mcu",
+    "category": "team",
+    "leader": "Contessa Valentina Allegra de Fontaine / Bucky Barnes",
+    "headquarters": "Avengers Tower (Former) / O.X.E. Facility",
+    "firstFilmAppearance": "Thunderbolts* (2025)",
+    "filmAppearances": [
+      "black-widow",
+      "captain-america-civil-war"
+    ],
+    "description": "A covert ops unit of reformed anti-heroes and assassins assembled by Valentina Allegra de Fontaine, including Yelena Belova, Bucky Barnes, U.S. Agent, Ghost, and Red Guardian.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/thunderbolts",
+    "verifiedDate": "2026-11-28"
+  },
+  {
+    "id": "eternals-mcu",
+    "slug": "eternals-mcu",
+    "name": "The Eternals",
+    "universeId": "mcu",
+    "category": "team",
+    "leader": "Ajak / Sersi",
+    "headquarters": "The Domo (Spaceship)",
+    "firstFilmAppearance": "Eternals (2021)",
+    "filmAppearances": [
+      "eternals"
+    ],
+    "description": "An immortal synthetic race of ancient cosmic beings dispatched to Earth by the Celestial Arishem in 5000 BC to eliminate Deviants and incubate the planet.",
+    "sourceUrl": "https://www.marvel.com/teams-and-groups/eternals",
+    "verifiedDate": "2026-11-28"
+  }
+]

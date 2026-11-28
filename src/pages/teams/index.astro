@@ -1,0 +1,40 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import SiteNav from "../../components/SiteNav.astro";
+import TeamDirectory from "../../components/encyclopedia/TeamDirectory.jsx";
+import { TEAMS } from "../../data/encyclopedia/index.js";
+---
+
+<Layout
+  title="Marvel Teams & Organizations — All Movie Universes | Way to Doomsday"
+  description="Explore verified film-established Marvel teams, organizations, and factions including the Avengers, X-Men, Fantastic Four, Guardians of the Galaxy, and Spider-Society."
+>
+  <SiteNav />
+
+  <!-- Hero Header -->
+  <header class="relative pt-12 pb-10 border-b border-white/5 overflow-hidden">
+    <div class="pointer-events-none absolute -top-32 -right-32 w-96 h-96 rounded-full bg-accent/10 blur-3xl" />
+    <div class="pointer-events-none absolute top-0 left-0 w-80 h-80 rounded-full bg-amber-500/5 blur-3xl" />
+
+    <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-accent mb-3">
+        <a href="/" class="hover:text-accent-bright transition-colors">Home</a>
+        <span class="text-muted/60">/</span>
+        <span>Teams & Organizations</span>
+      </div>
+
+      <h1 class="font-display text-5xl sm:text-7xl lg:text-8xl tracking-wide leading-none text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
+        TEAMS & <span class="text-accent">ORGANIZATIONS</span>
+      </h1>
+
+      <p class="mt-4 text-muted text-sm sm:text-base max-w-2xl leading-relaxed">
+        Film-established alliances, strike teams, government agencies, and militant factions across <strong class="text-white">{TEAMS.length} verified groups</strong>. Researched strictly from onscreen appearances with zero comic-lore assumptions.
+      </p>
+    </div>
+  </header>
+
+  <!-- Main Directory Component -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+    <TeamDirectory client:load />
+  </main>
+</Layout>

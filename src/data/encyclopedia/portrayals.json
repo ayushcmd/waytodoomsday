@@ -1,0 +1,2076 @@
+[
+  {
+    "id": "portrayal-iron-man-mcu",
+    "slug": "iron-man",
+    "identityId": "tony-stark",
+    "name": "Iron Man",
+    "realName": "Tony Stark",
+    "aliases": ["The Armored Avenger", "Mechanic", "Genius, Billionaire, Playboy, Philanthropist"],
+    "actor": "Robert Downey Jr.",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The armored pioneer of the Marvel Cinematic Universe",
+    "biography": "Anthony Edward 'Tony' Stark was an eccentric industrialist who inherited Stark Industries from his father Howard Stark. After being ambushed and captured by the Ten Rings terrorist group in Afghanistan, Stark suffered shrapnel injuries near his heart. Refusing to build missiles for his captors, he forged an electromagnetic chest arc reactor and the rudimentary Mark I armor with Dr. Ho Yinsen. Returning to Malibu, he refined the technology into high-altitude powered suits, shut down Stark Industries' weapons manufacturing, and publicly announced 'I am Iron Man.' Stark became a core architect of the Avengers, faced alien incursions, survived PTSD, and ultimately laid down his life in 2023 by channeling the Infinity Stones to eliminate Thanos and his army.",
+    "powers": [
+      "Genius-level intellect and engineering mastery",
+      "Armor-enabled supersonic flight and maneuverability",
+      "Repulsor beam projection from palms and chest Unibeam",
+      "Micro-missile salvos and nanotech weapon morphing",
+      "Enhanced physical durability and superhuman strength"
+    ],
+    "equipment": [
+      "Mark I through Mark LXXXV Armor Suites (including Mark L and LXXXV Nanotech suits)",
+      "Arc Reactor technology",
+      "F.R.I.D.A.Y. & J.A.R.V.I.S. artificial intelligence systems",
+      "Hulkbuster armor",
+      "Nano Gauntlet"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Founding Co-Leader & Benefactor" }
+    ],
+    "filmDebut": {
+      "title": "Iron Man",
+      "year": 2008,
+      "filmId": "iron-man"
+    },
+    "appearances": [
+      { "filmId": "iron-man", "title": "Iron Man", "year": 2008, "type": "starring" },
+      { "filmId": "incredible-hulk", "title": "The Incredible Hulk", "year": 2008, "type": "cameo" },
+      { "filmId": "iron-man-2", "title": "Iron Man 2", "year": 2010, "type": "starring" },
+      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
+      { "filmId": "iron-man-3", "title": "Iron Man 3", "year": 2013, "type": "starring" },
+      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
+      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
+      { "filmId": "spider-man-homecoming", "title": "Spider-Man: Homecoming", "year": 2017, "type": "supporting" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Steve Rogers", "relation": "Teammate & Ideological Counterpart", "portrayalSlug": "captain-america" },
+      { "characterName": "Peter Parker", "relation": "Protégé & Surrogate Son", "portrayalSlug": "spider-man" },
+      { "characterName": "James Rhodes", "relation": "Best Friend & Military Liaison" },
+      { "characterName": "Pepper Potts", "relation": "Wife & Business Partner" }
+    ],
+    "poster": "/posters/Avengers_Endgame.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Iron Man Official Profile", "url": "https://www.marvel.com/characters/iron-man-tony-stark", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-thor-mcu",
+    "slug": "thor",
+    "identityId": "thor-odinson",
+    "name": "Thor",
+    "realName": "Thor Odinson",
+    "aliases": ["God of Thunder", "Lord of Thunder", "Point Break", "Strongest Avenger"],
+    "actor": "Chris Hemsworth",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Asgardian god of thunder and founding Avenger",
+    "biography": "Thor Odinson is the Asgardian God of Thunder and son of King Odin Borson and Queen Frigga. Initially arrogant and eager for war against the Frost Giants, Thor was stripped of his divine abilities and cast down to Earth as a mortal until he proved himself worthy to wield the enchanted hammer Mjolnir. Learning humility, selflessness, and valor, Thor became a founding cornerstone of the Avengers. Across his journey, Thor endured the destruction of Asgard during Ragnarok, the deaths of his brother Loki, parents, and closest companions, yet channeled his grief into forged resolve, wielding the devastating king's weapon Stormbreaker to turn the tide against Thanos.",
+    "powers": [
+      "Godlike superhuman physical strength, stamina, and longevity",
+      "Atmospheric electrokinesis and weather control",
+      "Dimensional traversal via the Bifrost Bridge",
+      "Flight propulsion through Mjolnir and Stormbreaker",
+      "Electrified energy projection without external foci"
+    ],
+    "equipment": [
+      "Mjolnir (Uru hammer enchanted by Odin)",
+      "Stormbreaker (Forged by Eitri on Nidavellir)",
+      "Asgardian royal armor and crimson cloak"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Founding Heavy Hitter" },
+      { "teamId": "guardians-of-the-galaxy-mcu", "role": "Transient Ally ('Asgardians of the Galaxy')" }
+    ],
+    "filmDebut": {
+      "title": "Thor",
+      "year": 2011,
+      "filmId": "thor"
+    },
+    "appearances": [
+      { "filmId": "thor", "title": "Thor", "year": 2011, "type": "starring" },
+      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
+      { "filmId": "thor-dark-world", "title": "Thor: The Dark World", "year": 2013, "type": "starring" },
+      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
+      { "filmId": "thor-ragnarok", "title": "Thor: Ragnarok", "year": 2017, "type": "starring" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
+      { "filmId": "thor-love-and-thunder", "title": "Thor: Love and Thunder", "year": 2022, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Loki Laufeyson", "relation": "Adoptive Brother & Former Adversary", "portrayalSlug": "loki" },
+      { "characterName": "Steve Rogers", "relation": "Avenger Teammate & Worthy Companion", "portrayalSlug": "captain-america" },
+      { "characterName": "Bruce Banner", "relation": "Friend from Work & Teammate", "portrayalSlug": "hulk-bruce-banner" },
+      { "characterName": "Jane Foster", "relation": "Astronomer, True Love & Mighty Thor" }
+    ],
+    "poster": "/posters/Thor_Ragnarok.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Thor Official Cinematic Profile", "url": "https://www.marvel.com/characters/thor-thor-odinson", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-captain-america-mcu",
+    "slug": "captain-america",
+    "identityId": "steve-rogers",
+    "name": "Captain America",
+    "realName": "Steve Rogers",
+    "aliases": ["The First Avenger", "The Star-Spangled Man with a Plan", "Cap", "Nomad"],
+    "actor": "Chris Evans",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The First Avenger and moral compass of Earth's Mightiest Heroes",
+    "biography": "Steven Grant Rogers was an impoverished Brooklyn art student rejected repeatedly from WWII military service due to a litany of chronic health issues. Dr. Abraham Erskine recognized his profound moral resolve, selecting him for the Project Rebirth Super Soldier program. Transformed into peak human perfection, Rogers led the Howling Commandos behind enemy lines to dismantle Johann Schmidt's HYDRA operations. After plunging a Valkyrie super-bomber into the Arctic ice to save millions, Rogers awoke 66 years later into the 21st century. As tactical leader of the Avengers, Cap defended humanity against aliens, corrupt secret organizations, and rogue androids, consistently standing unwavering against tyranny.",
+    "powers": [
+      "Peak human strength, agility, reflexes, and kinetic stamina",
+      "Mastery of master-level hand-to-hand martial combat and shield aerodynamics",
+      "Accelerated cellular healing and immunity to terrestrial intoxicants",
+      "Supreme battlefield tactics and inspirational leadership",
+      "Demonstrated worthiness to summon and wield Mjolnir"
+    ],
+    "equipment": [
+      "Indestructible Vibranium disc shield forged by Howard Stark",
+      "Electro-magnetic shield gauntlets (Age of Ultron)",
+      "Wakandan vibranium retractable arm shields (Infinity War)",
+      "Kevlar-weave tactical uniforms with star insignia"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Field Leader & Tactical Commander" },
+      { "teamId": "shield-mcu", "role": "Special Operations Field Agent (STRIKE)" }
+    ],
+    "filmDebut": {
+      "title": "Captain America: The First Avenger",
+      "year": 2011,
+      "filmId": "captain-america-first-avenger"
+    },
+    "appearances": [
+      { "filmId": "captain-america-first-avenger", "title": "Captain America: The First Avenger", "year": 2011, "type": "starring" },
+      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
+      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "starring" },
+      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
+      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Bucky Barnes", "relation": "Lifelong Childhood Brother & Howling Commando", "portrayalSlug": "winter-soldier" },
+      { "characterName": "Sam Wilson", "relation": "Trusted Brother-in-Arms & Handpicked Successor", "portrayalSlug": "sam-wilson" },
+      { "characterName": "Tony Stark", "relation": "Teammate, Adversary & Respected Colleague", "portrayalSlug": "iron-man" },
+      { "characterName": "Peggy Carter", "relation": "SSR Commander, Guiding Light & Lifelong Love" }
+    ],
+    "poster": "/posters/Captain_America_Civil_War.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Captain America Steve Rogers Official Profile", "url": "https://www.marvel.com/characters/captain-america-steve-rogers", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-spider-man-mcu",
+    "slug": "spider-man",
+    "identityId": "peter-parker",
+    "name": "Spider-Man",
+    "realName": "Peter Parker",
+    "aliases": ["Your Friendly Neighborhood Spider-Man", "Spidey", "Underoos", "Peter-One"],
+    "actor": "Tom Holland",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Queens' friendly neighborhood wall-crawler and junior Avenger",
+    "biography": "Peter Benjamin Parker was an orphaned Queens high school student living with his Aunt May who gained arachnid abilities after being bitten by a radioactive spider. Operating secretly in homemade gear as a local crimefighter, he was recruited by Tony Stark during the Avengers' clash over the Sokovia Accords. Equipped with high-tech Stark suits, Parker halted Adrian Toomes' scavenged weapons network and joined the Avengers on Titan against Thanos. Following the Blip and Stark's demise, Peter was framed for Mysterio's London drone assault and unmasked to the globe by J. Jonah Jameson. Desperate to restore his friends' lives, Peter turned to Doctor Strange for a memory charm that fractured the multiverse, ultimately sacrificing his entire personal identity so the cosmos could heal.",
+    "powers": [
+      "Wall-crawling surface adhesion via van der Waals bio-manipulation",
+      "Superhuman proportionate spider strength and agility",
+      "Precognitive danger reflex ('Peter-Tingle' / Spider-Sense)",
+      "Acrobatic equilibrium and heightened kinetic perception"
+    ],
+    "equipment": [
+      "Wrist-mounted mechanical web-shooters and synthetic fluid cartridges",
+      "Stark-manufactured high-tech suit with expressive optical apertures",
+      "Iron Spider nanotech armor with waldoes (mechanical arms)",
+      "Integrated Suit and classic hand-stitched fabric suit"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Junior Member (dubbed Avenger by Tony Stark)" }
+    ],
+    "filmDebut": {
+      "title": "Captain America: Civil War",
+      "year": 2016,
+      "filmId": "captain-america-civil-war"
+    },
+    "appearances": [
+      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "supporting" },
+      { "filmId": "spider-man-homecoming", "title": "Spider-Man: Homecoming", "year": 2017, "type": "starring" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
+      { "filmId": "spider-man-far-from-home", "title": "Spider-Man: Far From Home", "year": 2019, "type": "starring" },
+      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Tony Stark", "relation": "Mentor, Tech Sponsor & Father Figure", "portrayalSlug": "iron-man" },
+      { "characterName": "Peter Parker (Raimi)", "relation": "Multiversal Elder Variant & Brother ('Peter-Two')", "portrayalSlug": "spider-man-tobey-maguire" },
+      { "characterName": "Peter Parker (Webb)", "relation": "Multiversal Middle Variant & Brother ('Peter-Three')", "portrayalSlug": "spider-man-andrew-garfield" },
+      { "characterName": "Aunt May Parker", "relation": "Guardian & Moral Compass ('With great power...')" },
+      { "characterName": "Ned Leeds", "relation": "Best Friend & 'Guy in the Chair'" },
+      { "characterName": "MJ (Michelle Jones-Watson)", "relation": "Girlfriend & Confidante" }
+    ],
+    "poster": "/posters/Spider-Man_No_Way_Home.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Spider-Man Peter Parker Official MCU Bio", "url": "https://www.marvel.com/characters/spider-man-peter-parker", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-star-lord-mcu",
+    "slug": "star-lord",
+    "identityId": "peter-quill",
+    "name": "Star-Lord",
+    "realName": "Peter Quill",
+    "aliases": ["Leader of the Guardians of the Galaxy", "Space-Lord"],
+    "actor": "Chris Pratt",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The mixtape-loving leader of the Guardians of the Galaxy",
+    "biography": "Peter Jason Quill was born in Missouri to human Meredith Quill and the cosmic Celestial entity Ego. Following his mother's tragic passing from brain cancer in 1988, eight-year-old Peter was abducted into space by Yondu Udonta and the Ravagers. Rather than delivering him to Ego, Yondu raised Quill as a scavenger and thief. Adopting his mother's pet name 'Star-Lord', Quill stole an orb containing the Power Stone on Morag, triggering a cascade of events that united him with Gamora, Drax, Rocket, and Groot. As captain of the Milano, Quill transformed his found family of eccentric outlaws into the premier guardians of cosmic peace.",
+    "powers": [
+      "Extensive knowledge of extraterrestrial technologies and cultures",
+      "Expert hand-to-hand combat and guerrilla marksmanship",
+      "Celestial heritage enabling temporary physical channeling of Infinity Stones",
+      "Acrobatic jet-boot maneuvering"
+    ],
+    "equipment": [
+      "Dual Quad Blasters capable of firing plasma and concussive rounds",
+      "Retractable holographic battle helmet with atmospheric filtration",
+      "Gravitational magnetic mines and plasma thermal charges",
+      "Rocket-propelled aero-rig boots",
+      "Sony TPS-L2 Walkman & Zune loaded with Meredith's Awesome Mixes"
+    ],
+    "teamMemberships": [
+      { "teamId": "guardians-of-the-galaxy-mcu", "role": "Captain & Founding Leader" },
+      { "teamId": "ravagers-mcu", "role": "Former Scavenger Crew Member" }
+    ],
+    "filmDebut": {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "filmId": "guardians-vol-1"
+    },
+    "appearances": [
+      { "filmId": "guardians-vol-1", "title": "Guardians of the Galaxy", "year": 2014, "type": "starring" },
+      { "filmId": "guardians-vol-2", "title": "Guardians of the Galaxy Vol. 2", "year": 2017, "type": "starring" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
+      { "filmId": "thor-love-and-thunder", "title": "Thor: Love and Thunder", "year": 2022, "type": "cameo" },
+      { "filmId": "guardians-vol-3", "title": "Guardians of the Galaxy Vol. 3", "year": 2023, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Gamora", "relation": "Love of His Life & Fellow Guardian" },
+      { "characterName": "Rocket Raccoon", "relation": "Best Friend, Pilot & Guardian Successor" },
+      { "characterName": "Yondu Udonta", "relation": "Adoptive Father Figure ('He may have been your father, boy, but he wasn't your daddy')" },
+      { "characterName": "Thor Odinson", "relation": "Friendly Cosmic Rival & Teammate", "portrayalSlug": "thor" }
+    ],
+    "poster": "/posters/Guardians_of_the_Galaxy_Vol_3.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Star-Lord Peter Quill Official Bio", "url": "https://www.marvel.com/characters/star-lord-peter-quill", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-spider-man-raimi",
+    "slug": "spider-man-tobey-maguire",
+    "identityId": "peter-parker",
+    "name": "Spider-Man",
+    "realName": "Peter Parker",
+    "aliases": ["The Human Spider", "Web-Slinger", "Peter-Two"],
+    "actor": "Tobey Maguire",
+    "universeId": "raimi-spiderman",
+    "role": "hero",
+    "tagline": "The definitive Columbia Pictures trilogy web-slinger",
+    "biography": "Peter Parker was a shy, bookish Midtown High student raised by his Uncle Ben and Aunt May in Forest Hills, Queens. During a high school field trip to Columbia University, he was bitten by a genetically designed super-spider, manifesting superhuman reflexes, sticky fingertips, and organic spinnerets inside his wrists. Initially chasing prize money as 'The Human Spider' in an underground wrestling ring, Peter neglected to stop an armed robber who minutes later murdered Uncle Ben. Haunted by Ben's words—'With great power comes great responsibility'—Peter committed his life to protecting New York City. Later pulled into the MCU through Doctor Strange's destabilized spell, he aided his younger counterpart variants in curing his old adversaries.",
+    "powers": [
+      "Natural organic web generation directly from wrist spinnerets",
+      "Superhuman proportionate arachnid strength, agility, and reflexes",
+      "Wall-crawling surface adhesion through micro-structures",
+      "High-precision danger clairvoyance (Spider-Sense)"
+    ],
+    "equipment": [
+      "Hand-sewn spandex suit with raised silver webbing relief",
+      "Symbiote-bonded black spider suit (former)"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Spider-Man",
+      "year": 2002,
+      "filmId": "spider-man-2002"
+    },
+    "appearances": [
+      { "filmId": "spider-man-2002", "title": "Spider-Man", "year": 2002, "type": "starring" },
+      { "filmId": "spider-man-2-2004", "title": "Spider-Man 2", "year": 2004, "type": "starring" },
+      { "filmId": "spider-man-3-2007", "title": "Spider-Man 3", "year": 2007, "type": "starring" },
+      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Peter Parker (MCU)", "relation": "Multiversal Counterpart & Mentee ('Peter-One')", "portrayalSlug": "spider-man" },
+      { "characterName": "Peter Parker (Webb)", "relation": "Multiversal Brother ('Peter-Three')", "portrayalSlug": "spider-man-andrew-garfield" },
+      { "characterName": "Norman Osborn", "relation": "Father of Best Friend & Arch-Nemesis", "portrayalSlug": "green-goblin-willem-dafoe" },
+      { "characterName": "Otto Octavius", "relation": "Idolized Mentor turned Restored Friend", "portrayalSlug": "doctor-octopus-alfred-molina" },
+      { "characterName": "Mary Jane Watson", "relation": "Girlfriend & Lifelong Love" }
+    ],
+    "poster": "/posters/Spider-Man_No_Way_Home.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Sony Pictures Spider-Man (2002) Production Notes", "url": "https://www.sonypictures.com/movies/spiderman", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-spider-man-webb",
+    "slug": "spider-man-andrew-garfield",
+    "identityId": "peter-parker",
+    "name": "Spider-Man",
+    "realName": "Peter Parker",
+    "aliases": ["The Amazing Spider-Man", "Peter-Three"],
+    "actor": "Andrew Garfield",
+    "universeId": "webb-spiderman",
+    "role": "hero",
+    "tagline": "The brilliant Oscorp skateboarder and acrobatic protector of Manhattan",
+    "biography": "Peter Parker was an inquisitive science student abandoned by his parents, geneticist Richard Parker and Mary Parker, under mysterious circumstances. Uncovering his father's old briefcase led Peter directly into Oscorp, where he snuck into the biocable laboratory and was bitten by a genetically altered arachnid. Leveraging his father's decay rate algorithm, Peter designed high-tensile mechanical web-shooters using Oscorp biocable. After a burglar shot Uncle Ben, Peter spent months tracking the killer before embracing heroic purpose as Spider-Man. The devastating loss of Gwen Stacy at the hands of the Green Goblin sent Peter into a dark spiral until being pulled across dimensions to the MCU, where catching MJ granted him profound personal redemption.",
+    "powers": [
+      "Wall-crawling surface adhesion",
+      "Dynamic acrobatic agility and proportionate spider strength",
+      "Hyper-reactive spider-sense precognition",
+      "Scientific genius in biochemistry and electrical engineering"
+    ],
+    "equipment": [
+      "Custom wrist-mounted mechanical web-shooters firing biocable cartridges",
+      "Oscorp biocable tensile webbing",
+      "Polymer mesh suit with oversized reflective eye lenses",
+      "Skateboard"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "The Amazing Spider-Man",
+      "year": 2012,
+      "filmId": "the-amazing-spider-man-2012"
+    },
+    "appearances": [
+      { "filmId": "the-amazing-spider-man-2012", "title": "The Amazing Spider-Man", "year": 2012, "type": "starring" },
+      { "filmId": "the-amazing-spider-man-2-2014", "title": "The Amazing Spider-Man 2", "year": 2014, "type": "starring" },
+      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Peter Parker (MCU)", "relation": "Multiversal Brother ('Peter-One')", "portrayalSlug": "spider-man" },
+      { "characterName": "Peter Parker (Raimi)", "relation": "Multiversal Elder Brother ('Peter-Two')", "portrayalSlug": "spider-man-tobey-maguire" },
+      { "characterName": "Max Dillon", "relation": "Adversary Redeemed as a Friend", "portrayalSlug": "electro-jamie-foxx" },
+      { "characterName": "Gwen Stacy", "relation": "High School Sweetheart & Tragic Soulmate" }
+    ],
+    "poster": "/posters/Spider-Man_No_Way_Home.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Sony Pictures The Amazing Spider-Man Official Release", "url": "https://www.sonypictures.com/movies/theamazingspiderman", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-miles-morales-spiderverse",
+    "slug": "miles-morales-spider-verse",
+    "identityId": "miles-morales",
+    "name": "Spider-Man",
+    "realName": "Miles Morales",
+    "aliases": ["Spider-Man", "The Ultimate Spider-Man", "Anomaly of Earth-1610"],
+    "actor": "Shameik Moore (Voice)",
+    "universeId": "sony-spiderverse",
+    "role": "hero",
+    "tagline": "Brooklyn's teenage Spider-Man charting his own heroic rhythm",
+    "biography": "Miles Morales was an artistic Brooklyn high schooler attending Visions Academy whose life changed when bitten in an abandoned subway station by an interdimensional spider from Earth-42. Witnessing the tragic death of his universe's Peter Parker at the hands of Kingpin, Miles promised to disable the Super-Collider. Mentored by an out-of-shape Peter B. Parker from Earth-616 and bonding with Gwen Stacy, Miles embraced his leap of faith to become Brooklyn's new Spider-Man. In Across the Spider-Verse, Miles learned from Miguel O'Hara that his origin violated the multiverse's canon events, sparking an intense rebellion to save both his father and the fabric of reality.",
+    "powers": [
+      "Bio-electrokinesis (explosive Venom Strike blasts and threads)",
+      "Adaptive camouflage / optic invisibility",
+      "Proportionate spider strength, wall-crawling, and heightened agility",
+      "Spider-sense precognition"
+    ],
+    "equipment": [
+      "Mechanical web-shooters given by Aunt May",
+      "Spray-painted custom black-and-red spider suit",
+      "Nike Air Jordan 1 high-top sneakers"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Spider-Man: Into the Spider-Verse",
+      "year": 2018,
+      "filmId": "into-the-spider-verse-2018"
+    },
+    "appearances": [
+      { "filmId": "into-the-spider-verse-2018", "title": "Spider-Man: Into the Spider-Verse", "year": 2018, "type": "starring" },
+      { "filmId": "across-the-spider-verse-2023", "title": "Spider-Man: Across the Spider-Verse", "year": 2023, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Gwen Stacy", "relation": "Interdimensional Best Friend & Fellow Hero", "portrayalSlug": "spider-gwen-hailee-steinfeld" },
+      { "characterName": "Miguel O'Hara", "relation": "Spider-Society Commander turned Multiversal Hunter", "portrayalSlug": "spider-man-2099-oscar-isaac" },
+      { "characterName": "Jefferson Davis", "relation": "Father & NYPD Officer" },
+      { "characterName": "Aaron Davis", "relation": "Beloved Uncle & The Prowler" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "Sony Pictures Into the Spider-Verse Official Portal", "url": "https://www.sonypictures.com/movies/spidermanintothespiderverse", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-spider-gwen-spiderverse",
+    "slug": "spider-gwen-hailee-steinfeld",
+    "identityId": "gwen-stacy",
+    "name": "Spider-Gwen",
+    "realName": "Gwen Stacy",
+    "aliases": ["Ghost-Spider", "Spider-Woman"],
+    "actor": "Hailee Steinfeld (Voice)",
+    "universeId": "sony-spiderverse",
+    "role": "hero",
+    "tagline": "The rhythm-driven web-warrior of Earth-65",
+    "biography": "Hailing from Earth-65, teenager Gwen Stacy was bitten by a radioactive spider, becoming Spider-Woman while playing drums in The Mary Janes rock band. When her universe's Peter Parker transformed into the Lizard to defend himself against bullies and died in her arms, her father Captain George Stacy led a citywide manhunt against her. Sucked through Kingpin's collider into Earth-1610, Gwen formed an indelible bond with Miles Morales. Later recruited into Miguel O'Hara's elite multiversal Spider-Society, Gwen ultimately chose to break ranks to assemble her own band of spider-allies to rescue Miles.",
+    "powers": [
+      "Exceptional rhythmic acrobatic equilibrium and wall-crawling",
+      "Proportionate arachnid physical strength and endurance",
+      "Spider-sense intuition and sensory alignment"
+    ],
+    "equipment": [
+      "Custom mechanical web-shooters designed with internal dampeners",
+      "Multiversal Gizmo dimension-hopping watch",
+      "Hooded white, black, and magenta spider suit",
+      "Teal ballet shoes"
+    ],
+    "teamMemberships": [
+      { "teamId": "spider-society", "role": "Field Agent (Former)" }
+    ],
+    "filmDebut": {
+      "title": "Spider-Man: Into the Spider-Verse",
+      "year": 2018,
+      "filmId": "into-the-spider-verse-2018"
+    },
+    "appearances": [
+      { "filmId": "into-the-spider-verse-2018", "title": "Spider-Man: Into the Spider-Verse", "year": 2018, "type": "starring" },
+      { "filmId": "across-the-spider-verse-2023", "title": "Spider-Man: Across the Spider-Verse", "year": 2023, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Miles Morales", "relation": "Interdimensional Companion & Kindred Spirit", "portrayalSlug": "miles-morales-spider-verse" },
+      { "characterName": "Miguel O'Hara", "relation": "Former Commander", "portrayalSlug": "spider-man-2099-oscar-isaac" },
+      { "characterName": "Captain George Stacy", "relation": "Father & NYPD Captain" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "Sony Pictures Across the Spider-Verse Official Site", "url": "https://www.sonypictures.com/movies/spidermanacrossthespiderverse", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-spider-man-2099-spiderverse",
+    "slug": "spider-man-2099-oscar-isaac",
+    "identityId": "miguel-o-hara",
+    "name": "Spider-Man 2099",
+    "realName": "Miguel O'Hara",
+    "aliases": ["Commander of the Spider-Society"],
+    "actor": "Oscar Isaac (Voice)",
+    "universeId": "sony-spiderverse",
+    "role": "anti-hero",
+    "tagline": "The relentless architect and protector of multiversal canon events",
+    "biography": "Miguel O'Hara is a brilliant geneticist from Nueva York on Earth-928 who spliced his DNA with spider genes. Unlike most spider-heroes, Miguel possesses retractable talons, fangs that secrete non-lethal paralytic venom, and red laser webs, while lacking organic wall-adhesion and a conventional spider-sense. After attempting to replace a deceased alternate version of himself and inadvertently causing an entire universe's unraveling, Miguel founded the multiversal Spider-Society at the Citadel to ruthlessly protect predetermined canon events across realities.",
+    "powers": [
+      "Retractable forensic talons on fingers and talons capable of shearing metal",
+      "Fangs delivering paralyzing venom",
+      "Organic hard-light laser webbing projection",
+      "Accelerated vision and telescopic ocular targeting"
+    ],
+    "equipment": [
+      "Daylighter multiversal jump watch and biometric tethering system",
+      "Unstable molecule holographic nano-mesh suit with particle wing glider"
+    ],
+    "teamMemberships": [
+      { "teamId": "spider-society", "role": "Founder & Supreme Commander" }
+    ],
+    "filmDebut": {
+      "title": "Spider-Man: Into the Spider-Verse",
+      "year": 2018,
+      "filmId": "into-the-spider-verse-2018"
+    },
+    "appearances": [
+      { "filmId": "into-the-spider-verse-2018", "title": "Spider-Man: Into the Spider-Verse", "year": 2018, "type": "post-credits" },
+      { "filmId": "across-the-spider-verse-2023", "title": "Spider-Man: Across the Spider-Verse", "year": 2023, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Miles Morales", "relation": "Uncontrolled Anomaly & Multiversal Target", "portrayalSlug": "miles-morales-spider-verse" },
+      { "characterName": "Gwen Stacy", "relation": "Recruit & Defector", "portrayalSlug": "spider-gwen-hailee-steinfeld" },
+      { "characterName": "Jessica Drew", "relation": "Trusted Second-in-Command" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "Sony Pictures Across the Spider-Verse Cast Notes", "url": "https://www.sonypictures.com/movies/spidermanacrossthespiderverse", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-wolverine-fox",
+    "slug": "wolverine-hugh-jackman",
+    "identityId": "logan-wolverine",
+    "name": "Wolverine",
+    "realName": "James 'Logan' Howlett",
+    "aliases": ["Logan", "Weapon X"],
+    "actor": "Hugh Jackman",
+    "universeId": "fox-xmen",
+    "role": "hero",
+    "tagline": "The adamantium-clawed mutant survivor who defined superhero cinema",
+    "biography": "Born in 19th-century Canada as James Howlett, Logan discovered his mutation when bone claws erupted from his hands in childhood. Possessing an accelerated cellular healing factor and heightened animalistic senses, Logan survived centuries of battlefield combat across the Civil War, World War I, World War II, and Vietnam alongside his half-brother Victor Creed. Recruited into Col. William Stryker's Team X, Logan was later subjected to the Weapon X program, fusing unbreakable molten adamantium to his skeletal frame. Joining Charles Xavier's X-Men, Logan became the fierce protector of mutantkind, sacrificing himself in 2029 to ensure the survival of Laura and the mutant youth in Logan, before a multiversal worst-variant variant was drafted into the MCU Void alongside Deadpool in 2024.",
+    "powers": [
+      "Accelerated regenerative cellular healing factor",
+      "Six retractable razor-sharp bone claws coated in indestructible adamantium",
+      "Indestructible adamantium-bonded skeleton",
+      "Superhuman animalistic olfactory, auditory, and visual tracking senses",
+      "Longevity and decades of lethal hand-to-hand combat mastery"
+    ],
+    "equipment": [
+      "Adamantium skeletal laced armature",
+      "Yellow and blue comic-accurate battle uniform with full-cowl mask (Deadpool & Wolverine)",
+      "Motorcycle and leather jacket"
+    ],
+    "teamMemberships": [
+      { "teamId": "x-men-fox", "role": "Frontline Bruiser & Teacher" }
+    ],
+    "filmDebut": {
+      "title": "X-Men",
+      "year": 2000,
+      "filmId": "x-men-2000"
+    },
+    "appearances": [
+      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
+      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
+      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
+      { "filmId": "x-men-origins-wolverine-2009", "title": "X-Men Origins: Wolverine", "year": 2009, "type": "starring" },
+      { "filmId": "x-men-first-class-2011", "title": "X-Men: First Class", "year": 2011, "type": "cameo" },
+      { "filmId": "the-wolverine-2013", "title": "The Wolverine", "year": 2013, "type": "starring" },
+      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" },
+      { "filmId": "x-men-apocalypse-2016", "title": "X-Men: Apocalypse", "year": 2016, "type": "cameo" },
+      { "filmId": "logan-2017", "title": "Logan", "year": 2017, "type": "starring" },
+      { "filmId": "deadpool-and-wolverine", "title": "Deadpool & Wolverine", "year": 2024, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Charles Xavier", "relation": "Mentor, Father Figure & Dearest Friend", "portrayalSlug": "professor-x-patrick-stewart" },
+      { "characterName": "Wade Wilson", "relation": "Reluctant Multiversal Savior Partner", "portrayalSlug": "deadpool-ryan-reynolds" },
+      { "characterName": "Jean Grey", "relation": "Unrequited Love & Tragic Torment", "portrayalSlug": "jean-grey-famke-janssen" },
+      { "characterName": "Laura / X-23", "relation": "Biological Daughter & Heroic Successor" }
+    ],
+    "poster": "/posters/Deadpool_and_Wolverine.webp",
+    "status": "published",
+    "sources": [
+      { "title": "20th Century Studios X-Men History & Wolverine", "url": "https://www.20thcenturystudios.com/movies/logan", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-professor-x-stewart",
+    "slug": "professor-x-patrick-stewart",
+    "identityId": "charles-xavier",
+    "name": "Professor X",
+    "realName": "Charles Xavier",
+    "aliases": ["Professor X", "Founder of the X-Men"],
+    "actor": "Patrick Stewart",
+    "universeId": "fox-xmen",
+    "role": "hero",
+    "tagline": "The telepathic visionary fighting for human-mutant coexistence",
+    "biography": "Professor Charles Francis Xavier is an exceptionally powerful mutant telepath who dedicated his life and inherited Westchester fortune to establishing Xavier's School for Gifted Youngsters. Believing passionately that mutants and humans can peacefully share the Earth, Xavier created the X-Men to defend both species against human bigotry and mutant extremism. Utilizing Cerebro, a spherical neural amplifier, Xavier could track mutant signatures globally. Despite enduring paralysis, government hostility, and the devastation of Sentinel timelines, Xavier's unwavering optimism guided generations of mutant heroes, including an alternate reality counterpart who chaired Earth-838's Illuminati.",
+    "powers": [
+      "Vast psionic telepathy capable of mind control, memory manipulation, and illusion casting",
+      "Mental telepathic communication spanning continental distances",
+      "Global neural interface through Cerebro",
+      "Psionic paralysis and biological consciousness freezing"
+    ],
+    "equipment": [
+      "Cerebro and Cerebra neural amplifying chambers",
+      "Custom motorized hoverchair and wheelchairs",
+      "Yellow hoverchair (Earth-838)"
+    ],
+    "teamMemberships": [
+      { "teamId": "x-men-fox", "role": "Founder, Headmaster & Guiding Light" },
+      { "teamId": "illuminati-earth-838", "role": "Chairman (Earth-838 Incarnation)" }
+    ],
+    "filmDebut": {
+      "title": "X-Men",
+      "year": 2000,
+      "filmId": "x-men-2000"
+    },
+    "appearances": [
+      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
+      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
+      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
+      { "filmId": "x-men-origins-wolverine-2009", "title": "X-Men Origins: Wolverine", "year": 2009, "type": "cameo" },
+      { "filmId": "the-wolverine-2013", "title": "The Wolverine", "year": 2013, "type": "post-credits" },
+      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" },
+      { "filmId": "logan-2017", "title": "Logan", "year": 2017, "type": "starring" },
+      { "filmId": "doctor-strange-multiverse-of-madness", "title": "Doctor Strange in the Multiverse of Madness", "year": 2022, "type": "cameo" }
+    ],
+    "relationships": [
+      { "characterName": "Erik Lehnsherr (Magneto)", "relation": "Cherished Friend & Lifelong Ideological Rival", "portrayalSlug": "magneto-ian-mckellen" },
+      { "characterName": "Logan (Wolverine)", "relation": "Adopted Son, Defender & Final Caretaker", "portrayalSlug": "wolverine-hugh-jackman" },
+      { "characterName": "Jean Grey", "relation": "Beloved Student & Telepathic Ward", "portrayalSlug": "jean-grey-famke-janssen" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Professor X Character Legacy", "url": "https://www.marvel.com/characters/professor-x-charles-xavier", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-professor-x-mcavoy",
+    "slug": "professor-x-james-mcavoy",
+    "identityId": "charles-xavier",
+    "name": "Professor X (Young)",
+    "realName": "Charles Xavier",
+    "aliases": ["Charles", "Professor X"],
+    "actor": "James McAvoy",
+    "universeId": "fox-xmen",
+    "role": "hero",
+    "tagline": "The young Oxford scholar who built the first class of X-Men",
+    "biography": "Charles Xavier in his youth was a brilliant, charismatic Oxford graduate in genetics who grew up in Westchester alongside his foster sister Raven Darkhölme. In 1962, CIA agent Moira MacTaggert recruited Xavier to investigate Sebastian Shaw's Hellfire Club during the Cuban Missile Crisis. Partnering with Erik Lehnsherr, Charles recruited young mutants to create the original First Class of X-Men. When a deflected bullet severed Charles' spine during the missile standoff on the Cuban beach, his divergent worldview from Magneto cemented their tragic rift. Charles persevered through personal despair, learning in Days of Future Past to channel hope rather than fear.",
+    "powers": [
+      "World-class mutant telepathy",
+      "Direct mental link and illusion manipulation",
+      "Mind-wipe and consciousness shielding"
+    ],
+    "equipment": [
+      "Original spherical prototype Cerebro built by Hank McCoy",
+      "Manual wheelchair"
+    ],
+    "teamMemberships": [
+      { "teamId": "x-men-fox", "role": "Founder & Leader (First Class era)" }
+    ],
+    "filmDebut": {
+      "title": "X-Men: First Class",
+      "year": 2011,
+      "filmId": "x-men-first-class-2011"
+    },
+    "appearances": [
+      { "filmId": "x-men-first-class-2011", "title": "X-Men: First Class", "year": 2011, "type": "starring" },
+      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" },
+      { "filmId": "x-men-apocalypse-2016", "title": "X-Men: Apocalypse", "year": 2016, "type": "starring" },
+      { "filmId": "deadpool-2-2018", "title": "Deadpool 2", "year": 2018, "type": "cameo" },
+      { "filmId": "dark-phoenix-2019", "title": "Dark Phoenix", "year": 2019, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Erik Lehnsherr (Young)", "relation": "Brotherly Partner & Ideological Counterpart", "portrayalSlug": "magneto-michael-fassbender" },
+      { "characterName": "Raven Darkhölme (Mystique)", "relation": "Foster Sister & Tragic Departure" },
+      { "characterName": "Hank McCoy (Beast)", "relation": "Loyal Scientific Companion & Deputy" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "20th Century Studios X-Men: First Class Production Notes", "url": "https://www.20thcenturystudios.com/movies/x-men-first-class", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-magneto-mckellen",
+    "slug": "magneto-ian-mckellen",
+    "identityId": "erik-lehnsherr",
+    "name": "Magneto",
+    "realName": "Erik Lehnsherr",
+    "aliases": ["Master of Magnetism", "Creator of the Brotherhood"],
+    "actor": "Ian McKellen",
+    "universeId": "fox-xmen",
+    "role": "villain",
+    "tagline": "The Master of Magnetism championing mutant survival at all costs",
+    "biography": "Erik Magnus Lehnsherr survived the horrors of the Auschwitz concentration camp in WWII, where the trauma of losing his parents triggered his catastrophic mutant mastery over magnetic fields. Hardened by humanity's propensity for systematic genocide, Erik came to believe that the burgeoning mutant race (Homo superior) could never safely coexist with Homo sapiens. As Magneto, he forged the militant Brotherhood of Mutants, utilizing metal manipulation to weaponize everything from the Golden Gate Bridge to tactical nuclear missiles. Despite his ruthless methods, Magneto shared an unbreakable bond of mutual respect with Charles Xavier, repeatedly uniting with the X-Men when total extinction threatened their kind.",
+    "powers": [
+      "Complete psionic control over magnetic fields, ferrous metals, and electromagnetic radiation",
+      "Magnetic flight and levitation via polarized field shields",
+      "Generation of impenetrable magnetic kinetic force barriers",
+      "Molecular metal manipulation and reshaping"
+    ],
+    "equipment": [
+      "Custom telepathy-insulating helmet designed to block Xavier's psionic probes",
+      "Crimson armor and flowing royal purple cape"
+    ],
+    "teamMemberships": [
+      { "teamId": "brotherhood-of-mutants-fox", "role": "Founder & Supreme Leader" }
+    ],
+    "filmDebut": {
+      "title": "X-Men",
+      "year": 2000,
+      "filmId": "x-men-2000"
+    },
+    "appearances": [
+      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
+      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
+      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
+      { "filmId": "the-wolverine-2013", "title": "The Wolverine", "year": 2013, "type": "post-credits" },
+      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Charles Xavier", "relation": "Old Friend, Brother in Spirit & Political Rival", "portrayalSlug": "professor-x-patrick-stewart" },
+      { "characterName": "Mystique", "relation": "Primary Lieutenant & Confidante" },
+      { "characterName": "Wolverine", "relation": "Adversary with Adamantium Vulnerability", "portrayalSlug": "wolverine-hugh-jackman" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Magneto Character Profile", "url": "https://www.marvel.com/characters/magneto-erik-lehnsherr", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-magneto-fassbender",
+    "slug": "magneto-michael-fassbender",
+    "identityId": "erik-lehnsherr",
+    "name": "Magneto (Young)",
+    "realName": "Erik Lehnsherr",
+    "aliases": ["Erik", "Magneto"],
+    "actor": "Michael Fassbender",
+    "universeId": "fox-xmen",
+    "role": "anti-hero",
+    "tagline": "The vengeful Nazi hunter who forged the Brotherhood's identity",
+    "biography": "Following WWII, a young Erik Lehnsherr hunted escaped Nazi war criminals across the globe to avenge his mother's murder by Sebastian Shaw (Klaus Schmidt). In 1962, Charles Xavier pulled him from the ocean when Erik attempted to drag down Shaw's submarine with his magnetism alone. Charles helped Erik discover that true magnetic power lies between rage and serenity. After executing Shaw with a slow-moving Nazi coin through the brain, Erik seized Shaw's telepathy-blocking helmet and parted ways with Charles. Across the alternate 1973 timeline and the rise of Apocalypse, Erik oscillated between destructive vengeance and profound grief.",
+    "powers": [
+      "Raw magnetic field generation capable of lifting naval battleships and soccer stadiums",
+      "Metal manipulation down to the microscopic iron traces in human blood",
+      "Magnetic flight and concussive kinetic blasts"
+    ],
+    "equipment": [
+      "Sebastian Shaw's stolen Soviet-engineered anti-telepathy helmet",
+      "Armor with flowing dark cape"
+    ],
+    "teamMemberships": [
+      { "teamId": "brotherhood-of-mutants-fox", "role": "Founder" },
+      { "teamId": "x-men-fox", "role": "Co-Founder (First Class era)" }
+    ],
+    "filmDebut": {
+      "title": "X-Men: First Class",
+      "year": 2011,
+      "filmId": "x-men-first-class-2011"
+    },
+    "appearances": [
+      { "filmId": "x-men-first-class-2011", "title": "X-Men: First Class", "year": 2011, "type": "starring" },
+      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" },
+      { "filmId": "x-men-apocalypse-2016", "title": "X-Men: Apocalypse", "year": 2016, "type": "starring" },
+      { "filmId": "dark-phoenix-2019", "title": "Dark Phoenix", "year": 2019, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Charles Xavier (Young)", "relation": "Close Companion & Irreconcilable Rival", "portrayalSlug": "professor-x-james-mcavoy" },
+      { "characterName": "Raven Darkhölme", "relation": "Partner & Lover" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "20th Century Studios X-Men First Class Production Notes", "url": "https://www.20thcenturystudios.com/movies/x-men-first-class", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-deadpool-fox",
+    "slug": "deadpool-ryan-reynolds",
+    "identityId": "wade-wilson",
+    "name": "Deadpool",
+    "realName": "Wade Wilson",
+    "aliases": ["The Merc with a Mouth", "Marvel Jesus"],
+    "actor": "Ryan Reynolds",
+    "universeId": "fox-xmen",
+    "role": "anti-hero",
+    "tagline": "The fourth-wall-shattering mercenary who rescued the multiverse",
+    "biography": "Wade Winston Wilson was a dishonorably discharged Special Forces operative operating as a New York city mercenary. Diagnosed with late-stage terminal cancer in his liver, lungs, prostate, and brain, Wade submitted to Ajax (Francis Freeman) in the underground Weapon X workshop. Injected with mutant serum and subjected to oxygen-deprivation torture, Wade unlocked a hyper-accelerated cellular regenerative healing factor that rendered him virtually unkillable, while leaving his skin severely scarred. Adopting the moniker Deadpool, Wade paired razor-sharp wit and dual katanas with fourth-wall awareness. Pulled into the TVA's multiversal affairs, Wade teamed up with a heartbroken Wolverine variant to save his universe from destruction.",
+    "powers": [
+      "Extreme accelerated healing factor granting total regenerative biological immortality",
+      "Fourth-wall breakage and meta-awareness of cinematic and comic continuity",
+      "Mastery of dual-wielded katanas, firearms, and guerrilla assassination",
+      "Superhuman pain tolerance, agility, and kinetic dexterity"
+    ],
+    "equipment": [
+      "Twin back-sheathed carbon steel katanas (nicknamed Bea and Arthur)",
+      "Dual customized IWI Desert Eagle pistols",
+      "Red-and-black tactical suit with expressive eye masks",
+      "TVA TemPad and multiversal time-travel device"
+    ],
+    "teamMemberships": [
+      { "teamId": "x-force-fox", "role": "Founder & Recruiter" }
+    ],
+    "filmDebut": {
+      "title": "X-Men Origins: Wolverine",
+      "year": 2009,
+      "filmId": "x-men-origins-wolverine-2009"
+    },
+    "appearances": [
+      { "filmId": "x-men-origins-wolverine-2009", "title": "X-Men Origins: Wolverine", "year": 2009, "type": "supporting" },
+      { "filmId": "deadpool-2016", "title": "Deadpool", "year": 2016, "type": "starring" },
+      { "filmId": "deadpool-2-2018", "title": "Deadpool 2", "year": 2018, "type": "starring" },
+      { "filmId": "deadpool-and-wolverine", "title": "Deadpool & Wolverine", "year": 2024, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Logan / Wolverine", "relation": "Best Buddy, Foil & Co-Savior of Reality", "portrayalSlug": "wolverine-hugh-jackman" },
+      { "characterName": "Vanessa Carlysle", "relation": "Fiancée & Soulmate" },
+      { "characterName": "Blind Al", "relation": "Roommate & Weapon Stash Custodian" },
+      { "characterName": "Colossus", "relation": "Earnest X-Men Recruiter & Annoyed Conscience" }
+    ],
+    "poster": "/posters/Deadpool_and_Wolverine.webp",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel Studios Deadpool & Wolverine Official Production Brief", "url": "https://www.marvel.com/movies/deadpool-and-wolverine", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-reed-richards-story",
+    "slug": "reed-richards-ioan-gruffudd",
+    "identityId": "reed-richards",
+    "name": "Mister Fantastic",
+    "realName": "Reed Richards",
+    "aliases": ["Mister Fantastic"],
+    "actor": "Ioan Gruffudd",
+    "universeId": "story-fantastic-four",
+    "role": "hero",
+    "tagline": "The hyper-elastic scientific patriarch of the Fantastic Four",
+    "biography": "Dr. Reed Richards was an ambitious polymath and theoretical physicist who funded an expedition into deep space to study cosmic radiation cloud patterns. When the cloud arrived early, Richards and his crew—Sue Storm, Johnny Storm, Ben Grimm, and Victor von Doom—were irradiated. Returning to Earth, Richards discovered his molecular structure had mutated, permitting him to stretch, deform, expand, and compress his body into nearly any geometric configuration. Establishing the Baxter Building as their headquarters, Reed balanced groundbreaking physics with public heroism, neutralizing Victor's metallic menace and later teaming with the Silver Surfer to divert Galactus.",
+    "powers": [
+      "Total cellular hyper-elasticity and malleability",
+      "Shape alteration, elongation, and shock-absorbing expansion",
+      "World-leading genius in theoretical physics, astrophysics, and aerospace design"
+    ],
+    "equipment": [
+      "Custom molecular unstable-molecule blue uniform that stretches in harmony with his skin",
+      "The Fantasticar (Sky craft capable of splitting into four independent vehicles)"
+    ],
+    "teamMemberships": [
+      { "teamId": "fantastic-four-story", "role": "Founding Leader & Chief Scientist" }
+    ],
+    "filmDebut": {
+      "title": "Fantastic Four",
+      "year": 2005,
+      "filmId": "fantastic-four-2005"
+    },
+    "appearances": [
+      { "filmId": "fantastic-four-2005", "title": "Fantastic Four", "year": 2005, "type": "starring" },
+      { "filmId": "fantastic-four-rise-of-the-silver-surfer-2007", "title": "Fantastic Four: Rise of the Silver Surfer", "year": 2007, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Sue Storm", "relation": "Wife & Co-Founder", "portrayalSlug": "invisible-woman-jessica-alba" },
+      { "characterName": "Johnny Storm", "relation": "Brother-in-Law & Teammate", "portrayalSlug": "human-torch-chris-evans" },
+      { "characterName": "Ben Grimm", "relation": "Lifelong College Best Friend & Heavy", "portrayalSlug": "the-thing-michael-chiklis" },
+      { "characterName": "Victor von Doom", "relation": "Former College Colleague turned Arch-Enemy", "portrayalSlug": "doctor-doom-julian-mcmahon" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "20th Century Fox Fantastic Four (2005) Official Press Archive", "url": "https://www.marvel.com/characters/mister-fantastic-reed-richards", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-invisible-woman-story",
+    "slug": "invisible-woman-jessica-alba",
+    "identityId": "sue-storm",
+    "name": "Invisible Woman",
+    "realName": "Sue Storm",
+    "aliases": ["Invisible Woman", "Susan Storm-Richards"],
+    "actor": "Jessica Alba",
+    "universeId": "story-fantastic-four",
+    "role": "hero",
+    "tagline": "The force-field wielding heart of the Fantastic Four",
+    "biography": "Dr. Susan Storm was a brilliant genetics researcher at Von Doom Industries and former girlfriend of Reed Richards. Accompanying Reed's cosmic cloud space station mission, Sue was inundated by cosmic radiation that unlocked the ability to manipulate light waves around her body to render herself invisible, as well as project invisible psionic force fields capable of stopping speeding trucks and redirecting thermal blasts. Balancing her affection for Reed with Victor von Doom's corporate advances, Sue proved to be the formidable emotional and tactical anchor of the Fantastic Four.",
+    "powers": [
+      "Total optical light bending achieving complete invisibility",
+      "Projection of psionic force fields of varying density and geometric shape",
+      "Levitation and kinetic shockwave generation via force-field expansion"
+    ],
+    "equipment": [
+      "Unstable-molecule uniform reacting to light refraction"
+    ],
+    "teamMemberships": [
+      { "teamId": "fantastic-four-story", "role": "Founding Co-Leader" }
+    ],
+    "filmDebut": {
+      "title": "Fantastic Four",
+      "year": 2005,
+      "filmId": "fantastic-four-2005"
+    },
+    "appearances": [
+      { "filmId": "fantastic-four-2005", "title": "Fantastic Four", "year": 2005, "type": "starring" },
+      { "filmId": "fantastic-four-rise-of-the-silver-surfer-2007", "title": "Fantastic Four: Rise of the Silver Surfer", "year": 2007, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Reed Richards", "relation": "Husband & Scientific Partner", "portrayalSlug": "reed-richards-ioan-gruffudd" },
+      { "characterName": "Johnny Storm", "relation": "Younger Brother", "portrayalSlug": "human-torch-chris-evans" },
+      { "characterName": "Ben Grimm", "relation": "Close Teammate & Confidante", "portrayalSlug": "the-thing-michael-chiklis" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "20th Century Fox Fantastic Four Production Kit", "url": "https://www.marvel.com/characters/invisible-woman-sue-storm-richards", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-human-torch-story",
+    "slug": "human-torch-chris-evans",
+    "identityId": "johnny-storm",
+    "name": "Human Torch",
+    "realName": "Johnny Storm",
+    "aliases": ["The Human Torch"],
+    "actor": "Chris Evans",
+    "universeId": "story-fantastic-four",
+    "role": "hero",
+    "tagline": "The thrill-seeking, flame-on flyer of the Fantastic Four",
+    "biography": "Jonathan 'Johnny' Storm was an adventurous former NASA astronaut candidate and extreme-sports aficionado recruited onto Reed Richards' space expedition by his sister Sue. Exposed to cosmic rays, Johnny developed the power to envelop his body in fiery plasma without harming himself, project devastating flame bursts, and take flight by manipulating air currents. Flamboyant and loving the spotlight, Johnny coined the team's hero names and uniforms. In 2024, an alternate version of this Johnny Storm resurfaced in the Void under Cassandra Nova's rule in Deadpool & Wolverine, where his mouth got him in legendary trouble with the Merc with a Mouth.",
+    "powers": [
+      "Pyrokinesis ('Flame On!') converting body to living plasma",
+      "Supersonic aerodynamic flight",
+      "Thermokinesis and fire projection",
+      "Nova flame burst releasing astronomical thermal energy"
+    ],
+    "equipment": [
+      "Unstable-molecule flight uniform resisting extreme combustion"
+    ],
+    "teamMemberships": [
+      { "teamId": "fantastic-four-story", "role": "Founding Scout & Vanguard" }
+    ],
+    "filmDebut": {
+      "title": "Fantastic Four",
+      "year": 2005,
+      "filmId": "fantastic-four-2005"
+    },
+    "appearances": [
+      { "filmId": "fantastic-four-2005", "title": "Fantastic Four", "year": 2005, "type": "starring" },
+      { "filmId": "fantastic-four-rise-of-the-silver-surfer-2007", "title": "Fantastic Four: Rise of the Silver Surfer", "year": 2007, "type": "starring" },
+      { "filmId": "deadpool-and-wolverine", "title": "Deadpool & Wolverine", "year": 2024, "type": "cameo" }
+    ],
+    "relationships": [
+      { "characterName": "Sue Storm", "relation": "Older Sister", "portrayalSlug": "invisible-woman-jessica-alba" },
+      { "characterName": "Reed Richards", "relation": "Brother-in-Law", "portrayalSlug": "reed-richards-ioan-gruffudd" },
+      { "characterName": "Ben Grimm", "relation": "Playful sparring partner", "portrayalSlug": "the-thing-michael-chiklis" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "Marvel Studios Deadpool & Wolverine Cast Roster", "url": "https://www.marvel.com/characters/human-torch-johnny-storm", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-the-thing-story",
+    "slug": "the-thing-michael-chiklis",
+    "identityId": "ben-grimm",
+    "name": "The Thing",
+    "realName": "Ben Grimm",
+    "aliases": ["The Thing", "Aunt Petunia's Favorite Nephew"],
+    "actor": "Michael Chiklis",
+    "universeId": "story-fantastic-four",
+    "role": "hero",
+    "tagline": "The clobberin'-time rock-solid heart of the Fantastic Four",
+    "biography": "Benjamin Grimm was a seasoned astronaut, pilot, and college football star who joined his college roommate Reed Richards' space mission as pilot. When the cosmic ray cloud struck the station while Ben was on an exterior spacewalk, his physiology was completely transmuted into a massive, orange, rock-like dermal armor. Possessing immense superhuman strength, Ben struggled with his public monstrous appearance before embracing his heroic identity, famous for his battle cry: 'It's Clobberin' Time!'",
+    "powers": [
+      "Gigantic superhuman physical strength and lifting capacity",
+      "Near-invulnerable rock-hard epidermal armor impervious to ballistics and extreme temperatures",
+      "Heavy physical brawling and shockwave shock generation"
+    ],
+    "equipment": [
+      "Heavy-duty unstable-molecule pants"
+    ],
+    "teamMemberships": [
+      { "teamId": "fantastic-four-story", "role": "Founding Heavy Brawler" }
+    ],
+    "filmDebut": {
+      "title": "Fantastic Four",
+      "year": 2005,
+      "filmId": "fantastic-four-2005"
+    },
+    "appearances": [
+      { "filmId": "fantastic-four-2005", "title": "Fantastic Four", "year": 2005, "type": "starring" },
+      { "filmId": "fantastic-four-rise-of-the-silver-surfer-2007", "title": "Fantastic Four: Rise of the Silver Surfer", "year": 2007, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Reed Richards", "relation": "College Best Friend", "portrayalSlug": "reed-richards-ioan-gruffudd" },
+      { "characterName": "Johnny Storm", "relation": "Playful Antagonist & Teammate", "portrayalSlug": "human-torch-chris-evans" },
+      { "characterName": "Alicia Masters", "relation": "Blind Sculptress & Dearest Love" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "20th Century Fox The Thing Bio Notes", "url": "https://www.marvel.com/characters/the-thing-ben-grimm", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-doctor-doom-story",
+    "slug": "doctor-doom-julian-mcmahon",
+    "identityId": "victor-von-doom",
+    "name": "Doctor Doom",
+    "realName": "Victor von Doom",
+    "aliases": ["Doctor Doom", "CEO of Von Doom Industries"],
+    "actor": "Julian McMahon",
+    "universeId": "story-fantastic-four",
+    "role": "villain",
+    "tagline": "The metallic, electric monarch of Latveria",
+    "biography": "Victor von Doom was a ruthless billionaire industrialist, head of Von Doom Industries, and former university rival of Reed Richards. Financing Reed's space station exploration in exchange for majority profit rights, Victor was caught in the cosmic ray cloud after a shielding breach. Unlike his companions whose changes were immediate, Victor's body slowly ossified into organic metallic alloy while gaining the power to absorb, channel, and discharge high-voltage electricity. Blaming Reed for his company's bankruptcy and his physical condition, Doom donned a traditional Latverian metal mask and green hooded cloak, seeking vengeance on the Fantastic Four.",
+    "powers": [
+      "Bio-metallic armor skin granting immense physical strength and durability",
+      "Electrokinesis and electrical energy projection from palms",
+      "Super-conducting energy absorption",
+      "Brilliant scientific and tactical intellect"
+    ],
+    "equipment": [
+      "Latverian ceremonial steel battle mask",
+      "Green hooded cloak",
+      "High-tech control consoles and the Silver Surfer's cosmic board (temporary)"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Fantastic Four",
+      "year": 2005,
+      "filmId": "fantastic-four-2005"
+    },
+    "appearances": [
+      { "filmId": "fantastic-four-2005", "title": "Fantastic Four", "year": 2005, "type": "starring" },
+      { "filmId": "fantastic-four-rise-of-the-silver-surfer-2007", "title": "Fantastic Four: Rise of the Silver Surfer", "year": 2007, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Reed Richards", "relation": "Hated Scientific Rival", "portrayalSlug": "reed-richards-ioan-gruffudd" },
+      { "characterName": "Sue Storm", "relation": "Former Love Interest & Obsession", "portrayalSlug": "invisible-woman-jessica-alba" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Doctor Doom Character Overview", "url": "https://www.marvel.com/characters/doctor-doom-victor-von-doom", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-reed-richards-838",
+    "slug": "reed-richards-earth-838",
+    "identityId": "reed-richards",
+    "name": "Mister Fantastic (Earth-838)",
+    "realName": "Reed Richards",
+    "aliases": ["Smartest Man Alive", "Mister Fantastic"],
+    "actor": "John Krasinski",
+    "universeId": "mcu-838",
+    "role": "hero",
+    "tagline": "The smartest man alive on Earth-838 and member of the Illuminati",
+    "biography": "Dr. Reed Richards of Earth-838 was revered as the smartest man alive on his world and a prominent leader of the Illuminati alongside Charles Xavier, Black Bolt, Captain Carter, Captain Marvel (Maria Rambeau), and Karl Mordo. A devoted family man with a wife and children, Reed attempted to de-escalate the confrontation when a Darkhold-corrupted Wanda Maximoff dreamwalked into Earth-838 to seize America Chavez. Attempting to reason with Wanda by revealing his own fatherhood, Reed was shredded into ribbons when Wanda dismantled his elastic molecular bonds.",
+    "powers": [
+      "Peerless intellectual intellect and interdimensional science",
+      "Cellular hyper-elasticity and physical deformation"
+    ],
+    "equipment": [
+      "Illuminati tactical blue uniform with stylized '4' chest emblem",
+      "Multiversal teleporter platform (Time Platform / teleportation device)"
+    ],
+    "teamMemberships": [
+      { "teamId": "illuminati-earth-838", "role": "Council Member & Senior Thinker" }
+    ],
+    "filmDebut": {
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "year": 2022,
+      "filmId": "doctor-strange-multiverse-of-madness"
+    },
+    "appearances": [
+      { "filmId": "doctor-strange-multiverse-of-madness", "title": "Doctor Strange in the Multiverse of Madness", "year": 2022, "type": "cameo" }
+    ],
+    "relationships": [
+      { "characterName": "Charles Xavier (Earth-838)", "relation": "Illuminati Colleague & Chairman", "portrayalSlug": "professor-x-patrick-stewart" },
+      { "characterName": "Wanda Maximoff", "relation": "Interdimensional Threat who destroyed the Illuminati", "portrayalSlug": "scarlet-witch" }
+    ],
+    "poster": "/posters/Doctor_Strange_in_the_Multiverse_of_Madness.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel Studios Doctor Strange in the Multiverse of Madness Press Kit", "url": "https://www.marvel.com/movies/doctor-strange-in-the-multiverse-of-madness", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-blade-snipes",
+    "slug": "blade-wesley-snipes",
+    "identityId": "eric-brooks",
+    "name": "Blade",
+    "realName": "Eric Brooks",
+    "aliases": ["The Daywalker"],
+    "actor": "Wesley Snipes",
+    "universeId": "trill-blade",
+    "role": "hero",
+    "tagline": "The legendary vampire-hunting Daywalker",
+    "biography": "Eric Brooks was born after his pregnant mother was bitten by the vampire Deacon Frost in 1967, resulting in a hybrid physiology possessing all of a vampire's superhuman physical strengths, enhanced senses, and agility, without any vulnerability to sunlight, garlic, or silver—earning him the fearful title of 'The Daywalker.' Raised and armed by master armorer Abraham Whistler, Blade utilized an arsenal of customized silver weaponry, UV light explosives, and titanium swords to wage an unrelenting war against vampire syndicates. In 2024, Blade was discovered surviving in the Void in Deadpool & Wolverine, affirming to Wade that 'there's only ever gonna be one Blade.'",
+    "powers": [
+      "Superhuman physical strength, agility, reflexes, and durability",
+      "Complete immunity to sunlight, vampire bites, and garlic",
+      "Accelerated cellular healing from vampire physiology",
+      "Mastery of martial arts, sword combat, and firearms marksmanship"
+    ],
+    "equipment": [
+      "Titanium-edged broadsword with concealed handle security trap",
+      "Custom silver-tipped stakes and double-barreled shotgun",
+      "UV flash grenades and garlic essence darts",
+      "Black leather trenchcoat and ballistic sunglasses"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Blade",
+      "year": 1998,
+      "filmId": "blade-1998"
+    },
+    "appearances": [
+      { "filmId": "blade-1998", "title": "Blade", "year": 1998, "type": "starring" },
+      { "filmId": "blade-2-2002", "title": "Blade II", "year": 2002, "type": "starring" },
+      { "filmId": "blade-trinity-2004", "title": "Blade: Trinity", "year": 2004, "type": "starring" },
+      { "filmId": "deadpool-and-wolverine", "title": "Deadpool & Wolverine", "year": 2024, "type": "cameo" }
+    ],
+    "relationships": [
+      { "characterName": "Abraham Whistler", "relation": "Mentor, Surrogate Father & Weaponsmith" },
+      { "characterName": "Wade Wilson", "relation": "Void Rescuer & Teammate", "portrayalSlug": "deadpool-ryan-reynolds" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "New Line Cinema Blade Official Production Records", "url": "https://www.marvel.com/characters/blade-eric-brooks", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-venom-sony",
+    "slug": "venom-tom-hardy",
+    "identityId": "eddie-brock",
+    "name": "Venom",
+    "realName": "Eddie Brock & Venom",
+    "aliases": ["The Lethal Protector"],
+    "actor": "Tom Hardy",
+    "universeId": "sony-ssu",
+    "role": "anti-hero",
+    "tagline": "The chaotic investigative journalist and alien symbiote duo",
+    "biography": "Eddie Brock was a dogged San Francisco investigative journalist whose career imploded when he confronted Life Foundation CEO Carlton Drake with stolen classified documents. Investigating Drake's human trials involving extraterrestrial symbiotes, Brock was bonded with the alien symbiote Venom. Despite initial terror, Brock and Venom formed an idiosyncratic symbiotic partnership, developing a shared palate for bad guys and tater tots. Together they defeated Riot, Carnage (Cletus Kasady), and multiversal incursions, briefly visiting the MCU timeline during Doctor Strange's spell before leaving a drop of symbiote behind.",
+    "powers": [
+      "Gigantic superhuman physical strength capable of lifting cars and stopping trains",
+      "Fluid shape-shifting, tendril generation, and web-like swinging lines",
+      "Accelerated biological healing from gunshot wounds and broken bones",
+      "Fanged jaws and predatory sensory tracking"
+    ],
+    "equipment": [
+      "Motorcycle and audio recorder"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Venom",
+      "year": 2018,
+      "filmId": "venom-2018"
+    },
+    "appearances": [
+      { "filmId": "venom-2018", "title": "Venom", "year": 2018, "type": "starring" },
+      { "filmId": "venom-let-there-be-carnage-2021", "title": "Venom: Let There Be Carnage", "year": 2021, "type": "starring" },
+      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "post-credits" },
+      { "filmId": "venom-the-last-dance-2024", "title": "Venom: The Last Dance", "year": 2024, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Anne Weying", "relation": "Former Fiancée & She-Venom ally" },
+      { "characterName": "Peter Parker (MCU)", "relation": "Multiversal Televised Figure of Curiosity", "portrayalSlug": "spider-man" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "Sony Pictures Venom Production Archives", "url": "https://www.sonypictures.com/movies/venom", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-green-goblin-raimi",
+    "slug": "green-goblin-willem-dafoe",
+    "identityId": "norman-osborn",
+    "name": "Green Goblin",
+    "realName": "Norman Osborn",
+    "aliases": ["Green Goblin", "The Goblin", "CEO of Oscorp"],
+    "actor": "Willem Dafoe",
+    "universeId": "raimi-spiderman",
+    "role": "villain",
+    "tagline": "The manic, glider-riding arch-nemesis of Spider-Man",
+    "biography": "Dr. Norman Osborn was the brilliant, cutthroat founder and CEO of Oscorp Technologies. Facing the loss of crucial military contracts and imminent board dismissal, Osborn tested an unstable chemical performance enhancer on himself. The gas drastically augmented his physical strength and reflexes while fracturing his psyche, creating a sadistic alter ego that manifested as the Green Goblin. Riding a high-speed Goblin Glider and hurling explosive pumpkin bombs, Osborn terrorized New York City before fatally impaling himself on his own glider during a rooftop clash with Tobey Maguire's Spider-Man. Transported to the MCU during No Way Home, Osborn broke his mask and manipulated Peter Parker before being successfully cured.",
+    "powers": [
+      "Superhuman physical strength, durability, agility, and reflexes",
+      "Genius-level intellect in advanced weaponry and cybernetics",
+      "Unpredictable psychological warfare and manipulation"
+    ],
+    "equipment": [
+      "High-speed rocket-propelled Goblin Glider armed with twin machine guns and blades",
+      "Thermite pumpkin bombs and razor bats",
+      "Armored emerald flight suit and menacing goblin battle mask"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Spider-Man",
+      "year": 2002,
+      "filmId": "spider-man-2002"
+    },
+    "appearances": [
+      { "filmId": "spider-man-2002", "title": "Spider-Man", "year": 2002, "type": "starring" },
+      { "filmId": "spider-man-2-2004", "title": "Spider-Man 2", "year": 2004, "type": "cameo" },
+      { "filmId": "spider-man-3-2007", "title": "Spider-Man 3", "year": 2007, "type": "cameo" },
+      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Peter Parker (Raimi)", "relation": "Arch-Nemesis & Best Friend's Mentor", "portrayalSlug": "spider-man-tobey-maguire" },
+      { "characterName": "Peter Parker (MCU)", "relation": "Multiversal Target & Tragic Victim ('Gods don't have to choose')", "portrayalSlug": "spider-man" },
+      { "characterName": "Harry Osborn", "relation": "Son" }
+    ],
+    "poster": "/posters/Spider-Man_No_Way_Home.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Green Goblin Norman Osborn Profile", "url": "https://www.marvel.com/characters/green-goblin-norman-osborn", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-doctor-octopus-raimi",
+    "slug": "doctor-octopus-alfred-molina",
+    "identityId": "otto-octavius",
+    "name": "Doctor Octopus",
+    "realName": "Otto Octavius",
+    "aliases": ["Doc Ock", "The Power of the Sun in the Palm of My Hand"],
+    "actor": "Alfred Molina",
+    "universeId": "raimi-spiderman",
+    "role": "villain",
+    "tagline": "The four-tentacled fusion scientist who conquered his artificial mind",
+    "biography": "Dr. Otto Octavius was a brilliant, compassionate nuclear scientist sponsored by Oscorp to achieve sustainable self-sustaining fusion power. To manipulate the dangerous fusion core safely, Octavius created four artificial-intelligence-assisted titanium mechanical tentacles fused to his spine, protected by a neural inhibitory chip. When the fusion experiment destabilized into a miniature artificial sun, the runaway energy overload fried the chip, allowing the tentacles' artificial intelligence to corrupt his mind. In Spider-Man 2, Peter Parker broke through the neural override, inspiring Octavius to sacrifice himself to drown the reactor. Pulled into the MCU just prior to his demise, Doc Ock was freed by Peter's new inhibitor chip and turned to aid the Spider-Men.",
+    "powers": [
+      "Four highly articulate, super-strong titanium mechanical tentacles",
+      "Tentacle-enabled wall-scaling, heavy lifting, and rapid locomotion",
+      "Peerless nuclear physicist intellect"
+    ],
+    "equipment": [
+      "Spinal-mounted four-tentacle cybernetic harness with gripping pincers",
+      "Neural inhibitor chip (restored with Stark nanotech)"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Spider-Man 2",
+      "year": 2004,
+      "filmId": "spider-man-2-2004"
+    },
+    "appearances": [
+      { "filmId": "spider-man-2-2004", "title": "Spider-Man 2", "year": 2004, "type": "starring" },
+      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Peter Parker (Raimi)", "relation": "Revered Protégé turned Adversary turned Saved Friend", "portrayalSlug": "spider-man-tobey-maguire" },
+      { "characterName": "Peter Parker (MCU)", "relation": "Savior who engineered the replacement inhibitor chip", "portrayalSlug": "spider-man" },
+      { "characterName": "Rosie Octavius", "relation": "Deceased Beloved Wife" }
+    ],
+    "poster": "/posters/Spider-Man_No_Way_Home.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Doctor Octopus Character History", "url": "https://www.marvel.com/characters/doctor-octopus-otto-octavius", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-electro-webb",
+    "slug": "electro-jamie-foxx",
+    "identityId": "max-dillon",
+    "name": "Electro",
+    "realName": "Max Dillon",
+    "aliases": ["Electro"],
+    "actor": "Jamie Foxx",
+    "universeId": "webb-spiderman",
+    "role": "villain",
+    "tagline": "The living electrical lightning storm seeking recognition",
+    "biography": "Maxwell 'Max' Dillon was a chronically overlooked and underappreciated electrical engineer at Oscorp who idolized Spider-Man after the hero saved his life in traffic. On his birthday, while attempting to repair a power cable over an Oscorp bio-electric vat, Dillon was electrocuted and fell into a holding tank of genetically modified electric eels. The incident mutated his cellular matrix into pure electrical current. Misunderstood and feeling betrayed when police attacked him in Times Square, Electro went on a rampage. In No Way Home, Electro crossed into the MCU and discovered that its dimensional grid gave him an uncorrupted golden charge, before Andrew Garfield's Peter Parker helped cure him.",
+    "powers": [
+      "Pure electrical manipulation, lightning projection, and electro-magnetism",
+      "Conversion into electrical current enabling instantaneous wire transmission",
+      "Power absorption from municipal electrical grids and Arc Reactor energy"
+    ],
+    "equipment": [
+      "Stark Arc Reactor (briefly affixed to his chest harness in No Way Home)",
+      "Rubberized Oscorp electrical containment gear"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "The Amazing Spider-Man 2",
+      "year": 2014,
+      "filmId": "the-amazing-spider-man-2-2014"
+    },
+    "appearances": [
+      { "filmId": "the-amazing-spider-man-2-2014", "title": "The Amazing Spider-Man 2", "year": 2014, "type": "starring" },
+      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Peter Parker (Webb)", "relation": "Former Idol turned Adversary turned Reconciled Companion", "portrayalSlug": "spider-man-andrew-garfield" }
+    ],
+    "poster": "/posters/Spider-Man_No_Way_Home.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Sony Pictures The Amazing Spider-Man 2 Notes", "url": "https://www.marvel.com/characters/electro-max-dillon", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-doctor-strange-mcu",
+    "slug": "doctor-strange",
+    "identityId": "stephen-strange",
+    "name": "Doctor Strange",
+    "realName": "Dr. Stephen Strange",
+    "aliases": ["Master of the Mystic Arts", "Sorcerer Supreme (Former)"],
+    "actor": "Benedict Cumberbatch",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Master of the Mystic Arts guarding the multiverse against catastrophic incursions",
+    "biography": "Dr. Stephen Vincent Strange was an acclaimed but egotistical New York neurosurgeon whose hands were shattered in a devastating car accident. When modern medicine failed, Strange traveled to Kamar-Taj in Nepal, where the Ancient One revealed the mystic arts and alternate dimensions. Dedicated to the discipline of sorcery, Strange became master of the New York Sanctum, warded off Dormammu with the Time Stone, and orchestrated the one victory path out of 14,000,605 possibilities against Thanos in Endgame. After accidentally puncturing reality during a spell for Peter Parker, Strange journeyed through the multiverse to protect America Chavez from a grief-stricken Wanda Maximoff.",
+    "powers": [
+      "Mastery of the Mystic Arts (Eldritch light shields, Tao mandalas, and portal creation)",
+      "Dimensional traversal and astral projection",
+      "Chronokinesis (former wielder of the Time Stone / Eye of Agamotto)",
+      "Darkhold dreamwalking and third eye awakening"
+    ],
+    "equipment": [
+      "Cloak of Levitation (sentient relic granting flight and defense)",
+      "Sling Ring for dimensional gateway travel",
+      "Eye of Agamotto talisman"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Key Cosmic Ally" }
+    ],
+    "filmDebut": {
+      "title": "Doctor Strange",
+      "year": 2016,
+      "filmId": "doctor-strange"
+    },
+    "appearances": [
+      { "filmId": "doctor-strange", "title": "Doctor Strange", "year": 2016, "type": "starring" },
+      { "filmId": "thor-ragnarok", "title": "Thor: Ragnarok", "year": 2017, "type": "cameo" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
+      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" },
+      { "filmId": "doctor-strange-multiverse-of-madness", "title": "Doctor Strange in the Multiverse of Madness", "year": 2022, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Wong", "relation": "Sorcerer Supreme & Dearest Comrade" },
+      { "characterName": "Peter Parker (MCU)", "relation": "Fellow Avenger & Multiversal Spell Client", "portrayalSlug": "spider-man" },
+      { "characterName": "Wanda Maximoff", "relation": "Former Teammate turned Multiversal Pursuer", "portrayalSlug": "scarlet-witch" },
+      { "characterName": "Christine Palmer", "relation": "Lifelong Love" }
+    ],
+    "poster": "/posters/Doctor_Strange_in_the_Multiverse_of_Madness.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Doctor Strange Cinematic Bio", "url": "https://www.marvel.com/characters/doctor-strange-stephen-strange", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-black-widow-mcu",
+    "slug": "black-widow",
+    "identityId": "natasha-romanoff",
+    "name": "Black Widow",
+    "realName": "Natasha Romanoff",
+    "aliases": ["Natalia Alianovna Romanova", "Nat"],
+    "actor": "Scarlett Johansson",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The supreme S.H.I.E.L.D. agent and founding Avenger who wiped the red from her ledger",
+    "biography": "Natasha Romanoff was taken as a young child into the Soviet Red Room academy, subjected to physiological augmentation and rigorous assassination training under General Dreykov. Sent on deadly missions, Romanoff's life changed when S.H.I.E.L.D. agent Clint Barton was sent to eliminate her but instead made a different call, recruiting her to the West. Romanoff became Director Nick Fury's most trusted operative, went undercover at Stark Industries, and became a founding cornerstone of the Avengers. In Avengers: Endgame, Natasha willingly sacrificed her life on Vormir against Clint Barton's protests to claim the Soul Stone and restore half of all life in the universe.",
+    "powers": [
+      "Master hand-to-hand martial artist (Sambo, Judo, Karate, and Krav Maga)",
+      "Master covert spy, interrogator, and multi-lingual infiltrator",
+      "Expert marksmanship and precision weapons handling"
+    ],
+    "equipment": [
+      "Widow's Bite electroshock wrist gauntlets",
+      "Dual electrified batons",
+      "Glock 26 sidearms and grappling hooks"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Founding Leader & Operational Core" },
+      { "teamId": "shield-mcu", "role": "Level 7 Elite Field Operative" }
+    ],
+    "filmDebut": {
+      "title": "Iron Man 2",
+      "year": 2010,
+      "filmId": "iron-man-2"
+    },
+    "appearances": [
+      { "filmId": "iron-man-2", "title": "Iron Man 2", "year": 2010, "type": "supporting" },
+      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
+      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "starring" },
+      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
+      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
+      { "filmId": "black-widow", "title": "Black Widow", "year": 2021, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Clint Barton", "relation": "Dearest Brother-in-Arms & Partner", "portrayalSlug": "hawkeye" },
+      { "characterName": "Steve Rogers", "relation": "Partner & Steadfast Friend", "portrayalSlug": "captain-america" },
+      { "characterName": "Yelena Belova", "relation": "Red Room Sister" },
+      { "characterName": "Tony Stark", "relation": "Avenger Teammate", "portrayalSlug": "iron-man" }
+    ],
+    "poster": "/posters/Black_Widow.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Black Widow Natasha Romanoff Bio", "url": "https://www.marvel.com/characters/black-widow-natasha-romanoff", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-hulk-mcu",
+    "slug": "hulk-bruce-banner",
+    "identityId": "bruce-banner",
+    "name": "Hulk",
+    "realName": "Dr. Bruce Banner",
+    "aliases": ["The Incredible Hulk", "Smart Hulk", "The Green Goliath"],
+    "actor": "Mark Ruffalo",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The gamma-irradiated titan who fused brains with brawn",
+    "biography": "Dr. Robert Bruce Banner was a renowned nuclear physicist who attempted to recreate Abraham Erskine's Super Soldier Serum using gamma radiation instead of Vita-Rays. When an experiment went awry, Banner shielded a colleague and absorbed a lethal dose of gamma rays, resulting in a cellular mutation that causes him to transform into the giant, rage-fueled Hulk whenever his heart rate spikes or emotions flare. Joining the Avengers, Banner spent years viewing the Hulk as a curse until retreating to a Mexican beach lab during the Blip, spending 18 months in a gamma chamber to merge Banner's genius intellect with the Hulk's physical invulnerability ('Smart Hulk'). In Endgame, Banner channeled the Nano Gauntlet to bring back everyone snapped away by Thanos.",
+    "powers": [
+      "Virtually limitless superhuman strength scaling with emotional adrenaline",
+      "Near-absolute physical invulnerability and regenerative tissue repair",
+      "Colossal leaping capability crossing miles in a single bound",
+      "Genius-level intellect in nuclear physics, radiation, and quantum mechanics"
+    ],
+    "equipment": [
+      "Stretchy microfiber shorts and tactical glasses",
+      "Nano Gauntlet (wielded to resurrect the universe in Endgame)"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Founding Heavy Titan & Scientific Polymath" }
+    ],
+    "filmDebut": {
+      "title": "The Avengers",
+      "year": 2012,
+      "filmId": "avengers"
+    },
+    "appearances": [
+      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
+      { "filmId": "iron-man-3", "title": "Iron Man 3", "year": 2013, "type": "cameo" },
+      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
+      { "filmId": "thor-ragnarok", "title": "Thor: Ragnarok", "year": 2017, "type": "starring" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
+      { "filmId": "shang-chi", "title": "Shang-Chi and the Legend of the Ten Rings", "year": 2021, "type": "cameo" }
+    ],
+    "relationships": [
+      { "characterName": "Tony Stark", "relation": "Science Bro & Co-Creator of Ultron/Vision", "portrayalSlug": "iron-man" },
+      { "characterName": "Thor Odinson", "relation": "Friend from Work & Gladiator Rival", "portrayalSlug": "thor" },
+      { "characterName": "Natasha Romanoff", "relation": "Lullaby Partner & Dearest Confidante", "portrayalSlug": "black-widow" }
+    ],
+    "poster": "/posters/The_Avengers.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Hulk Bruce Banner Official Bio", "url": "https://www.marvel.com/characters/hulk-bruce-banner", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-scarlet-witch-mcu",
+    "slug": "scarlet-witch",
+    "identityId": "wanda-maximoff",
+    "name": "Scarlet Witch",
+    "realName": "Wanda Maximoff",
+    "aliases": ["The Scarlet Witch"],
+    "actor": "Elizabeth Olsen",
+    "universeId": "mcu",
+    "role": "anti-hero",
+    "tagline": "The mythical chaos-magic sorceress of devastating multiversal power",
+    "biography": "Wanda Maximoff was a native of Sokovia who lost her parents to a Stark Industries mortar shell at age ten. Protesting foreign occupation, Wanda and her twin brother Pietro volunteered for Baron Wolfgang von Strucker's HYDRA experiments with Loki's scepter. The Mind Stone amplified her latent magical predisposition, granting her telekinesis, psionic energy projection, and telepathic hypnosis. Initially fighting the Avengers, the twins defected during the Battle of Sokovia. Wanda fell in love with Vision, but the trauma of losing him in Infinity War led her to rewrite Westview into a sitcom reality. Corrupted by the Darkhold, Wanda traversed dimensions seeking her children before ultimately bringing down Mount Wundagore to destroy the cursed text across the cosmos.",
+    "powers": [
+      "Chaos Magic and spontaneous reality alteration",
+      "Telekinesis, flight, and psionic energy blast projection",
+      "Telepathy, mental persuasion, and nightmare inducement",
+      "Darkhold dreamwalking across multiversal bodies"
+    ],
+    "equipment": [
+      "The Darkhold (ancient grimoire of dark magic - destroyed)"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Avenger (Age of Ultron through Civil War)" }
+    ],
+    "filmDebut": {
+      "title": "Captain America: The Winter Soldier",
+      "year": 2014,
+      "filmId": "captain-america-winter-soldier"
+    },
+    "appearances": [
+      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "post-credits" },
+      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
+      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
+      { "filmId": "doctor-strange-multiverse-of-madness", "title": "Doctor Strange in the Multiverse of Madness", "year": 2022, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Vision", "relation": "Husband & Synthetic Soulmate" },
+      { "characterName": "Pietro Maximoff (Quicksilver)", "relation": "Deceased Twin Brother" },
+      { "characterName": "Stephen Strange", "relation": "Former Ally turned Multiversal Pursuer", "portrayalSlug": "doctor-strange" }
+    ],
+    "poster": "/posters/Doctor_Strange_in_the_Multiverse_of_Madness.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Scarlet Witch Wanda Maximoff Cinematic Profile", "url": "https://www.marvel.com/characters/scarlet-witch-wanda-maximoff", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-hawkeye-mcu",
+    "slug": "hawkeye",
+    "identityId": "clint-barton",
+    "name": "Hawkeye",
+    "realName": "Clint Barton",
+    "aliases": ["The World's Greatest Marksman", "Ronin"],
+    "actor": "Jeremy Renner",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The peerless archer and grounding heart of the Avengers",
+    "biography": "Clinton Francis Barton was an elite marksman recruited into S.H.I.E.L.D. by Director Nick Fury as one of the agency's primary tactical assets. Assigned to assassinate the Black Widow in Budapest, Barton defied orders to spare Romanoff, forging a legendary partnership. As a founding Avenger, Hawkeye fought in New York and Sokovia. When his entire family vanished during the Blip, grief drove Barton to adopt the blood-soaked persona of Ronin, slaughtering global criminal syndicates before Romanoff found him in Tokyo to bring him home for the Time Heist.",
+    "powers": [
+      "Flawless peak-human marksmanship with bows, firearms, and thrown projectiles",
+      "Mastery of master-level hand-to-hand martial arts and swordsmanship (as Ronin)",
+      "Elite tactical reconnaissance and espionage"
+    ],
+    "equipment": [
+      "Custom carbon fiber collapsible recurve and compound bows",
+      "Quiver of custom trick arrows (Pym particle, explosive, acid, thermal, EMP, cable)",
+      "Ronin dual ninja katanas and armored tunic"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Founding Marksman" },
+      { "teamId": "shield-mcu", "role": "Special Operative" }
+    ],
+    "filmDebut": {
+      "title": "Thor",
+      "year": 2011,
+      "filmId": "thor"
+    },
+    "appearances": [
+      { "filmId": "thor", "title": "Thor", "year": 2011, "type": "cameo" },
+      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
+      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
+      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Natasha Romanoff", "relation": "Dearest Partner & Sister-in-Arms", "portrayalSlug": "black-widow" },
+      { "characterName": "Laura Barton", "relation": "Wife & Sanctuary" },
+      { "characterName": "Kate Bishop", "relation": "Protégée & Hawkeye Successor" }
+    ],
+    "poster": "/posters/The_Avengers.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Hawkeye Clint Barton Bio", "url": "https://www.marvel.com/characters/hawkeye-clint-barton", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-black-panther-mcu",
+    "slug": "black-panther",
+    "identityId": "t-challa",
+    "name": "Black Panther",
+    "realName": "T'Challa",
+    "aliases": ["King of Wakanda", "The Black Panther"],
+    "actor": "Chadwick Boseman",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The noble warrior king who shared Wakanda's wonders with the world",
+    "biography": "T'Challa was the crown prince of the technologically peerless African kingdom of Wakanda. Following the tragic assassination of his father King T'Chaka at the Vienna UN conference, T'Challa ascended the throne, ingesting the sacred Heart-Shaped Herb to receive the superhuman blessings of the Panther Goddess Bast. Defending his birthright against his cousin Erik Killmonger, T'Challa was transformed by Killmonger's righteous grief over global oppression, choosing to abandon Wakanda's centuries-long isolationism to build international outreach centers. T'Challa led Wakanda's armies in defense of the universe during the Infinity War and Endgame before his untimely passing.",
+    "powers": [
+      "Enhanced physical strength, speed, stamina, and agility granted by the Heart-Shaped Herb",
+      "Heightened senses and kinetic equilibrium",
+      "Supreme mastery of traditional Wakandan martial combat",
+      "Visionary diplomatic and political leadership"
+    ],
+    "equipment": [
+      "Vibranium weave panther habit with kinetic energy absorption and redistribution",
+      "Retractable vibranium claws capable of scratching Captain America's shield",
+      "Kimoyo beads communication and medical interface"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Key Ally & Wakandan Benefactor" }
+    ],
+    "filmDebut": {
+      "title": "Captain America: Civil War",
+      "year": 2016,
+      "filmId": "captain-america-civil-war"
+    },
+    "appearances": [
+      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "supporting" },
+      { "filmId": "black-panther", "title": "Black Panther", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Shuri", "relation": "Brilliant Younger Sister & Successor", "portrayalSlug": "shuri" },
+      { "characterName": "Okoye", "relation": "General of the Dora Milaje & Fierce Protector" },
+      { "characterName": "Nakia", "relation": "War Dog & Beloved Partner" },
+      { "characterName": "Steve Rogers", "relation": "Allied Avenger & Respected Friend", "portrayalSlug": "captain-america" }
+    ],
+    "poster": "/posters/Black_Panther.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Black Panther T'Challa Bio", "url": "https://www.marvel.com/characters/black-panther-t-challa", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-shuri-mcu",
+    "slug": "shuri",
+    "identityId": "shuri",
+    "name": "Black Panther / Shuri",
+    "realName": "Shuri",
+    "aliases": ["Princess of Wakanda", "Head of the Wakandan Design Group"],
+    "actor": "Letitia Wright",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "Wakanda's chief technological prodigy who stepped into the mantle of the Panther",
+    "biography": "Princess Shuri is the head of the Wakandan Design Group, renowned globally as one of the most brilliant scientific minds on Earth. Shuri revolutionized Wakanda's technological infrastructure, developing kinetic panther habits, silent sneakers, and remote piloting technology. Following the devastating deaths of her brother T'Challa and mother Queen Ramonda, Shuri wrestled with vengeance against Namor and the underwater kingdom of Talokan. Using a synthetic Heart-Shaped Herb she genetically engineered, Shuri gained the powers of Bast, becoming the new Black Panther while ultimately choosing mercy over cyclical bloodshed.",
+    "powers": [
+      "Enhanced physical strength, speed, and agility from synthetic Heart-Shaped Herb",
+      "World-class genius in engineering, artificial intelligence, and vibranium physics",
+      "Wakandan martial arts and twin energy gauntlet combat"
+    ],
+    "equipment": [
+      "Custom vibranium panther habit with gold and silver filigree",
+      "Twin sonic vibranium gauntlets",
+      "Kimoyo bead holography"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Black Panther",
+      "year": 2018,
+      "filmId": "black-panther"
+    },
+    "appearances": [
+      { "filmId": "black-panther", "title": "Black Panther", "year": 2018, "type": "supporting" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "supporting" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "supporting" },
+      { "filmId": "black-panther-wakanda-forever", "title": "Black Panther: Wakanda Forever", "year": 2022, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "T'Challa", "relation": "Revered Older Brother", "portrayalSlug": "black-panther" },
+      { "characterName": "Queen Ramonda", "relation": "Mother & Queen" },
+      { "characterName": "Riri Williams", "relation": "Fellow Young Tech Prodigy & Protégée" }
+    ],
+    "poster": "/posters/Black_Panther_Wakanda_Forever.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Shuri Black Panther Official Bio", "url": "https://www.marvel.com/characters/black-panther-shuri", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-captain-marvel-mcu",
+    "slug": "captain-marvel",
+    "identityId": "carol-danvers",
+    "name": "Captain Marvel",
+    "realName": "Carol Danvers",
+    "aliases": ["Vers", "Captain Marvel", "Binary"],
+    "actor": "Brie Larson",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The photon-charged cosmic avenger safeguarding galaxies across the universe",
+    "biography": "Carol Susan Jane Danvers was an elite US Air Force test pilot working on Dr. Wendy Lawson's (Mar-Vell) experimental light-speed engine. When Kree warrior Yon-Rogg attacked their aircraft, Danvers shot the engine to prevent it falling into enemy hands, absorbing the astronomical cosmic energies of the Tesseract (Space Stone). Amnesiac and indoctrinated as the Kree warrior 'Vers' on Hala, Carol was captured by Skrulls and crash-landed on Earth in 1995. Partnering with a young S.H.I.E.L.D. agent Nick Fury, Carol unlocked her suppressed memories, dismantled the Supreme Intelligence's control chip, and ignited her full Binary potential, inspiring Fury to draft the Avengers Initiative.",
+    "powers": [
+      "Immense cosmic energy manipulation and devastating photon blast projection",
+      "FTL interstellar self-propelled flight and spatial survival",
+      "Cosmic-level physical strength, invulnerability, and radiant binary aura",
+      "Energy absorption and kinetic transmutation"
+    ],
+    "equipment": [
+      "Custom Starforce Kree battle suit retuned to Air Force red, blue, and gold",
+      "Retractable photonic flight helmet",
+      "Interstellar pager modified by Nick Fury"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Interstellar Heavy Vanguard" }
+    ],
+    "filmDebut": {
+      "title": "Captain Marvel",
+      "year": 2019,
+      "filmId": "captain-marvel"
+    },
+    "appearances": [
+      { "filmId": "captain-marvel", "title": "Captain Marvel", "year": 2019, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
+      { "filmId": "shang-chi", "title": "Shang-Chi and the Legend of the Ten Rings", "year": 2021, "type": "cameo" },
+      { "filmId": "the-marvels", "title": "The Marvels", "year": 2023, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Nick Fury", "relation": "Closest Terrestrial Friend & Inspirer of the Avengers", "portrayalSlug": "nick-fury" },
+      { "characterName": "Maria Rambeau", "relation": "Best Friend & Wingwoman" },
+      { "characterName": "Monica Rambeau", "relation": "Surrogate Niece & Fellow Light-Wielder" },
+      { "characterName": "Kamala Khan", "relation": "Number-One Fan & Superfan Teammate" }
+    ],
+    "poster": "/posters/Captain_Marvel.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Captain Marvel Carol Danvers Bio", "url": "https://www.marvel.com/characters/captain-marvel-carol-danvers", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-ant-man-mcu",
+    "slug": "ant-man",
+    "identityId": "scott-lang",
+    "name": "Ant-Man",
+    "realName": "Scott Lang",
+    "aliases": ["Ant-Man", "Giant-Man"],
+    "actor": "Paul Rudd",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The reformed ex-con who unlocked the Quantum Realm and saved half the universe",
+    "biography": "Scott Edward Harris Lang was an expert systems engineer who served three years in San Quentin after executing an ethical whistleblowing cyber-heist against his corrupt employer Vistacorp. Struggling to secure honest employment to support his young daughter Cassie, Lang was drawn into a staged burglary at Dr. Hank Pym's residence, discovering the Ant-Man suit. Chosen by Pym to succeed him, Lang mastered Pym Particle shrinking and ant telepathy to defeat Darren Cross. Trapped in the Quantum Realm during Thanos' snap, Lang emerged five hours later (five Earth years) with the crucial quantum time travel theory that allowed the Avengers to execute the Time Heist.",
+    "powers": [
+      "Size alteration: shrinking to subatomic quantum scale or expanding to 65-foot Giant-Man",
+      "Concentrated physical kinetic density when shrunken",
+      "Telepathic insect control through electromagnetic EMP communication nodes",
+      "Acrobatic close-quarters combat"
+    ],
+    "equipment": [
+      "Ant-Man suit equipped with Pym Particle regulation canisters and regulator disc",
+      "Ant communication cybernetic helmet",
+      "Red (shrinking) and Blue (enlarging) Pym Particle throwing discs"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Avenger & Quantum Strategist" }
+    ],
+    "filmDebut": {
+      "title": "Ant-Man",
+      "year": 2015,
+      "filmId": "ant-man"
+    },
+    "appearances": [
+      { "filmId": "ant-man", "title": "Ant-Man", "year": 2015, "type": "starring" },
+      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "supporting" },
+      { "filmId": "ant-man-wasp", "title": "Ant-Man and the Wasp", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
+      { "filmId": "ant-man-quantumania", "title": "Ant-Man and the Wasp: Quantumania", "year": 2023, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Hope van Dyne (The Wasp)", "relation": "Partner in Heroism and Romance" },
+      { "characterName": "Hank Pym", "relation": "Mentor & Creator of the Ant-Man Suit" },
+      { "characterName": "Cassie Lang", "relation": "Beloved Daughter" },
+      { "characterName": "Steve Rogers", "relation": "Personal Hero & Civil War Recruiter", "portrayalSlug": "captain-america" }
+    ],
+    "poster": "/posters/Ant_Man.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Ant-Man Scott Lang Bio", "url": "https://www.marvel.com/characters/ant-man-scott-lang", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-winter-soldier-mcu",
+    "slug": "winter-soldier",
+    "identityId": "bucky-barnes",
+    "name": "Winter Soldier / Bucky",
+    "realName": "James Buchanan 'Bucky' Barnes",
+    "aliases": ["The Winter Soldier", "The White Wolf", "Bucky"],
+    "actor": "Sebastian Stan",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The Howling Commando survivor who broke free from seventy years of mind control",
+    "biography": "James Buchanan 'Bucky' Barnes was Steve Rogers' loyal childhood companion who enlisted in the 107th Infantry during WWII. Captured by HYDRA in Austrian territory, Barnes was subjected to early biological enhancement by Arnim Zola before Captain America liberated him. Reunited as Howling Commandos, Barnes fell from a speeding munitions train in the Alps and was recovered by Soviet HYDRA operatives. Fitted with a cybernetic titanium arm and subjected to cryostasis and memory-erasing mental trigger codes, Barnes became the legendary assassin 'The Winter Soldier.' Steve Rogers helped him remember his humanity, and Shuri later cured his trigger words in Wakanda.",
+    "powers": [
+      "Super-Soldier enhanced physical strength, agility, reflexes, and healing",
+      "Vibranium cybernetic arm equipped with internal kinetic dampening and extreme crushing force",
+      "Mastery of master-level knife combat, hand-to-hand martial arts, and military firearms"
+    ],
+    "equipment": [
+      "Wakandan golden-accented Vibranium cybernetic left arm",
+      "Tactical combat knives and assault rifles",
+      "Tactical stealth uniform and goggles"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Ally" },
+      { "teamId": "thunderbolts-new-avengers-mcu", "role": "Team Member & Veteran Anchor" }
+    ],
+    "filmDebut": {
+      "title": "Captain America: The First Avenger",
+      "year": 2011,
+      "filmId": "captain-america-first-avenger"
+    },
+    "appearances": [
+      { "filmId": "captain-america-first-avenger", "title": "Captain America: The First Avenger", "year": 2011, "type": "supporting" },
+      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "starring" },
+      { "filmId": "ant-man", "title": "Ant-Man", "year": 2015, "type": "cameo" },
+      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
+      { "filmId": "black-panther", "title": "Black Panther", "year": 2018, "type": "post-credits" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Steve Rogers", "relation": "Lifelong Brother & Guardian ('Till the end of the line')", "portrayalSlug": "captain-america" },
+      { "characterName": "Sam Wilson", "relation": "Comrade-in-Arms & Fellow Shield Custodian", "portrayalSlug": "sam-wilson" },
+      { "characterName": "Shuri", "relation": "Wakandan Healer who removed the trigger words", "portrayalSlug": "shuri" }
+    ],
+    "poster": "/posters/Captain_America_The_Winter_Soldier.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Bucky Barnes Winter Soldier Bio", "url": "https://www.marvel.com/characters/winter-soldier-bucky-barnes", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-sam-wilson-mcu",
+    "slug": "sam-wilson",
+    "identityId": "sam-wilson",
+    "name": "Captain America / Falcon",
+    "realName": "Sam Wilson",
+    "aliases": ["The Falcon", "Captain America"],
+    "actor": "Anthony Mackie",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The high-flying pararescue airman who accepted the shield of Captain America",
+    "biography": "Samuel Thomas Wilson was a former United States Air Force Pararescue airman who operated the experimental EXO-7 Falcon flight harness during tactical night missions. Following the loss of his wingman Riley, Wilson worked as a VA counselor in Washington D.C., where he befriended Steve Rogers. When HYDRA compromised S.H.I.E.L.D., Wilson donned his Falcon wings to aid Rogers in taking down Project Insight. Wilson became a devoted Avenger, took Steve's side in the Civil War, and fought Thanos' forces in Infinity War and Endgame. At the end of Endgame, an aged Steve Rogers formally passed his shield to Wilson, who eventually accepted the mantle of Captain America.",
+    "powers": [
+      "Exceptional aerial dogfighting agility and combat maneuvering",
+      "Peak human military martial combat and shield-throwing trajectory calculations",
+      "Inspirational leadership, empathy, and diplomatic mediation"
+    ],
+    "equipment": [
+      "Vibranium Captain America Shield handed down by Steve Rogers",
+      "Wakandan vibranium flight suit with articulate wings and thrusters",
+      "Redwing tactical combat reconnaissance drone"
+    ],
+    "teamMemberships": [
+      { "teamId": "avengers-mcu", "role": "Avenger & Captain America" }
+    ],
+    "filmDebut": {
+      "title": "Captain America: The Winter Soldier",
+      "year": 2014,
+      "filmId": "captain-america-winter-soldier"
+    },
+    "appearances": [
+      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "starring" },
+      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "cameo" },
+      { "filmId": "ant-man", "title": "Ant-Man", "year": 2015, "type": "cameo" },
+      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Steve Rogers", "relation": "Closest Friend & Predecessor", "portrayalSlug": "captain-america" },
+      { "characterName": "Bucky Barnes", "relation": "Partner & Brother-in-Arms", "portrayalSlug": "winter-soldier" },
+      { "characterName": "Joaquin Torres", "relation": "Military Lieutenant & New Falcon" }
+    ],
+    "poster": "/posters/Captain_America_Civil_War.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Captain America Sam Wilson Official Bio", "url": "https://www.marvel.com/characters/captain-america-sam-wilson", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-loki-mcu",
+    "slug": "loki",
+    "identityId": "loki-laufeyson",
+    "name": "Loki",
+    "realName": "Loki Laufeyson",
+    "aliases": ["God of Mischief", "God of Stories", "Prince of Asgard"],
+    "actor": "Tom Hiddleston",
+    "universeId": "mcu",
+    "role": "anti-hero",
+    "tagline": "The God of Mischief whose path from conqueror to savior bound the multiverse",
+    "biography": "Loki Laufeyson was the biological son of King Laufey of Jotunheim, adopted as an abandoned infant by King Odin of Asgard and raised alongside Thor. Learning in adulthood of his Frost Giant heritage, Loki's feelings of inferiority and betrayal exploded into a succession of schemes: attempting to destroy Jotunheim, leading a Chitauri invasion of New York City for the Tesseract, and seizing the Asgardian throne under Odin's guise. Reconciling with Thor during Ragnarok, Loki sacrificed himself in Infinity War defying Thanos. An alternate 2012 variant escaped with the Tesseract to the TVA, evolving to master time-slipping and sacrificing personal freedom to hold together the branches of the multiverse as the God of Stories.",
+    "powers": [
+      "Mastery of Asgardian sorcery, astral projections, duplicates, and illusions",
+      "Telekinesis, energy blast projection, and shape-shifting",
+      "Time-slipping across past, present, and alternate realities",
+      "Frost Giant physiology granting physical strength and cold immunity"
+    ],
+    "equipment": [
+      "Twin Asgardian daggers",
+      "Golden horned ceremonial helmet",
+      "Chitauri Scepter housing the Mind Stone (former)",
+      "The Tesseract (former)"
+    ],
+    "teamMemberships": [
+      { "teamId": "tva-mcu", "role": "Special Consultant & Guardian of the Multiverse" }
+    ],
+    "filmDebut": {
+      "title": "Thor",
+      "year": 2011,
+      "filmId": "thor"
+    },
+    "appearances": [
+      { "filmId": "thor", "title": "Thor", "year": 2011, "type": "starring" },
+      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
+      { "filmId": "thor-dark-world", "title": "Thor: The Dark World", "year": 2013, "type": "starring" },
+      { "filmId": "thor-ragnarok", "title": "Thor: Ragnarok", "year": 2017, "type": "starring" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "cameo" }
+    ],
+    "relationships": [
+      { "characterName": "Thor Odinson", "relation": "Adoptive Brother & True North", "portrayalSlug": "thor" },
+      { "characterName": "Sylvie", "relation": "Multiversal Variant & Kindred Spirit" },
+      { "characterName": "Mobius M. Mobius", "relation": "TVA Agent & Best Friend" }
+    ],
+    "poster": "/posters/Thor_The_Dark_World.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Loki Laufeyson Official Bio", "url": "https://www.marvel.com/characters/loki", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-nick-fury-mcu",
+    "slug": "nick-fury",
+    "identityId": "nick-fury",
+    "name": "Nick Fury",
+    "realName": "Nicholas Joseph Fury",
+    "aliases": ["Director Fury"],
+    "actor": "Samuel L. Jackson",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The mastermind director of S.H.I.E.L.D. who brought together the Avengers",
+    "biography": "Nicholas Joseph Fury was a decorated Cold War CIA officer who rose through the ranks of the Strategic Homeland Intervention, Enforcement and Logistics Division (S.H.I.E.L.D.) to become its legendary Director. In 1995, an encounter with Carol Danvers and the alien Skrulls convinced Fury that humanity was woefully unprepared for extraterrestrial threats, prompting him to create the Avengers Initiative. Working from the shadows, Fury brought together Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye when Loki invaded Earth. Surviving HYDRA's assassination attempt in Washington D.C., Fury continued running covert operations across the cosmos.",
+    "powers": [
+      "Master strategist, spymaster, and psychological interrogator",
+      "Expert military tactician and firearms marksmanship",
+      "Network of clandestine safehouses, covert resources, and global contacts"
+    ],
+    "equipment": [
+      "Custom Smith & Wesson M&P sidearm",
+      "S.H.I.E.L.D. high-tech black trenchcoat with stealth armor lining",
+      "Intergalactic transmitter pager connected to Captain Marvel",
+      "Iconic eye patch"
+    ],
+    "teamMemberships": [
+      { "teamId": "shield-mcu", "role": "Director" }
+    ],
+    "filmDebut": {
+      "title": "Iron Man",
+      "year": 2008,
+      "filmId": "iron-man"
+    },
+    "appearances": [
+      { "filmId": "iron-man", "title": "Iron Man", "year": 2008, "type": "post-credits" },
+      { "filmId": "iron-man-2", "title": "Iron Man 2", "year": 2010, "type": "supporting" },
+      { "filmId": "thor", "title": "Thor", "year": 2011, "type": "post-credits" },
+      { "filmId": "captain-america-first-avenger", "title": "Captain America: The First Avenger", "year": 2011, "type": "cameo" },
+      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
+      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "starring" },
+      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "supporting" },
+      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "post-credits" },
+      { "filmId": "captain-marvel", "title": "Captain Marvel", "year": 2019, "type": "starring" },
+      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "cameo" },
+      { "filmId": "spider-man-far-from-home", "title": "Spider-Man: Far From Home", "year": 2019, "type": "supporting" },
+      { "filmId": "the-marvels", "title": "The Marvels", "year": 2023, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Carol Danvers", "relation": "Closest Cosmic Friend & Pager Recipient", "portrayalSlug": "captain-marvel" },
+      { "characterName": "Natasha Romanoff", "relation": "Top Field Agent & Trusted Confidante", "portrayalSlug": "black-widow" },
+      { "characterName": "Steve Rogers", "relation": "Ideological Foil & Avenger Leader", "portrayalSlug": "captain-america" },
+      { "characterName": "Tony Stark", "relation": "Recruit & Unpredictable Benefactor", "portrayalSlug": "iron-man" }
+    ],
+    "poster": "/posters/Captain_Marvel.jpg",
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Nick Fury Official Cinematic Bio", "url": "https://www.marvel.com/characters/nick-fury", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-storm-fox",
+    "slug": "storm-halle-berry",
+    "identityId": "ororo-munroe",
+    "name": "Storm",
+    "realName": "Ororo Munroe",
+    "aliases": ["Storm", "Headmistress Munroe"],
+    "actor": "Halle Berry",
+    "universeId": "fox-xmen",
+    "role": "hero",
+    "tagline": "The weather-wielding mutant leader and teacher at Xavier's School",
+    "biography": "Ororo Munroe is an Omega-level mutant born with the ability to psionically manipulate atmospheric weather patterns. Recruited by Charles Xavier into the X-Men, Ororo became a central teacher and field leader at the Xavier Institute. Capable of generating hurricane winds, lightning bolts, and blizzard temperatures at will, Storm remained an unflinching protector of both young mutants and peaceful coexistence, eventually succeeding Xavier as the operational head of the school.",
+    "powers": [
+      "Psionic atmospheric and meteorological weather control",
+      "Generation of lightning bolts, tornadoes, blizzards, and fog banks",
+      "Atmospheric thermal flight via wind currents",
+      "Immunity to extreme environmental weather extremes"
+    ],
+    "equipment": [
+      "Custom X-Men tactical leather combat suit with flowing cape attached to wrists"
+    ],
+    "teamMemberships": [
+      { "teamId": "x-men-fox", "role": "Senior Field Leader & Headmistress" }
+    ],
+    "filmDebut": {
+      "title": "X-Men",
+      "year": 2000,
+      "filmId": "x-men-2000"
+    },
+    "appearances": [
+      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
+      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
+      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
+      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" }
+    ],
+    "relationships": [
+      { "characterName": "Charles Xavier", "relation": "Revered Mentor & Predecessor", "portrayalSlug": "professor-x-patrick-stewart" },
+      { "characterName": "Logan (Wolverine)", "relation": "Close Teammate & Co-Leader", "portrayalSlug": "wolverine-hugh-jackman" },
+      { "characterName": "Cyclops", "relation": "Fellow Senior Leader", "portrayalSlug": "cyclops-james-marsden" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Storm Ororo Munroe Character Profile", "url": "https://www.marvel.com/characters/storm-ororo-munroe", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-jean-grey-fox",
+    "slug": "jean-grey-famke-janssen",
+    "identityId": "jean-grey",
+    "name": "Jean Grey / Phoenix",
+    "realName": "Dr. Jean Grey",
+    "aliases": ["Phoenix", "Dark Phoenix", "Marvel Girl"],
+    "actor": "Famke Janssen",
+    "universeId": "fox-xmen",
+    "role": "hero",
+    "tagline": "The Class 5 telekinetic mutant carrying the devastating Phoenix force",
+    "biography": "Dr. Jean Grey was an accomplished geneticist, physician, and founding senior member of the X-Men. Possessing Class 5 telepathy and telekinesis, Jean's boundless psionic potential was guarded by mental blocks installed by Charles Xavier in childhood to shield her sanity. Sacrificing her life to hold back the bursting Alkali Lake dam in X2, Jean re-emerged in The Last Stand as the unrestrained, omnipotent Phoenix. Torn between her compassionate nature and the destructive entity within, Jean begged Logan to end her life on Alcatraz to stop the catastrophe.",
+    "powers": [
+      "Class 5 molecular telekinesis capable of disintegrating matter at an atomic level",
+      "Vast psionic telepathy and mind reading",
+      "Telekinetic flight and spherical force shields"
+    ],
+    "equipment": [
+      "Custom medical and tactical X-Men suits"
+    ],
+    "teamMemberships": [
+      { "teamId": "x-men-fox", "role": "Senior Member & Physician" }
+    ],
+    "filmDebut": {
+      "title": "X-Men",
+      "year": 2000,
+      "filmId": "x-men-2000"
+    },
+    "appearances": [
+      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
+      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
+      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
+      { "filmId": "the-wolverine-2013", "title": "The Wolverine", "year": 2013, "type": "cameo" },
+      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "cameo" }
+    ],
+    "relationships": [
+      { "characterName": "Scott Summers (Cyclops)", "relation": "Fiancé & Dearest Love", "portrayalSlug": "cyclops-james-marsden" },
+      { "characterName": "Logan (Wolverine)", "relation": "Tragic Lover & Final Executioner", "portrayalSlug": "wolverine-hugh-jackman" },
+      { "characterName": "Charles Xavier", "relation": "Doctor, Teacher & Father Figure", "portrayalSlug": "professor-x-patrick-stewart" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Jean Grey Character History", "url": "https://www.marvel.com/characters/jean-grey", "verifiedDate": "2026-11-28" }
+    ]
+  },
+  {
+    "id": "portrayal-cyclops-fox",
+    "slug": "cyclops-james-marsden",
+    "identityId": "scott-summers",
+    "name": "Cyclops",
+    "realName": "Scott Summers",
+    "aliases": ["Cyclops", "Slim"],
+    "actor": "James Marsden",
+    "universeId": "fox-xmen",
+    "role": "hero",
+    "tagline": "The disciplined field commander and optic-blast anchor of the X-Men",
+    "biography": "Scott Summers was Charles Xavier's first student and the steadfast field commander of the X-Men. Scott's mutation produces continuous, uncontrollable beams of red concussive force from his eyes, which can only be held in check by ruby-quartz lenses and his specialized battle visor. Dedicated to Xavier's dream of human-mutant harmony, Cyclops led the X-Men against Magneto's Brotherhood on Liberty Island and William Stryker at Alkali Lake, standing as the tactical backbone of the team.",
+    "powers": [
+      "Continuous concussive optic force blasts from eyes",
+      "Spatial awareness and geometric bank-shot calculation",
+      "Mastery of small-unit tactical leadership and martial arts"
+    ],
+    "equipment": [
+      "Custom ruby-quartz tactical visor with manual and side-control aperture sliders",
+      "Ruby-quartz sunglasses for daily civilian safety",
+      "X-Men armored leather uniform",
+      "Customized black X-Men motorcycle"
+    ],
+    "teamMemberships": [
+      { "teamId": "x-men-fox", "role": "Field Commander" }
+    ],
+    "filmDebut": {
+      "title": "X-Men",
+      "year": 2000,
+      "filmId": "x-men-2000"
+    },
+    "appearances": [
+      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
+      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
+      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
+      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "cameo" }
+    ],
+    "relationships": [
+      { "characterName": "Jean Grey", "relation": "Fiancée & Soulmate", "portrayalSlug": "jean-grey-famke-janssen" },
+      { "characterName": "Charles Xavier", "relation": "Mentor & Father Figure", "portrayalSlug": "professor-x-patrick-stewart" },
+      { "characterName": "Logan (Wolverine)", "relation": "Tactical Foil & Reluctant Brother-in-Arms", "portrayalSlug": "wolverine-hugh-jackman" }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      { "title": "Marvel.com Cyclops Scott Summers Bio", "url": "https://www.marvel.com/characters/cyclops-scott-summers", "verifiedDate": "2026-11-28" }
+    ]
+  }
+]
