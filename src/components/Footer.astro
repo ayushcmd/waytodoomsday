@@ -11,6 +11,17 @@ const year = new Date().getFullYear();
         An unofficial fan project — not affiliated with Marvel Studios or Disney.
       </p>
       <p class="copyright">&copy; {year} Way to Doomsday. All rights reserved.</p>
+      <section class="tmdb-credits" aria-label="Data and image credits">
+        <h2>Credits</h2>
+        <a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://www.themoviedb.org/assets/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+            alt="TMDB" width="80" height="11" loading="lazy" referrerpolicy="no-referrer"
+          />
+        </a>
+        <p>Official cast information: Marvel / Disney. Actor portrait data and images, when available: TMDB.</p>
+        <p>This website uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.</p>
+      </section>
     </div>
 
     <div class="footer-contact">
@@ -41,6 +52,11 @@ const year = new Date().getFullYear();
 </footer>
 
 <style>
+  .tmdb-credits { margin-top: 1.25rem; font-size: .8125rem; line-height: 1.6; color: #a9a9a9; }
+  .tmdb-credits h2 { font-size: .875rem; color: #e9e9e9; margin-bottom: .5rem; }
+  .tmdb-credits a { display: inline-flex; min-height: 44px; align-items: center; }
+  .tmdb-credits img { width: 80px; height: auto; }
+  .tmdb-credits p + p { margin-top: .375rem; }
   .site-footer {
     width: 100%;
     background: #0a0a0a;

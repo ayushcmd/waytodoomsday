@@ -48,12 +48,12 @@ a dated editorial review, not an assertion that every cameo has been announced.
 
 1. Check the current official guide, overview, film page and newer Marvel/Disney
    announcements. An actor's casting alone does not establish a character.
-2. Add/edit a record in `src/data/doomsdayCast.js`, with a stable film + character +
+2. Add/edit a record in `src/data/doomsdayCast.json`, with a stable film + character +
    actor portrayal ID, accurate aliases, a display category, the exact supporting
    `sourceUrl` and the **actual** `verifiedAt` date. Recheck existing entries before
-   changing their dates. `confirmed()` supplies shared defaults; override its
-   source/date per entry as needed. Update the shared date only after all entries
-   have been reverified. Do not change stable IDs just to reorder the UI.
+   changing their dates. The existing `doomsdayCast.js` exports load this single
+   roster. Do not change stable IDs just to reorder the UI. TMDB portrait metadata
+   is separate from official casting evidence; see [portrait setup](tmdb-portraits.md).
 3. Keep unmapped official actors in `UNDISCLOSED_CAST`. Remove the unresolved
    record when an official character mapping becomes available. Never count it as
    a verified character. Add continuity or approved local imagery only with evidence.

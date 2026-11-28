@@ -66,7 +66,7 @@
   border-color: rgb(248 113 113 / .25);
 }
 .cast-card--compact .cast-portrait { width: 1.75rem; height: 2.5rem; font-size: 1.125rem; }
-.cast-portrait img { width: 100%; height: 100%; object-fit: cover; }
+.cast-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
 .cast-card-copy { min-width: 0; }
 .cast-card h3 { font-size: 1rem; font-weight: 700; line-height: 1.3; }
 .cast-card--compact h3 { font-size: .875rem; }

@@ -4,20 +4,36 @@ import {
   UNDISCLOSED_CAST, VERIFIED_CAST, filterCast,
 } from "../data/doomsdayCast.js";
 import "../styles/doomsday-cast.css";
+import { getActorPortraitUrl } from "../data/tmdb.js";
 
 const verificationDate = new Intl.DateTimeFormat("en-GB", {
   day: "numeric", month: "short", year: "numeric", timeZone: "UTC",
 }).format(new Date(`${CAST_VERIFIED_AT}T00:00:00Z`));
 
-function Portrait({ entry }) {
-  const [failed, setFailed] = useState(false);
+export function Portrait({ entry, compact }) {
+  const portraitRef = useRef(null);
+  const [ready, setReady] = useState(false);
+  const [failedUrl, setFailedUrl] = useState(null);
+  const imageUrl = entry.imagePath || getActorPortraitUrl(entry);
+  useEffect(() => {
+    if (!imageUrl) return;
+    if (!("IntersectionObserver" in window)) { setReady(true); return; }
+    const node = portraitRef.current;
+    const observer = new IntersectionObserver(([observed]) => {
+      if (observed.isIntersecting) { setReady(true); observer.disconnect(); }
+    }, { root: node.closest(compact ? ".cast-preview" : "dialog"),
+      rootMargin: compact ? "0px 80px" : "160px 0px" });
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [imageUrl, compact]);
   const initials = entry.characterName.split(/[\s-]+/).slice(0, 2)
     .map((part) => part[0]).join("");
   return (
-    <span className="cast-portrait" aria-hidden="true">
-      {entry.imagePath && !failed ? (
-        <img src={entry.imagePath} alt="" width="48" height="56"
-          loading="lazy" decoding="async" onError={() => setFailed(true)} />
+    <span ref={portraitRef} className="cast-portrait" aria-hidden="true">
+      {imageUrl && ready && failedUrl !== imageUrl ? (
+        <img src={imageUrl} alt="" width="48" height="56"
+          loading="lazy" decoding="async" referrerPolicy="no-referrer"
+          onError={() => setFailedUrl(imageUrl)} />
       ) : initials}
     </span>
   );
@@ -27,7 +43,7 @@ function CharacterCard({ entry, compact = false }) {
   return (
     <li className={`cast-card${compact ? " cast-card--compact" : ""}`}
       data-group={entry.displayGroup}>
-      <Portrait entry={entry} />
+      <Portrait entry={entry} compact={compact} />
       <div className="cast-card-copy">
         <h3>{entry.characterName}</h3>
         {entry.aliases.length > 0 && <p className="cast-alias">{entry.aliases.join(" / ")}</p>}
