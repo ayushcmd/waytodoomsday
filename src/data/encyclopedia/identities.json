@@ -1,0 +1,230 @@
+[
+  {
+    "id": "peter-parker",
+    "name": "Peter Parker",
+    "heroName": "Spider-Man",
+    "description": "Bitten by a radioactive or genetically modified spider, Peter Parker masters wall-crawling, superhuman agility, and spider-sense to protect his city under the ethos that with great power comes great responsibility."
+  },
+  {
+    "id": "tony-stark",
+    "name": "Tony Stark",
+    "heroName": "Iron Man",
+    "description": "Genius inventor, industrialist, and philanthropist who constructs a succession of powered exoskeleton armor suits to safeguard the world."
+  },
+  {
+    "id": "steve-rogers",
+    "name": "Steve Rogers",
+    "heroName": "Captain America",
+    "description": "World War II soldier enhanced to the peak of human capability by Dr. Erskine's Super Soldier Serum, wielding an indestructible vibranium shield."
+  },
+  {
+    "id": "thor-odinson",
+    "name": "Thor Odinson",
+    "heroName": "Thor",
+    "description": "Asgardian god of thunder who commands lightning and storms, initially through the enchanted hammer Mjolnir and later the axe Stormbreaker."
+  },
+  {
+    "id": "bruce-banner",
+    "name": "Bruce Banner",
+    "heroName": "Hulk",
+    "description": "Brilliant nuclear physicist whose exposure to gamma radiation transforms him into an immensely powerful, rage-fueled green powerhouse."
+  },
+  {
+    "id": "logan-wolverine",
+    "name": "James 'Logan' Howlett",
+    "heroName": "Wolverine",
+    "description": "Centuries-old mutant equipped with an accelerated healing factor, heightened senses, and three retractable bone claws laced with indestructible adamantium."
+  },
+  {
+    "id": "charles-xavier",
+    "name": "Charles Xavier",
+    "heroName": "Professor X",
+    "description": "The world's most powerful mutant telepath, dedicated to human-mutant peaceful coexistence and founder of the X-Men and Xavier's School."
+  },
+  {
+    "id": "erik-lehnsherr",
+    "name": "Erik Lehnsherr",
+    "heroName": "Magneto",
+    "description": "Holocaust survivor and mutant revolutionary possessing mastery over magnetic fields and metal, fighting for mutant supremacy."
+  },
+  {
+    "id": "wade-wilson",
+    "name": "Wade Wilson",
+    "heroName": "Deadpool",
+    "description": "Irreverent, fourth-wall-breaking mercenary subjected to rogue weaponization that unlocked an extreme regenerative healing factor at the cost of severe scarring."
+  },
+  {
+    "id": "reed-richards",
+    "name": "Reed Richards",
+    "heroName": "Mister Fantastic",
+    "description": "World-leading scientific polymath whose cosmic ray exposure granted his body hyper-elasticity and shape manipulation."
+  },
+  {
+    "id": "sue-storm",
+    "name": "Sue Storm",
+    "heroName": "Invisible Woman",
+    "description": "Genetics researcher and founding member of the Fantastic Four able to bend light to render herself invisible and project formidable psionic force fields."
+  },
+  {
+    "id": "johnny-storm",
+    "name": "Johnny Storm",
+    "heroName": "Human Torch",
+    "description": "Daring pilot and adventurer whose cosmic ray mutation allows him to engulf his body in fiery plasma, project flames, and achieve supersonic flight."
+  },
+  {
+    "id": "ben-grimm",
+    "name": "Ben Grimm",
+    "heroName": "The Thing",
+    "description": "Former astronaut whose cosmic ray exposure transformed him into a heavy-hitting powerhouse encased in thick, rocky orange dermal armor."
+  },
+  {
+    "id": "victor-von-doom",
+    "name": "Victor von Doom",
+    "heroName": "Doctor Doom",
+    "description": "Ruthless monarch and master scientist who fuses high-tech armor, energy manipulation, and strategic genius."
+  },
+  {
+    "id": "stephen-strange",
+    "name": "Stephen Strange",
+    "heroName": "Doctor Strange",
+    "description": "Former neurosurgeon who mastered the mystic arts at Kamar-Taj, becoming Earth's protector against extradimensional incursions."
+  },
+  {
+    "id": "miles-morales",
+    "name": "Miles Morales",
+    "heroName": "Spider-Man",
+    "description": "Brooklyn teenager who inherits the Spider-Man mantle, developing unique bio-electric venom strike blasts and active camouflage."
+  },
+  {
+    "id": "gwen-stacy",
+    "name": "Gwen Stacy",
+    "heroName": "Spider-Gwen / Ghost-Spider",
+    "description": "Alternate-reality teenager and drummer who gained arachnid abilities and joined cross-dimensional spider efforts."
+  },
+  {
+    "id": "miguel-o-hara",
+    "name": "Miguel O'Hara",
+    "heroName": "Spider-Man 2099",
+    "description": "Genius geneticist from Nueva York who leads the multiversal Spider-Society to safeguard canon events across realities."
+  },
+  {
+    "id": "eddie-brock",
+    "name": "Eddie Brock",
+    "heroName": "Venom",
+    "description": "Investigative journalist bonded in a volatile symbiosis with an alien symbiote entity granting superhuman strength, tendrils, and shapeshifting."
+  },
+  {
+    "id": "eric-brooks",
+    "name": "Eric Brooks",
+    "heroName": "Blade",
+    "description": "Half-human, half-vampire 'Daywalker' immune to sunlight and vampire bites, dedicated to exterminating vampire syndicates."
+  },
+  {
+    "id": "peter-quill",
+    "name": "Peter Quill",
+    "heroName": "Star-Lord",
+    "description": "Terran-born celestial hybrid abducted into space as a child, leading the ragtag Guardians of the Galaxy."
+  },
+  {
+    "id": "natasha-romanoff",
+    "name": "Natasha Romanoff",
+    "heroName": "Black Widow",
+    "description": "Master spy and assassin trained in the Red Room who defected to S.H.I.E.L.D. and became a cornerstone founding Avenger."
+  },
+  {
+    "id": "wanda-maximoff",
+    "name": "Wanda Maximoff",
+    "heroName": "Scarlet Witch",
+    "description": "Sokovian mutant/sorceress empowered by the Mind Stone capable of psionic energy projection, telekinesis, and chaotic reality-warping."
+  },
+  {
+    "id": "clint-barton",
+    "name": "Clint Barton",
+    "heroName": "Hawkeye",
+    "description": "S.H.I.E.L.D. operative and founding Avenger whose peerless marksmanship and custom trick arrows make him lethal at any range."
+  },
+  {
+    "id": "t-challa",
+    "name": "T'Challa",
+    "heroName": "Black Panther",
+    "description": "King of Wakanda empowered by the sacred Heart-Shaped Herb, fighting in a vibranium weave habit to protect his nation and the world."
+  },
+  {
+    "id": "shuri",
+    "name": "Shuri",
+    "heroName": "Black Panther",
+    "description": "Wakandan princess and head of the Wakandan Design Group who synthetically recreated the Heart-Shaped Herb to protect her people."
+  },
+  {
+    "id": "carol-danvers",
+    "name": "Carol Danvers",
+    "heroName": "Captain Marvel",
+    "description": "Air Force test pilot infused with cosmic energy from the Tesseract (Space Stone), commanding near-limitless photon power and interstellar flight."
+  },
+  {
+    "id": "scott-lang",
+    "name": "Scott Lang",
+    "heroName": "Ant-Man",
+    "description": "Reformed electronics expert handpicked by Hank Pym to don the Ant-Man suit, controlling Pym particles to shrink or grow exponentially."
+  },
+  {
+    "id": "bucky-barnes",
+    "name": "James Buchanan 'Bucky' Barnes",
+    "heroName": "Winter Soldier",
+    "description": "WWII Howling Commando brainwashed by HYDRA with a bionic arm and Super Soldier Serum, later redeemed alongside the Avengers."
+  },
+  {
+    "id": "sam-wilson",
+    "name": "Sam Wilson",
+    "heroName": "Captain America / Falcon",
+    "description": "Former Air Force pararescue airman who mastered flight via the EXO-7 Falcon flight harness, ultimately entrusted with the mantle and shield of Captain America."
+  },
+  {
+    "id": "loki-laufeyson",
+    "name": "Loki Laufeyson",
+    "heroName": "God of Mischief / God of Stories",
+    "description": "Frost Giant prince raised as Odin's son in Asgard, master of illusion and sorcery who evolves from conqueror to preserver of the multiverse."
+  },
+  {
+    "id": "nick-fury",
+    "name": "Nick Fury",
+    "heroName": "Director of S.H.I.E.L.D.",
+    "description": "Espionage mastermind and longtime director of S.H.I.E.L.D. who conceptualized and initiated the Avengers Initiative."
+  },
+  {
+    "id": "norman-osborn",
+    "name": "Norman Osborn",
+    "heroName": "Green Goblin",
+    "description": "CEO of Oscorp who exposed himself to an unstable human performance enhancer, developing superhuman physical attributes and a fractured, psychotic alter-ego."
+  },
+  {
+    "id": "otto-octavius",
+    "name": "Otto Octavius",
+    "heroName": "Doctor Octopus",
+    "description": "Nuclear scientist who fused four cybernetic, AI-controlled mechanical tentacles to his spine during a fusion power experiment gone wrong."
+  },
+  {
+    "id": "max-dillon",
+    "name": "Max Dillon",
+    "heroName": "Electro",
+    "description": "Overlooked Oscorp electrical engineer who fell into a tank of genetically modified electric eels, converting his physiological matrix into living electrical current."
+  },
+  {
+    "id": "ororo-munroe",
+    "name": "Ororo Munroe",
+    "heroName": "Storm",
+    "description": "Omega-level mutant capable of psionic atmospheric manipulation, generating thunderstorms, tornadoes, blizzard winds, and lightning strikes."
+  },
+  {
+    "id": "jean-grey",
+    "name": "Jean Grey",
+    "heroName": "Phoenix",
+    "description": "Class 5 telepathic and telekinetic mutant possessing latent cosmic potential capable of subatomic matter manipulation."
+  },
+  {
+    "id": "scott-summers",
+    "name": "Scott Summers",
+    "heroName": "Cyclops",
+    "description": "Field commander of the X-Men whose eyes emit continuous beams of concussive force, controlled exclusively by ruby-quartz lenses and visors."
+  }
+]

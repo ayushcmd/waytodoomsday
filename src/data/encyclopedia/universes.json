@@ -1,0 +1,83 @@
+[
+  {
+    "id": "mcu",
+    "name": "Marvel Cinematic Universe",
+    "shortName": "MCU",
+    "designation": "Earth-616 / Sacred Timeline",
+    "description": "The interconnected film universe established by Marvel Studios beginning with Iron Man (2008), centered on the Avengers and the Sacred Timeline.",
+    "badgeColor": "border-red-500/30 text-red-400 bg-red-500/10",
+    "accentColor": "#ef4444"
+  },
+  {
+    "id": "fox-xmen",
+    "name": "Fox X-Men Universe",
+    "shortName": "X-Men (Fox)",
+    "designation": "Earth-10005",
+    "description": "The cinematic continuity produced by 20th Century Fox featuring the mutant struggle, the X-Men, Wolverine, and Deadpool.",
+    "badgeColor": "border-amber-500/30 text-amber-400 bg-amber-500/10",
+    "accentColor": "#f59e0b"
+  },
+  {
+    "id": "raimi-spiderman",
+    "name": "Sam Raimi Spider-Man Trilogy",
+    "shortName": "Raimi-Verse",
+    "designation": "Earth-96283",
+    "description": "The foundational Columbia Pictures Spider-Man trilogy directed by Sam Raimi starring Tobey Maguire, later intersecting the multiverse in No Way Home.",
+    "badgeColor": "border-blue-500/30 text-blue-400 bg-blue-500/10",
+    "accentColor": "#3b82f6"
+  },
+  {
+    "id": "webb-spiderman",
+    "name": "The Amazing Spider-Man Series",
+    "shortName": "Webb-Verse",
+    "designation": "Earth-120703",
+    "description": "The Sony Pictures film series directed by Marc Webb starring Andrew Garfield, following Peter Parker's battles against Oscorp's creations.",
+    "badgeColor": "border-cyan-500/30 text-cyan-400 bg-cyan-500/10",
+    "accentColor": "#06b6d4"
+  },
+  {
+    "id": "sony-spiderverse",
+    "name": "Spider-Verse Animated",
+    "shortName": "Spider-Verse",
+    "designation": "Multiverse Spider-Society",
+    "description": "Sony Pictures Animation's critically acclaimed franchise centering on Miles Morales and the cross-dimensional Spider-Society.",
+    "badgeColor": "border-fuchsia-500/30 text-fuchsia-400 bg-fuchsia-500/10",
+    "accentColor": "#d946ef"
+  },
+  {
+    "id": "sony-ssu",
+    "name": "Sony's Spider-Man Universe",
+    "shortName": "SSU",
+    "designation": "Earth-688",
+    "description": "Sony's live-action cinematic universe focusing on anti-heroes and adversaries including Venom and Eddie Brock.",
+    "badgeColor": "border-purple-500/30 text-purple-400 bg-purple-500/10",
+    "accentColor": "#a855f7"
+  },
+  {
+    "id": "story-fantastic-four",
+    "name": "Fantastic Four (2005 / 2007)",
+    "shortName": "Story F4",
+    "designation": "Earth-121698",
+    "description": "The 20th Century Fox film duology directed by Tim Story featuring the first live-action modern cinematic Marvel superhero family.",
+    "badgeColor": "border-sky-500/30 text-sky-400 bg-sky-500/10",
+    "accentColor": "#0ea5e9"
+  },
+  {
+    "id": "mcu-838",
+    "name": "Earth-838 Alternate Reality",
+    "shortName": "Earth-838",
+    "designation": "Earth-838",
+    "description": "The parallel universe visited in Doctor Strange in the Multiverse of Madness, governed by the Illuminati.",
+    "badgeColor": "border-emerald-500/30 text-emerald-400 bg-emerald-500/10",
+    "accentColor": "#10b981"
+  },
+  {
+    "id": "trill-blade",
+    "name": "Blade Trilogy",
+    "shortName": "Blade",
+    "designation": "Earth-26320",
+    "description": "The groundbreaking New Line Cinema vampire-hunter trilogy starring Wesley Snipes as the Daywalker.",
+    "badgeColor": "border-rose-500/30 text-rose-400 bg-rose-500/10",
+    "accentColor": "#f43f5e"
+  }
+]
