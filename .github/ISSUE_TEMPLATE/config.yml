@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Private security reporting
+    url: https://github.com/ayushcmd/waytodoomsday/blob/main/SECURITY.md
+    about: Do not disclose vulnerabilities or credentials in public issues. Follow the private reporting policy.
+  - name: Support and usage questions
+    url: https://github.com/ayushcmd/waytodoomsday/blob/main/SUPPORT.md
+    about: Read setup and support guidance before opening a question.
