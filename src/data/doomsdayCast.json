@@ -1,0 +1,790 @@
+[
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Victor Von Doom"
+    ],
+    "featured": true,
+    "id": "doomsday-victor-von-doom-downey",
+    "characterName": "Doctor Doom",
+    "actorName": "Robert Downey Jr.",
+    "displayGroup": "antagonist",
+    "sortOrder": 1,
+    "tmdb": {
+      "personId": 3223,
+      "profilePath": "/f9toX5MahujsDZTJoKIa5kzdhAE.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1726,
+      "matchCredit": {
+        "title": "Iron Man",
+        "year": 2008,
+        "character": "Tony Stark",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Captain America"
+    ],
+    "featured": true,
+    "id": "doomsday-steve-rogers-evans",
+    "characterName": "Steve Rogers",
+    "actorName": "Chris Evans",
+    "displayGroup": "avengers",
+    "sortOrder": 2,
+    "tmdb": {
+      "personId": 16828,
+      "profilePath": "/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1771,
+      "matchCredit": {
+        "title": "Captain America: The First Avenger",
+        "year": 2011,
+        "character": "Steve Rogers",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [],
+    "featured": true,
+    "id": "doomsday-thor-hemsworth",
+    "characterName": "Thor",
+    "actorName": "Chris Hemsworth",
+    "displayGroup": "avengers",
+    "sortOrder": 3,
+    "tmdb": {
+      "personId": 74568,
+      "profilePath": "/piQGdoIQOF3C1EI5cbYZLAW1gfj.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 10195,
+      "matchCredit": {
+        "title": "Thor",
+        "year": 2011,
+        "character": "Thor",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Captain America"
+    ],
+    "featured": true,
+    "id": "doomsday-sam-wilson-mackie",
+    "characterName": "Sam Wilson",
+    "actorName": "Anthony Mackie",
+    "displayGroup": "avengers",
+    "sortOrder": 4,
+    "tmdb": {
+      "personId": 53650,
+      "profilePath": "/vecvTm7SimizluJkyIwBxeLbvRm.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 100402,
+      "matchCredit": {
+        "title": "Captain America: The Winter Soldier",
+        "year": 2014,
+        "character": "Sam Wilson",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Ant-Man"
+    ],
+    "featured": false,
+    "id": "doomsday-scott-lang-rudd",
+    "characterName": "Scott Lang",
+    "actorName": "Paul Rudd",
+    "displayGroup": "avengers",
+    "sortOrder": 5,
+    "tmdb": {
+      "personId": 22226,
+      "profilePath": "/6jtwNOLKy0LdsRAKwZqgYMAfd5n.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 102899,
+      "matchCredit": {
+        "title": "Ant-Man",
+        "year": 2015,
+        "character": "Scott Lang",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [],
+    "featured": false,
+    "id": "doomsday-shang-chi-liu",
+    "characterName": "Shang-Chi",
+    "actorName": "Simu Liu",
+    "displayGroup": "avengers",
+    "sortOrder": 6,
+    "tmdb": {
+      "personId": 1489211,
+      "profilePath": "/cCx2OghLj9KN73oyRZe92i2p3Ih.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 566525,
+      "matchCredit": {
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "year": 2021,
+        "character": "Shang-Chi",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Mister Fantastic"
+    ],
+    "featured": true,
+    "id": "doomsday-reed-richards-pascal",
+    "characterName": "Reed Richards",
+    "actorName": "Pedro Pascal",
+    "displayGroup": "fantastic",
+    "sortOrder": 7,
+    "tmdb": {
+      "personId": 1253360,
+      "profilePath": "/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 617126,
+      "matchCredit": {
+        "title": "The Fantastic 4: First Steps",
+        "year": 2025,
+        "character": "Reed Richards",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Invisible Woman"
+    ],
+    "featured": false,
+    "id": "doomsday-sue-storm-kirby",
+    "characterName": "Sue Storm",
+    "actorName": "Vanessa Kirby",
+    "displayGroup": "fantastic",
+    "sortOrder": 8,
+    "tmdb": {
+      "personId": 556356,
+      "profilePath": "/5fbvIkZ02RdcXfZHUUk4cQ9kILK.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 617126,
+      "matchCredit": {
+        "title": "The Fantastic 4: First Steps",
+        "year": 2025,
+        "character": "Sue Storm",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Human Torch"
+    ],
+    "featured": false,
+    "id": "doomsday-johnny-storm-quinn",
+    "characterName": "Johnny Storm",
+    "actorName": "Joseph Quinn",
+    "displayGroup": "fantastic",
+    "sortOrder": 9,
+    "tmdb": {
+      "personId": 1597365,
+      "profilePath": "/zshhuioZaH8S5ZKdMcojzWi1ntl.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 617126,
+      "matchCredit": {
+        "title": "The Fantastic 4: First Steps",
+        "year": 2025,
+        "character": "Johnny Storm",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "The Thing"
+    ],
+    "featured": false,
+    "id": "doomsday-ben-grimm-moss-bachrach",
+    "characterName": "Ben Grimm",
+    "actorName": "Ebon Moss-Bachrach",
+    "displayGroup": "fantastic",
+    "sortOrder": 10,
+    "tmdb": {
+      "personId": 21042,
+      "profilePath": "/xD8GVNayMpiTZxLfahy2DseYcQq.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 617126,
+      "matchCredit": {
+        "title": "The Fantastic 4: First Steps",
+        "year": 2025,
+        "character": "Ben Grimm",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Professor X"
+    ],
+    "featured": true,
+    "id": "doomsday-charles-xavier-stewart",
+    "characterName": "Charles Xavier",
+    "actorName": "Patrick Stewart",
+    "displayGroup": "mutants",
+    "sortOrder": 11,
+    "tmdb": {
+      "personId": 2387,
+      "profilePath": "/3yExCGqCMfSOVVHdEYTJhXaTtFZ.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Xavier",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Magneto"
+    ],
+    "featured": false,
+    "id": "doomsday-erik-lehnsherr-mckellen",
+    "characterName": "Erik Lehnsherr",
+    "actorName": "Ian McKellen",
+    "displayGroup": "mutants",
+    "sortOrder": 12,
+    "tmdb": {
+      "personId": 1327,
+      "profilePath": "/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Magneto",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Cyclops"
+    ],
+    "featured": false,
+    "id": "doomsday-scott-summers-marsden",
+    "characterName": "Scott Summers",
+    "actorName": "James Marsden",
+    "displayGroup": "mutants",
+    "sortOrder": 13,
+    "tmdb": {
+      "personId": 11006,
+      "profilePath": "/lf7OnfKZnMgNh9b98764tqSocGK.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Cyclops",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Beast"
+    ],
+    "featured": false,
+    "id": "doomsday-hank-mccoy-grammer",
+    "characterName": "Hank McCoy",
+    "actorName": "Kelsey Grammer",
+    "displayGroup": "mutants",
+    "sortOrder": 14,
+    "tmdb": {
+      "personId": 7090,
+      "profilePath": "/qn38jJHEqRBsj50Gqo2uM38fgJx.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36668,
+      "matchCredit": {
+        "title": "X-Men: The Last Stand",
+        "year": 2006,
+        "character": "Beast",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Nightcrawler"
+    ],
+    "featured": false,
+    "id": "doomsday-kurt-wagner-cumming",
+    "characterName": "Kurt Wagner",
+    "actorName": "Alan Cumming",
+    "displayGroup": "mutants",
+    "sortOrder": 15,
+    "tmdb": {
+      "personId": 10697,
+      "profilePath": "/axil8ufunARfqyU4ceZNh36fkVQ.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36658,
+      "matchCredit": {
+        "title": "X2",
+        "year": 2003,
+        "character": "Nightcrawler",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Mystique"
+    ],
+    "featured": false,
+    "id": "doomsday-raven-darkholme-romijn",
+    "characterName": "Raven Darkholme",
+    "actorName": "Rebecca Romijn",
+    "displayGroup": "mutants",
+    "sortOrder": 16,
+    "tmdb": {
+      "personId": 11008,
+      "profilePath": "/doqFBHNbNhoLF9RX9SYPqwu1mvd.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Mystique",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Gambit"
+    ],
+    "featured": false,
+    "id": "doomsday-remy-lebeau-tatum",
+    "characterName": "Remy LeBeau",
+    "actorName": "Channing Tatum",
+    "displayGroup": "mutants",
+    "sortOrder": 17,
+    "tmdb": {
+      "personId": 38673,
+      "profilePath": "/a6RUGyodDsJLzb0ypXnrks2ol1G.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 533535,
+      "matchCredit": {
+        "title": "Deadpool & Wolverine",
+        "year": 2024,
+        "character": "Gambit",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [],
+    "featured": true,
+    "id": "doomsday-yelena-belova-pugh",
+    "characterName": "Yelena Belova",
+    "actorName": "Florence Pugh",
+    "displayGroup": "newAvengers",
+    "sortOrder": 18,
+    "tmdb": {
+      "personId": 1373737,
+      "profilePath": "/qqDsryavx9rwSMhDAxW6OC7oNQg.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 986056,
+      "matchCredit": {
+        "title": "Thunderbolts*",
+        "year": 2025,
+        "character": "Yelena Belova",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Winter Soldier"
+    ],
+    "featured": false,
+    "id": "doomsday-bucky-barnes-stan",
+    "characterName": "Bucky Barnes",
+    "actorName": "Sebastian Stan",
+    "displayGroup": "newAvengers",
+    "sortOrder": 19,
+    "tmdb": {
+      "personId": 60898,
+      "profilePath": "/v20RLWst39klatsqUgSrwHxhwee.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 986056,
+      "matchCredit": {
+        "title": "Thunderbolts*",
+        "year": 2025,
+        "character": "Bucky Barnes",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "U.S. Agent"
+    ],
+    "featured": false,
+    "id": "doomsday-john-walker-russell",
+    "characterName": "John Walker",
+    "actorName": "Wyatt Russell",
+    "displayGroup": "newAvengers",
+    "sortOrder": 20,
+    "tmdb": {
+      "personId": 986808,
+      "profilePath": "/zIldBzXdBWskPZB7x35G2hYEVDo.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 986056,
+      "matchCredit": {
+        "title": "Thunderbolts*",
+        "year": 2025,
+        "character": "John Walker",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Red Guardian"
+    ],
+    "featured": false,
+    "id": "doomsday-alexei-shostakov-harbour",
+    "characterName": "Alexei Shostakov",
+    "actorName": "David Harbour",
+    "displayGroup": "newAvengers",
+    "sortOrder": 21,
+    "tmdb": {
+      "personId": 35029,
+      "profilePath": "/qMFtMWlYVtFVyBoBhX5IoA5sN5a.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 986056,
+      "matchCredit": {
+        "title": "Thunderbolts*",
+        "year": 2025,
+        "character": "Alexei",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Ghost"
+    ],
+    "featured": false,
+    "id": "doomsday-ava-starr-john-kamen",
+    "characterName": "Ava Starr",
+    "actorName": "Hannah John-Kamen",
+    "displayGroup": "newAvengers",
+    "sortOrder": 22,
+    "tmdb": {
+      "personId": 1408809,
+      "profilePath": "/2fqNQQW3B7upH4rBubhxXkIIoGk.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 986056,
+      "matchCredit": {
+        "title": "Thunderbolts*",
+        "year": 2025,
+        "character": "Ava",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Sentry"
+    ],
+    "featured": false,
+    "id": "doomsday-bob-reynolds-pullman",
+    "characterName": "Bob Reynolds",
+    "actorName": "Lewis Pullman",
+    "displayGroup": "newAvengers",
+    "sortOrder": 23,
+    "tmdb": {
+      "personId": 1700685,
+      "profilePath": "/i2wJQ2eaVuTPaA84jzxNtxs54mO.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 986056,
+      "matchCredit": {
+        "title": "Thunderbolts*",
+        "year": 2025,
+        "character": "Robert Reynolds",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Black Panther"
+    ],
+    "featured": true,
+    "id": "doomsday-shuri-wright",
+    "characterName": "Shuri",
+    "actorName": "Letitia Wright",
+    "displayGroup": "wakanda",
+    "sortOrder": 24,
+    "tmdb": {
+      "personId": 1083010,
+      "profilePath": "/f7PevpEeBqwzACPhoZ8K3ktrKvE.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 505642,
+      "matchCredit": {
+        "title": "Black Panther: Wakanda Forever",
+        "year": 2022,
+        "character": "Shuri",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [],
+    "featured": false,
+    "id": "doomsday-mbaku-duke",
+    "characterName": "M’Baku",
+    "actorName": "Winston Duke",
+    "displayGroup": "wakanda",
+    "sortOrder": 25,
+    "tmdb": {
+      "personId": 1447932,
+      "profilePath": "/MhBiZbryibwuoEtPL9Ns8pYHC1.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 505642,
+      "matchCredit": {
+        "title": "Black Panther: Wakanda Forever",
+        "year": 2022,
+        "character": "M’Baku",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [],
+    "featured": false,
+    "id": "doomsday-namor-huerta-mejia",
+    "characterName": "Namor",
+    "actorName": "Tenoch Huerta Mejía",
+    "displayGroup": "wakanda",
+    "sortOrder": 26,
+    "tmdb": {
+      "personId": 87265,
+      "profilePath": "/5qoAmQpcPCjf4Pd6aTZOeINGYzk.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 505642,
+      "matchCredit": {
+        "title": "Black Panther: Wakanda Forever",
+        "year": 2022,
+        "character": "Namor",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [],
+    "featured": false,
+    "id": "doomsday-namora-cadena",
+    "characterName": "Namora",
+    "actorName": "Mabel Cadena",
+    "displayGroup": "wakanda",
+    "sortOrder": 27,
+    "tmdb": {
+      "personId": 2213811,
+      "profilePath": "/z0kAf1LBESLPj4zUaXSngKH7cwg.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 505642,
+      "matchCredit": {
+        "title": "Black Panther: Wakanda Forever",
+        "year": 2022,
+        "character": "Namora",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [],
+    "featured": false,
+    "id": "doomsday-loki-hiddleston",
+    "characterName": "Loki",
+    "actorName": "Tom Hiddleston",
+    "displayGroup": "others",
+    "sortOrder": 28,
+    "tmdb": {
+      "personId": 91606,
+      "profilePath": "/mclHxMm8aPlCPKptP67257F5GPo.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 10195,
+      "matchCredit": {
+        "title": "Thor",
+        "year": 2011,
+        "character": "Loki",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [],
+    "featured": false,
+    "id": "doomsday-peggy-carter-atwell",
+    "characterName": "Peggy Carter",
+    "actorName": "Hayley Atwell",
+    "displayGroup": "others",
+    "sortOrder": 29,
+    "tmdb": {
+      "personId": 39459,
+      "profilePath": "/x57wXHexIjD2ywly9cRA4rov7cu.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1771,
+      "matchCredit": {
+        "title": "Captain America: The First Avenger",
+        "year": 2011,
+        "character": "Peggy Carter",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [
+      "Falcon"
+    ],
+    "featured": false,
+    "id": "doomsday-joaquin-torres-ramirez",
+    "characterName": "Joaquin Torres",
+    "actorName": "Danny Ramirez",
+    "displayGroup": "others",
+    "sortOrder": 30,
+    "tmdb": {
+      "personId": 1773397,
+      "profilePath": "/7ZvcfWA5O5ULiupbHZtGGEPwnpI.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 88396,
+      "matchCredit": {
+        "title": "The Falcon and the Winter Soldier",
+        "year": 2021,
+        "character": "Joaquin Torres",
+        "mediaType": "tv"
+      }
+    }
+  },
+  {
+    "status": "officially-confirmed",
+    "sourceUrl": "https://www.disneyplus.com/explore/articles/avengers-doomsday-cast-characters",
+    "verifiedAt": "2026-11-28",
+    "aliases": [],
+    "featured": false,
+    "id": "doomsday-cassie-lang-newton",
+    "characterName": "Cassie Lang",
+    "actorName": "Kathryn Newton",
+    "displayGroup": "others",
+    "sortOrder": 31,
+    "tmdb": {
+      "personId": 221192,
+      "profilePath": "/3mos4oK6bps0uhQzW1L7nj5O0Gd.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 640146,
+      "matchCredit": {
+        "title": "Ant-Man and the Wasp: Quantumania",
+        "year": 2023,
+        "character": "Cassie Lang",
+        "mediaType": "movie"
+      }
+    }
+  }
+]
