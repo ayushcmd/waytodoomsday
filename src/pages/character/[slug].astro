@@ -10,7 +10,9 @@ import {
   getUniverseById,
   getTeamById,
   getFilmById,
+  getPortrayalPortraitUrl,
 } from "../../data/encyclopedia/index.js";
+import { TMDB_PROFILE_LARGE_SIZE } from "../../data/tmdb.js";
 import { CHARACTERS } from "../../data/characters.js";
 import mcuMovies from "../../data/movies.json" with { type: "json" };
 
@@ -45,6 +47,7 @@ const { character, movieIds } = Astro.props;
 
 const universe = getUniverseById(character.universeId);
 const alternates = getAlternatePortrayals(character.slug);
+const portraitUrl = getPortrayalPortraitUrl(character, TMDB_PROFILE_LARGE_SIZE);
 
 // Resolve team memberships with explicit affiliation classification
 const teams = (character.teamMemberships || [])
@@ -114,14 +117,23 @@ const hasMcuArc = movieIds && movieIds.length > 0;
     <div class="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 pt-16 pb-10">
       <div class="grid grid-cols-1 md:grid-cols-[220px_1fr] lg:grid-cols-[260px_1fr] gap-6 md:gap-8 items-end">
         <!-- Main Portrait Area -->
-        <div class="w-44 sm:w-52 md:w-full mx-auto md:mx-0 rounded-2xl overflow-hidden border border-white/20 shadow-2xl shadow-black/80 aspect-[3/4]">
-          <CharacterAvatar
-            client:load
-            src={character.poster}
-            alt={character.name}
-            accentColor={universe?.accentColor}
-            aspectRatio="aspect-[3/4]"
-          />
+        <div class="w-44 sm:w-52 md:w-full mx-auto md:mx-0">
+          <div class="rounded-2xl overflow-hidden border border-white/20 shadow-2xl shadow-black/80 aspect-[3/4]">
+            <CharacterAvatar
+              client:load
+              src={portraitUrl}
+              alt={`Actor portrait of ${character.actor} (${character.name})`}
+              fallbackName={character.name}
+              accentColor={universe?.accentColor}
+              aspectRatio="aspect-[3/4]"
+              loading="eager"
+            />
+          </div>
+          {portraitUrl && (
+            <p class="mt-2 text-center md:text-left text-[10px] font-mono uppercase tracking-wider text-neutral-400">
+              Actor headshot: {character.actor} · TMDB
+            </p>
+          )}
         </div>
 
         <!-- Identity & Metadata -->

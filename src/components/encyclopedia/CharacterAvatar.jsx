@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 function getCleanInitials(name) {
   if (!name) return "M";
@@ -18,15 +18,28 @@ function getCleanInitials(name) {
 export default function CharacterAvatar({
   src,
   alt,
+  fallbackName,
   initials,
   className = "",
   accentColor = "#22c55e",
-  aspectRatio = "aspect-[3/4]"
+  aspectRatio = "aspect-[3/4]",
+  loading = "lazy"
 }) {
+  const imgRef = useRef(null);
   const [error, setError] = useState(false);
   const [loaded, setLoaded] = useState(false);
 
-  const fallbackInitials = initials || getCleanInitials(alt);
+  useEffect(() => {
+    setError(false);
+    if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) {
+      setLoaded(true);
+    } else {
+      setLoaded(false);
+    }
+  }, [src]);
+
+  const displayName = fallbackName || alt;
+  const fallbackInitials = initials || getCleanInitials(displayName);
   const showImage = Boolean(src) && !error;
 
   return (
@@ -36,12 +49,15 @@ export default function CharacterAvatar({
       {showImage ? (
         <>
           <img
+            ref={imgRef}
             src={src}
-            alt={alt || "Character portrait"}
-            loading="lazy"
+            alt={alt || "Actor portrait"}
+            loading={loading}
+            decoding="async"
+            referrerPolicy="no-referrer"
             onLoad={() => setLoaded(true)}
             onError={() => setError(true)}
-            className={`w-full h-full object-cover transition-opacity duration-300 ${
+            className={`w-full h-full object-cover object-top transition-opacity duration-300 ${
               loaded ? "opacity-100" : "opacity-0"
             }`}
           />
@@ -73,7 +89,7 @@ export default function CharacterAvatar({
           </div>
 
           <span className="relative z-10 font-display text-xs sm:text-sm tracking-widest uppercase text-neutral-300 mt-3 px-2 line-clamp-1 drop-shadow-sm">
-            {alt}
+            {displayName}
           </span>
         </div>
       )}

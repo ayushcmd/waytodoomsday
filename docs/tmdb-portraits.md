@@ -89,6 +89,16 @@ into this checkout, browser code or Git. The no-token build/fallback path remain
 supported. Recheck current account terms before deployment; no deployment is
 performed by this PR.
 
+## Encyclopedia Portraits Integration
+
+The Marvel Character Encyclopedia (`src/data/encyclopedia/portrayals.json`) uses the same authenticated, development-time TMDB workflow via `src/data/encyclopedia/portraits.json` and `npm run encyclopedia:portraits:refresh`:
+
+- **Shared Actor Identity Mapping:** `portraits.json` stores one verified TMDB actor record per unique actor (`42` actor identities serving `46` published portrayals). Shared actors (e.g., Chris Evans as Steve Rogers and Johnny Storm; Hugh Jackman, Patrick Stewart, and Ryan Reynolds across multiversal variants) reference their single verified `personId` and `profilePath` without duplicating TMDB metadata.
+- **Image Sizes:** Directory and team roster cards use `w185`, while individual character profile hero portraits use `h632` (`TMDB_PROFILE_LARGE_SIZE`), both validated against `/configuration` during refresh.
+- **Clear / Offline Support:** Running `npm run encyclopedia:portraits:refresh -- --clear` purges stored TMDB person/profile metadata without network access, falling back to CSS monograms.
+
+---
+
 ## Validation — November 28, 2026
 
 - Started from fetched main `0bf86f814b0fafe8ee3eca549c4bbdec66e2b917`

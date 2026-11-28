@@ -3,12 +3,32 @@ import filmsData from "./films.json" with { type: "json" };
 import identitiesData from "./identities.json" with { type: "json" };
 import teamsData from "./teams.json" with { type: "json" };
 import portrayalsData from "./portrayals.json" with { type: "json" };
+import portraitsData from "./portraits.json" with { type: "json" };
+import { getActorPortraitUrl, TMDB_PROFILE_SIZE } from "../tmdb.js";
 
 export const UNIVERSES = universesData;
 export const FILMS = filmsData;
 export const IDENTITIES = identitiesData;
 export const TEAMS = teamsData;
 export const PORTRAYALS = portrayalsData.filter((p) => p.status === "published");
+export const ACTOR_PORTRAITS = portraitsData;
+
+const portraitByPortrayalSlug = new Map();
+for (const entry of ACTOR_PORTRAITS) {
+  for (const slug of entry.portrayalSlugs ?? []) {
+    portraitByPortrayalSlug.set(slug, entry);
+  }
+}
+
+export function getPortrayalPortraitEntry(portrayalOrSlug) {
+  const slug = typeof portrayalOrSlug === "string" ? portrayalOrSlug : portrayalOrSlug?.slug;
+  return slug ? portraitByPortrayalSlug.get(slug) || null : null;
+}
+
+export function getPortrayalPortraitUrl(portrayalOrSlug, size = TMDB_PROFILE_SIZE, now = new Date()) {
+  const entry = getPortrayalPortraitEntry(portrayalOrSlug);
+  return entry ? getActorPortraitUrl(entry, now, size) : null;
+}
 
 const universesById = new Map(UNIVERSES.map((u) => [u.id, u]));
 const filmsById = new Map(FILMS.map((f) => [f.id, f]));
