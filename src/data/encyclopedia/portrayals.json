@@ -5,12 +5,16 @@
     "identityId": "tony-stark",
     "name": "Iron Man",
     "realName": "Tony Stark",
-    "aliases": ["The Armored Avenger", "Mechanic", "Genius, Billionaire, Playboy, Philanthropist"],
+    "aliases": [
+      "The Armored Avenger",
+      "Mechanic",
+      "Genius, Billionaire, Playboy, Philanthropist"
+    ],
     "actor": "Robert Downey Jr.",
     "universeId": "mcu",
     "role": "hero",
     "tagline": "The armored pioneer of the Marvel Cinematic Universe",
-    "biography": "Anthony Edward 'Tony' Stark was an eccentric industrialist who inherited Stark Industries from his father Howard Stark. After being ambushed and captured by the Ten Rings terrorist group in Afghanistan, Stark suffered shrapnel injuries near his heart. Refusing to build missiles for his captors, he forged an electromagnetic chest arc reactor and the rudimentary Mark I armor with Dr. Ho Yinsen. Returning to Malibu, he refined the technology into high-altitude powered suits, shut down Stark Industries' weapons manufacturing, and publicly announced 'I am Iron Man.' Stark became a core architect of the Avengers, faced alien incursions, survived PTSD, and ultimately laid down his life in 2023 by channeling the Infinity Stones to eliminate Thanos and his army.",
+    "biography": "Anthony Edward 'Tony' Stark was an eccentric industrialist who inherited Stark Industries from his father Howard Stark. After being ambushed and captured by the Ten Rings terrorist group in Afghanistan, Stark suffered shrapnel injuries near his heart. Refusing to build missiles for his captors, he forged an electromagnetic chest arc reactor and the rudimentary Mark I armor with Dr. Ho Yinsen. Returning to Malibu, he refined the technology into high-altitude powered suits, shut down Stark Industries' weapons manufacturing, and publicly announced 'I am Iron Man.' Stark became a core architect of the Avengers, facing extraterrestrial threats and technological perils across the globe.",
     "powers": [
       "Genius-level intellect and engineering mastery",
       "Armor-enabled supersonic flight and maneuverability",
@@ -26,7 +30,11 @@
       "Nano Gauntlet"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Founding Co-Leader & Benefactor" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Founding Co-Leader & Benefactor",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Iron Man",
@@ -34,28 +42,98 @@
       "filmId": "iron-man"
     },
     "appearances": [
-      { "filmId": "iron-man", "title": "Iron Man", "year": 2008, "type": "starring" },
-      { "filmId": "incredible-hulk", "title": "The Incredible Hulk", "year": 2008, "type": "cameo" },
-      { "filmId": "iron-man-2", "title": "Iron Man 2", "year": 2010, "type": "starring" },
-      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
-      { "filmId": "iron-man-3", "title": "Iron Man 3", "year": 2013, "type": "starring" },
-      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
-      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
-      { "filmId": "spider-man-homecoming", "title": "Spider-Man: Homecoming", "year": 2017, "type": "supporting" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+      {
+        "filmId": "iron-man",
+        "title": "Iron Man",
+        "year": 2008,
+        "type": "starring"
+      },
+      {
+        "filmId": "incredible-hulk",
+        "title": "The Incredible Hulk",
+        "year": 2008,
+        "type": "cameo"
+      },
+      {
+        "filmId": "iron-man-2",
+        "title": "Iron Man 2",
+        "year": 2010,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers",
+        "title": "The Avengers",
+        "year": 2012,
+        "type": "starring"
+      },
+      {
+        "filmId": "iron-man-3",
+        "title": "Iron Man 3",
+        "year": 2013,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-age-of-ultron",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "type": "starring"
+      },
+      {
+        "filmId": "captain-america-civil-war",
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-homecoming",
+        "title": "Spider-Man: Homecoming",
+        "year": 2017,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Steve Rogers", "relation": "Teammate & Ideological Counterpart", "portrayalSlug": "captain-america" },
-      { "characterName": "Peter Parker", "relation": "Protégé & Surrogate Son", "portrayalSlug": "spider-man" },
-      { "characterName": "James Rhodes", "relation": "Best Friend & Military Liaison" },
-      { "characterName": "Pepper Potts", "relation": "Wife & Business Partner" }
+      {
+        "characterName": "Steve Rogers",
+        "relation": "Teammate & Ideological Counterpart",
+        "portrayalSlug": "captain-america"
+      },
+      {
+        "characterName": "Peter Parker",
+        "relation": "Protégé & Surrogate Son",
+        "portrayalSlug": "spider-man"
+      },
+      {
+        "characterName": "James Rhodes",
+        "relation": "Best Friend & Military Liaison"
+      },
+      {
+        "characterName": "Pepper Potts",
+        "relation": "Wife & Business Partner"
+      }
     ],
     "poster": "/posters/Avengers_Endgame.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Iron Man Official Profile", "url": "https://www.marvel.com/characters/iron-man-tony-stark", "verifiedDate": "2026-11-28" }
-    ]
+      {
+        "title": "Marvel.com Iron Man Official Profile",
+        "url": "https://www.marvel.com/characters/iron-man-tony-stark",
+        "verifiedDate": "2026-11-28"
+      }
+    ],
+    "spoilerBio": "In 2023, Stark engineered the quantum GPS enabling the Time Heist and fabricated the Nano Gauntlet. Facing Thanos during the Battle of Earth, Stark wrested the Infinity Stones into his Mark LXXXV armor, declaring 'I am Iron Man' to disintegrate Thanos and his armies, sacrificing his life to save the cosmos.",
+    "spoilerWarning": "Contains character death spoilers for Avengers: Endgame"
   },
   {
     "id": "portrayal-thor-mcu",
@@ -63,7 +141,12 @@
     "identityId": "thor-odinson",
     "name": "Thor",
     "realName": "Thor Odinson",
-    "aliases": ["God of Thunder", "Lord of Thunder", "Point Break", "Strongest Avenger"],
+    "aliases": [
+      "God of Thunder",
+      "Lord of Thunder",
+      "Point Break",
+      "Strongest Avenger"
+    ],
     "actor": "Chris Hemsworth",
     "universeId": "mcu",
     "role": "hero",
@@ -82,8 +165,16 @@
       "Asgardian royal armor and crimson cloak"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Founding Heavy Hitter" },
-      { "teamId": "guardians-of-the-galaxy-mcu", "role": "Transient Ally ('Asgardians of the Galaxy')" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Founding Heavy Hitter",
+        "type": "member"
+      },
+      {
+        "teamId": "guardians-of-the-galaxy-mcu",
+        "role": "Transient Cosmic Guest ('Asgardians of the Galaxy')",
+        "type": "ally"
+      }
     ],
     "filmDebut": {
       "title": "Thor",
@@ -91,25 +182,84 @@
       "filmId": "thor"
     },
     "appearances": [
-      { "filmId": "thor", "title": "Thor", "year": 2011, "type": "starring" },
-      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
-      { "filmId": "thor-dark-world", "title": "Thor: The Dark World", "year": 2013, "type": "starring" },
-      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
-      { "filmId": "thor-ragnarok", "title": "Thor: Ragnarok", "year": 2017, "type": "starring" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
-      { "filmId": "thor-love-and-thunder", "title": "Thor: Love and Thunder", "year": 2022, "type": "starring" }
+      {
+        "filmId": "thor",
+        "title": "Thor",
+        "year": 2011,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers",
+        "title": "The Avengers",
+        "year": 2012,
+        "type": "starring"
+      },
+      {
+        "filmId": "thor-dark-world",
+        "title": "Thor: The Dark World",
+        "year": 2013,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-age-of-ultron",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "type": "starring"
+      },
+      {
+        "filmId": "thor-ragnarok",
+        "title": "Thor: Ragnarok",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "thor-love-and-thunder",
+        "title": "Thor: Love and Thunder",
+        "year": 2022,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Loki Laufeyson", "relation": "Adoptive Brother & Former Adversary", "portrayalSlug": "loki" },
-      { "characterName": "Steve Rogers", "relation": "Avenger Teammate & Worthy Companion", "portrayalSlug": "captain-america" },
-      { "characterName": "Bruce Banner", "relation": "Friend from Work & Teammate", "portrayalSlug": "hulk-bruce-banner" },
-      { "characterName": "Jane Foster", "relation": "Astronomer, True Love & Mighty Thor" }
+      {
+        "characterName": "Loki Laufeyson",
+        "relation": "Adoptive Brother & Former Adversary",
+        "portrayalSlug": "loki"
+      },
+      {
+        "characterName": "Steve Rogers",
+        "relation": "Avenger Teammate & Worthy Companion",
+        "portrayalSlug": "captain-america"
+      },
+      {
+        "characterName": "Bruce Banner",
+        "relation": "Friend from Work & Teammate",
+        "portrayalSlug": "hulk-bruce-banner"
+      },
+      {
+        "characterName": "Jane Foster",
+        "relation": "Astronomer, True Love & Mighty Thor"
+      }
     ],
     "poster": "/posters/Thor_Ragnarok.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Thor Official Cinematic Profile", "url": "https://www.marvel.com/characters/thor-thor-odinson", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Thor Official Cinematic Profile",
+        "url": "https://www.marvel.com/characters/thor-thor-odinson",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -118,12 +268,17 @@
     "identityId": "steve-rogers",
     "name": "Captain America",
     "realName": "Steve Rogers",
-    "aliases": ["The First Avenger", "The Star-Spangled Man with a Plan", "Cap", "Nomad"],
+    "aliases": [
+      "The First Avenger",
+      "The Star-Spangled Man with a Plan",
+      "Cap",
+      "Nomad"
+    ],
     "actor": "Chris Evans",
     "universeId": "mcu",
     "role": "hero",
     "tagline": "The First Avenger and moral compass of Earth's Mightiest Heroes",
-    "biography": "Steven Grant Rogers was an impoverished Brooklyn art student rejected repeatedly from WWII military service due to a litany of chronic health issues. Dr. Abraham Erskine recognized his profound moral resolve, selecting him for the Project Rebirth Super Soldier program. Transformed into peak human perfection, Rogers led the Howling Commandos behind enemy lines to dismantle Johann Schmidt's HYDRA operations. After plunging a Valkyrie super-bomber into the Arctic ice to save millions, Rogers awoke 66 years later into the 21st century. As tactical leader of the Avengers, Cap defended humanity against aliens, corrupt secret organizations, and rogue androids, consistently standing unwavering against tyranny.",
+    "biography": "Steven Grant Rogers was an impoverished Brooklyn art student rejected repeatedly from WWII military service due to chronic health issues. Dr. Abraham Erskine recognized his profound moral resolve, selecting him for the Project Rebirth Super Soldier program. Transformed into peak human perfection, Rogers led the Howling Commandos behind enemy lines to dismantle Johann Schmidt's HYDRA operations. Plunging a Valkyrie bomber into Arctic ice to save millions, Rogers awoke 66 years later in the 21st century to lead the Avengers against global and extraterrestrial crises.",
     "powers": [
       "Peak human strength, agility, reflexes, and kinetic stamina",
       "Mastery of master-level hand-to-hand martial combat and shield aerodynamics",
@@ -138,8 +293,16 @@
       "Kevlar-weave tactical uniforms with star insignia"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Field Leader & Tactical Commander" },
-      { "teamId": "shield-mcu", "role": "Special Operations Field Agent (STRIKE)" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Field Leader & Tactical Commander",
+        "type": "member"
+      },
+      {
+        "teamId": "shield-mcu",
+        "role": "Special Operations Field Agent (STRIKE)",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Captain America: The First Avenger",
@@ -147,25 +310,81 @@
       "filmId": "captain-america-first-avenger"
     },
     "appearances": [
-      { "filmId": "captain-america-first-avenger", "title": "Captain America: The First Avenger", "year": 2011, "type": "starring" },
-      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
-      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "starring" },
-      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
-      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+      {
+        "filmId": "captain-america-first-avenger",
+        "title": "Captain America: The First Avenger",
+        "year": 2011,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers",
+        "title": "The Avengers",
+        "year": 2012,
+        "type": "starring"
+      },
+      {
+        "filmId": "captain-america-winter-soldier",
+        "title": "Captain America: The Winter Soldier",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-age-of-ultron",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "type": "starring"
+      },
+      {
+        "filmId": "captain-america-civil-war",
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Bucky Barnes", "relation": "Lifelong Childhood Brother & Howling Commando", "portrayalSlug": "winter-soldier" },
-      { "characterName": "Sam Wilson", "relation": "Trusted Brother-in-Arms & Handpicked Successor", "portrayalSlug": "sam-wilson" },
-      { "characterName": "Tony Stark", "relation": "Teammate, Adversary & Respected Colleague", "portrayalSlug": "iron-man" },
-      { "characterName": "Peggy Carter", "relation": "SSR Commander, Guiding Light & Lifelong Love" }
+      {
+        "characterName": "Bucky Barnes",
+        "relation": "Lifelong Childhood Brother & Howling Commando",
+        "portrayalSlug": "winter-soldier"
+      },
+      {
+        "characterName": "Sam Wilson",
+        "relation": "Trusted Brother-in-Arms & Handpicked Successor",
+        "portrayalSlug": "sam-wilson"
+      },
+      {
+        "characterName": "Tony Stark",
+        "relation": "Teammate, Adversary & Respected Colleague",
+        "portrayalSlug": "iron-man"
+      },
+      {
+        "characterName": "Peggy Carter",
+        "relation": "SSR Commander, Guiding Light & Lifelong Love"
+      }
     ],
     "poster": "/posters/Captain_America_Civil_War.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Captain America Steve Rogers Official Profile", "url": "https://www.marvel.com/characters/captain-america-steve-rogers", "verifiedDate": "2026-11-28" }
-    ]
+      {
+        "title": "Marvel.com Captain America Steve Rogers Official Profile",
+        "url": "https://www.marvel.com/characters/captain-america-steve-rogers",
+        "verifiedDate": "2026-11-28"
+      }
+    ],
+    "spoilerBio": "Following the defeat of Thanos in Endgame, Steve volunteered to return the Infinity Stones and Mjolnir to their original timelines. Choosing to remain in the 1940s with Peggy Carter, an elderly Rogers returned to 2023 to formally pass his vibranium shield and the mantle of Captain America to Sam Wilson.",
+    "spoilerWarning": "Contains character retirement and timeline spoilers for Avengers: Endgame"
   },
   {
     "id": "portrayal-spider-man-mcu",
@@ -173,12 +392,17 @@
     "identityId": "peter-parker",
     "name": "Spider-Man",
     "realName": "Peter Parker",
-    "aliases": ["Your Friendly Neighborhood Spider-Man", "Spidey", "Underoos", "Peter-One"],
+    "aliases": [
+      "Your Friendly Neighborhood Spider-Man",
+      "Spidey",
+      "Underoos",
+      "Peter-One"
+    ],
     "actor": "Tom Holland",
     "universeId": "mcu",
     "role": "hero",
     "tagline": "Queens' friendly neighborhood wall-crawler and junior Avenger",
-    "biography": "Peter Benjamin Parker was an orphaned Queens high school student living with his Aunt May who gained arachnid abilities after being bitten by a radioactive spider. Operating secretly in homemade gear as a local crimefighter, he was recruited by Tony Stark during the Avengers' clash over the Sokovia Accords. Equipped with high-tech Stark suits, Parker halted Adrian Toomes' scavenged weapons network and joined the Avengers on Titan against Thanos. Following the Blip and Stark's demise, Peter was framed for Mysterio's London drone assault and unmasked to the globe by J. Jonah Jameson. Desperate to restore his friends' lives, Peter turned to Doctor Strange for a memory charm that fractured the multiverse, ultimately sacrificing his entire personal identity so the cosmos could heal.",
+    "biography": "Peter Benjamin Parker was an orphaned Queens high school student living with his Aunt May who gained arachnid abilities after being bitten by a radioactive spider. Operating secretly as a local crimefighter, he was recruited by Tony Stark during the Avengers' clash over the Sokovia Accords. Equipped with high-tech Stark suits, Parker halted Adrian Toomes' scavenged weapons network and joined the Avengers on Titan and Earth against Thanos.",
     "powers": [
       "Wall-crawling surface adhesion via van der Waals bio-manipulation",
       "Superhuman proportionate spider strength and agility",
@@ -192,7 +416,11 @@
       "Integrated Suit and classic hand-stitched fabric suit"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Junior Member (dubbed Avenger by Tony Stark)" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Junior Member (dubbed Avenger by Tony Stark)",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Captain America: Civil War",
@@ -200,26 +428,83 @@
       "filmId": "captain-america-civil-war"
     },
     "appearances": [
-      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "supporting" },
-      { "filmId": "spider-man-homecoming", "title": "Spider-Man: Homecoming", "year": 2017, "type": "starring" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
-      { "filmId": "spider-man-far-from-home", "title": "Spider-Man: Far From Home", "year": 2019, "type": "starring" },
-      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+      {
+        "filmId": "captain-america-civil-war",
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "type": "supporting"
+      },
+      {
+        "filmId": "spider-man-homecoming",
+        "title": "Spider-Man: Homecoming",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-far-from-home",
+        "title": "Spider-Man: Far From Home",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-no-way-home",
+        "title": "Spider-Man: No Way Home",
+        "year": 2021,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Tony Stark", "relation": "Mentor, Tech Sponsor & Father Figure", "portrayalSlug": "iron-man" },
-      { "characterName": "Peter Parker (Raimi)", "relation": "Multiversal Elder Variant & Brother ('Peter-Two')", "portrayalSlug": "spider-man-tobey-maguire" },
-      { "characterName": "Peter Parker (Webb)", "relation": "Multiversal Middle Variant & Brother ('Peter-Three')", "portrayalSlug": "spider-man-andrew-garfield" },
-      { "characterName": "Aunt May Parker", "relation": "Guardian & Moral Compass ('With great power...')" },
-      { "characterName": "Ned Leeds", "relation": "Best Friend & 'Guy in the Chair'" },
-      { "characterName": "MJ (Michelle Jones-Watson)", "relation": "Girlfriend & Confidante" }
+      {
+        "characterName": "Tony Stark",
+        "relation": "Mentor, Tech Sponsor & Father Figure",
+        "portrayalSlug": "iron-man"
+      },
+      {
+        "characterName": "Peter Parker (Raimi)",
+        "relation": "Multiversal Elder Variant & Brother ('Peter-Two')",
+        "portrayalSlug": "spider-man-tobey-maguire"
+      },
+      {
+        "characterName": "Peter Parker (Webb)",
+        "relation": "Multiversal Middle Variant & Brother ('Peter-Three')",
+        "portrayalSlug": "spider-man-andrew-garfield"
+      },
+      {
+        "characterName": "Aunt May Parker",
+        "relation": "Guardian & Moral Compass ('With great power...')"
+      },
+      {
+        "characterName": "Ned Leeds",
+        "relation": "Best Friend & 'Guy in the Chair'"
+      },
+      {
+        "characterName": "MJ (Michelle Jones-Watson)",
+        "relation": "Girlfriend & Confidante"
+      }
     ],
     "poster": "/posters/Spider-Man_No_Way_Home.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Spider-Man Peter Parker Official MCU Bio", "url": "https://www.marvel.com/characters/spider-man-peter-parker", "verifiedDate": "2026-11-28" }
-    ]
+      {
+        "title": "Marvel.com Spider-Man Peter Parker Official MCU Bio",
+        "url": "https://www.marvel.com/characters/spider-man-peter-parker",
+        "verifiedDate": "2026-11-28"
+      }
+    ],
+    "spoilerBio": "In No Way Home, after Mysterio exposed Peter's identity, an altered memory charm cast by Doctor Strange fractured reality. Peter suffered the devastating death of Aunt May at the hands of the Green Goblin, but rallied with two multiversal Spider-Men to cure their enemies. To avert catastrophic incursion, Peter asked Strange to cast a spell erasing all memory of Peter Parker from existence, starting anew in solitary anonymity.",
+    "spoilerWarning": "Contains major tragic spoilers for Spider-Man: No Way Home"
   },
   {
     "id": "portrayal-star-lord-mcu",
@@ -227,7 +512,10 @@
     "identityId": "peter-quill",
     "name": "Star-Lord",
     "realName": "Peter Quill",
-    "aliases": ["Leader of the Guardians of the Galaxy", "Space-Lord"],
+    "aliases": [
+      "Leader of the Guardians of the Galaxy",
+      "Space-Lord"
+    ],
     "actor": "Chris Pratt",
     "universeId": "mcu",
     "role": "hero",
@@ -247,8 +535,16 @@
       "Sony TPS-L2 Walkman & Zune loaded with Meredith's Awesome Mixes"
     ],
     "teamMemberships": [
-      { "teamId": "guardians-of-the-galaxy-mcu", "role": "Captain & Founding Leader" },
-      { "teamId": "ravagers-mcu", "role": "Former Scavenger Crew Member" }
+      {
+        "teamId": "guardians-of-the-galaxy-mcu",
+        "role": "Captain & Founding Leader",
+        "type": "member"
+      },
+      {
+        "teamId": "ravagers-mcu",
+        "role": "Former Scavenger Crew Member",
+        "type": "former-member"
+      }
     ],
     "filmDebut": {
       "title": "Guardians of the Galaxy",
@@ -256,23 +552,70 @@
       "filmId": "guardians-vol-1"
     },
     "appearances": [
-      { "filmId": "guardians-vol-1", "title": "Guardians of the Galaxy", "year": 2014, "type": "starring" },
-      { "filmId": "guardians-vol-2", "title": "Guardians of the Galaxy Vol. 2", "year": 2017, "type": "starring" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
-      { "filmId": "thor-love-and-thunder", "title": "Thor: Love and Thunder", "year": 2022, "type": "cameo" },
-      { "filmId": "guardians-vol-3", "title": "Guardians of the Galaxy Vol. 3", "year": 2023, "type": "starring" }
+      {
+        "filmId": "guardians-vol-1",
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "guardians-vol-2",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "thor-love-and-thunder",
+        "title": "Thor: Love and Thunder",
+        "year": 2022,
+        "type": "cameo"
+      },
+      {
+        "filmId": "guardians-vol-3",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "year": 2023,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Gamora", "relation": "Love of His Life & Fellow Guardian" },
-      { "characterName": "Rocket Raccoon", "relation": "Best Friend, Pilot & Guardian Successor" },
-      { "characterName": "Yondu Udonta", "relation": "Adoptive Father Figure ('He may have been your father, boy, but he wasn't your daddy')" },
-      { "characterName": "Thor Odinson", "relation": "Friendly Cosmic Rival & Teammate", "portrayalSlug": "thor" }
+      {
+        "characterName": "Gamora",
+        "relation": "Love of His Life & Fellow Guardian"
+      },
+      {
+        "characterName": "Rocket Raccoon",
+        "relation": "Best Friend, Pilot & Guardian Successor"
+      },
+      {
+        "characterName": "Yondu Udonta",
+        "relation": "Adoptive Father Figure ('He may have been your father, boy, but he wasn't your daddy')"
+      },
+      {
+        "characterName": "Thor Odinson",
+        "relation": "Friendly Cosmic Rival & Teammate",
+        "portrayalSlug": "thor"
+      }
     ],
     "poster": "/posters/Guardians_of_the_Galaxy_Vol_3.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Star-Lord Peter Quill Official Bio", "url": "https://www.marvel.com/characters/star-lord-peter-quill", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Star-Lord Peter Quill Official Bio",
+        "url": "https://www.marvel.com/characters/star-lord-peter-quill",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -281,7 +624,11 @@
     "identityId": "peter-parker",
     "name": "Spider-Man",
     "realName": "Peter Parker",
-    "aliases": ["The Human Spider", "Web-Slinger", "Peter-Two"],
+    "aliases": [
+      "The Human Spider",
+      "Web-Slinger",
+      "Peter-Two"
+    ],
     "actor": "Tobey Maguire",
     "universeId": "raimi-spiderman",
     "role": "hero",
@@ -304,22 +651,65 @@
       "filmId": "spider-man-2002"
     },
     "appearances": [
-      { "filmId": "spider-man-2002", "title": "Spider-Man", "year": 2002, "type": "starring" },
-      { "filmId": "spider-man-2-2004", "title": "Spider-Man 2", "year": 2004, "type": "starring" },
-      { "filmId": "spider-man-3-2007", "title": "Spider-Man 3", "year": 2007, "type": "starring" },
-      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+      {
+        "filmId": "spider-man-2002",
+        "title": "Spider-Man",
+        "year": 2002,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-2-2004",
+        "title": "Spider-Man 2",
+        "year": 2004,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-3-2007",
+        "title": "Spider-Man 3",
+        "year": 2007,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-no-way-home",
+        "title": "Spider-Man: No Way Home",
+        "year": 2021,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Peter Parker (MCU)", "relation": "Multiversal Counterpart & Mentee ('Peter-One')", "portrayalSlug": "spider-man" },
-      { "characterName": "Peter Parker (Webb)", "relation": "Multiversal Brother ('Peter-Three')", "portrayalSlug": "spider-man-andrew-garfield" },
-      { "characterName": "Norman Osborn", "relation": "Father of Best Friend & Arch-Nemesis", "portrayalSlug": "green-goblin-willem-dafoe" },
-      { "characterName": "Otto Octavius", "relation": "Idolized Mentor turned Restored Friend", "portrayalSlug": "doctor-octopus-alfred-molina" },
-      { "characterName": "Mary Jane Watson", "relation": "Girlfriend & Lifelong Love" }
+      {
+        "characterName": "Peter Parker (MCU)",
+        "relation": "Multiversal Counterpart & Mentee ('Peter-One')",
+        "portrayalSlug": "spider-man"
+      },
+      {
+        "characterName": "Peter Parker (Webb)",
+        "relation": "Multiversal Brother ('Peter-Three')",
+        "portrayalSlug": "spider-man-andrew-garfield"
+      },
+      {
+        "characterName": "Norman Osborn",
+        "relation": "Father of Best Friend & Arch-Nemesis",
+        "portrayalSlug": "green-goblin-willem-dafoe"
+      },
+      {
+        "characterName": "Otto Octavius",
+        "relation": "Idolized Mentor turned Restored Friend",
+        "portrayalSlug": "doctor-octopus-alfred-molina"
+      },
+      {
+        "characterName": "Mary Jane Watson",
+        "relation": "Girlfriend & Lifelong Love"
+      }
     ],
     "poster": "/posters/Spider-Man_No_Way_Home.jpg",
     "status": "published",
     "sources": [
-      { "title": "Sony Pictures Spider-Man (2002) Production Notes", "url": "https://www.sonypictures.com/movies/spiderman", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Sony Pictures Spider-Man (2002) Production Notes",
+        "url": "https://www.sonypictures.com/movies/spiderman",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -328,7 +718,10 @@
     "identityId": "peter-parker",
     "name": "Spider-Man",
     "realName": "Peter Parker",
-    "aliases": ["The Amazing Spider-Man", "Peter-Three"],
+    "aliases": [
+      "The Amazing Spider-Man",
+      "Peter-Three"
+    ],
     "actor": "Andrew Garfield",
     "universeId": "webb-spiderman",
     "role": "hero",
@@ -353,20 +746,54 @@
       "filmId": "the-amazing-spider-man-2012"
     },
     "appearances": [
-      { "filmId": "the-amazing-spider-man-2012", "title": "The Amazing Spider-Man", "year": 2012, "type": "starring" },
-      { "filmId": "the-amazing-spider-man-2-2014", "title": "The Amazing Spider-Man 2", "year": 2014, "type": "starring" },
-      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+      {
+        "filmId": "the-amazing-spider-man-2012",
+        "title": "The Amazing Spider-Man",
+        "year": 2012,
+        "type": "starring"
+      },
+      {
+        "filmId": "the-amazing-spider-man-2-2014",
+        "title": "The Amazing Spider-Man 2",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-no-way-home",
+        "title": "Spider-Man: No Way Home",
+        "year": 2021,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Peter Parker (MCU)", "relation": "Multiversal Brother ('Peter-One')", "portrayalSlug": "spider-man" },
-      { "characterName": "Peter Parker (Raimi)", "relation": "Multiversal Elder Brother ('Peter-Two')", "portrayalSlug": "spider-man-tobey-maguire" },
-      { "characterName": "Max Dillon", "relation": "Adversary Redeemed as a Friend", "portrayalSlug": "electro-jamie-foxx" },
-      { "characterName": "Gwen Stacy", "relation": "High School Sweetheart & Tragic Soulmate" }
+      {
+        "characterName": "Peter Parker (MCU)",
+        "relation": "Multiversal Brother ('Peter-One')",
+        "portrayalSlug": "spider-man"
+      },
+      {
+        "characterName": "Peter Parker (Raimi)",
+        "relation": "Multiversal Elder Brother ('Peter-Two')",
+        "portrayalSlug": "spider-man-tobey-maguire"
+      },
+      {
+        "characterName": "Max Dillon",
+        "relation": "Adversary Redeemed as a Friend",
+        "portrayalSlug": "electro-jamie-foxx"
+      },
+      {
+        "characterName": "Gwen Stacy",
+        "relation": "High School Sweetheart & Tragic Soulmate"
+      }
     ],
     "poster": "/posters/Spider-Man_No_Way_Home.jpg",
     "status": "published",
     "sources": [
-      { "title": "Sony Pictures The Amazing Spider-Man Official Release", "url": "https://www.sonypictures.com/movies/theamazingspiderman", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Sony Pictures The Amazing Spider-Man Official Release",
+        "url": "https://www.sonypictures.com/movies/theamazingspiderman",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -375,7 +802,11 @@
     "identityId": "miles-morales",
     "name": "Spider-Man",
     "realName": "Miles Morales",
-    "aliases": ["Spider-Man", "The Ultimate Spider-Man", "Anomaly of Earth-1610"],
+    "aliases": [
+      "Spider-Man",
+      "The Ultimate Spider-Man",
+      "Anomaly of Earth-1610"
+    ],
     "actor": "Shameik Moore (Voice)",
     "universeId": "sony-spiderverse",
     "role": "hero",
@@ -399,19 +830,47 @@
       "filmId": "into-the-spider-verse-2018"
     },
     "appearances": [
-      { "filmId": "into-the-spider-verse-2018", "title": "Spider-Man: Into the Spider-Verse", "year": 2018, "type": "starring" },
-      { "filmId": "across-the-spider-verse-2023", "title": "Spider-Man: Across the Spider-Verse", "year": 2023, "type": "starring" }
+      {
+        "filmId": "into-the-spider-verse-2018",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "across-the-spider-verse-2023",
+        "title": "Spider-Man: Across the Spider-Verse",
+        "year": 2023,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Gwen Stacy", "relation": "Interdimensional Best Friend & Fellow Hero", "portrayalSlug": "spider-gwen-hailee-steinfeld" },
-      { "characterName": "Miguel O'Hara", "relation": "Spider-Society Commander turned Multiversal Hunter", "portrayalSlug": "spider-man-2099-oscar-isaac" },
-      { "characterName": "Jefferson Davis", "relation": "Father & NYPD Officer" },
-      { "characterName": "Aaron Davis", "relation": "Beloved Uncle & The Prowler" }
+      {
+        "characterName": "Gwen Stacy",
+        "relation": "Interdimensional Best Friend & Fellow Hero",
+        "portrayalSlug": "spider-gwen-hailee-steinfeld"
+      },
+      {
+        "characterName": "Miguel O'Hara",
+        "relation": "Spider-Society Commander turned Multiversal Hunter",
+        "portrayalSlug": "spider-man-2099-oscar-isaac"
+      },
+      {
+        "characterName": "Jefferson Davis",
+        "relation": "Father & NYPD Officer"
+      },
+      {
+        "characterName": "Aaron Davis",
+        "relation": "Beloved Uncle & The Prowler"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Sony Pictures Into the Spider-Verse Official Portal", "url": "https://www.sonypictures.com/movies/spidermanintothespiderverse", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Sony Pictures Into the Spider-Verse Official Portal",
+        "url": "https://www.sonypictures.com/movies/spidermanintothespiderverse",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -420,7 +879,10 @@
     "identityId": "gwen-stacy",
     "name": "Spider-Gwen",
     "realName": "Gwen Stacy",
-    "aliases": ["Ghost-Spider", "Spider-Woman"],
+    "aliases": [
+      "Ghost-Spider",
+      "Spider-Woman"
+    ],
     "actor": "Hailee Steinfeld (Voice)",
     "universeId": "sony-spiderverse",
     "role": "hero",
@@ -438,7 +900,11 @@
       "Teal ballet shoes"
     ],
     "teamMemberships": [
-      { "teamId": "spider-society", "role": "Field Agent (Former)" }
+      {
+        "teamId": "spider-society",
+        "role": "Field Agent (Former)",
+        "type": "former-member"
+      }
     ],
     "filmDebut": {
       "title": "Spider-Man: Into the Spider-Verse",
@@ -446,18 +912,43 @@
       "filmId": "into-the-spider-verse-2018"
     },
     "appearances": [
-      { "filmId": "into-the-spider-verse-2018", "title": "Spider-Man: Into the Spider-Verse", "year": 2018, "type": "starring" },
-      { "filmId": "across-the-spider-verse-2023", "title": "Spider-Man: Across the Spider-Verse", "year": 2023, "type": "starring" }
+      {
+        "filmId": "into-the-spider-verse-2018",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "across-the-spider-verse-2023",
+        "title": "Spider-Man: Across the Spider-Verse",
+        "year": 2023,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Miles Morales", "relation": "Interdimensional Companion & Kindred Spirit", "portrayalSlug": "miles-morales-spider-verse" },
-      { "characterName": "Miguel O'Hara", "relation": "Former Commander", "portrayalSlug": "spider-man-2099-oscar-isaac" },
-      { "characterName": "Captain George Stacy", "relation": "Father & NYPD Captain" }
+      {
+        "characterName": "Miles Morales",
+        "relation": "Interdimensional Companion & Kindred Spirit",
+        "portrayalSlug": "miles-morales-spider-verse"
+      },
+      {
+        "characterName": "Miguel O'Hara",
+        "relation": "Former Commander",
+        "portrayalSlug": "spider-man-2099-oscar-isaac"
+      },
+      {
+        "characterName": "Captain George Stacy",
+        "relation": "Father & NYPD Captain"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Sony Pictures Across the Spider-Verse Official Site", "url": "https://www.sonypictures.com/movies/spidermanacrossthespiderverse", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Sony Pictures Across the Spider-Verse Official Site",
+        "url": "https://www.sonypictures.com/movies/spidermanacrossthespiderverse",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -466,7 +957,9 @@
     "identityId": "miguel-o-hara",
     "name": "Spider-Man 2099",
     "realName": "Miguel O'Hara",
-    "aliases": ["Commander of the Spider-Society"],
+    "aliases": [
+      "Commander of the Spider-Society"
+    ],
     "actor": "Oscar Isaac (Voice)",
     "universeId": "sony-spiderverse",
     "role": "anti-hero",
@@ -483,7 +976,11 @@
       "Unstable molecule holographic nano-mesh suit with particle wing glider"
     ],
     "teamMemberships": [
-      { "teamId": "spider-society", "role": "Founder & Supreme Commander" }
+      {
+        "teamId": "spider-society",
+        "role": "Founder & Supreme Commander",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Spider-Man: Into the Spider-Verse",
@@ -491,18 +988,43 @@
       "filmId": "into-the-spider-verse-2018"
     },
     "appearances": [
-      { "filmId": "into-the-spider-verse-2018", "title": "Spider-Man: Into the Spider-Verse", "year": 2018, "type": "post-credits" },
-      { "filmId": "across-the-spider-verse-2023", "title": "Spider-Man: Across the Spider-Verse", "year": 2023, "type": "starring" }
+      {
+        "filmId": "into-the-spider-verse-2018",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "year": 2018,
+        "type": "post-credits"
+      },
+      {
+        "filmId": "across-the-spider-verse-2023",
+        "title": "Spider-Man: Across the Spider-Verse",
+        "year": 2023,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Miles Morales", "relation": "Uncontrolled Anomaly & Multiversal Target", "portrayalSlug": "miles-morales-spider-verse" },
-      { "characterName": "Gwen Stacy", "relation": "Recruit & Defector", "portrayalSlug": "spider-gwen-hailee-steinfeld" },
-      { "characterName": "Jessica Drew", "relation": "Trusted Second-in-Command" }
+      {
+        "characterName": "Miles Morales",
+        "relation": "Uncontrolled Anomaly & Multiversal Target",
+        "portrayalSlug": "miles-morales-spider-verse"
+      },
+      {
+        "characterName": "Gwen Stacy",
+        "relation": "Recruit & Defector",
+        "portrayalSlug": "spider-gwen-hailee-steinfeld"
+      },
+      {
+        "characterName": "Jessica Drew",
+        "relation": "Trusted Second-in-Command"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Sony Pictures Across the Spider-Verse Cast Notes", "url": "https://www.sonypictures.com/movies/spidermanacrossthespiderverse", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Sony Pictures Across the Spider-Verse Cast Notes",
+        "url": "https://www.sonypictures.com/movies/spidermanacrossthespiderverse",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -511,12 +1033,15 @@
     "identityId": "logan-wolverine",
     "name": "Wolverine",
     "realName": "James 'Logan' Howlett",
-    "aliases": ["Logan", "Weapon X"],
+    "aliases": [
+      "Logan",
+      "Weapon X"
+    ],
     "actor": "Hugh Jackman",
     "universeId": "fox-xmen",
     "role": "hero",
     "tagline": "The adamantium-clawed mutant survivor who defined superhero cinema",
-    "biography": "Born in 19th-century Canada as James Howlett, Logan discovered his mutation when bone claws erupted from his hands in childhood. Possessing an accelerated cellular healing factor and heightened animalistic senses, Logan survived centuries of battlefield combat across the Civil War, World War I, World War II, and Vietnam alongside his half-brother Victor Creed. Recruited into Col. William Stryker's Team X, Logan was later subjected to the Weapon X program, fusing unbreakable molten adamantium to his skeletal frame. Joining Charles Xavier's X-Men, Logan became the fierce protector of mutantkind, sacrificing himself in 2029 to ensure the survival of Laura and the mutant youth in Logan, before a multiversal worst-variant variant was drafted into the MCU Void alongside Deadpool in 2024.",
+    "biography": "Born in 19th-century Canada as James Howlett, Logan discovered his mutation when bone claws erupted from his hands in childhood. Possessing an accelerated cellular healing factor and heightened animalistic senses, Logan survived centuries of battlefield combat across the Civil War, World War I, World War II, and Vietnam alongside his half-brother Victor Creed. Recruited into Col. William Stryker's Team X, Logan was later subjected to the Weapon X program, fusing unbreakable molten adamantium to his skeletal frame. Joining Charles Xavier's X-Men, Logan became the fierce protector of mutantkind.",
     "powers": [
       "Accelerated regenerative cellular healing factor",
       "Six retractable razor-sharp bone claws coated in indestructible adamantium",
@@ -526,11 +1051,15 @@
     ],
     "equipment": [
       "Adamantium skeletal laced armature",
-      "Yellow and blue comic-accurate battle uniform with full-cowl mask (Deadpool & Wolverine)",
+      "X-Men leather combat uniforms",
       "Motorcycle and leather jacket"
     ],
     "teamMemberships": [
-      { "teamId": "x-men-fox", "role": "Frontline Bruiser & Teacher" }
+      {
+        "teamId": "x-men-fox",
+        "role": "Frontline Bruiser & Senior Member",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "X-Men",
@@ -538,27 +1067,172 @@
       "filmId": "x-men-2000"
     },
     "appearances": [
-      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
-      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
-      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
-      { "filmId": "x-men-origins-wolverine-2009", "title": "X-Men Origins: Wolverine", "year": 2009, "type": "starring" },
-      { "filmId": "x-men-first-class-2011", "title": "X-Men: First Class", "year": 2011, "type": "cameo" },
-      { "filmId": "the-wolverine-2013", "title": "The Wolverine", "year": 2013, "type": "starring" },
-      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" },
-      { "filmId": "x-men-apocalypse-2016", "title": "X-Men: Apocalypse", "year": 2016, "type": "cameo" },
-      { "filmId": "logan-2017", "title": "Logan", "year": 2017, "type": "starring" },
-      { "filmId": "deadpool-and-wolverine", "title": "Deadpool & Wolverine", "year": 2024, "type": "starring" }
+      {
+        "filmId": "x-men-2000",
+        "title": "X-Men",
+        "year": 2000,
+        "type": "starring"
+      },
+      {
+        "filmId": "x2-2003",
+        "title": "X2: X-Men United",
+        "year": 2003,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-the-last-stand-2006",
+        "title": "X-Men: The Last Stand",
+        "year": 2006,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-origins-wolverine-2009",
+        "title": "X-Men Origins: Wolverine",
+        "year": 2009,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-first-class-2011",
+        "title": "X-Men: First Class",
+        "year": 2011,
+        "type": "cameo"
+      },
+      {
+        "filmId": "the-wolverine-2013",
+        "title": "The Wolverine",
+        "year": 2013,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-apocalypse-2016",
+        "title": "X-Men: Apocalypse",
+        "year": 2016,
+        "type": "cameo"
+      },
+      {
+        "filmId": "logan-2017",
+        "title": "Logan",
+        "year": 2017,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Charles Xavier", "relation": "Mentor, Father Figure & Dearest Friend", "portrayalSlug": "professor-x-patrick-stewart" },
-      { "characterName": "Wade Wilson", "relation": "Reluctant Multiversal Savior Partner", "portrayalSlug": "deadpool-ryan-reynolds" },
-      { "characterName": "Jean Grey", "relation": "Unrequited Love & Tragic Torment", "portrayalSlug": "jean-grey-famke-janssen" },
-      { "characterName": "Laura / X-23", "relation": "Biological Daughter & Heroic Successor" }
+      {
+        "characterName": "Charles Xavier",
+        "relation": "Mentor, Father Figure & Dearest Friend",
+        "portrayalSlug": "professor-x-patrick-stewart"
+      },
+      {
+        "characterName": "Wade Wilson",
+        "relation": "Reluctant Multiversal Savior Partner",
+        "portrayalSlug": "deadpool-ryan-reynolds"
+      },
+      {
+        "characterName": "Jean Grey",
+        "relation": "Unrequited Love & Tragic Torment",
+        "portrayalSlug": "jean-grey-famke-janssen"
+      },
+      {
+        "characterName": "Laura / X-23",
+        "relation": "Biological Daughter & Heroic Successor"
+      },
+      {
+        "characterName": "Wolverine (Worst Variant)",
+        "relation": "Multiversal Yellow-Suited Successor Variant",
+        "portrayalSlug": "wolverine-alternate-variant"
+      }
     ],
     "poster": "/posters/Deadpool_and_Wolverine.webp",
     "status": "published",
     "sources": [
-      { "title": "20th Century Studios X-Men History & Wolverine", "url": "https://www.20thcenturystudios.com/movies/logan", "verifiedDate": "2026-11-28" }
+      {
+        "title": "20th Century Studios X-Men History & Wolverine",
+        "url": "https://www.20thcenturystudios.com/movies/logan",
+        "verifiedDate": "2026-11-28"
+      }
+    ],
+    "spoilerBio": "In 2029, with his mutant healing factor poisoned by decades of adamantium toxicity, Logan fought to escort young Laura (X-23) and mutant youth refugees to safety across the Canadian border. In an exhausting final battle against Donald Pierce's Reavers and his savage genetic clone X-24, Logan was impaled on a tree limb and died peacefully holding Laura's hand.",
+    "spoilerWarning": "Contains character death spoilers for Logan (2017)"
+  },
+  {
+    "id": "portrayal-wolverine-alternate-variant",
+    "slug": "wolverine-alternate-variant",
+    "identityId": "logan-wolverine",
+    "name": "Wolverine (Worst Variant)",
+    "realName": "James 'Logan' Howlett",
+    "aliases": [
+      "Logan",
+      "The Worst Wolverine",
+      "Anchor Being"
+    ],
+    "actor": "Hugh Jackman",
+    "universeId": "mcu",
+    "role": "hero",
+    "tagline": "The grieving alternate Wolverine who redeemed his fallen world alongside Deadpool",
+    "biography": "This alternate Logan was a haunted mutant survivor from a timeline where his fellow X-Men were ambushed and slaughtered while he was drinking at a local bar. Overwhelmed by survivor's guilt, Logan donned his yellow-and-blue uniform in bitter penance and fell into drunken despair. Pulled across the multiverse by Wade Wilson to serve as an anchor being for Earth-10005, Logan was cast into the Void by rogue TVA agent Mr. Paradox, where he joined forces with the Void resistance to overthrow Cassandra Nova.",
+    "spoilerBio": "In the climax of Deadpool & Wolverine, Logan finally forgave himself for failing his original team. Donning his iconic cowl, he joined hands with Deadpool across the unstable matter-antimatter core of the Time Ripper, withstanding the cosmic energy load to destroy the device, preserve the timeline, and find a renewed home with Wade's family.",
+    "spoilerWarning": "Contains climactic plot details from Deadpool & Wolverine (2024)",
+    "powers": [
+      "Accelerated regenerative cellular healing factor",
+      "Six retractable razor-sharp bone claws coated in indestructible adamantium",
+      "Indestructible adamantium-bonded skeleton",
+      "Heightened animalistic olfactory and tracking instincts",
+      "Decades of lethal hand-to-hand martial combat mastery"
+    ],
+    "equipment": [
+      "Yellow-and-blue comic-accurate sleeveless battle uniform",
+      "Iconic black-winged combat cowl / battle mask"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "x-men-fox",
+        "role": "Former Member (Alternate Reality X-Men)",
+        "type": "former-member"
+      }
+    ],
+    "filmDebut": {
+      "title": "Deadpool & Wolverine",
+      "year": 2024,
+      "filmId": "deadpool-and-wolverine"
+    },
+    "appearances": [
+      {
+        "filmId": "deadpool-and-wolverine",
+        "title": "Deadpool & Wolverine",
+        "year": 2024,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Wade Wilson (Deadpool)",
+        "relation": "Multiversal Savior Partner & Annoying Best Friend",
+        "portrayalSlug": "deadpool-ryan-reynolds"
+      },
+      {
+        "characterName": "Logan (Fox)",
+        "relation": "Fallen Multiversal Predecessor",
+        "portrayalSlug": "wolverine-hugh-jackman"
+      },
+      {
+        "characterName": "Laura / X-23",
+        "relation": "Void Resistance Ally & Surrogate Daughter"
+      }
+    ],
+    "poster": "/posters/Deadpool_and_Wolverine.webp",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel Studios Deadpool & Wolverine Official Production Brief",
+        "url": "https://www.marvel.com/movies/deadpool-and-wolverine",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -567,12 +1241,15 @@
     "identityId": "charles-xavier",
     "name": "Professor X",
     "realName": "Charles Xavier",
-    "aliases": ["Professor X", "Founder of the X-Men"],
+    "aliases": [
+      "Professor X",
+      "Founder of the X-Men"
+    ],
     "actor": "Patrick Stewart",
     "universeId": "fox-xmen",
     "role": "hero",
     "tagline": "The telepathic visionary fighting for human-mutant coexistence",
-    "biography": "Professor Charles Francis Xavier is an exceptionally powerful mutant telepath who dedicated his life and inherited Westchester fortune to establishing Xavier's School for Gifted Youngsters. Believing passionately that mutants and humans can peacefully share the Earth, Xavier created the X-Men to defend both species against human bigotry and mutant extremism. Utilizing Cerebro, a spherical neural amplifier, Xavier could track mutant signatures globally. Despite enduring paralysis, government hostility, and the devastation of Sentinel timelines, Xavier's unwavering optimism guided generations of mutant heroes, including an alternate reality counterpart who chaired Earth-838's Illuminati.",
+    "biography": "Professor Charles Francis Xavier was an exceptionally powerful mutant telepath who dedicated his life and inherited Westchester fortune to establishing Xavier's School for Gifted Youngsters. Believing passionately that mutants and humans can peacefully share the Earth, Xavier created the X-Men to defend both species against human bigotry and mutant extremism. Utilizing Cerebro, a spherical neural amplifier, Xavier could track mutant signatures globally. Despite enduring paralysis, government hostility, and the devastation of Sentinel timelines, Xavier's unwavering optimism guided generations of mutant heroes.",
     "powers": [
       "Vast psionic telepathy capable of mind control, memory manipulation, and illusion casting",
       "Mental telepathic communication spanning continental distances",
@@ -581,12 +1258,14 @@
     ],
     "equipment": [
       "Cerebro and Cerebra neural amplifying chambers",
-      "Custom motorized hoverchair and wheelchairs",
-      "Yellow hoverchair (Earth-838)"
+      "Custom motorized hoverchair and wheelchairs"
     ],
     "teamMemberships": [
-      { "teamId": "x-men-fox", "role": "Founder, Headmaster & Guiding Light" },
-      { "teamId": "illuminati-earth-838", "role": "Chairman (Earth-838 Incarnation)" }
+      {
+        "teamId": "x-men-fox",
+        "role": "Founder, Headmaster & Guiding Light",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "X-Men",
@@ -594,24 +1273,154 @@
       "filmId": "x-men-2000"
     },
     "appearances": [
-      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
-      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
-      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
-      { "filmId": "x-men-origins-wolverine-2009", "title": "X-Men Origins: Wolverine", "year": 2009, "type": "cameo" },
-      { "filmId": "the-wolverine-2013", "title": "The Wolverine", "year": 2013, "type": "post-credits" },
-      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" },
-      { "filmId": "logan-2017", "title": "Logan", "year": 2017, "type": "starring" },
-      { "filmId": "doctor-strange-multiverse-of-madness", "title": "Doctor Strange in the Multiverse of Madness", "year": 2022, "type": "cameo" }
+      {
+        "filmId": "x-men-2000",
+        "title": "X-Men",
+        "year": 2000,
+        "type": "starring"
+      },
+      {
+        "filmId": "x2-2003",
+        "title": "X2: X-Men United",
+        "year": 2003,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-the-last-stand-2006",
+        "title": "X-Men: The Last Stand",
+        "year": 2006,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-origins-wolverine-2009",
+        "title": "X-Men Origins: Wolverine",
+        "year": 2009,
+        "type": "cameo"
+      },
+      {
+        "filmId": "the-wolverine-2013",
+        "title": "The Wolverine",
+        "year": 2013,
+        "type": "post-credits"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "logan-2017",
+        "title": "Logan",
+        "year": 2017,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Erik Lehnsherr (Magneto)", "relation": "Cherished Friend & Lifelong Ideological Rival", "portrayalSlug": "magneto-ian-mckellen" },
-      { "characterName": "Logan (Wolverine)", "relation": "Adopted Son, Defender & Final Caretaker", "portrayalSlug": "wolverine-hugh-jackman" },
-      { "characterName": "Jean Grey", "relation": "Beloved Student & Telepathic Ward", "portrayalSlug": "jean-grey-famke-janssen" }
+      {
+        "characterName": "Erik Lehnsherr (Magneto)",
+        "relation": "Cherished Friend & Lifelong Ideological Rival",
+        "portrayalSlug": "magneto-ian-mckellen"
+      },
+      {
+        "characterName": "Logan (Wolverine)",
+        "relation": "Adopted Son, Defender & Final Caretaker",
+        "portrayalSlug": "wolverine-hugh-jackman"
+      },
+      {
+        "characterName": "Jean Grey",
+        "relation": "Beloved Student & Telepathic Ward",
+        "portrayalSlug": "jean-grey-famke-janssen"
+      },
+      {
+        "characterName": "Charles Xavier (Earth-838)",
+        "relation": "Multiversal Illuminati Counterpart",
+        "portrayalSlug": "professor-x-earth-838"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Professor X Character Legacy", "url": "https://www.marvel.com/characters/professor-x-charles-xavier", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Professor X Character Legacy",
+        "url": "https://www.marvel.com/characters/professor-x-charles-xavier",
+        "verifiedDate": "2026-11-28"
+      }
+    ],
+    "spoilerBio": "In the dystopian future of 2029, a nonagenarian Xavier suffered from a degenerative brain disease causing catastrophic psychic seizures that previously harmed mutants in Westchester. Cared for in an abandoned smelting plant on the Mexican border by Logan and Caliban, Charles regained his lucidity before being tragically murdered in his bed by X-24, Logan's feral genetic clone.",
+    "spoilerWarning": "Contains character death spoilers for Logan (2017)"
+  },
+  {
+    "id": "portrayal-professor-x-earth-838",
+    "slug": "professor-x-earth-838",
+    "identityId": "charles-xavier",
+    "name": "Professor X (Earth-838)",
+    "realName": "Charles Xavier",
+    "aliases": [
+      "Professor X",
+      "Leader of the Illuminati"
+    ],
+    "actor": "Patrick Stewart",
+    "universeId": "mcu-838",
+    "role": "hero",
+    "tagline": "The compassionate telepathic chairman of Earth-838's Illuminati",
+    "biography": "Charles Xavier of Earth-838 was the revered telepathic leader and chairman of the Illuminati, governing alongside Reed Richards, Black Bolt, Captain Carter, Maria Rambeau, and Karl Mordo. Championing compassion and moral restraint, Xavier presided over multiversal threats and utilized a floating yellow hoverchair. When Doctor Strange was apprehended after traversing dimensions with America Chavez, Xavier advocated for reason over summary execution.",
+    "spoilerBio": "When a Darkhold-corrupted Scarlet Witch infiltrated the Illuminati headquarters, Xavier entered her subconscious in an effort to rescue the real Wanda Maximoff trapped beneath the mental rubble. However, the entity's chaos magic overwhelmed him, brutally snapping his neck inside the psychic plane and terminating his life.",
+    "spoilerWarning": "Contains character death spoilers for Doctor Strange in the Multiverse of Madness",
+    "powers": [
+      "Vast psionic telepathy capable of mental entry, telepathic illusion, and subconscious traversal",
+      "Telepathic communication spanning vast distances",
+      "Mental sedation and psychic paralysis"
+    ],
+    "equipment": [
+      "Levitating yellow hoverchair (telepathically steered)",
+      "Illuminati green ceremonial business suit"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "illuminati-earth-838",
+        "role": "Chairman & Senior Telepath",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "year": 2022,
+      "filmId": "doctor-strange-multiverse-of-madness"
+    },
+    "appearances": [
+      {
+        "filmId": "doctor-strange-multiverse-of-madness",
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "year": 2022,
+        "type": "cameo"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Reed Richards (Earth-838)",
+        "relation": "Illuminati Council Partner",
+        "portrayalSlug": "reed-richards-earth-838"
+      },
+      {
+        "characterName": "Charles Xavier (Fox)",
+        "relation": "Multiversal Counterpart Variant",
+        "portrayalSlug": "professor-x-patrick-stewart"
+      },
+      {
+        "characterName": "Wanda Maximoff",
+        "relation": "Dreamwalking Threat who breached the Illuminati",
+        "portrayalSlug": "scarlet-witch"
+      }
+    ],
+    "poster": "/posters/Doctor_Strange_in_the_Multiverse_of_Madness.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel Studios Doctor Strange in the Multiverse of Madness Production Brief",
+        "url": "https://www.marvel.com/movies/doctor-strange-in-the-multiverse-of-madness",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -620,7 +1429,10 @@
     "identityId": "charles-xavier",
     "name": "Professor X (Young)",
     "realName": "Charles Xavier",
-    "aliases": ["Charles", "Professor X"],
+    "aliases": [
+      "Charles",
+      "Professor X"
+    ],
     "actor": "James McAvoy",
     "universeId": "fox-xmen",
     "role": "hero",
@@ -636,7 +1448,11 @@
       "Manual wheelchair"
     ],
     "teamMemberships": [
-      { "teamId": "x-men-fox", "role": "Founder & Leader (First Class era)" }
+      {
+        "teamId": "x-men-fox",
+        "role": "Founder & Leader (First Class era)",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "X-Men: First Class",
@@ -644,21 +1460,60 @@
       "filmId": "x-men-first-class-2011"
     },
     "appearances": [
-      { "filmId": "x-men-first-class-2011", "title": "X-Men: First Class", "year": 2011, "type": "starring" },
-      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" },
-      { "filmId": "x-men-apocalypse-2016", "title": "X-Men: Apocalypse", "year": 2016, "type": "starring" },
-      { "filmId": "deadpool-2-2018", "title": "Deadpool 2", "year": 2018, "type": "cameo" },
-      { "filmId": "dark-phoenix-2019", "title": "Dark Phoenix", "year": 2019, "type": "starring" }
+      {
+        "filmId": "x-men-first-class-2011",
+        "title": "X-Men: First Class",
+        "year": 2011,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-apocalypse-2016",
+        "title": "X-Men: Apocalypse",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "deadpool-2-2018",
+        "title": "Deadpool 2",
+        "year": 2018,
+        "type": "cameo"
+      },
+      {
+        "filmId": "dark-phoenix-2019",
+        "title": "Dark Phoenix",
+        "year": 2019,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Erik Lehnsherr (Young)", "relation": "Brotherly Partner & Ideological Counterpart", "portrayalSlug": "magneto-michael-fassbender" },
-      { "characterName": "Raven Darkhölme (Mystique)", "relation": "Foster Sister & Tragic Departure" },
-      { "characterName": "Hank McCoy (Beast)", "relation": "Loyal Scientific Companion & Deputy" }
+      {
+        "characterName": "Erik Lehnsherr (Young)",
+        "relation": "Brotherly Partner & Ideological Counterpart",
+        "portrayalSlug": "magneto-michael-fassbender"
+      },
+      {
+        "characterName": "Raven Darkhölme (Mystique)",
+        "relation": "Foster Sister & Tragic Departure"
+      },
+      {
+        "characterName": "Hank McCoy (Beast)",
+        "relation": "Loyal Scientific Companion & Deputy"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "20th Century Studios X-Men: First Class Production Notes", "url": "https://www.20thcenturystudios.com/movies/x-men-first-class", "verifiedDate": "2026-11-28" }
+      {
+        "title": "20th Century Studios X-Men: First Class Production Notes",
+        "url": "https://www.20thcenturystudios.com/movies/x-men-first-class",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -667,7 +1522,10 @@
     "identityId": "erik-lehnsherr",
     "name": "Magneto",
     "realName": "Erik Lehnsherr",
-    "aliases": ["Master of Magnetism", "Creator of the Brotherhood"],
+    "aliases": [
+      "Master of Magnetism",
+      "Creator of the Brotherhood"
+    ],
     "actor": "Ian McKellen",
     "universeId": "fox-xmen",
     "role": "villain",
@@ -684,7 +1542,11 @@
       "Crimson armor and flowing royal purple cape"
     ],
     "teamMemberships": [
-      { "teamId": "brotherhood-of-mutants-fox", "role": "Founder & Supreme Leader" }
+      {
+        "teamId": "brotherhood-of-mutants-fox",
+        "role": "Founder & Supreme Leader",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "X-Men",
@@ -692,21 +1554,61 @@
       "filmId": "x-men-2000"
     },
     "appearances": [
-      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
-      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
-      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
-      { "filmId": "the-wolverine-2013", "title": "The Wolverine", "year": 2013, "type": "post-credits" },
-      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" }
+      {
+        "filmId": "x-men-2000",
+        "title": "X-Men",
+        "year": 2000,
+        "type": "starring"
+      },
+      {
+        "filmId": "x2-2003",
+        "title": "X2: X-Men United",
+        "year": 2003,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-the-last-stand-2006",
+        "title": "X-Men: The Last Stand",
+        "year": 2006,
+        "type": "starring"
+      },
+      {
+        "filmId": "the-wolverine-2013",
+        "title": "The Wolverine",
+        "year": 2013,
+        "type": "post-credits"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Charles Xavier", "relation": "Old Friend, Brother in Spirit & Political Rival", "portrayalSlug": "professor-x-patrick-stewart" },
-      { "characterName": "Mystique", "relation": "Primary Lieutenant & Confidante" },
-      { "characterName": "Wolverine", "relation": "Adversary with Adamantium Vulnerability", "portrayalSlug": "wolverine-hugh-jackman" }
+      {
+        "characterName": "Charles Xavier",
+        "relation": "Old Friend, Brother in Spirit & Political Rival",
+        "portrayalSlug": "professor-x-patrick-stewart"
+      },
+      {
+        "characterName": "Mystique",
+        "relation": "Primary Lieutenant & Confidante"
+      },
+      {
+        "characterName": "Wolverine",
+        "relation": "Adversary with Adamantium Vulnerability",
+        "portrayalSlug": "wolverine-hugh-jackman"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Magneto Character Profile", "url": "https://www.marvel.com/characters/magneto-erik-lehnsherr", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Magneto Character Profile",
+        "url": "https://www.marvel.com/characters/magneto-erik-lehnsherr",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -715,7 +1617,10 @@
     "identityId": "erik-lehnsherr",
     "name": "Magneto (Young)",
     "realName": "Erik Lehnsherr",
-    "aliases": ["Erik", "Magneto"],
+    "aliases": [
+      "Erik",
+      "Magneto"
+    ],
     "actor": "Michael Fassbender",
     "universeId": "fox-xmen",
     "role": "anti-hero",
@@ -731,8 +1636,16 @@
       "Armor with flowing dark cape"
     ],
     "teamMemberships": [
-      { "teamId": "brotherhood-of-mutants-fox", "role": "Founder" },
-      { "teamId": "x-men-fox", "role": "Co-Founder (First Class era)" }
+      {
+        "teamId": "brotherhood-of-mutants-fox",
+        "role": "Founder",
+        "type": "member"
+      },
+      {
+        "teamId": "x-men-fox",
+        "role": "Co-Founder (First Class era)",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "X-Men: First Class",
@@ -740,19 +1653,50 @@
       "filmId": "x-men-first-class-2011"
     },
     "appearances": [
-      { "filmId": "x-men-first-class-2011", "title": "X-Men: First Class", "year": 2011, "type": "starring" },
-      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" },
-      { "filmId": "x-men-apocalypse-2016", "title": "X-Men: Apocalypse", "year": 2016, "type": "starring" },
-      { "filmId": "dark-phoenix-2019", "title": "Dark Phoenix", "year": 2019, "type": "starring" }
+      {
+        "filmId": "x-men-first-class-2011",
+        "title": "X-Men: First Class",
+        "year": 2011,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-apocalypse-2016",
+        "title": "X-Men: Apocalypse",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "dark-phoenix-2019",
+        "title": "Dark Phoenix",
+        "year": 2019,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Charles Xavier (Young)", "relation": "Close Companion & Irreconcilable Rival", "portrayalSlug": "professor-x-james-mcavoy" },
-      { "characterName": "Raven Darkhölme", "relation": "Partner & Lover" }
+      {
+        "characterName": "Charles Xavier (Young)",
+        "relation": "Close Companion & Irreconcilable Rival",
+        "portrayalSlug": "professor-x-james-mcavoy"
+      },
+      {
+        "characterName": "Raven Darkhölme",
+        "relation": "Partner & Lover"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "20th Century Studios X-Men First Class Production Notes", "url": "https://www.20thcenturystudios.com/movies/x-men-first-class", "verifiedDate": "2026-11-28" }
+      {
+        "title": "20th Century Studios X-Men First Class Production Notes",
+        "url": "https://www.20thcenturystudios.com/movies/x-men-first-class",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -761,12 +1705,15 @@
     "identityId": "wade-wilson",
     "name": "Deadpool",
     "realName": "Wade Wilson",
-    "aliases": ["The Merc with a Mouth", "Marvel Jesus"],
+    "aliases": [
+      "The Merc with a Mouth",
+      "Marvel Jesus"
+    ],
     "actor": "Ryan Reynolds",
     "universeId": "fox-xmen",
     "role": "anti-hero",
     "tagline": "The fourth-wall-shattering mercenary who rescued the multiverse",
-    "biography": "Wade Winston Wilson was a dishonorably discharged Special Forces operative operating as a New York city mercenary. Diagnosed with late-stage terminal cancer in his liver, lungs, prostate, and brain, Wade submitted to Ajax (Francis Freeman) in the underground Weapon X workshop. Injected with mutant serum and subjected to oxygen-deprivation torture, Wade unlocked a hyper-accelerated cellular regenerative healing factor that rendered him virtually unkillable, while leaving his skin severely scarred. Adopting the moniker Deadpool, Wade paired razor-sharp wit and dual katanas with fourth-wall awareness. Pulled into the TVA's multiversal affairs, Wade teamed up with a heartbroken Wolverine variant to save his universe from destruction.",
+    "biography": "Wade Winston Wilson was a dishonorably discharged Special Forces operative working as a mercenary in New York City. Diagnosed with terminal cancer, Wade submitted to Ajax (Francis Freeman) in the underground Weapon X workshop. Injected with mutant serum and subjected to oxygen-deprivation torture, Wade unlocked a hyper-accelerated cellular regenerative healing factor that cured his disease but left his skin severely scarred. Adopting the persona Deadpool, Wade paired lethal katanas with fourth-wall-breaking commentary. Recruited by the TVA to save his timeline, Wade traversed the multiverse to team with a reluctant Wolverine variant.",
     "powers": [
       "Extreme accelerated healing factor granting total regenerative biological immortality",
       "Fourth-wall breakage and meta-awareness of cinematic and comic continuity",
@@ -780,29 +1727,139 @@
       "TVA TemPad and multiversal time-travel device"
     ],
     "teamMemberships": [
-      { "teamId": "x-force-fox", "role": "Founder & Recruiter" }
+      {
+        "teamId": "x-force-fox",
+        "role": "Founder & Recruiter",
+        "type": "member"
+      }
     ],
+    "filmDebut": {
+      "title": "Deadpool",
+      "year": 2016,
+      "filmId": "deadpool-2016"
+    },
+    "appearances": [
+      {
+        "filmId": "deadpool-2016",
+        "title": "Deadpool",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "deadpool-2-2018",
+        "title": "Deadpool 2",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "deadpool-and-wolverine",
+        "title": "Deadpool & Wolverine",
+        "year": 2024,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Logan / Wolverine",
+        "relation": "Best Buddy, Foil & Co-Savior of Reality",
+        "portrayalSlug": "wolverine-hugh-jackman"
+      },
+      {
+        "characterName": "Vanessa Carlysle",
+        "relation": "Fiancée & Soulmate"
+      },
+      {
+        "characterName": "Blind Al",
+        "relation": "Roommate & Weapon Stash Custodian"
+      },
+      {
+        "characterName": "Colossus",
+        "relation": "Earnest X-Men Recruiter & Annoyed Conscience"
+      },
+      {
+        "characterName": "Weapon XI (Origins)",
+        "relation": "Alternate Retconned Variant Eliminated via Time Travel",
+        "portrayalSlug": "weapon-xi-wade-wilson"
+      },
+      {
+        "characterName": "Wolverine (Worst Variant)",
+        "relation": "Multiversal Co-Savior Partner",
+        "portrayalSlug": "wolverine-alternate-variant"
+      }
+    ],
+    "poster": "/posters/Deadpool_and_Wolverine.webp",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel Studios Deadpool & Wolverine Official Production Brief",
+        "url": "https://www.marvel.com/movies/deadpool-and-wolverine",
+        "verifiedDate": "2026-11-28"
+      }
+    ],
+    "spoilerBio": "In Deadpool 2, Wade used Cable's repaired time-travel device to alter history, saving Vanessa and Peter while shooting the 2009 Weapon XI variant in the head to clean up the timeline. In Deadpool & Wolverine, Wade rejected Mr. Paradox's offer to ascend to Earth-616 while abandoning his friends, instead sacrificing his safety alongside Logan to destroy the Time Ripper and safeguard his universe.",
+    "spoilerWarning": "Contains climactic plot details for Deadpool 2 and Deadpool & Wolverine"
+  },
+  {
+    "id": "portrayal-weapon-xi-origins",
+    "slug": "weapon-xi-wade-wilson",
+    "identityId": "wade-wilson",
+    "name": "Weapon XI / Wade Wilson",
+    "realName": "Wade Wilson",
+    "aliases": [
+      "Weapon XI",
+      "The Deadpool (Stryker Experiment)"
+    ],
+    "actor": "Ryan Reynolds",
+    "universeId": "fox-xmen",
+    "role": "villain",
+    "tagline": "Col. Stryker's mutant-killer experiment with a mouth sewn shut",
+    "biography": "Wade Wilson was initially a wisecracking mercenary operative in Major William Stryker's clandestine mutant Team X in 1973. Possessing master swordsmanship and superhuman reflexes to deflect automatic gunfire, Wade later left the unit. Captured by Stryker, he was subjected to the Weapon XI program at Three Mile Island, having his mouth surgically sealed and genetic abilities from multiple captured mutants grafted into his DNA, including Scott Summers' optic blasts, John Wraith's teleportation, and Logan's healing factor.",
+    "spoilerBio": "Controlled remotely via a computer terminal by Stryker to eliminate Wolverine, Weapon XI battled Logan and Victor Creed atop a nuclear cooling tower before being decapitated by Logan's adamantium claws. In Deadpool 2's post-credits sequence, a time-traveling Deadpool from the modern timeline traveled back to 1979 and shot Weapon XI repeatedly in the head to erase him from continuity.",
+    "spoilerWarning": "Contains plot spoilers for X-Men Origins: Wolverine and Deadpool 2",
+    "powers": [
+      "Concussive optic thermal blasts grafted from Scott Summers",
+      "Instantaneous short-range teleportation grafted from John Wraith",
+      "Retractable carbon-alloy katana blades extending from forearms",
+      "Regenerative cellular healing factor",
+      "Master swordsmanship and kinetic reflex deflection"
+    ],
+    "equipment": [
+      "Forearm-housed surgical retractable katana blades"
+    ],
+    "teamMemberships": [],
     "filmDebut": {
       "title": "X-Men Origins: Wolverine",
       "year": 2009,
       "filmId": "x-men-origins-wolverine-2009"
     },
     "appearances": [
-      { "filmId": "x-men-origins-wolverine-2009", "title": "X-Men Origins: Wolverine", "year": 2009, "type": "supporting" },
-      { "filmId": "deadpool-2016", "title": "Deadpool", "year": 2016, "type": "starring" },
-      { "filmId": "deadpool-2-2018", "title": "Deadpool 2", "year": 2018, "type": "starring" },
-      { "filmId": "deadpool-and-wolverine", "title": "Deadpool & Wolverine", "year": 2024, "type": "starring" }
+      {
+        "filmId": "x-men-origins-wolverine-2009",
+        "title": "X-Men Origins: Wolverine",
+        "year": 2009,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Logan / Wolverine", "relation": "Best Buddy, Foil & Co-Savior of Reality", "portrayalSlug": "wolverine-hugh-jackman" },
-      { "characterName": "Vanessa Carlysle", "relation": "Fiancée & Soulmate" },
-      { "characterName": "Blind Al", "relation": "Roommate & Weapon Stash Custodian" },
-      { "characterName": "Colossus", "relation": "Earnest X-Men Recruiter & Annoyed Conscience" }
+      {
+        "characterName": "Logan / Wolverine",
+        "relation": "Former Team X Teammate turned Executioner",
+        "portrayalSlug": "wolverine-hugh-jackman"
+      },
+      {
+        "characterName": "Wade Wilson (Deadpool)",
+        "relation": "Time-Traveling Timeline Cleaner",
+        "portrayalSlug": "deadpool-ryan-reynolds"
+      }
     ],
-    "poster": "/posters/Deadpool_and_Wolverine.webp",
+    "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Marvel Studios Deadpool & Wolverine Official Production Brief", "url": "https://www.marvel.com/movies/deadpool-and-wolverine", "verifiedDate": "2026-11-28" }
+      {
+        "title": "20th Century Fox X-Men Origins: Wolverine Production Notes",
+        "url": "https://www.20thcenturystudios.com/movies/x-men-origins-wolverine",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -811,7 +1868,9 @@
     "identityId": "reed-richards",
     "name": "Mister Fantastic",
     "realName": "Reed Richards",
-    "aliases": ["Mister Fantastic"],
+    "aliases": [
+      "Mister Fantastic"
+    ],
     "actor": "Ioan Gruffudd",
     "universeId": "story-fantastic-four",
     "role": "hero",
@@ -827,7 +1886,11 @@
       "The Fantasticar (Sky craft capable of splitting into four independent vehicles)"
     ],
     "teamMemberships": [
-      { "teamId": "fantastic-four-story", "role": "Founding Leader & Chief Scientist" }
+      {
+        "teamId": "fantastic-four-story",
+        "role": "Founding Leader & Chief Scientist",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Fantastic Four",
@@ -835,19 +1898,49 @@
       "filmId": "fantastic-four-2005"
     },
     "appearances": [
-      { "filmId": "fantastic-four-2005", "title": "Fantastic Four", "year": 2005, "type": "starring" },
-      { "filmId": "fantastic-four-rise-of-the-silver-surfer-2007", "title": "Fantastic Four: Rise of the Silver Surfer", "year": 2007, "type": "starring" }
+      {
+        "filmId": "fantastic-four-2005",
+        "title": "Fantastic Four",
+        "year": 2005,
+        "type": "starring"
+      },
+      {
+        "filmId": "fantastic-four-rise-of-the-silver-surfer-2007",
+        "title": "Fantastic Four: Rise of the Silver Surfer",
+        "year": 2007,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Sue Storm", "relation": "Wife & Co-Founder", "portrayalSlug": "invisible-woman-jessica-alba" },
-      { "characterName": "Johnny Storm", "relation": "Brother-in-Law & Teammate", "portrayalSlug": "human-torch-chris-evans" },
-      { "characterName": "Ben Grimm", "relation": "Lifelong College Best Friend & Heavy", "portrayalSlug": "the-thing-michael-chiklis" },
-      { "characterName": "Victor von Doom", "relation": "Former College Colleague turned Arch-Enemy", "portrayalSlug": "doctor-doom-julian-mcmahon" }
+      {
+        "characterName": "Sue Storm",
+        "relation": "Wife & Co-Founder",
+        "portrayalSlug": "invisible-woman-jessica-alba"
+      },
+      {
+        "characterName": "Johnny Storm",
+        "relation": "Brother-in-Law & Teammate",
+        "portrayalSlug": "human-torch-chris-evans"
+      },
+      {
+        "characterName": "Ben Grimm",
+        "relation": "Lifelong College Best Friend & Heavy",
+        "portrayalSlug": "the-thing-michael-chiklis"
+      },
+      {
+        "characterName": "Victor von Doom",
+        "relation": "Former College Colleague turned Arch-Enemy",
+        "portrayalSlug": "doctor-doom-julian-mcmahon"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "20th Century Fox Fantastic Four (2005) Official Press Archive", "url": "https://www.marvel.com/characters/mister-fantastic-reed-richards", "verifiedDate": "2026-11-28" }
+      {
+        "title": "20th Century Fox Fantastic Four (2005) Official Press Archive",
+        "url": "https://www.marvel.com/characters/mister-fantastic-reed-richards",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -856,7 +1949,10 @@
     "identityId": "sue-storm",
     "name": "Invisible Woman",
     "realName": "Sue Storm",
-    "aliases": ["Invisible Woman", "Susan Storm-Richards"],
+    "aliases": [
+      "Invisible Woman",
+      "Susan Storm-Richards"
+    ],
     "actor": "Jessica Alba",
     "universeId": "story-fantastic-four",
     "role": "hero",
@@ -871,7 +1967,11 @@
       "Unstable-molecule uniform reacting to light refraction"
     ],
     "teamMemberships": [
-      { "teamId": "fantastic-four-story", "role": "Founding Co-Leader" }
+      {
+        "teamId": "fantastic-four-story",
+        "role": "Founding Co-Leader",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Fantastic Four",
@@ -879,18 +1979,44 @@
       "filmId": "fantastic-four-2005"
     },
     "appearances": [
-      { "filmId": "fantastic-four-2005", "title": "Fantastic Four", "year": 2005, "type": "starring" },
-      { "filmId": "fantastic-four-rise-of-the-silver-surfer-2007", "title": "Fantastic Four: Rise of the Silver Surfer", "year": 2007, "type": "starring" }
+      {
+        "filmId": "fantastic-four-2005",
+        "title": "Fantastic Four",
+        "year": 2005,
+        "type": "starring"
+      },
+      {
+        "filmId": "fantastic-four-rise-of-the-silver-surfer-2007",
+        "title": "Fantastic Four: Rise of the Silver Surfer",
+        "year": 2007,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Reed Richards", "relation": "Husband & Scientific Partner", "portrayalSlug": "reed-richards-ioan-gruffudd" },
-      { "characterName": "Johnny Storm", "relation": "Younger Brother", "portrayalSlug": "human-torch-chris-evans" },
-      { "characterName": "Ben Grimm", "relation": "Close Teammate & Confidante", "portrayalSlug": "the-thing-michael-chiklis" }
+      {
+        "characterName": "Reed Richards",
+        "relation": "Husband & Scientific Partner",
+        "portrayalSlug": "reed-richards-ioan-gruffudd"
+      },
+      {
+        "characterName": "Johnny Storm",
+        "relation": "Younger Brother",
+        "portrayalSlug": "human-torch-chris-evans"
+      },
+      {
+        "characterName": "Ben Grimm",
+        "relation": "Close Teammate & Confidante",
+        "portrayalSlug": "the-thing-michael-chiklis"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "20th Century Fox Fantastic Four Production Kit", "url": "https://www.marvel.com/characters/invisible-woman-sue-storm-richards", "verifiedDate": "2026-11-28" }
+      {
+        "title": "20th Century Fox Fantastic Four Production Kit",
+        "url": "https://www.marvel.com/characters/invisible-woman-sue-storm-richards",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -899,7 +2025,9 @@
     "identityId": "johnny-storm",
     "name": "Human Torch",
     "realName": "Johnny Storm",
-    "aliases": ["The Human Torch"],
+    "aliases": [
+      "The Human Torch"
+    ],
     "actor": "Chris Evans",
     "universeId": "story-fantastic-four",
     "role": "hero",
@@ -915,7 +2043,11 @@
       "Unstable-molecule flight uniform resisting extreme combustion"
     ],
     "teamMemberships": [
-      { "teamId": "fantastic-four-story", "role": "Founding Scout & Vanguard" }
+      {
+        "teamId": "fantastic-four-story",
+        "role": "Founding Scout & Vanguard",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Fantastic Four",
@@ -923,19 +2055,50 @@
       "filmId": "fantastic-four-2005"
     },
     "appearances": [
-      { "filmId": "fantastic-four-2005", "title": "Fantastic Four", "year": 2005, "type": "starring" },
-      { "filmId": "fantastic-four-rise-of-the-silver-surfer-2007", "title": "Fantastic Four: Rise of the Silver Surfer", "year": 2007, "type": "starring" },
-      { "filmId": "deadpool-and-wolverine", "title": "Deadpool & Wolverine", "year": 2024, "type": "cameo" }
+      {
+        "filmId": "fantastic-four-2005",
+        "title": "Fantastic Four",
+        "year": 2005,
+        "type": "starring"
+      },
+      {
+        "filmId": "fantastic-four-rise-of-the-silver-surfer-2007",
+        "title": "Fantastic Four: Rise of the Silver Surfer",
+        "year": 2007,
+        "type": "starring"
+      },
+      {
+        "filmId": "deadpool-and-wolverine",
+        "title": "Deadpool & Wolverine",
+        "year": 2024,
+        "type": "cameo"
+      }
     ],
     "relationships": [
-      { "characterName": "Sue Storm", "relation": "Older Sister", "portrayalSlug": "invisible-woman-jessica-alba" },
-      { "characterName": "Reed Richards", "relation": "Brother-in-Law", "portrayalSlug": "reed-richards-ioan-gruffudd" },
-      { "characterName": "Ben Grimm", "relation": "Playful sparring partner", "portrayalSlug": "the-thing-michael-chiklis" }
+      {
+        "characterName": "Sue Storm",
+        "relation": "Older Sister",
+        "portrayalSlug": "invisible-woman-jessica-alba"
+      },
+      {
+        "characterName": "Reed Richards",
+        "relation": "Brother-in-Law",
+        "portrayalSlug": "reed-richards-ioan-gruffudd"
+      },
+      {
+        "characterName": "Ben Grimm",
+        "relation": "Playful sparring partner",
+        "portrayalSlug": "the-thing-michael-chiklis"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Marvel Studios Deadpool & Wolverine Cast Roster", "url": "https://www.marvel.com/characters/human-torch-johnny-storm", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel Studios Deadpool & Wolverine Cast Roster",
+        "url": "https://www.marvel.com/characters/human-torch-johnny-storm",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -944,7 +2107,10 @@
     "identityId": "ben-grimm",
     "name": "The Thing",
     "realName": "Ben Grimm",
-    "aliases": ["The Thing", "Aunt Petunia's Favorite Nephew"],
+    "aliases": [
+      "The Thing",
+      "Aunt Petunia's Favorite Nephew"
+    ],
     "actor": "Michael Chiklis",
     "universeId": "story-fantastic-four",
     "role": "hero",
@@ -959,7 +2125,11 @@
       "Heavy-duty unstable-molecule pants"
     ],
     "teamMemberships": [
-      { "teamId": "fantastic-four-story", "role": "Founding Heavy Brawler" }
+      {
+        "teamId": "fantastic-four-story",
+        "role": "Founding Heavy Brawler",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Fantastic Four",
@@ -967,18 +2137,43 @@
       "filmId": "fantastic-four-2005"
     },
     "appearances": [
-      { "filmId": "fantastic-four-2005", "title": "Fantastic Four", "year": 2005, "type": "starring" },
-      { "filmId": "fantastic-four-rise-of-the-silver-surfer-2007", "title": "Fantastic Four: Rise of the Silver Surfer", "year": 2007, "type": "starring" }
+      {
+        "filmId": "fantastic-four-2005",
+        "title": "Fantastic Four",
+        "year": 2005,
+        "type": "starring"
+      },
+      {
+        "filmId": "fantastic-four-rise-of-the-silver-surfer-2007",
+        "title": "Fantastic Four: Rise of the Silver Surfer",
+        "year": 2007,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Reed Richards", "relation": "College Best Friend", "portrayalSlug": "reed-richards-ioan-gruffudd" },
-      { "characterName": "Johnny Storm", "relation": "Playful Antagonist & Teammate", "portrayalSlug": "human-torch-chris-evans" },
-      { "characterName": "Alicia Masters", "relation": "Blind Sculptress & Dearest Love" }
+      {
+        "characterName": "Reed Richards",
+        "relation": "College Best Friend",
+        "portrayalSlug": "reed-richards-ioan-gruffudd"
+      },
+      {
+        "characterName": "Johnny Storm",
+        "relation": "Playful Antagonist & Teammate",
+        "portrayalSlug": "human-torch-chris-evans"
+      },
+      {
+        "characterName": "Alicia Masters",
+        "relation": "Blind Sculptress & Dearest Love"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "20th Century Fox The Thing Bio Notes", "url": "https://www.marvel.com/characters/the-thing-ben-grimm", "verifiedDate": "2026-11-28" }
+      {
+        "title": "20th Century Fox The Thing Bio Notes",
+        "url": "https://www.marvel.com/characters/the-thing-ben-grimm",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -987,7 +2182,10 @@
     "identityId": "victor-von-doom",
     "name": "Doctor Doom",
     "realName": "Victor von Doom",
-    "aliases": ["Doctor Doom", "CEO of Von Doom Industries"],
+    "aliases": [
+      "Doctor Doom",
+      "CEO of Von Doom Industries"
+    ],
     "actor": "Julian McMahon",
     "universeId": "story-fantastic-four",
     "role": "villain",
@@ -1011,17 +2209,39 @@
       "filmId": "fantastic-four-2005"
     },
     "appearances": [
-      { "filmId": "fantastic-four-2005", "title": "Fantastic Four", "year": 2005, "type": "starring" },
-      { "filmId": "fantastic-four-rise-of-the-silver-surfer-2007", "title": "Fantastic Four: Rise of the Silver Surfer", "year": 2007, "type": "starring" }
+      {
+        "filmId": "fantastic-four-2005",
+        "title": "Fantastic Four",
+        "year": 2005,
+        "type": "starring"
+      },
+      {
+        "filmId": "fantastic-four-rise-of-the-silver-surfer-2007",
+        "title": "Fantastic Four: Rise of the Silver Surfer",
+        "year": 2007,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Reed Richards", "relation": "Hated Scientific Rival", "portrayalSlug": "reed-richards-ioan-gruffudd" },
-      { "characterName": "Sue Storm", "relation": "Former Love Interest & Obsession", "portrayalSlug": "invisible-woman-jessica-alba" }
+      {
+        "characterName": "Reed Richards",
+        "relation": "Hated Scientific Rival",
+        "portrayalSlug": "reed-richards-ioan-gruffudd"
+      },
+      {
+        "characterName": "Sue Storm",
+        "relation": "Former Love Interest & Obsession",
+        "portrayalSlug": "invisible-woman-jessica-alba"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Doctor Doom Character Overview", "url": "https://www.marvel.com/characters/doctor-doom-victor-von-doom", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Doctor Doom Character Overview",
+        "url": "https://www.marvel.com/characters/doctor-doom-victor-von-doom",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1030,7 +2250,10 @@
     "identityId": "reed-richards",
     "name": "Mister Fantastic (Earth-838)",
     "realName": "Reed Richards",
-    "aliases": ["Smartest Man Alive", "Mister Fantastic"],
+    "aliases": [
+      "Smartest Man Alive",
+      "Mister Fantastic"
+    ],
     "actor": "John Krasinski",
     "universeId": "mcu-838",
     "role": "hero",
@@ -1045,7 +2268,11 @@
       "Multiversal teleporter platform (Time Platform / teleportation device)"
     ],
     "teamMemberships": [
-      { "teamId": "illuminati-earth-838", "role": "Council Member & Senior Thinker" }
+      {
+        "teamId": "illuminati-earth-838",
+        "role": "Council Member & Senior Thinker",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Doctor Strange in the Multiverse of Madness",
@@ -1053,17 +2280,36 @@
       "filmId": "doctor-strange-multiverse-of-madness"
     },
     "appearances": [
-      { "filmId": "doctor-strange-multiverse-of-madness", "title": "Doctor Strange in the Multiverse of Madness", "year": 2022, "type": "cameo" }
+      {
+        "filmId": "doctor-strange-multiverse-of-madness",
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "year": 2022,
+        "type": "cameo"
+      }
     ],
     "relationships": [
-      { "characterName": "Charles Xavier (Earth-838)", "relation": "Illuminati Colleague & Chairman", "portrayalSlug": "professor-x-patrick-stewart" },
-      { "characterName": "Wanda Maximoff", "relation": "Interdimensional Threat who destroyed the Illuminati", "portrayalSlug": "scarlet-witch" }
+      {
+        "characterName": "Charles Xavier (Earth-838)",
+        "relation": "Illuminati Colleague & Chairman",
+        "portrayalSlug": "professor-x-earth-838"
+      },
+      {
+        "characterName": "Wanda Maximoff",
+        "relation": "Interdimensional Threat who destroyed the Illuminati",
+        "portrayalSlug": "scarlet-witch"
+      }
     ],
     "poster": "/posters/Doctor_Strange_in_the_Multiverse_of_Madness.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel Studios Doctor Strange in the Multiverse of Madness Press Kit", "url": "https://www.marvel.com/movies/doctor-strange-in-the-multiverse-of-madness", "verifiedDate": "2026-11-28" }
-    ]
+      {
+        "title": "Marvel Studios Doctor Strange in the Multiverse of Madness Press Kit",
+        "url": "https://www.marvel.com/movies/doctor-strange-in-the-multiverse-of-madness",
+        "verifiedDate": "2026-11-28"
+      }
+    ],
+    "spoilerBio": "When a dreamwalking Wanda Maximoff assaulted the Illuminati compound, Reed attempted to de-escalate the conflict by appealing to their shared roles as parents. Unmoved, Wanda used her chaos magic to unravel Reed's elastic molecular structure, shredding him into ribbons.",
+    "spoilerWarning": "Contains character death spoilers for Doctor Strange in the Multiverse of Madness"
   },
   {
     "id": "portrayal-blade-snipes",
@@ -1071,7 +2317,9 @@
     "identityId": "eric-brooks",
     "name": "Blade",
     "realName": "Eric Brooks",
-    "aliases": ["The Daywalker"],
+    "aliases": [
+      "The Daywalker"
+    ],
     "actor": "Wesley Snipes",
     "universeId": "trill-blade",
     "role": "hero",
@@ -1096,19 +2344,50 @@
       "filmId": "blade-1998"
     },
     "appearances": [
-      { "filmId": "blade-1998", "title": "Blade", "year": 1998, "type": "starring" },
-      { "filmId": "blade-2-2002", "title": "Blade II", "year": 2002, "type": "starring" },
-      { "filmId": "blade-trinity-2004", "title": "Blade: Trinity", "year": 2004, "type": "starring" },
-      { "filmId": "deadpool-and-wolverine", "title": "Deadpool & Wolverine", "year": 2024, "type": "cameo" }
+      {
+        "filmId": "blade-1998",
+        "title": "Blade",
+        "year": 1998,
+        "type": "starring"
+      },
+      {
+        "filmId": "blade-2-2002",
+        "title": "Blade II",
+        "year": 2002,
+        "type": "starring"
+      },
+      {
+        "filmId": "blade-trinity-2004",
+        "title": "Blade: Trinity",
+        "year": 2004,
+        "type": "starring"
+      },
+      {
+        "filmId": "deadpool-and-wolverine",
+        "title": "Deadpool & Wolverine",
+        "year": 2024,
+        "type": "cameo"
+      }
     ],
     "relationships": [
-      { "characterName": "Abraham Whistler", "relation": "Mentor, Surrogate Father & Weaponsmith" },
-      { "characterName": "Wade Wilson", "relation": "Void Rescuer & Teammate", "portrayalSlug": "deadpool-ryan-reynolds" }
+      {
+        "characterName": "Abraham Whistler",
+        "relation": "Mentor, Surrogate Father & Weaponsmith"
+      },
+      {
+        "characterName": "Wade Wilson",
+        "relation": "Void Rescuer & Teammate",
+        "portrayalSlug": "deadpool-ryan-reynolds"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "New Line Cinema Blade Official Production Records", "url": "https://www.marvel.com/characters/blade-eric-brooks", "verifiedDate": "2026-11-28" }
+      {
+        "title": "New Line Cinema Blade Official Production Records",
+        "url": "https://www.marvel.com/characters/blade-eric-brooks",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1117,7 +2396,9 @@
     "identityId": "eddie-brock",
     "name": "Venom",
     "realName": "Eddie Brock & Venom",
-    "aliases": ["The Lethal Protector"],
+    "aliases": [
+      "The Lethal Protector"
+    ],
     "actor": "Tom Hardy",
     "universeId": "sony-ssu",
     "role": "anti-hero",
@@ -1139,19 +2420,50 @@
       "filmId": "venom-2018"
     },
     "appearances": [
-      { "filmId": "venom-2018", "title": "Venom", "year": 2018, "type": "starring" },
-      { "filmId": "venom-let-there-be-carnage-2021", "title": "Venom: Let There Be Carnage", "year": 2021, "type": "starring" },
-      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "post-credits" },
-      { "filmId": "venom-the-last-dance-2024", "title": "Venom: The Last Dance", "year": 2024, "type": "starring" }
+      {
+        "filmId": "venom-2018",
+        "title": "Venom",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "venom-let-there-be-carnage-2021",
+        "title": "Venom: Let There Be Carnage",
+        "year": 2021,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-no-way-home",
+        "title": "Spider-Man: No Way Home",
+        "year": 2021,
+        "type": "post-credits"
+      },
+      {
+        "filmId": "venom-the-last-dance-2024",
+        "title": "Venom: The Last Dance",
+        "year": 2024,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Anne Weying", "relation": "Former Fiancée & She-Venom ally" },
-      { "characterName": "Peter Parker (MCU)", "relation": "Multiversal Televised Figure of Curiosity", "portrayalSlug": "spider-man" }
+      {
+        "characterName": "Anne Weying",
+        "relation": "Former Fiancée & She-Venom ally"
+      },
+      {
+        "characterName": "Peter Parker (MCU)",
+        "relation": "Multiversal Televised Figure of Curiosity",
+        "portrayalSlug": "spider-man"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Sony Pictures Venom Production Archives", "url": "https://www.sonypictures.com/movies/venom", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Sony Pictures Venom Production Archives",
+        "url": "https://www.sonypictures.com/movies/venom",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1160,7 +2472,11 @@
     "identityId": "norman-osborn",
     "name": "Green Goblin",
     "realName": "Norman Osborn",
-    "aliases": ["Green Goblin", "The Goblin", "CEO of Oscorp"],
+    "aliases": [
+      "Green Goblin",
+      "The Goblin",
+      "CEO of Oscorp"
+    ],
     "actor": "Willem Dafoe",
     "universeId": "raimi-spiderman",
     "role": "villain",
@@ -1183,20 +2499,55 @@
       "filmId": "spider-man-2002"
     },
     "appearances": [
-      { "filmId": "spider-man-2002", "title": "Spider-Man", "year": 2002, "type": "starring" },
-      { "filmId": "spider-man-2-2004", "title": "Spider-Man 2", "year": 2004, "type": "cameo" },
-      { "filmId": "spider-man-3-2007", "title": "Spider-Man 3", "year": 2007, "type": "cameo" },
-      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+      {
+        "filmId": "spider-man-2002",
+        "title": "Spider-Man",
+        "year": 2002,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-2-2004",
+        "title": "Spider-Man 2",
+        "year": 2004,
+        "type": "cameo"
+      },
+      {
+        "filmId": "spider-man-3-2007",
+        "title": "Spider-Man 3",
+        "year": 2007,
+        "type": "cameo"
+      },
+      {
+        "filmId": "spider-man-no-way-home",
+        "title": "Spider-Man: No Way Home",
+        "year": 2021,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Peter Parker (Raimi)", "relation": "Arch-Nemesis & Best Friend's Mentor", "portrayalSlug": "spider-man-tobey-maguire" },
-      { "characterName": "Peter Parker (MCU)", "relation": "Multiversal Target & Tragic Victim ('Gods don't have to choose')", "portrayalSlug": "spider-man" },
-      { "characterName": "Harry Osborn", "relation": "Son" }
+      {
+        "characterName": "Peter Parker (Raimi)",
+        "relation": "Arch-Nemesis & Best Friend's Mentor",
+        "portrayalSlug": "spider-man-tobey-maguire"
+      },
+      {
+        "characterName": "Peter Parker (MCU)",
+        "relation": "Multiversal Target & Tragic Victim ('Gods don't have to choose')",
+        "portrayalSlug": "spider-man"
+      },
+      {
+        "characterName": "Harry Osborn",
+        "relation": "Son"
+      }
     ],
     "poster": "/posters/Spider-Man_No_Way_Home.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Green Goblin Norman Osborn Profile", "url": "https://www.marvel.com/characters/green-goblin-norman-osborn", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Green Goblin Norman Osborn Profile",
+        "url": "https://www.marvel.com/characters/green-goblin-norman-osborn",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1205,7 +2556,10 @@
     "identityId": "otto-octavius",
     "name": "Doctor Octopus",
     "realName": "Otto Octavius",
-    "aliases": ["Doc Ock", "The Power of the Sun in the Palm of My Hand"],
+    "aliases": [
+      "Doc Ock",
+      "The Power of the Sun in the Palm of My Hand"
+    ],
     "actor": "Alfred Molina",
     "universeId": "raimi-spiderman",
     "role": "villain",
@@ -1227,18 +2581,43 @@
       "filmId": "spider-man-2-2004"
     },
     "appearances": [
-      { "filmId": "spider-man-2-2004", "title": "Spider-Man 2", "year": 2004, "type": "starring" },
-      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+      {
+        "filmId": "spider-man-2-2004",
+        "title": "Spider-Man 2",
+        "year": 2004,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-no-way-home",
+        "title": "Spider-Man: No Way Home",
+        "year": 2021,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Peter Parker (Raimi)", "relation": "Revered Protégé turned Adversary turned Saved Friend", "portrayalSlug": "spider-man-tobey-maguire" },
-      { "characterName": "Peter Parker (MCU)", "relation": "Savior who engineered the replacement inhibitor chip", "portrayalSlug": "spider-man" },
-      { "characterName": "Rosie Octavius", "relation": "Deceased Beloved Wife" }
+      {
+        "characterName": "Peter Parker (Raimi)",
+        "relation": "Revered Protégé turned Adversary turned Saved Friend",
+        "portrayalSlug": "spider-man-tobey-maguire"
+      },
+      {
+        "characterName": "Peter Parker (MCU)",
+        "relation": "Savior who engineered the replacement inhibitor chip",
+        "portrayalSlug": "spider-man"
+      },
+      {
+        "characterName": "Rosie Octavius",
+        "relation": "Deceased Beloved Wife"
+      }
     ],
     "poster": "/posters/Spider-Man_No_Way_Home.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Doctor Octopus Character History", "url": "https://www.marvel.com/characters/doctor-octopus-otto-octavius", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Doctor Octopus Character History",
+        "url": "https://www.marvel.com/characters/doctor-octopus-otto-octavius",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1247,7 +2626,9 @@
     "identityId": "max-dillon",
     "name": "Electro",
     "realName": "Max Dillon",
-    "aliases": ["Electro"],
+    "aliases": [
+      "Electro"
+    ],
     "actor": "Jamie Foxx",
     "universeId": "webb-spiderman",
     "role": "villain",
@@ -1269,16 +2650,34 @@
       "filmId": "the-amazing-spider-man-2-2014"
     },
     "appearances": [
-      { "filmId": "the-amazing-spider-man-2-2014", "title": "The Amazing Spider-Man 2", "year": 2014, "type": "starring" },
-      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" }
+      {
+        "filmId": "the-amazing-spider-man-2-2014",
+        "title": "The Amazing Spider-Man 2",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-no-way-home",
+        "title": "Spider-Man: No Way Home",
+        "year": 2021,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Peter Parker (Webb)", "relation": "Former Idol turned Adversary turned Reconciled Companion", "portrayalSlug": "spider-man-andrew-garfield" }
+      {
+        "characterName": "Peter Parker (Webb)",
+        "relation": "Former Idol turned Adversary turned Reconciled Companion",
+        "portrayalSlug": "spider-man-andrew-garfield"
+      }
     ],
     "poster": "/posters/Spider-Man_No_Way_Home.jpg",
     "status": "published",
     "sources": [
-      { "title": "Sony Pictures The Amazing Spider-Man 2 Notes", "url": "https://www.marvel.com/characters/electro-max-dillon", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Sony Pictures The Amazing Spider-Man 2 Notes",
+        "url": "https://www.marvel.com/characters/electro-max-dillon",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1287,7 +2686,10 @@
     "identityId": "stephen-strange",
     "name": "Doctor Strange",
     "realName": "Dr. Stephen Strange",
-    "aliases": ["Master of the Mystic Arts", "Sorcerer Supreme (Former)"],
+    "aliases": [
+      "Master of the Mystic Arts",
+      "Sorcerer Supreme (Former)"
+    ],
     "actor": "Benedict Cumberbatch",
     "universeId": "mcu",
     "role": "hero",
@@ -1305,7 +2707,11 @@
       "Eye of Agamotto talisman"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Key Cosmic Ally" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Key Cosmic Ally (Battle of Titan & Earth)",
+        "type": "ally"
+      }
     ],
     "filmDebut": {
       "title": "Doctor Strange",
@@ -1313,23 +2719,71 @@
       "filmId": "doctor-strange"
     },
     "appearances": [
-      { "filmId": "doctor-strange", "title": "Doctor Strange", "year": 2016, "type": "starring" },
-      { "filmId": "thor-ragnarok", "title": "Thor: Ragnarok", "year": 2017, "type": "cameo" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
-      { "filmId": "spider-man-no-way-home", "title": "Spider-Man: No Way Home", "year": 2021, "type": "starring" },
-      { "filmId": "doctor-strange-multiverse-of-madness", "title": "Doctor Strange in the Multiverse of Madness", "year": 2022, "type": "starring" }
+      {
+        "filmId": "doctor-strange",
+        "title": "Doctor Strange",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "thor-ragnarok",
+        "title": "Thor: Ragnarok",
+        "year": 2017,
+        "type": "cameo"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "spider-man-no-way-home",
+        "title": "Spider-Man: No Way Home",
+        "year": 2021,
+        "type": "starring"
+      },
+      {
+        "filmId": "doctor-strange-multiverse-of-madness",
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "year": 2022,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Wong", "relation": "Sorcerer Supreme & Dearest Comrade" },
-      { "characterName": "Peter Parker (MCU)", "relation": "Fellow Avenger & Multiversal Spell Client", "portrayalSlug": "spider-man" },
-      { "characterName": "Wanda Maximoff", "relation": "Former Teammate turned Multiversal Pursuer", "portrayalSlug": "scarlet-witch" },
-      { "characterName": "Christine Palmer", "relation": "Lifelong Love" }
+      {
+        "characterName": "Wong",
+        "relation": "Sorcerer Supreme & Dearest Comrade"
+      },
+      {
+        "characterName": "Peter Parker (MCU)",
+        "relation": "Fellow Avenger & Multiversal Spell Client",
+        "portrayalSlug": "spider-man"
+      },
+      {
+        "characterName": "Wanda Maximoff",
+        "relation": "Former Teammate turned Multiversal Pursuer",
+        "portrayalSlug": "scarlet-witch"
+      },
+      {
+        "characterName": "Christine Palmer",
+        "relation": "Lifelong Love"
+      }
     ],
     "poster": "/posters/Doctor_Strange_in_the_Multiverse_of_Madness.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Doctor Strange Cinematic Bio", "url": "https://www.marvel.com/characters/doctor-strange-stephen-strange", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Doctor Strange Cinematic Bio",
+        "url": "https://www.marvel.com/characters/doctor-strange-stephen-strange",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1338,12 +2792,15 @@
     "identityId": "natasha-romanoff",
     "name": "Black Widow",
     "realName": "Natasha Romanoff",
-    "aliases": ["Natalia Alianovna Romanova", "Nat"],
+    "aliases": [
+      "Natalia Alianovna Romanova",
+      "Nat"
+    ],
     "actor": "Scarlett Johansson",
     "universeId": "mcu",
     "role": "hero",
     "tagline": "The supreme S.H.I.E.L.D. agent and founding Avenger who wiped the red from her ledger",
-    "biography": "Natasha Romanoff was taken as a young child into the Soviet Red Room academy, subjected to physiological augmentation and rigorous assassination training under General Dreykov. Sent on deadly missions, Romanoff's life changed when S.H.I.E.L.D. agent Clint Barton was sent to eliminate her but instead made a different call, recruiting her to the West. Romanoff became Director Nick Fury's most trusted operative, went undercover at Stark Industries, and became a founding cornerstone of the Avengers. In Avengers: Endgame, Natasha willingly sacrificed her life on Vormir against Clint Barton's protests to claim the Soul Stone and restore half of all life in the universe.",
+    "biography": "Natasha Romanoff was taken as a young child into the Soviet Red Room academy, subjected to physiological augmentation and rigorous assassination training under General Dreykov. Sent on deadly missions, Romanoff's life changed when S.H.I.E.L.D. agent Clint Barton was sent to eliminate her but instead recruited her. Romanoff became Director Nick Fury's most trusted operative, went undercover at Stark Industries, and became a founding cornerstone of the Avengers.",
     "powers": [
       "Master hand-to-hand martial artist (Sambo, Judo, Karate, and Krav Maga)",
       "Master covert spy, interrogator, and multi-lingual infiltrator",
@@ -1355,8 +2812,16 @@
       "Glock 26 sidearms and grappling hooks"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Founding Leader & Operational Core" },
-      { "teamId": "shield-mcu", "role": "Level 7 Elite Field Operative" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Founding Core Member & Operations Leader",
+        "type": "member"
+      },
+      {
+        "teamId": "shield-mcu",
+        "role": "Level 7 Elite Field Operative",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Iron Man 2",
@@ -1364,26 +2829,87 @@
       "filmId": "iron-man-2"
     },
     "appearances": [
-      { "filmId": "iron-man-2", "title": "Iron Man 2", "year": 2010, "type": "supporting" },
-      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
-      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "starring" },
-      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
-      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
-      { "filmId": "black-widow", "title": "Black Widow", "year": 2021, "type": "starring" }
+      {
+        "filmId": "iron-man-2",
+        "title": "Iron Man 2",
+        "year": 2010,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers",
+        "title": "The Avengers",
+        "year": 2012,
+        "type": "starring"
+      },
+      {
+        "filmId": "captain-america-winter-soldier",
+        "title": "Captain America: The Winter Soldier",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-age-of-ultron",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "type": "starring"
+      },
+      {
+        "filmId": "captain-america-civil-war",
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "black-widow",
+        "title": "Black Widow",
+        "year": 2021,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Clint Barton", "relation": "Dearest Brother-in-Arms & Partner", "portrayalSlug": "hawkeye" },
-      { "characterName": "Steve Rogers", "relation": "Partner & Steadfast Friend", "portrayalSlug": "captain-america" },
-      { "characterName": "Yelena Belova", "relation": "Red Room Sister" },
-      { "characterName": "Tony Stark", "relation": "Avenger Teammate", "portrayalSlug": "iron-man" }
+      {
+        "characterName": "Clint Barton",
+        "relation": "Dearest Brother-in-Arms & Partner",
+        "portrayalSlug": "hawkeye"
+      },
+      {
+        "characterName": "Steve Rogers",
+        "relation": "Partner & Steadfast Friend",
+        "portrayalSlug": "captain-america"
+      },
+      {
+        "characterName": "Yelena Belova",
+        "relation": "Red Room Sister"
+      },
+      {
+        "characterName": "Tony Stark",
+        "relation": "Avenger Teammate",
+        "portrayalSlug": "iron-man"
+      }
     ],
     "poster": "/posters/Black_Widow.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Black Widow Natasha Romanoff Bio", "url": "https://www.marvel.com/characters/black-widow-natasha-romanoff", "verifiedDate": "2026-11-28" }
-    ]
+      {
+        "title": "Marvel.com Black Widow Natasha Romanoff Bio",
+        "url": "https://www.marvel.com/characters/black-widow-natasha-romanoff",
+        "verifiedDate": "2026-11-28"
+      }
+    ],
+    "spoilerBio": "During the Time Heist in Endgame, Natasha and Clint traveled to Vormir. Discovering that obtaining the Soul Stone required the sacrifice of a loved one, Natasha fought Clint to ensure his survival, falling to her death from the cliff so the Avengers could restore the universe.",
+    "spoilerWarning": "Contains character death spoilers for Avengers: Endgame"
   },
   {
     "id": "portrayal-hulk-mcu",
@@ -1391,7 +2917,11 @@
     "identityId": "bruce-banner",
     "name": "Hulk",
     "realName": "Dr. Bruce Banner",
-    "aliases": ["The Incredible Hulk", "Smart Hulk", "The Green Goliath"],
+    "aliases": [
+      "The Incredible Hulk",
+      "Smart Hulk",
+      "The Green Goliath"
+    ],
     "actor": "Mark Ruffalo",
     "universeId": "mcu",
     "role": "hero",
@@ -1408,7 +2938,11 @@
       "Nano Gauntlet (wielded to resurrect the universe in Endgame)"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Founding Heavy Titan & Scientific Polymath" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Founding Heavy Titan & Scientific Polymath",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "The Avengers",
@@ -1416,23 +2950,74 @@
       "filmId": "avengers"
     },
     "appearances": [
-      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
-      { "filmId": "iron-man-3", "title": "Iron Man 3", "year": 2013, "type": "cameo" },
-      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
-      { "filmId": "thor-ragnarok", "title": "Thor: Ragnarok", "year": 2017, "type": "starring" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
-      { "filmId": "shang-chi", "title": "Shang-Chi and the Legend of the Ten Rings", "year": 2021, "type": "cameo" }
+      {
+        "filmId": "avengers",
+        "title": "The Avengers",
+        "year": 2012,
+        "type": "starring"
+      },
+      {
+        "filmId": "iron-man-3",
+        "title": "Iron Man 3",
+        "year": 2013,
+        "type": "cameo"
+      },
+      {
+        "filmId": "avengers-age-of-ultron",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "type": "starring"
+      },
+      {
+        "filmId": "thor-ragnarok",
+        "title": "Thor: Ragnarok",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "shang-chi",
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "year": 2021,
+        "type": "cameo"
+      }
     ],
     "relationships": [
-      { "characterName": "Tony Stark", "relation": "Science Bro & Co-Creator of Ultron/Vision", "portrayalSlug": "iron-man" },
-      { "characterName": "Thor Odinson", "relation": "Friend from Work & Gladiator Rival", "portrayalSlug": "thor" },
-      { "characterName": "Natasha Romanoff", "relation": "Lullaby Partner & Dearest Confidante", "portrayalSlug": "black-widow" }
+      {
+        "characterName": "Tony Stark",
+        "relation": "Science Bro & Co-Creator of Ultron/Vision",
+        "portrayalSlug": "iron-man"
+      },
+      {
+        "characterName": "Thor Odinson",
+        "relation": "Friend from Work & Gladiator Rival",
+        "portrayalSlug": "thor"
+      },
+      {
+        "characterName": "Natasha Romanoff",
+        "relation": "Lullaby Partner & Dearest Confidante",
+        "portrayalSlug": "black-widow"
+      }
     ],
     "poster": "/posters/The_Avengers.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Hulk Bruce Banner Official Bio", "url": "https://www.marvel.com/characters/hulk-bruce-banner", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Hulk Bruce Banner Official Bio",
+        "url": "https://www.marvel.com/characters/hulk-bruce-banner",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1441,7 +3026,9 @@
     "identityId": "wanda-maximoff",
     "name": "Scarlet Witch",
     "realName": "Wanda Maximoff",
-    "aliases": ["The Scarlet Witch"],
+    "aliases": [
+      "The Scarlet Witch"
+    ],
     "actor": "Elizabeth Olsen",
     "universeId": "mcu",
     "role": "anti-hero",
@@ -1457,7 +3044,11 @@
       "The Darkhold (ancient grimoire of dark magic - destroyed)"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Avenger (Age of Ultron through Civil War)" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Avenger (Age of Ultron through Civil War)",
+        "type": "former-member"
+      }
     ],
     "filmDebut": {
       "title": "Captain America: The Winter Soldier",
@@ -1465,23 +3056,69 @@
       "filmId": "captain-america-winter-soldier"
     },
     "appearances": [
-      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "post-credits" },
-      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
-      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
-      { "filmId": "doctor-strange-multiverse-of-madness", "title": "Doctor Strange in the Multiverse of Madness", "year": 2022, "type": "starring" }
+      {
+        "filmId": "captain-america-winter-soldier",
+        "title": "Captain America: The Winter Soldier",
+        "year": 2014,
+        "type": "post-credits"
+      },
+      {
+        "filmId": "avengers-age-of-ultron",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "type": "starring"
+      },
+      {
+        "filmId": "captain-america-civil-war",
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "doctor-strange-multiverse-of-madness",
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "year": 2022,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Vision", "relation": "Husband & Synthetic Soulmate" },
-      { "characterName": "Pietro Maximoff (Quicksilver)", "relation": "Deceased Twin Brother" },
-      { "characterName": "Stephen Strange", "relation": "Former Ally turned Multiversal Pursuer", "portrayalSlug": "doctor-strange" }
+      {
+        "characterName": "Vision",
+        "relation": "Husband & Synthetic Soulmate"
+      },
+      {
+        "characterName": "Pietro Maximoff (Quicksilver)",
+        "relation": "Deceased Twin Brother"
+      },
+      {
+        "characterName": "Stephen Strange",
+        "relation": "Former Ally turned Multiversal Pursuer",
+        "portrayalSlug": "doctor-strange"
+      }
     ],
     "poster": "/posters/Doctor_Strange_in_the_Multiverse_of_Madness.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Scarlet Witch Wanda Maximoff Cinematic Profile", "url": "https://www.marvel.com/characters/scarlet-witch-wanda-maximoff", "verifiedDate": "2026-11-28" }
-    ]
+      {
+        "title": "Marvel.com Scarlet Witch Wanda Maximoff Cinematic Profile",
+        "url": "https://www.marvel.com/characters/scarlet-witch-wanda-maximoff",
+        "verifiedDate": "2026-11-28"
+      }
+    ],
+    "spoilerBio": "Corrupted by the Darkhold following the grief of losing Vision and Westview, Wanda dreamwalked across the multiverse to Earth-838 to seize America Chavez, ruthlessly eliminating the Illuminati. Confronted by the terror of her alternate children, Wanda broke the dark spell, using her chaos magic to crush Mount Wundagore and destroy every copy of the Darkhold across the cosmos.",
+    "spoilerWarning": "Contains major antagonist and climax spoilers for Doctor Strange in the Multiverse of Madness"
   },
   {
     "id": "portrayal-hawkeye-mcu",
@@ -1489,7 +3126,10 @@
     "identityId": "clint-barton",
     "name": "Hawkeye",
     "realName": "Clint Barton",
-    "aliases": ["The World's Greatest Marksman", "Ronin"],
+    "aliases": [
+      "The World's Greatest Marksman",
+      "Ronin"
+    ],
     "actor": "Jeremy Renner",
     "universeId": "mcu",
     "role": "hero",
@@ -1506,8 +3146,16 @@
       "Ronin dual ninja katanas and armored tunic"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Founding Marksman" },
-      { "teamId": "shield-mcu", "role": "Special Operative" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Founding Marksman",
+        "type": "member"
+      },
+      {
+        "teamId": "shield-mcu",
+        "role": "Special Operative",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Thor",
@@ -1515,21 +3163,60 @@
       "filmId": "thor"
     },
     "appearances": [
-      { "filmId": "thor", "title": "Thor", "year": 2011, "type": "cameo" },
-      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
-      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "starring" },
-      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+      {
+        "filmId": "thor",
+        "title": "Thor",
+        "year": 2011,
+        "type": "cameo"
+      },
+      {
+        "filmId": "avengers",
+        "title": "The Avengers",
+        "year": 2012,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-age-of-ultron",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "type": "starring"
+      },
+      {
+        "filmId": "captain-america-civil-war",
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Natasha Romanoff", "relation": "Dearest Partner & Sister-in-Arms", "portrayalSlug": "black-widow" },
-      { "characterName": "Laura Barton", "relation": "Wife & Sanctuary" },
-      { "characterName": "Kate Bishop", "relation": "Protégée & Hawkeye Successor" }
+      {
+        "characterName": "Natasha Romanoff",
+        "relation": "Dearest Partner & Sister-in-Arms",
+        "portrayalSlug": "black-widow"
+      },
+      {
+        "characterName": "Laura Barton",
+        "relation": "Wife & Sanctuary"
+      },
+      {
+        "characterName": "Kate Bishop",
+        "relation": "Protégée & Hawkeye Successor"
+      }
     ],
     "poster": "/posters/The_Avengers.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Hawkeye Clint Barton Bio", "url": "https://www.marvel.com/characters/hawkeye-clint-barton", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Hawkeye Clint Barton Bio",
+        "url": "https://www.marvel.com/characters/hawkeye-clint-barton",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1538,7 +3225,10 @@
     "identityId": "t-challa",
     "name": "Black Panther",
     "realName": "T'Challa",
-    "aliases": ["King of Wakanda", "The Black Panther"],
+    "aliases": [
+      "King of Wakanda",
+      "The Black Panther"
+    ],
     "actor": "Chadwick Boseman",
     "universeId": "mcu",
     "role": "hero",
@@ -1556,7 +3246,11 @@
       "Kimoyo beads communication and medical interface"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Key Ally & Wakandan Benefactor" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Sovereign Allied Defender (Battle of Wakanda & Earth)",
+        "type": "ally"
+      }
     ],
     "filmDebut": {
       "title": "Captain America: Civil War",
@@ -1564,21 +3258,59 @@
       "filmId": "captain-america-civil-war"
     },
     "appearances": [
-      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "supporting" },
-      { "filmId": "black-panther", "title": "Black Panther", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+      {
+        "filmId": "captain-america-civil-war",
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "type": "supporting"
+      },
+      {
+        "filmId": "black-panther",
+        "title": "Black Panther",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Shuri", "relation": "Brilliant Younger Sister & Successor", "portrayalSlug": "shuri" },
-      { "characterName": "Okoye", "relation": "General of the Dora Milaje & Fierce Protector" },
-      { "characterName": "Nakia", "relation": "War Dog & Beloved Partner" },
-      { "characterName": "Steve Rogers", "relation": "Allied Avenger & Respected Friend", "portrayalSlug": "captain-america" }
+      {
+        "characterName": "Shuri",
+        "relation": "Brilliant Younger Sister & Successor",
+        "portrayalSlug": "shuri"
+      },
+      {
+        "characterName": "Okoye",
+        "relation": "General of the Dora Milaje & Fierce Protector"
+      },
+      {
+        "characterName": "Nakia",
+        "relation": "War Dog & Beloved Partner"
+      },
+      {
+        "characterName": "Steve Rogers",
+        "relation": "Allied Avenger & Respected Friend",
+        "portrayalSlug": "captain-america"
+      }
     ],
     "poster": "/posters/Black_Panther.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Black Panther T'Challa Bio", "url": "https://www.marvel.com/characters/black-panther-t-challa", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Black Panther T'Challa Bio",
+        "url": "https://www.marvel.com/characters/black-panther-t-challa",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1587,7 +3319,10 @@
     "identityId": "shuri",
     "name": "Black Panther / Shuri",
     "realName": "Shuri",
-    "aliases": ["Princess of Wakanda", "Head of the Wakandan Design Group"],
+    "aliases": [
+      "Princess of Wakanda",
+      "Head of the Wakandan Design Group"
+    ],
     "actor": "Letitia Wright",
     "universeId": "mcu",
     "role": "hero",
@@ -1610,20 +3345,54 @@
       "filmId": "black-panther"
     },
     "appearances": [
-      { "filmId": "black-panther", "title": "Black Panther", "year": 2018, "type": "supporting" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "supporting" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "supporting" },
-      { "filmId": "black-panther-wakanda-forever", "title": "Black Panther: Wakanda Forever", "year": 2022, "type": "starring" }
+      {
+        "filmId": "black-panther",
+        "title": "Black Panther",
+        "year": 2018,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "supporting"
+      },
+      {
+        "filmId": "black-panther-wakanda-forever",
+        "title": "Black Panther: Wakanda Forever",
+        "year": 2022,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "T'Challa", "relation": "Revered Older Brother", "portrayalSlug": "black-panther" },
-      { "characterName": "Queen Ramonda", "relation": "Mother & Queen" },
-      { "characterName": "Riri Williams", "relation": "Fellow Young Tech Prodigy & Protégée" }
+      {
+        "characterName": "T'Challa",
+        "relation": "Revered Older Brother",
+        "portrayalSlug": "black-panther"
+      },
+      {
+        "characterName": "Queen Ramonda",
+        "relation": "Mother & Queen"
+      },
+      {
+        "characterName": "Riri Williams",
+        "relation": "Fellow Young Tech Prodigy & Protégée"
+      }
     ],
     "poster": "/posters/Black_Panther_Wakanda_Forever.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Shuri Black Panther Official Bio", "url": "https://www.marvel.com/characters/black-panther-shuri", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Shuri Black Panther Official Bio",
+        "url": "https://www.marvel.com/characters/black-panther-shuri",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1632,7 +3401,11 @@
     "identityId": "carol-danvers",
     "name": "Captain Marvel",
     "realName": "Carol Danvers",
-    "aliases": ["Vers", "Captain Marvel", "Binary"],
+    "aliases": [
+      "Vers",
+      "Captain Marvel",
+      "Binary"
+    ],
     "actor": "Brie Larson",
     "universeId": "mcu",
     "role": "hero",
@@ -1650,7 +3423,11 @@
       "Interstellar pager modified by Nick Fury"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Interstellar Heavy Vanguard" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Interstellar Heavy Vanguard",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Captain Marvel",
@@ -1658,21 +3435,58 @@
       "filmId": "captain-marvel"
     },
     "appearances": [
-      { "filmId": "captain-marvel", "title": "Captain Marvel", "year": 2019, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
-      { "filmId": "shang-chi", "title": "Shang-Chi and the Legend of the Ten Rings", "year": 2021, "type": "cameo" },
-      { "filmId": "the-marvels", "title": "The Marvels", "year": 2023, "type": "starring" }
+      {
+        "filmId": "captain-marvel",
+        "title": "Captain Marvel",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "shang-chi",
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "year": 2021,
+        "type": "cameo"
+      },
+      {
+        "filmId": "the-marvels",
+        "title": "The Marvels",
+        "year": 2023,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Nick Fury", "relation": "Closest Terrestrial Friend & Inspirer of the Avengers", "portrayalSlug": "nick-fury" },
-      { "characterName": "Maria Rambeau", "relation": "Best Friend & Wingwoman" },
-      { "characterName": "Monica Rambeau", "relation": "Surrogate Niece & Fellow Light-Wielder" },
-      { "characterName": "Kamala Khan", "relation": "Number-One Fan & Superfan Teammate" }
+      {
+        "characterName": "Nick Fury",
+        "relation": "Closest Terrestrial Friend & Inspirer of the Avengers",
+        "portrayalSlug": "nick-fury"
+      },
+      {
+        "characterName": "Maria Rambeau",
+        "relation": "Best Friend & Wingwoman"
+      },
+      {
+        "characterName": "Monica Rambeau",
+        "relation": "Surrogate Niece & Fellow Light-Wielder"
+      },
+      {
+        "characterName": "Kamala Khan",
+        "relation": "Number-One Fan & Superfan Teammate"
+      }
     ],
     "poster": "/posters/Captain_Marvel.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Captain Marvel Carol Danvers Bio", "url": "https://www.marvel.com/characters/captain-marvel-carol-danvers", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Captain Marvel Carol Danvers Bio",
+        "url": "https://www.marvel.com/characters/captain-marvel-carol-danvers",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1681,7 +3495,10 @@
     "identityId": "scott-lang",
     "name": "Ant-Man",
     "realName": "Scott Lang",
-    "aliases": ["Ant-Man", "Giant-Man"],
+    "aliases": [
+      "Ant-Man",
+      "Giant-Man"
+    ],
     "actor": "Paul Rudd",
     "universeId": "mcu",
     "role": "hero",
@@ -1699,7 +3516,11 @@
       "Red (shrinking) and Blue (enlarging) Pym Particle throwing discs"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Avenger & Quantum Strategist" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Avenger & Quantum Strategist",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Ant-Man",
@@ -1707,22 +3528,64 @@
       "filmId": "ant-man"
     },
     "appearances": [
-      { "filmId": "ant-man", "title": "Ant-Man", "year": 2015, "type": "starring" },
-      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "supporting" },
-      { "filmId": "ant-man-wasp", "title": "Ant-Man and the Wasp", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" },
-      { "filmId": "ant-man-quantumania", "title": "Ant-Man and the Wasp: Quantumania", "year": 2023, "type": "starring" }
+      {
+        "filmId": "ant-man",
+        "title": "Ant-Man",
+        "year": 2015,
+        "type": "starring"
+      },
+      {
+        "filmId": "captain-america-civil-war",
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "type": "supporting"
+      },
+      {
+        "filmId": "ant-man-wasp",
+        "title": "Ant-Man and the Wasp",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "ant-man-quantumania",
+        "title": "Ant-Man and the Wasp: Quantumania",
+        "year": 2023,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Hope van Dyne (The Wasp)", "relation": "Partner in Heroism and Romance" },
-      { "characterName": "Hank Pym", "relation": "Mentor & Creator of the Ant-Man Suit" },
-      { "characterName": "Cassie Lang", "relation": "Beloved Daughter" },
-      { "characterName": "Steve Rogers", "relation": "Personal Hero & Civil War Recruiter", "portrayalSlug": "captain-america" }
+      {
+        "characterName": "Hope van Dyne (The Wasp)",
+        "relation": "Partner in Heroism and Romance"
+      },
+      {
+        "characterName": "Hank Pym",
+        "relation": "Mentor & Creator of the Ant-Man Suit"
+      },
+      {
+        "characterName": "Cassie Lang",
+        "relation": "Beloved Daughter"
+      },
+      {
+        "characterName": "Steve Rogers",
+        "relation": "Personal Hero & Civil War Recruiter",
+        "portrayalSlug": "captain-america"
+      }
     ],
     "poster": "/posters/Ant_Man.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Ant-Man Scott Lang Bio", "url": "https://www.marvel.com/characters/ant-man-scott-lang", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Ant-Man Scott Lang Bio",
+        "url": "https://www.marvel.com/characters/ant-man-scott-lang",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1731,7 +3594,11 @@
     "identityId": "bucky-barnes",
     "name": "Winter Soldier / Bucky",
     "realName": "James Buchanan 'Bucky' Barnes",
-    "aliases": ["The Winter Soldier", "The White Wolf", "Bucky"],
+    "aliases": [
+      "The Winter Soldier",
+      "The White Wolf",
+      "Bucky"
+    ],
     "actor": "Sebastian Stan",
     "universeId": "mcu",
     "role": "hero",
@@ -1748,8 +3615,16 @@
       "Tactical stealth uniform and goggles"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Ally" },
-      { "teamId": "thunderbolts-new-avengers-mcu", "role": "Team Member & Veteran Anchor" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Allied Combatant (Civil War & Infinity War)",
+        "type": "ally"
+      },
+      {
+        "teamId": "thunderbolts-new-avengers-mcu",
+        "role": "Veteran Anchor & De Facto Leader",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Captain America: The First Avenger",
@@ -1757,23 +3632,74 @@
       "filmId": "captain-america-first-avenger"
     },
     "appearances": [
-      { "filmId": "captain-america-first-avenger", "title": "Captain America: The First Avenger", "year": 2011, "type": "supporting" },
-      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "starring" },
-      { "filmId": "ant-man", "title": "Ant-Man", "year": 2015, "type": "cameo" },
-      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
-      { "filmId": "black-panther", "title": "Black Panther", "year": 2018, "type": "post-credits" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+      {
+        "filmId": "captain-america-first-avenger",
+        "title": "Captain America: The First Avenger",
+        "year": 2011,
+        "type": "supporting"
+      },
+      {
+        "filmId": "captain-america-winter-soldier",
+        "title": "Captain America: The Winter Soldier",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "ant-man",
+        "title": "Ant-Man",
+        "year": 2015,
+        "type": "cameo"
+      },
+      {
+        "filmId": "captain-america-civil-war",
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "black-panther",
+        "title": "Black Panther",
+        "year": 2018,
+        "type": "post-credits"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Steve Rogers", "relation": "Lifelong Brother & Guardian ('Till the end of the line')", "portrayalSlug": "captain-america" },
-      { "characterName": "Sam Wilson", "relation": "Comrade-in-Arms & Fellow Shield Custodian", "portrayalSlug": "sam-wilson" },
-      { "characterName": "Shuri", "relation": "Wakandan Healer who removed the trigger words", "portrayalSlug": "shuri" }
+      {
+        "characterName": "Steve Rogers",
+        "relation": "Lifelong Brother & Guardian ('Till the end of the line')",
+        "portrayalSlug": "captain-america"
+      },
+      {
+        "characterName": "Sam Wilson",
+        "relation": "Comrade-in-Arms & Fellow Shield Custodian",
+        "portrayalSlug": "sam-wilson"
+      },
+      {
+        "characterName": "Shuri",
+        "relation": "Wakandan Healer who removed the trigger words",
+        "portrayalSlug": "shuri"
+      }
     ],
     "poster": "/posters/Captain_America_The_Winter_Soldier.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Bucky Barnes Winter Soldier Bio", "url": "https://www.marvel.com/characters/winter-soldier-bucky-barnes", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Bucky Barnes Winter Soldier Bio",
+        "url": "https://www.marvel.com/characters/winter-soldier-bucky-barnes",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1782,7 +3708,10 @@
     "identityId": "sam-wilson",
     "name": "Captain America / Falcon",
     "realName": "Sam Wilson",
-    "aliases": ["The Falcon", "Captain America"],
+    "aliases": [
+      "The Falcon",
+      "Captain America"
+    ],
     "actor": "Anthony Mackie",
     "universeId": "mcu",
     "role": "hero",
@@ -1799,7 +3728,11 @@
       "Redwing tactical combat reconnaissance drone"
     ],
     "teamMemberships": [
-      { "teamId": "avengers-mcu", "role": "Avenger & Captain America" }
+      {
+        "teamId": "avengers-mcu",
+        "role": "Avenger & Captain America",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Captain America: The Winter Soldier",
@@ -1807,22 +3740,67 @@
       "filmId": "captain-america-winter-soldier"
     },
     "appearances": [
-      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "starring" },
-      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "cameo" },
-      { "filmId": "ant-man", "title": "Ant-Man", "year": 2015, "type": "cameo" },
-      { "filmId": "captain-america-civil-war", "title": "Captain America: Civil War", "year": 2016, "type": "starring" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "starring" }
+      {
+        "filmId": "captain-america-winter-soldier",
+        "title": "Captain America: The Winter Soldier",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-age-of-ultron",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "type": "cameo"
+      },
+      {
+        "filmId": "ant-man",
+        "title": "Ant-Man",
+        "year": 2015,
+        "type": "cameo"
+      },
+      {
+        "filmId": "captain-america-civil-war",
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Steve Rogers", "relation": "Closest Friend & Predecessor", "portrayalSlug": "captain-america" },
-      { "characterName": "Bucky Barnes", "relation": "Partner & Brother-in-Arms", "portrayalSlug": "winter-soldier" },
-      { "characterName": "Joaquin Torres", "relation": "Military Lieutenant & New Falcon" }
+      {
+        "characterName": "Steve Rogers",
+        "relation": "Closest Friend & Predecessor",
+        "portrayalSlug": "captain-america"
+      },
+      {
+        "characterName": "Bucky Barnes",
+        "relation": "Partner & Brother-in-Arms",
+        "portrayalSlug": "winter-soldier"
+      },
+      {
+        "characterName": "Joaquin Torres",
+        "relation": "Military Lieutenant & New Falcon"
+      }
     ],
     "poster": "/posters/Captain_America_Civil_War.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Captain America Sam Wilson Official Bio", "url": "https://www.marvel.com/characters/captain-america-sam-wilson", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Captain America Sam Wilson Official Bio",
+        "url": "https://www.marvel.com/characters/captain-america-sam-wilson",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1831,7 +3809,11 @@
     "identityId": "loki-laufeyson",
     "name": "Loki",
     "realName": "Loki Laufeyson",
-    "aliases": ["God of Mischief", "God of Stories", "Prince of Asgard"],
+    "aliases": [
+      "God of Mischief",
+      "God of Stories",
+      "Prince of Asgard"
+    ],
     "actor": "Tom Hiddleston",
     "universeId": "mcu",
     "role": "anti-hero",
@@ -1850,7 +3832,11 @@
       "The Tesseract (former)"
     ],
     "teamMemberships": [
-      { "teamId": "tva-mcu", "role": "Special Consultant & Guardian of the Multiverse" }
+      {
+        "teamId": "tva-mcu",
+        "role": "Temporal Consultant & Multiversal Preserver",
+        "type": "collaborator"
+      }
     ],
     "filmDebut": {
       "title": "Thor",
@@ -1858,23 +3844,69 @@
       "filmId": "thor"
     },
     "appearances": [
-      { "filmId": "thor", "title": "Thor", "year": 2011, "type": "starring" },
-      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
-      { "filmId": "thor-dark-world", "title": "Thor: The Dark World", "year": 2013, "type": "starring" },
-      { "filmId": "thor-ragnarok", "title": "Thor: Ragnarok", "year": 2017, "type": "starring" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "cameo" }
+      {
+        "filmId": "thor",
+        "title": "Thor",
+        "year": 2011,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers",
+        "title": "The Avengers",
+        "year": 2012,
+        "type": "starring"
+      },
+      {
+        "filmId": "thor-dark-world",
+        "title": "Thor: The Dark World",
+        "year": 2013,
+        "type": "starring"
+      },
+      {
+        "filmId": "thor-ragnarok",
+        "title": "Thor: Ragnarok",
+        "year": 2017,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "cameo"
+      }
     ],
     "relationships": [
-      { "characterName": "Thor Odinson", "relation": "Adoptive Brother & True North", "portrayalSlug": "thor" },
-      { "characterName": "Sylvie", "relation": "Multiversal Variant & Kindred Spirit" },
-      { "characterName": "Mobius M. Mobius", "relation": "TVA Agent & Best Friend" }
+      {
+        "characterName": "Thor Odinson",
+        "relation": "Adoptive Brother & True North",
+        "portrayalSlug": "thor"
+      },
+      {
+        "characterName": "Sylvie",
+        "relation": "Multiversal Variant & Kindred Spirit"
+      },
+      {
+        "characterName": "Mobius M. Mobius",
+        "relation": "TVA Agent & Best Friend"
+      }
     ],
     "poster": "/posters/Thor_The_Dark_World.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Loki Laufeyson Official Bio", "url": "https://www.marvel.com/characters/loki", "verifiedDate": "2026-11-28" }
-    ]
+      {
+        "title": "Marvel.com Loki Laufeyson Official Bio",
+        "url": "https://www.marvel.com/characters/loki",
+        "verifiedDate": "2026-11-28"
+      }
+    ],
+    "spoilerBio": "Defying Thanos in Infinity War, the original Loki was choked to death aboard the Statesman. A 2012 variant escaped with the Tesseract to the TVA, learned compassion and selflessness, and ultimately sacrificed his personal freedom at the End of Time, weaving the dying multiversal branches together with his bare hands to become the God of Stories.",
+    "spoilerWarning": "Contains climax spoilers for Loki Season 2 and Infinity War"
   },
   {
     "id": "portrayal-nick-fury-mcu",
@@ -1882,7 +3914,9 @@
     "identityId": "nick-fury",
     "name": "Nick Fury",
     "realName": "Nicholas Joseph Fury",
-    "aliases": ["Director Fury"],
+    "aliases": [
+      "Director Fury"
+    ],
     "actor": "Samuel L. Jackson",
     "universeId": "mcu",
     "role": "hero",
@@ -1900,7 +3934,11 @@
       "Iconic eye patch"
     ],
     "teamMemberships": [
-      { "teamId": "shield-mcu", "role": "Director" }
+      {
+        "teamId": "shield-mcu",
+        "role": "Director",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "Iron Man",
@@ -1908,29 +3946,109 @@
       "filmId": "iron-man"
     },
     "appearances": [
-      { "filmId": "iron-man", "title": "Iron Man", "year": 2008, "type": "post-credits" },
-      { "filmId": "iron-man-2", "title": "Iron Man 2", "year": 2010, "type": "supporting" },
-      { "filmId": "thor", "title": "Thor", "year": 2011, "type": "post-credits" },
-      { "filmId": "captain-america-first-avenger", "title": "Captain America: The First Avenger", "year": 2011, "type": "cameo" },
-      { "filmId": "avengers", "title": "The Avengers", "year": 2012, "type": "starring" },
-      { "filmId": "captain-america-winter-soldier", "title": "Captain America: The Winter Soldier", "year": 2014, "type": "starring" },
-      { "filmId": "avengers-age-of-ultron", "title": "Avengers: Age of Ultron", "year": 2015, "type": "supporting" },
-      { "filmId": "avengers-infinity-war", "title": "Avengers: Infinity War", "year": 2018, "type": "post-credits" },
-      { "filmId": "captain-marvel", "title": "Captain Marvel", "year": 2019, "type": "starring" },
-      { "filmId": "avengers-endgame", "title": "Avengers: Endgame", "year": 2019, "type": "cameo" },
-      { "filmId": "spider-man-far-from-home", "title": "Spider-Man: Far From Home", "year": 2019, "type": "supporting" },
-      { "filmId": "the-marvels", "title": "The Marvels", "year": 2023, "type": "starring" }
+      {
+        "filmId": "iron-man",
+        "title": "Iron Man",
+        "year": 2008,
+        "type": "post-credits"
+      },
+      {
+        "filmId": "iron-man-2",
+        "title": "Iron Man 2",
+        "year": 2010,
+        "type": "supporting"
+      },
+      {
+        "filmId": "thor",
+        "title": "Thor",
+        "year": 2011,
+        "type": "post-credits"
+      },
+      {
+        "filmId": "captain-america-first-avenger",
+        "title": "Captain America: The First Avenger",
+        "year": 2011,
+        "type": "cameo"
+      },
+      {
+        "filmId": "avengers",
+        "title": "The Avengers",
+        "year": 2012,
+        "type": "starring"
+      },
+      {
+        "filmId": "captain-america-winter-soldier",
+        "title": "Captain America: The Winter Soldier",
+        "year": 2014,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-age-of-ultron",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "type": "supporting"
+      },
+      {
+        "filmId": "avengers-infinity-war",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "type": "post-credits"
+      },
+      {
+        "filmId": "captain-marvel",
+        "title": "Captain Marvel",
+        "year": 2019,
+        "type": "starring"
+      },
+      {
+        "filmId": "avengers-endgame",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "type": "cameo"
+      },
+      {
+        "filmId": "spider-man-far-from-home",
+        "title": "Spider-Man: Far From Home",
+        "year": 2019,
+        "type": "supporting"
+      },
+      {
+        "filmId": "the-marvels",
+        "title": "The Marvels",
+        "year": 2023,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Carol Danvers", "relation": "Closest Cosmic Friend & Pager Recipient", "portrayalSlug": "captain-marvel" },
-      { "characterName": "Natasha Romanoff", "relation": "Top Field Agent & Trusted Confidante", "portrayalSlug": "black-widow" },
-      { "characterName": "Steve Rogers", "relation": "Ideological Foil & Avenger Leader", "portrayalSlug": "captain-america" },
-      { "characterName": "Tony Stark", "relation": "Recruit & Unpredictable Benefactor", "portrayalSlug": "iron-man" }
+      {
+        "characterName": "Carol Danvers",
+        "relation": "Closest Cosmic Friend & Pager Recipient",
+        "portrayalSlug": "captain-marvel"
+      },
+      {
+        "characterName": "Natasha Romanoff",
+        "relation": "Top Field Agent & Trusted Confidante",
+        "portrayalSlug": "black-widow"
+      },
+      {
+        "characterName": "Steve Rogers",
+        "relation": "Ideological Foil & Avenger Leader",
+        "portrayalSlug": "captain-america"
+      },
+      {
+        "characterName": "Tony Stark",
+        "relation": "Recruit & Unpredictable Benefactor",
+        "portrayalSlug": "iron-man"
+      }
     ],
     "poster": "/posters/Captain_Marvel.jpg",
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Nick Fury Official Cinematic Bio", "url": "https://www.marvel.com/characters/nick-fury", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Nick Fury Official Cinematic Bio",
+        "url": "https://www.marvel.com/characters/nick-fury",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1939,7 +4057,10 @@
     "identityId": "ororo-munroe",
     "name": "Storm",
     "realName": "Ororo Munroe",
-    "aliases": ["Storm", "Headmistress Munroe"],
+    "aliases": [
+      "Storm",
+      "Headmistress Munroe"
+    ],
     "actor": "Halle Berry",
     "universeId": "fox-xmen",
     "role": "hero",
@@ -1955,7 +4076,11 @@
       "Custom X-Men tactical leather combat suit with flowing cape attached to wrists"
     ],
     "teamMemberships": [
-      { "teamId": "x-men-fox", "role": "Senior Field Leader & Headmistress" }
+      {
+        "teamId": "x-men-fox",
+        "role": "Senior Field Leader & Headmistress",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "X-Men",
@@ -1963,20 +4088,56 @@
       "filmId": "x-men-2000"
     },
     "appearances": [
-      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
-      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
-      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
-      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "starring" }
+      {
+        "filmId": "x-men-2000",
+        "title": "X-Men",
+        "year": 2000,
+        "type": "starring"
+      },
+      {
+        "filmId": "x2-2003",
+        "title": "X2: X-Men United",
+        "year": 2003,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-the-last-stand-2006",
+        "title": "X-Men: The Last Stand",
+        "year": 2006,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "starring"
+      }
     ],
     "relationships": [
-      { "characterName": "Charles Xavier", "relation": "Revered Mentor & Predecessor", "portrayalSlug": "professor-x-patrick-stewart" },
-      { "characterName": "Logan (Wolverine)", "relation": "Close Teammate & Co-Leader", "portrayalSlug": "wolverine-hugh-jackman" },
-      { "characterName": "Cyclops", "relation": "Fellow Senior Leader", "portrayalSlug": "cyclops-james-marsden" }
+      {
+        "characterName": "Charles Xavier",
+        "relation": "Revered Mentor & Predecessor",
+        "portrayalSlug": "professor-x-patrick-stewart"
+      },
+      {
+        "characterName": "Logan (Wolverine)",
+        "relation": "Close Teammate & Co-Leader",
+        "portrayalSlug": "wolverine-hugh-jackman"
+      },
+      {
+        "characterName": "Cyclops",
+        "relation": "Fellow Senior Leader",
+        "portrayalSlug": "cyclops-james-marsden"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Storm Ororo Munroe Character Profile", "url": "https://www.marvel.com/characters/storm-ororo-munroe", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Storm Ororo Munroe Character Profile",
+        "url": "https://www.marvel.com/characters/storm-ororo-munroe",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -1985,7 +4146,11 @@
     "identityId": "jean-grey",
     "name": "Jean Grey / Phoenix",
     "realName": "Dr. Jean Grey",
-    "aliases": ["Phoenix", "Dark Phoenix", "Marvel Girl"],
+    "aliases": [
+      "Phoenix",
+      "Dark Phoenix",
+      "Marvel Girl"
+    ],
     "actor": "Famke Janssen",
     "universeId": "fox-xmen",
     "role": "hero",
@@ -2000,7 +4165,11 @@
       "Custom medical and tactical X-Men suits"
     ],
     "teamMemberships": [
-      { "teamId": "x-men-fox", "role": "Senior Member & Physician" }
+      {
+        "teamId": "x-men-fox",
+        "role": "Senior Member & Physician",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "X-Men",
@@ -2008,21 +4177,62 @@
       "filmId": "x-men-2000"
     },
     "appearances": [
-      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
-      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
-      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
-      { "filmId": "the-wolverine-2013", "title": "The Wolverine", "year": 2013, "type": "cameo" },
-      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "cameo" }
+      {
+        "filmId": "x-men-2000",
+        "title": "X-Men",
+        "year": 2000,
+        "type": "starring"
+      },
+      {
+        "filmId": "x2-2003",
+        "title": "X2: X-Men United",
+        "year": 2003,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-the-last-stand-2006",
+        "title": "X-Men: The Last Stand",
+        "year": 2006,
+        "type": "starring"
+      },
+      {
+        "filmId": "the-wolverine-2013",
+        "title": "The Wolverine",
+        "year": 2013,
+        "type": "cameo"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "cameo"
+      }
     ],
     "relationships": [
-      { "characterName": "Scott Summers (Cyclops)", "relation": "Fiancé & Dearest Love", "portrayalSlug": "cyclops-james-marsden" },
-      { "characterName": "Logan (Wolverine)", "relation": "Tragic Lover & Final Executioner", "portrayalSlug": "wolverine-hugh-jackman" },
-      { "characterName": "Charles Xavier", "relation": "Doctor, Teacher & Father Figure", "portrayalSlug": "professor-x-patrick-stewart" }
+      {
+        "characterName": "Scott Summers (Cyclops)",
+        "relation": "Fiancé & Dearest Love",
+        "portrayalSlug": "cyclops-james-marsden"
+      },
+      {
+        "characterName": "Logan (Wolverine)",
+        "relation": "Tragic Lover & Final Executioner",
+        "portrayalSlug": "wolverine-hugh-jackman"
+      },
+      {
+        "characterName": "Charles Xavier",
+        "relation": "Doctor, Teacher & Father Figure",
+        "portrayalSlug": "professor-x-patrick-stewart"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Jean Grey Character History", "url": "https://www.marvel.com/characters/jean-grey", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Jean Grey Character History",
+        "url": "https://www.marvel.com/characters/jean-grey",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   },
   {
@@ -2031,7 +4241,10 @@
     "identityId": "scott-summers",
     "name": "Cyclops",
     "realName": "Scott Summers",
-    "aliases": ["Cyclops", "Slim"],
+    "aliases": [
+      "Cyclops",
+      "Slim"
+    ],
     "actor": "James Marsden",
     "universeId": "fox-xmen",
     "role": "hero",
@@ -2049,7 +4262,11 @@
       "Customized black X-Men motorcycle"
     ],
     "teamMemberships": [
-      { "teamId": "x-men-fox", "role": "Field Commander" }
+      {
+        "teamId": "x-men-fox",
+        "role": "Field Commander",
+        "type": "member"
+      }
     ],
     "filmDebut": {
       "title": "X-Men",
@@ -2057,20 +4274,56 @@
       "filmId": "x-men-2000"
     },
     "appearances": [
-      { "filmId": "x-men-2000", "title": "X-Men", "year": 2000, "type": "starring" },
-      { "filmId": "x2-2003", "title": "X2: X-Men United", "year": 2003, "type": "starring" },
-      { "filmId": "x-men-the-last-stand-2006", "title": "X-Men: The Last Stand", "year": 2006, "type": "starring" },
-      { "filmId": "x-men-days-of-future-past-2014", "title": "X-Men: Days of Future Past", "year": 2014, "type": "cameo" }
+      {
+        "filmId": "x-men-2000",
+        "title": "X-Men",
+        "year": 2000,
+        "type": "starring"
+      },
+      {
+        "filmId": "x2-2003",
+        "title": "X2: X-Men United",
+        "year": 2003,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-the-last-stand-2006",
+        "title": "X-Men: The Last Stand",
+        "year": 2006,
+        "type": "starring"
+      },
+      {
+        "filmId": "x-men-days-of-future-past-2014",
+        "title": "X-Men: Days of Future Past",
+        "year": 2014,
+        "type": "cameo"
+      }
     ],
     "relationships": [
-      { "characterName": "Jean Grey", "relation": "Fiancée & Soulmate", "portrayalSlug": "jean-grey-famke-janssen" },
-      { "characterName": "Charles Xavier", "relation": "Mentor & Father Figure", "portrayalSlug": "professor-x-patrick-stewart" },
-      { "characterName": "Logan (Wolverine)", "relation": "Tactical Foil & Reluctant Brother-in-Arms", "portrayalSlug": "wolverine-hugh-jackman" }
+      {
+        "characterName": "Jean Grey",
+        "relation": "Fiancée & Soulmate",
+        "portrayalSlug": "jean-grey-famke-janssen"
+      },
+      {
+        "characterName": "Charles Xavier",
+        "relation": "Mentor & Father Figure",
+        "portrayalSlug": "professor-x-patrick-stewart"
+      },
+      {
+        "characterName": "Logan (Wolverine)",
+        "relation": "Tactical Foil & Reluctant Brother-in-Arms",
+        "portrayalSlug": "wolverine-hugh-jackman"
+      }
     ],
     "poster": null,
     "status": "published",
     "sources": [
-      { "title": "Marvel.com Cyclops Scott Summers Bio", "url": "https://www.marvel.com/characters/cyclops-scott-summers", "verifiedDate": "2026-11-28" }
+      {
+        "title": "Marvel.com Cyclops Scott Summers Bio",
+        "url": "https://www.marvel.com/characters/cyclops-scott-summers",
+        "verifiedDate": "2026-11-28"
+      }
     ]
   }
 ]

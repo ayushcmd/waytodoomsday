@@ -56,9 +56,27 @@ export function getAlternatePortrayals(slug) {
   return PORTRAYALS.filter((p) => p.identityId === current.identityId && p.slug !== slug);
 }
 
+export function isTeamMember(membership) {
+  if (!membership) return false;
+  return membership.type === "member" || membership.type === "former-member" || !membership.type;
+}
+
+export function isTeamAlly(membership) {
+  if (!membership) return false;
+  return membership.type === "ally" || membership.type === "collaborator";
+}
+
 export function getTeamMembers(teamId) {
   return PORTRAYALS.filter((p) =>
-    Array.isArray(p.teamMemberships) && p.teamMemberships.some((m) => m.teamId === teamId)
+    Array.isArray(p.teamMemberships) &&
+    p.teamMemberships.some((m) => m.teamId === teamId && isTeamMember(m))
+  );
+}
+
+export function getTeamAllies(teamId) {
+  return PORTRAYALS.filter((p) =>
+    Array.isArray(p.teamMemberships) &&
+    p.teamMemberships.some((m) => m.teamId === teamId && isTeamAlly(m))
   );
 }
 

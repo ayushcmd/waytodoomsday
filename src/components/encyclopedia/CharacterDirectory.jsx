@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useId } from "react";
+import { useState, useEffect, useMemo, useId, useRef } from "react";
 import CharacterCard from "./CharacterCard.jsx";
 import {
   PORTRAYALS,
@@ -9,28 +9,55 @@ import {
 
 export default function CharacterDirectory() {
   const searchInputId = useId();
+  const hasInitialized = useRef(false);
 
-  // Initialize state from URL params if available on client
+  // Default state matches SSR to prevent hydration mismatches
   const [query, setQuery] = useState("");
   const [universe, setUniverse] = useState("all");
   const [team, setTeam] = useState("all");
   const [role, setRole] = useState("all");
   const [sort, setSort] = useState("debut-asc");
 
-  // Read initial URL params on mount
+  // Read URL params safely after client-side hydration completes
   useEffect(() => {
     if (typeof window === "undefined") return;
+
     const params = new URLSearchParams(window.location.search);
-    if (params.has("q")) setQuery(params.get("q"));
-    if (params.has("universe")) setUniverse(params.get("universe"));
-    if (params.has("team")) setTeam(params.get("team"));
-    if (params.has("role")) setRole(params.get("role"));
-    if (params.has("sort")) setSort(params.get("sort"));
+    const q = params.get("q") || "";
+    const u = params.get("universe") || "all";
+    const t = params.get("team") || "all";
+    const r = params.get("role") || "all";
+    const s = params.get("sort") || "debut-asc";
+
+    if (q) setQuery(q);
+    if (u !== "all") setUniverse(u);
+    if (t !== "all") setTeam(t);
+    if (r !== "all") setRole(r);
+    if (s !== "debut-asc") setSort(s);
+
+    hasInitialized.current = true;
   }, []);
 
-  // Sync state to URL params
+  // Handle browser back / forward navigation via popstate
   useEffect(() => {
     if (typeof window === "undefined") return;
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      setQuery(params.get("q") || "");
+      setUniverse(params.get("universe") || "all");
+      setTeam(params.get("team") || "all");
+      setRole(params.get("role") || "all");
+      setSort(params.get("sort") || "debut-asc");
+    };
+
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
+
+  // Sync filter state to URL query params only after initial client read
+  useEffect(() => {
+    if (typeof window === "undefined" || !hasInitialized.current) return;
+
     const params = new URLSearchParams();
     if (query.trim()) params.set("q", query.trim());
     if (universe !== "all") params.set("universe", universe);

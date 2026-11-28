@@ -16,9 +16,17 @@ import {
   getUniverseById,
   getFilmById,
   searchAndFilterPortrayals,
+  getTeamAllies,
+  isTeamMember,
+  isTeamAlly,
 } from "../src/data/encyclopedia/index.js";
 import { CHARACTERS } from "../src/data/characters.js";
 import mcuMovies from "../src/data/movies.json" with { type: "json" };
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 test("1. Data schema validation for portrayals, teams, universes, and films", () => {
   assert.ok(UNIVERSES.length >= 7, "Must contain at least 7 major continuities");
@@ -239,4 +247,172 @@ test("10. Draft/unverified records are strictly excluded from published PORTRAYA
     assert.ok(p.biography && p.biography.length > 0);
     assert.ok(p.sources && p.sources.length > 0);
   }
+});
+
+test("11. Published count integrity and research document synchronization", () => {
+  assert.equal(PORTRAYALS.length, 46, "Expected exactly 46 published character portrayals");
+
+  const docPath = path.resolve(__dirname, "../docs/research/marvel-encyclopedia-coverage.md");
+  assert.ok(fs.existsSync(docPath), "Research coverage document must exist");
+  const docContent = fs.readFileSync(docPath, "utf-8");
+
+  // Verify documentation claims 46 portrayals, not stale 38 or 43
+  assert.match(
+    docContent,
+    /\*\*46 verified character portrayals\*\*/,
+    "Research documentation must specify exactly 46 verified character portrayals"
+  );
+  assert.match(
+    docContent,
+    /\*\*Total Published Portrayals:\*\* 46/,
+    "Research documentation summary must state 46 published portrayals"
+  );
+
+  // Check per-universe count synchronization in documentation table
+  const universeCounts = {};
+  for (const p of PORTRAYALS) {
+    universeCounts[p.universeId] = (universeCounts[p.universeId] || 0) + 1;
+  }
+  assert.equal(universeCounts["mcu"], 19);
+  assert.equal(universeCounts["fox-xmen"], 10);
+  assert.equal(universeCounts["story-fantastic-four"], 5);
+  assert.equal(universeCounts["raimi-spiderman"], 3);
+  assert.equal(universeCounts["sony-spiderverse"], 3);
+  assert.equal(universeCounts["webb-spiderman"], 2);
+  assert.equal(universeCounts["mcu-838"], 2);
+  assert.equal(universeCounts["sony-ssu"], 1);
+  assert.equal(universeCounts["trill-blade"], 1);
+});
+
+test("12. Professor X variant separation: Earth-10005 vs Earth-838", () => {
+  const foxXavier = getPortrayalBySlug("professor-x-patrick-stewart");
+  assert.ok(foxXavier, "Fox Professor X must exist");
+  assert.equal(foxXavier.universeId, "fox-xmen");
+  assert.equal(foxXavier.actor, "Patrick Stewart");
+  assert.ok(foxXavier.teamMemberships.some((m) => m.teamId === "x-men-fox"));
+  assert.ok(!foxXavier.teamMemberships.some((m) => m.teamId === "illuminati-earth-838"));
+  assert.ok(!foxXavier.appearances.some((a) => a.filmId === "doctor-strange-multiverse-of-madness"));
+
+  const earth838Xavier = getPortrayalBySlug("professor-x-earth-838");
+  assert.ok(earth838Xavier, "Earth-838 Professor X must exist");
+  assert.equal(earth838Xavier.universeId, "mcu-838");
+  assert.equal(earth838Xavier.actor, "Patrick Stewart");
+  assert.ok(earth838Xavier.teamMemberships.some((m) => m.teamId === "illuminati-earth-838"));
+  assert.ok(!earth838Xavier.teamMemberships.some((m) => m.teamId === "x-men-fox"));
+  assert.equal(earth838Xavier.appearances.length, 1);
+  assert.equal(earth838Xavier.appearances[0].filmId, "doctor-strange-multiverse-of-madness");
+
+  // Both share the same identity family
+  assert.equal(foxXavier.identityId, "charles-xavier");
+  assert.equal(earth838Xavier.identityId, "charles-xavier");
+
+  // Alternate portrayals cross-linking works
+  const xavierVariants = getAlternatePortrayals(foxXavier.slug);
+  assert.ok(xavierVariants.some((v) => v.slug === "professor-x-earth-838"));
+  assert.ok(xavierVariants.some((v) => v.slug === "professor-x-james-mcavoy"));
+});
+
+test("13. Wolverine variant separation: Earth-10005 vs Deadpool & Wolverine alternate variant", () => {
+  const foxLogan = getPortrayalBySlug("wolverine-hugh-jackman");
+  assert.ok(foxLogan, "Original Fox Wolverine must exist");
+  assert.equal(foxLogan.universeId, "fox-xmen");
+  assert.ok(foxLogan.appearances.some((a) => a.filmId === "x-men-2000"));
+  assert.ok(foxLogan.appearances.some((a) => a.filmId === "logan-2017"));
+  assert.ok(!foxLogan.appearances.some((a) => a.filmId === "deadpool-and-wolverine"));
+
+  const altLogan = getPortrayalBySlug("wolverine-alternate-variant");
+  assert.ok(altLogan, "Alternate Wolverine variant must exist");
+  assert.equal(altLogan.universeId, "mcu");
+  assert.equal(altLogan.filmDebut.filmId, "deadpool-and-wolverine");
+  assert.equal(altLogan.filmDebut.year, 2024);
+  assert.equal(altLogan.appearances.length, 1);
+  assert.equal(altLogan.appearances[0].filmId, "deadpool-and-wolverine");
+
+  // Shared identity
+  assert.equal(foxLogan.identityId, "logan-wolverine");
+  assert.equal(altLogan.identityId, "logan-wolverine");
+
+  // Alternate portrayals cross-linking works
+  const loganVariants = getAlternatePortrayals(foxLogan.slug);
+  assert.ok(loganVariants.some((v) => v.slug === "wolverine-alternate-variant"));
+});
+
+test("14. Deadpool continuity audit: Deadpool vs Weapon XI separation", () => {
+  const deadpool = getPortrayalBySlug("deadpool-ryan-reynolds");
+  assert.ok(deadpool, "Main Deadpool portrayal must exist");
+  assert.equal(deadpool.role, "anti-hero");
+  assert.equal(deadpool.filmDebut.filmId, "deadpool-2016");
+  assert.ok(deadpool.teamMemberships.some((m) => m.teamId === "x-force-fox"));
+
+  const weaponXI = getPortrayalBySlug("weapon-xi-wade-wilson");
+  assert.ok(weaponXI, "Weapon XI portrayal must exist");
+  assert.equal(weaponXI.role, "villain");
+  assert.equal(weaponXI.filmDebut.filmId, "x-men-origins-wolverine-2009");
+  assert.ok(!weaponXI.teamMemberships?.some((m) => m.teamId === "x-force-fox"));
+
+  // Shared identity
+  assert.equal(deadpool.identityId, "wade-wilson");
+  assert.equal(weaponXI.identityId, "wade-wilson");
+
+  // Cross-linking
+  const wadeVariants = getAlternatePortrayals(deadpool.slug);
+  assert.ok(wadeVariants.some((v) => v.slug === "weapon-xi-wade-wilson"));
+});
+
+test("15. Team roster vs ally distinction", () => {
+  // Avengers: Doctor Strange and Black Panther are allies, not core roster members
+  const avengerMembers = getTeamMembers("avengers-mcu");
+  const avengerAllies = getTeamAllies("avengers-mcu");
+
+  assert.ok(!avengerMembers.some((m) => m.slug === "doctor-strange"), "Doctor Strange is an ally, not a core member");
+  assert.ok(!avengerMembers.some((m) => m.slug === "black-panther"), "Black Panther is an ally, not a core member");
+
+  assert.ok(avengerAllies.some((a) => a.slug === "doctor-strange"), "Doctor Strange must be in Avengers allies");
+  assert.ok(avengerAllies.some((a) => a.slug === "black-panther"), "Black Panther must be in Avengers allies");
+
+  // Guardians of the Galaxy: Thor is an ally/collaborator, not a core member
+  const guardianMembers = getTeamMembers("guardians-of-the-galaxy-mcu");
+  const guardianAllies = getTeamAllies("guardians-of-the-galaxy-mcu");
+  assert.ok(!guardianMembers.some((m) => m.slug === "thor"), "Thor is an ally of the Guardians, not a full member");
+  assert.ok(guardianAllies.some((a) => a.slug === "thor"), "Thor must be in Guardians allies");
+
+  // TVA: Loki is an ally/collaborator
+  const tvaMembers = getTeamMembers("tva-mcu");
+  const tvaAllies = getTeamAllies("tva-mcu");
+  assert.ok(!tvaMembers.some((m) => m.slug === "loki"), "Loki is a consultant/collaborator, not staff member");
+  assert.ok(tvaAllies.some((a) => a.slug === "loki"), "Loki must be in TVA collaborators");
+
+  // Helper validation
+  assert.ok(isTeamMember({ type: "member" }));
+  assert.ok(isTeamMember({ type: "former-member" }));
+  assert.ok(!isTeamMember({ type: "ally" }));
+  assert.ok(isTeamAlly({ type: "ally" }));
+  assert.ok(isTeamAlly({ type: "collaborator" }));
+  assert.ok(!isTeamAlly({ type: "member" }));
+});
+
+test("16. Spoiler concealing integrity: sensitive narrative data is separated", () => {
+  const charactersWithSpoilers = PORTRAYALS.filter((p) => p.spoilerWarning);
+  assert.ok(charactersWithSpoilers.length >= 6, "Must have spoiler protection on major fate-bearing characters");
+
+  for (const c of charactersWithSpoilers) {
+    assert.ok(c.spoilerBio && c.spoilerBio.length > 30, `${c.slug} must have a non-empty spoilerBio`);
+    // Basic biography should not contain explicit death spoilers
+    assert.ok(
+      !c.biography.toLowerCase().includes("sacrifices his life") &&
+      !c.biography.toLowerCase().includes("sacrificed his life") &&
+      !c.biography.toLowerCase().includes("snapping the infinity stones to defeat thanos"),
+      `${c.slug} base biography should not reveal endgame death`
+    );
+  }
+
+  // Specific check for Iron Man
+  const ironMan = getPortrayalBySlug("iron-man");
+  assert.ok(ironMan.spoilerWarning);
+  assert.ok(ironMan.spoilerBio.includes("sacrificing his life"));
+
+  // Specific check for Fox Wolverine
+  const foxLogan = getPortrayalBySlug("wolverine-hugh-jackman");
+  assert.ok(foxLogan.spoilerWarning);
+  assert.ok(foxLogan.spoilerBio.includes("holding Laura's hand"));
 });
