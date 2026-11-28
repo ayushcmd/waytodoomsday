@@ -1,0 +1,174 @@
+.doomsday-cast {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  text-align: left;
+  color: var(--color-text);
+}
+.cast-heading {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  line-height: 1.15;
+  letter-spacing: .025em;
+  color: #f4f4f5;
+}
+.cast-preview {
+  display: flex;
+  gap: .5rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #3f7051 transparent;
+  padding: .375rem 0;
+  list-style: none;
+}
+.cast-card {
+  display: flex;
+  align-items: flex-start;
+  gap: .75rem;
+  padding: 1rem;
+  border: 1px solid rgb(255 255 255 / .13);
+  border-radius: .875rem;
+  background: linear-gradient(135deg, rgb(21 128 61 / .1), rgb(255 255 255 / .035));
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.cast-card[data-group="antagonist"] {
+  border-color: rgb(248 113 113 / .3);
+  background: linear-gradient(135deg, rgb(153 27 27 / .18), rgb(255 255 255 / .035));
+}
+.cast-card--compact {
+  flex: 0 0 11rem;
+  align-items: center;
+  scroll-snap-align: start;
+  padding: .375rem .5rem;
+  gap: .5rem;
+}
+.cast-portrait {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3.5rem;
+  border: 1px solid rgb(134 239 172 / .2);
+  border-radius: .625rem;
+  background: radial-gradient(ellipse at top left, #214632, #0b1611);
+  color: #bbf7d0;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+.cast-card[data-group="antagonist"] .cast-portrait {
+  background: radial-gradient(ellipse at top left, #522222, #1b1111);
+  color: #fecaca;
+  border-color: rgb(248 113 113 / .25);
+}
+.cast-card--compact .cast-portrait { width: 1.75rem; height: 2.5rem; font-size: 1.125rem; }
+.cast-portrait img { width: 100%; height: 100%; object-fit: cover; }
+.cast-card-copy { min-width: 0; }
+.cast-card h3 { font-size: 1rem; font-weight: 700; line-height: 1.3; }
+.cast-card--compact h3 { font-size: .875rem; }
+.cast-alias, .cast-actor { font-size: .875rem; line-height: 1.4; }
+.cast-alias { color: #bbf7d0; }
+.cast-actor { color: #d4d4d8; }
+.cast-card--compact .cast-alias { font-size: .75rem; }
+.cast-category { font-size: .8125rem; color: #a1a1aa; margin-top: .375rem; }
+.cast-evidence { display: inline-flex; align-items: center; min-height: 2.75rem; font-size: .8125rem; }
+.cast-actions { display: flex; align-items: center; justify-content: space-between; gap: .25rem; }
+.cast-view-all, .cast-rail-controls button, .cast-close, .cast-empty button {
+  min-height: 2.75rem;
+  border: 1px solid rgb(255 255 255 / .2);
+  border-radius: .625rem;
+  cursor: pointer;
+  background: rgb(255 255 255 / .045);
+  color: #f4f4f5;
+  transition: background-color .15s, border-color .15s;
+}
+.cast-view-all { display: flex; align-items: center; gap: .5rem; padding: .25rem .625rem; font-size: .875rem; font-weight: 700; }
+.cast-count { color: #bbf7d0; font-weight: 500; }
+.cast-rail-controls { display: flex; gap: .25rem; }
+.cast-rail-controls button { width: 2.75rem; font-size: 1.5rem; }
+.cast-source { font-size: .75rem; line-height: 1.5; color: #b8b8bf; margin-top: .25rem; }
+.doomsday-cast a { text-decoration: underline; text-underline-offset: 3px; }
+.doomsday-cast a:hover { color: #bbf7d0; }
+.doomsday-cast button:hover { border-color: #4ade80; background-color: rgb(21 128 61 / .2); }
+.doomsday-cast :is(button, a, input, select, [tabindex]):focus-visible {
+  outline: 2px solid #86efac;
+  outline-offset: 2px;
+}
+.cast-preview:focus-visible { outline-offset: 0; }
+.cast-dialog {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: min(58rem, calc(100% - 2rem));
+  max-width: none;
+  max-height: calc(100dvh - 2rem);
+  padding: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 1px solid rgb(134 239 172 / .25);
+  border-radius: 1.25rem;
+  background: #101513;
+  color: #e9e9e9;
+  box-shadow: 0 24px 80px rgb(0 0 0 / .7);
+  text-align: left;
+}
+.cast-dialog::backdrop { background: rgb(0 0 0 / .8); }
+.cast-dialog-inner { padding: 0 1.25rem 1.25rem; }
+.cast-dialog-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .75rem;
+  padding: 1rem 0;
+  background: #101513;
+  border-bottom: 1px solid rgb(255 255 255 / .1);
+}
+.cast-eyebrow { font-size: .75rem; color: #86efac; margin-bottom: .25rem; }
+.cast-close { width: 2.75rem; flex-shrink: 0; font-size: 1.75rem; }
+.cast-note { font-size: .875rem; line-height: 1.5; color: #c4c4cc; margin: 1rem 0; }
+.cast-search-row { display: flex; flex-wrap: wrap; gap: .75rem; }
+.cast-search, .cast-filter { display: flex; flex-direction: column; gap: .375rem; font-size: .875rem; min-width: 0; }
+.cast-search { flex: 1 1 18rem; }
+.cast-filter { flex: 1 1 13rem; }
+.cast-search input, .cast-filter select {
+  min-height: 2.75rem;
+  width: 100%;
+  min-width: 0;
+  border: 1px solid rgb(255 255 255 / .25);
+  border-radius: .625rem;
+  background-color: #1a211d;
+  color: #f4f4f5;
+  font-size: 1rem;
+  padding: .625rem;
+  color-scheme: dark;
+}
+.cast-search input::placeholder { color: #a1a1aa; }
+.cast-filter select {
+  appearance: none;
+  padding-right: 2.25rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23d4d4d8' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right .75rem center;
+}
+.cast-results { font-size: .875rem; color: #bbf7d0; margin: 1rem 0; }
+.cast-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; list-style: none; }
+.cast-empty { padding: 1rem; text-align: center; }
+.cast-empty button { margin-top: .75rem; padding: .5rem .75rem; }
+.cast-dialog-footer { border-top: 1px solid rgb(255 255 255 / .1); margin-top: 1rem; padding-top: 1rem; }
+.cast-dialog-footer p { font-size: .8125rem; line-height: 1.6; color: #b8b8bf; margin-bottom: .75rem; }
+.cast-dialog-footer a { display: inline-block; padding-block: .25rem; }
+@media (max-width: 639px) {
+  .cast-dialog { width: 100%; max-height: calc(100dvh - .75rem); margin: auto 0 0; border-radius: 1rem 1rem 0 0; }
+  .cast-dialog-inner { padding-inline: 1rem; padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+  .cast-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .doomsday-cast *, .doomsday-cast *::before, .doomsday-cast *::after { transition: none; scroll-behavior: auto; }
+}
