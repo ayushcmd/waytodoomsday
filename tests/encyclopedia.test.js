@@ -49,7 +49,7 @@ test("1. Data schema validation for portrayals, teams, universes, and films", ()
 
     // Film debut verification
     assert.ok(portrayal.filmDebut, `Portrayal ${portrayal.slug} missing filmDebut`);
-    assert.ok(portrayal.filmDebut.year > 1990, `Portrayal ${portrayal.slug} filmDebut year must be valid`);
+    assert.ok(portrayal.filmDebut.year >= 1985, `Portrayal ${portrayal.slug} filmDebut year must be valid`);
     assert.ok(filmIds.has(portrayal.filmDebut.filmId), `Film debut ${portrayal.filmDebut.filmId} missing from films.json`);
 
     // Film appearances verification
@@ -250,22 +250,22 @@ test("10. Draft/unverified records are strictly excluded from published PORTRAYA
 });
 
 test("11. Published count integrity and research document synchronization", () => {
-  assert.equal(PORTRAYALS.length, 75, "Expected exactly 75 published character portrayals");
+  assert.equal(PORTRAYALS.length, 95, "Expected exactly 95 published character portrayals");
 
   const docPath = path.resolve(__dirname, "../docs/research/marvel-encyclopedia-coverage.md");
   assert.ok(fs.existsSync(docPath), "Research coverage document must exist");
   const docContent = fs.readFileSync(docPath, "utf-8");
 
-  // Verify documentation claims 75 portrayals
+  // Verify documentation claims 95 portrayals
   assert.match(
     docContent,
-    /\*\*75 verified character portrayals\*\*/,
-    "Research documentation must specify exactly 75 verified character portrayals"
+    /\*\*95 verified character portrayals\*\*/,
+    "Research documentation must specify exactly 95 verified character portrayals"
   );
   assert.match(
     docContent,
-    /\*\*Total Published Portrayals:\*\* 75/,
-    "Research documentation summary must state 75 published portrayals"
+    /\*\*Total Published Portrayals:\*\* 95/,
+    "Research documentation summary must state 95 published portrayals"
   );
 
   // Check per-universe count synchronization in documentation table
@@ -275,13 +275,19 @@ test("11. Published count integrity and research document synchronization", () =
   }
   assert.equal(universeCounts["mcu"], 41);
   assert.equal(universeCounts["fox-xmen"], 17);
+  assert.equal(universeCounts["mcu-828"], 6);
   assert.equal(universeCounts["story-fantastic-four"], 5);
+  assert.equal(universeCounts["fox-daredevil"], 5);
+  assert.equal(universeCounts["sony-ghost-rider"], 4);
   assert.equal(universeCounts["raimi-spiderman"], 3);
   assert.equal(universeCounts["sony-spiderverse"], 3);
   assert.equal(universeCounts["webb-spiderman"], 2);
   assert.equal(universeCounts["mcu-838"], 2);
+  assert.equal(universeCounts["punisher-2004"], 2);
+  assert.equal(universeCounts["punisher-war-zone-2008"], 2);
   assert.equal(universeCounts["sony-ssu"], 1);
   assert.equal(universeCounts["trill-blade"], 1);
+  assert.equal(universeCounts["punisher-1989"], 1);
 });
 
 test("12. Professor X variant separation: Earth-10005 vs Earth-838", () => {
@@ -577,4 +583,69 @@ test("19. Gamora, Groot, Thanos, and Nebula variant & lineage separation", () =>
   assert.equal(varNebula.role, "villain");
   assert.equal(varNebula.teamMemberships.length, 0);
   assert.deepEqual(varNebula.appearances.map((a) => a.filmId), ["avengers-endgame"]);
+});
+
+test("20. Batch 2 continuities: Fantastic Four (Earth-828), Daredevil/Elektra, Ghost Rider, and Punisher", () => {
+  // 1. Fantastic Four (2025) Earth-828 vs 2005 Story vs Earth-838
+  const reed828 = getPortrayalBySlug("reed-richards-pedro-pascal");
+  const reedStory = getPortrayalBySlug("reed-richards-ioan-gruffudd");
+  const reed838 = getPortrayalBySlug("reed-richards-earth-838");
+  assert.ok(reed828 && reedStory && reed838);
+  assert.equal(reed828.universeId, "mcu-828");
+  assert.equal(reedStory.universeId, "story-fantastic-four");
+  assert.equal(reed838.universeId, "mcu-838");
+  assert.equal(reed828.identityId, "reed-richards");
+
+  const f4828 = getTeamBySlug("fantastic-four-828");
+  assert.ok(f4828);
+  const f4828Members = getTeamMembers("fantastic-four-828");
+  assert.equal(f4828Members.length, 4);
+  for (const slug of [
+    "reed-richards-pedro-pascal",
+    "sue-storm-vanessa-kirby",
+    "johnny-storm-joseph-quinn",
+    "ben-grimm-ebon-moss-bachrach",
+  ]) {
+    assert.ok(f4828Members.some((m) => m.slug === slug), `${slug} must be in Fantastic Four (Earth-828)`);
+  }
+
+  // 2. Daredevil & Elektra shared Fox continuity + Elektra Deadpool & Wolverine appearance
+  const dd = getPortrayalBySlug("daredevil-ben-affleck");
+  const elektra = getPortrayalBySlug("elektra-jennifer-garner");
+  assert.equal(dd.universeId, "fox-daredevil");
+  assert.equal(elektra.universeId, "fox-daredevil");
+  assert.deepEqual(
+    elektra.appearances.map((a) => a.filmId),
+    ["daredevil-2003", "elektra-2005", "deadpool-and-wolverine"]
+  );
+
+  // 3. Ghost Rider duology
+  const blaze = getPortrayalBySlug("ghost-rider-nicolas-cage");
+  assert.equal(blaze.universeId, "sony-ghost-rider");
+  assert.deepEqual(
+    blaze.appearances.map((a) => a.filmId),
+    ["ghost-rider-2007", "ghost-rider-spirit-of-vengeance-2012"]
+  );
+
+  // 4. Three distinct Punisher continuities sharing frank-castle identity
+  const p1989 = getPortrayalBySlug("punisher-dolph-lundgren");
+  const p2004 = getPortrayalBySlug("punisher-thomas-jane");
+  const p2008 = getPortrayalBySlug("punisher-ray-stevenson");
+  assert.equal(p1989.identityId, "frank-castle");
+  assert.equal(p2004.identityId, "frank-castle");
+  assert.equal(p2008.identityId, "frank-castle");
+  assert.equal(new Set([p1989.universeId, p2004.universeId, p2008.universeId]).size, 3);
+
+  // 5. Batch 2 spoiler checks
+  for (const slug of [
+    "reed-richards-pedro-pascal",
+    "sue-storm-vanessa-kirby",
+    "galactus-ralph-ineson",
+    "silver-surfer-shalla-bal",
+    "elektra-jennifer-garner",
+    "punisher-thomas-jane",
+  ]) {
+    const p = getPortrayalBySlug(slug);
+    assert.ok(p.spoilerWarning && p.spoilerBio && p.spoilerBio.length > 30, `${slug} must have spoiler protection`);
+  }
 });

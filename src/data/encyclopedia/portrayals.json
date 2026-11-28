@@ -6630,5 +6630,1256 @@
         "verifiedDate": "2026-11-28"
       }
     ]
+  },
+  {
+    "id": "portrayal-reed-richards-pedro-pascal",
+    "slug": "reed-richards-pedro-pascal",
+    "identityId": "reed-richards",
+    "name": "Mister Fantastic (Earth-828)",
+    "realName": "Reed Richards",
+    "aliases": [
+      "Mister Fantastic",
+      "Reed Richards"
+    ],
+    "actor": "Pedro Pascal",
+    "universeId": "mcu-828",
+    "role": "hero",
+    "tagline": "Earth-828's visionary scientific pioneer and leader of the retro-futuristic Fantastic Four",
+    "biography": "On the retro-futuristic 1960s world of Earth-828, brilliant scientist Reed Richards transformed global society through space-age breakthroughs alongside his wife Sue Storm, brother-in-law Johnny Storm, and best friend Ben Grimm. Four years after cosmic radiation granted him hyper-elasticity, Reed led the Fantastic Four as celebrated protectors when Galactus targeted their planet.",
+    "spoilerBio": "Facing Galactus's demand to surrender his newborn son Franklin in exchange for sparing Earth-828, Reed engineered a massive planetary teleportation bridge to move Earth out of Galactus's path, before ultimately working with Sue and the team to banish the Devourer of Worlds through a cosmic portal.",
+    "spoilerWarning": "Contains family and ending plot spoilers for The Fantastic Four: First Steps (2025)",
+    "powers": [
+      "Hyper-elasticity and extreme bodily stretching",
+      "Genius-level theoretical physics, aerospace engineering, and robotics"
+    ],
+    "equipment": [
+      "Baxter Building laboratory and H.E.R.B.I.E. assistant",
+      "Excelsior spacecraft",
+      "Unstable-molecule Fantastic Four uniform"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "fantastic-four-828",
+        "role": "Founder & Team Leader",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "The Fantastic Four: First Steps",
+      "year": 2025,
+      "filmId": "fantastic-four-first-steps"
+    },
+    "appearances": [
+      {
+        "filmId": "fantastic-four-first-steps",
+        "title": "The Fantastic Four: First Steps",
+        "year": 2025,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Invisible Woman (Sue Storm - Earth-828)",
+        "relation": "Wife & Teammate",
+        "portrayalSlug": "sue-storm-vanessa-kirby"
+      },
+      {
+        "characterName": "The Thing (Ben Grimm - Earth-828)",
+        "relation": "Best Friend & Pilot",
+        "portrayalSlug": "ben-grimm-ebon-moss-bachrach"
+      },
+      {
+        "characterName": "Mister Fantastic (Reed Richards - Earth-838)",
+        "relation": "Multiversal Counterpart",
+        "portrayalSlug": "reed-richards-earth-838"
+      },
+      {
+        "characterName": "Mister Fantastic (Reed Richards)",
+        "relation": "Multiversal Counterpart",
+        "portrayalSlug": "reed-richards-ioan-gruffudd"
+      }
+    ],
+    "poster": "/posters/Fantastic_Four.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com The Fantastic Four: First Steps",
+        "url": "https://www.marvel.com/movies/the-fantastic-four-first-steps",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-sue-storm-vanessa-kirby",
+    "slug": "sue-storm-vanessa-kirby",
+    "identityId": "sue-storm",
+    "name": "Invisible Woman (Earth-828)",
+    "realName": "Susan 'Sue' Storm-Richards",
+    "aliases": [
+      "Invisible Woman",
+      "Sue Storm"
+    ],
+    "actor": "Vanessa Kirby",
+    "universeId": "mcu-828",
+    "role": "hero",
+    "tagline": "Earth-828's diplomat, co-leader of the Fantastic Four, and fierce protector of her family",
+    "biography": "A respected global diplomat and co-founder of Earth-828's Fantastic Four, Sue Storm used her light-bending invisibility and formidable psionic force fields to unite nations and safeguard humanity. Expecting her first child with Reed Richards, Sue stood at the emotional and tactical heart of the team when Shalla-Bal heralded Galactus's arrival.",
+    "spoilerBio": "After giving birth to Franklin Richards in deep space while escaping Galactus's ship, Sue refused to surrender her son. In the climax on Earth-828, she pushed her force-field powers to their absolute limit to drive Galactus into the teleportation portal, temporarily dying from exertion before Franklin's latent cosmic power revived her.",
+    "spoilerWarning": "Contains major family and ending spoilers for The Fantastic Four: First Steps (2025)",
+    "powers": [
+      "Light-bending invisibility",
+      "High-strength psionic force-field projection and telekinetic shields"
+    ],
+    "equipment": [
+      "Unstable-molecule Fantastic Four uniform"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "fantastic-four-828",
+        "role": "Co-Leader & Diplomat",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "The Fantastic Four: First Steps",
+      "year": 2025,
+      "filmId": "fantastic-four-first-steps"
+    },
+    "appearances": [
+      {
+        "filmId": "fantastic-four-first-steps",
+        "title": "The Fantastic Four: First Steps",
+        "year": 2025,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Mister Fantastic (Reed Richards - Earth-828)",
+        "relation": "Husband & Teammate",
+        "portrayalSlug": "reed-richards-pedro-pascal"
+      },
+      {
+        "characterName": "Human Torch (Johnny Storm - Earth-828)",
+        "relation": "Younger Brother",
+        "portrayalSlug": "johnny-storm-joseph-quinn"
+      },
+      {
+        "characterName": "Invisible Woman (Sue Storm)",
+        "relation": "Multiversal Counterpart",
+        "portrayalSlug": "invisible-woman-jessica-alba"
+      }
+    ],
+    "poster": "/posters/Fantastic_Four.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com The Fantastic Four: First Steps",
+        "url": "https://www.marvel.com/movies/the-fantastic-four-first-steps",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-johnny-storm-joseph-quinn",
+    "slug": "johnny-storm-joseph-quinn",
+    "identityId": "johnny-storm",
+    "name": "Human Torch (Earth-828)",
+    "realName": "Jonathan 'Johnny' Storm",
+    "aliases": [
+      "Human Torch",
+      "Johnny Storm"
+    ],
+    "actor": "Joseph Quinn",
+    "universeId": "mcu-828",
+    "role": "hero",
+    "tagline": "Charismatic flame-wielding flyer of Earth-828's Fantastic Four",
+    "biography": "Sue Storm's adventurous younger brother and the high-flying Human Torch of Earth-828, Johnny Storm mastered engulfing himself in thermal plasma for supersonic flight and pyrokinetic combat. Beneath his playful celebrity persona, Johnny proved fiercely resourceful, decoding alien transmissions during the Silver Surfer crisis.",
+    "spoilerBio": "Having deciphered Shalla-Bal's Zenn-La language from space recordings, Johnny confronted the Silver Surfer with the names of the worlds she had doomed, awakening her remorse so she ultimately sacrificed herself to push Galactus through the final portal.",
+    "spoilerWarning": "Contains climax spoilers for The Fantastic Four: First Steps (2025)",
+    "powers": [
+      "Full-body thermal plasma ignition ('Flame On')",
+      "Supersonic flight and pyrokinetic blast projection"
+    ],
+    "equipment": [
+      "Unstable-molecule Fantastic Four uniform"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "fantastic-four-828",
+        "role": "Founding Member",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "The Fantastic Four: First Steps",
+      "year": 2025,
+      "filmId": "fantastic-four-first-steps"
+    },
+    "appearances": [
+      {
+        "filmId": "fantastic-four-first-steps",
+        "title": "The Fantastic Four: First Steps",
+        "year": 2025,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Invisible Woman (Sue Storm - Earth-828)",
+        "relation": "Older Sister",
+        "portrayalSlug": "sue-storm-vanessa-kirby"
+      },
+      {
+        "characterName": "Silver Surfer (Shalla-Bal)",
+        "relation": "Adversary-turned-Ally",
+        "portrayalSlug": "silver-surfer-shalla-bal"
+      },
+      {
+        "characterName": "Human Torch (Johnny Storm)",
+        "relation": "Multiversal Counterpart",
+        "portrayalSlug": "human-torch-chris-evans"
+      }
+    ],
+    "poster": "/posters/Fantastic_Four.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com The Fantastic Four: First Steps",
+        "url": "https://www.marvel.com/movies/the-fantastic-four-first-steps",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-ben-grimm-ebon-moss-bachrach",
+    "slug": "ben-grimm-ebon-moss-bachrach",
+    "identityId": "ben-grimm",
+    "name": "The Thing (Earth-828)",
+    "realName": "Benjamin 'Ben' Grimm",
+    "aliases": [
+      "The Thing",
+      "Ben Grimm"
+    ],
+    "actor": "Ebon Moss-Bachrach",
+    "universeId": "mcu-828",
+    "role": "hero",
+    "tagline": "Beloved rock-armored pilot and powerhouse of Earth-828's Fantastic Four",
+    "biography": "A seasoned astronaut, pilot, and Reed Richards's loyal lifelong friend, Ben Grimm was permanently transformed by cosmic rays into the orange-rock-plated Thing. Celebrated on the streets of Earth-828's New York for his warmth and humor, Ben serves as the team's heavy hitter and chief spacecraft pilot.",
+    "spoilerBio": "During the final defense of Earth-828, Ben piloted the Excelsior and teamed with Johnny and Reed to topple structural supports and drive Galactus toward the dimensional teleportation bridge.",
+    "spoilerWarning": "Contains climax spoilers for The Fantastic Four: First Steps (2025)",
+    "powers": [
+      "Superhuman strength and impact resistance",
+      "Rocky, virtually indestructible dermal plating",
+      "Expert spacecraft piloting"
+    ],
+    "equipment": [
+      "Fantastic Four flight uniform"
+    ],
+    "teamMemberships": [
+      {
+        "teamId": "fantastic-four-828",
+        "role": "Founding Member & Pilot",
+        "type": "member"
+      }
+    ],
+    "filmDebut": {
+      "title": "The Fantastic Four: First Steps",
+      "year": 2025,
+      "filmId": "fantastic-four-first-steps"
+    },
+    "appearances": [
+      {
+        "filmId": "fantastic-four-first-steps",
+        "title": "The Fantastic Four: First Steps",
+        "year": 2025,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Mister Fantastic (Reed Richards - Earth-828)",
+        "relation": "Best Friend & Co-Founder",
+        "portrayalSlug": "reed-richards-pedro-pascal"
+      },
+      {
+        "characterName": "The Thing (Ben Grimm)",
+        "relation": "Multiversal Counterpart",
+        "portrayalSlug": "the-thing-michael-chiklis"
+      }
+    ],
+    "poster": "/posters/Fantastic_Four.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com The Fantastic Four: First Steps",
+        "url": "https://www.marvel.com/movies/the-fantastic-four-first-steps",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-galactus-ralph-ineson",
+    "slug": "galactus-ralph-ineson",
+    "identityId": "galactus",
+    "name": "Galactus",
+    "realName": "Galan",
+    "aliases": [
+      "Devourer of Worlds"
+    ],
+    "actor": "Ralph Ineson",
+    "universeId": "mcu-828",
+    "role": "villain",
+    "tagline": "Colossal cosmic entity who devours entire planets and targeted Earth-828",
+    "biography": "An ancient, titanic cosmic being aboard an immense world-ship, Galactus sustains his endless hunger by consuming inhabited planets across the cosmos. Dispatched by his herald Shalla-Bal, Galactus descended toward Earth-828, confronting the Fantastic Four with a terrifying ultimatum.",
+    "spoilerBio": "Sensing immense cosmic power inside Reed and Sue's unborn child Franklin, Galactus offered to spare Earth-828 if they surrendered the infant to replace him as the cosmos's vessel. When they refused, Galactus marched into New York, only to be shoved through a planetary teleportation portal into deep space by Sue Storm and Shalla-Bal.",
+    "spoilerWarning": "Contains major plot and ending spoilers for The Fantastic Four: First Steps (2025)",
+    "powers": [
+      "Colossal cosmic size, strength, and near-invulnerability",
+      "Power Cosmic manipulation and world-ship energy projection"
+    ],
+    "equipment": [
+      "World-consuming cosmic armor and starship Taa II"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "The Fantastic Four: First Steps",
+      "year": 2025,
+      "filmId": "fantastic-four-first-steps"
+    },
+    "appearances": [
+      {
+        "filmId": "fantastic-four-first-steps",
+        "title": "The Fantastic Four: First Steps",
+        "year": 2025,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Silver Surfer (Shalla-Bal)",
+        "relation": "Herald",
+        "portrayalSlug": "silver-surfer-shalla-bal"
+      },
+      {
+        "characterName": "Mister Fantastic (Reed Richards - Earth-828)",
+        "relation": "Adversary",
+        "portrayalSlug": "reed-richards-pedro-pascal"
+      }
+    ],
+    "poster": "/posters/Fantastic_Four.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com The Fantastic Four: First Steps",
+        "url": "https://www.marvel.com/movies/the-fantastic-four-first-steps",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-silver-surfer-shalla-bal",
+    "slug": "silver-surfer-shalla-bal",
+    "identityId": "shalla-bal",
+    "name": "Silver Surfer (Shalla-Bal)",
+    "realName": "Shalla-Bal",
+    "aliases": [
+      "Herald of Galactus"
+    ],
+    "actor": "Julia Garner",
+    "universeId": "mcu-828",
+    "role": "anti-hero",
+    "tagline": "Silver-skinned herald of Galactus who spared her homeworld of Zenn-La by serving as his scout",
+    "biography": "A scientist from Zenn-La who volunteered to become Galactus's herald in exchange for sparing her own planet, Shalla-Bal was transformed into the Silver Surfer and granted a fraction of the Power Cosmic. Arriving on Earth-828 atop her silver board, she announced the planet's impending consumption.",
+    "spoilerBio": "After Johnny Storm confronted her with recordings of the millions of lives lost on worlds she had marked, Shalla-Bal turned against her master during the New York climax, propelling herself into Galactus to shove him into the dimensional portal and sacrificing herself in the process.",
+    "spoilerWarning": "Contains sacrifice and ending spoilers for The Fantastic Four: First Steps (2025)",
+    "powers": [
+      "Power Cosmic energy projection and matter phasing",
+      "Faster-than-light interstellar flight via silver surfboard"
+    ],
+    "equipment": [
+      "Cosmic silver surfboard"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "The Fantastic Four: First Steps",
+      "year": 2025,
+      "filmId": "fantastic-four-first-steps"
+    },
+    "appearances": [
+      {
+        "filmId": "fantastic-four-first-steps",
+        "title": "The Fantastic Four: First Steps",
+        "year": 2025,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Galactus",
+        "relation": "Master-turned-Adversary",
+        "portrayalSlug": "galactus-ralph-ineson"
+      },
+      {
+        "characterName": "Human Torch (Johnny Storm - Earth-828)",
+        "relation": "Rival-turned-Conscience",
+        "portrayalSlug": "johnny-storm-joseph-quinn"
+      }
+    ],
+    "poster": "/posters/Fantastic_Four.jpg",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com The Fantastic Four: First Steps",
+        "url": "https://www.marvel.com/movies/the-fantastic-four-first-steps",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-daredevil-ben-affleck",
+    "slug": "daredevil-ben-affleck",
+    "identityId": "matt-murdock",
+    "name": "Daredevil",
+    "realName": "Matthew 'Matt' Murdock",
+    "aliases": [
+      "The Man Without Fear",
+      "Daredevil"
+    ],
+    "actor": "Ben Affleck",
+    "universeId": "fox-daredevil",
+    "role": "hero",
+    "tagline": "Blind Hell's Kitchen attorney who fights organized crime using hyper-acute radar senses",
+    "biography": "Blinded in childhood after toxic waste spilled into his eyes, Matt Murdock developed superhuman hearing, touch, and a sonar-like radar sense. Following his boxer father Jack Murdock's murder by mobsters, Matt became a pro bono Hell's Kitchen defense lawyer by day and the crimson-clad vigilante Daredevil by night.",
+    "spoilerBio": "After Bullseye murdered Elektra and her father, Daredevil confronted Wilson Fisk in his penthouse, exposing Fisk as the Kingpin and defeating him in hand-to-hand combat while sparing his life for the police.",
+    "spoilerWarning": "Contains climax spoilers for Daredevil (2003)",
+    "powers": [
+      "Hyper-acute hearing, smell, and sonar-like radar sense",
+      "Peak acrobatic martial arts mastery"
+    ],
+    "equipment": [
+      "Two-piece interlocking billy club / grappling cane",
+      "Crimson leather Daredevil armor"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Daredevil",
+      "year": 2003,
+      "filmId": "daredevil-2003"
+    },
+    "appearances": [
+      {
+        "filmId": "daredevil-2003",
+        "title": "Daredevil",
+        "year": 2003,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Elektra Natchios",
+        "relation": "Love Interest",
+        "portrayalSlug": "elektra-jennifer-garner"
+      },
+      {
+        "characterName": "Wilson Fisk (Kingpin)",
+        "relation": "Arch-Adversary",
+        "portrayalSlug": "kingpin-michael-clarke-duncan"
+      },
+      {
+        "characterName": "Bullseye",
+        "relation": "Adversary",
+        "portrayalSlug": "bullseye-colin-farrell"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "20th Century Studios Daredevil (2003) Archive",
+        "url": "https://www.marvel.com/movies/daredevil",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-elektra-jennifer-garner",
+    "slug": "elektra-jennifer-garner",
+    "identityId": "elektra-natchios",
+    "name": "Elektra",
+    "realName": "Elektra Natchios",
+    "aliases": [
+      "Elektra"
+    ],
+    "actor": "Jennifer Garner",
+    "universeId": "fox-daredevil",
+    "role": "anti-hero",
+    "tagline": "Twin-sai martial artist resurrected by Stick who later joined the Void resistance",
+    "biography": "Daughter of Greek billionaire Nikolas Natchios, Elektra trained extensively in martial arts before crossing paths with Matt Murdock in New York. After Bullseye murdered her father and fatally impaled her in Daredevil (2003), Elektra was resurrected by the blind master Stick and became an elite contract assassin.",
+    "spoilerBio": "In Elektra (2005), she defied the Hand by protecting targets Mark and Abby Miller, slaying Kirigi in her childhood home. Years later, pruned into the Void in Deadpool & Wolverine (2024), Elektra fought alongside Blade, Gambit, and X-23 to help Deadpool and Wolverine overthrow Cassandra Nova.",
+    "spoilerWarning": "Contains resurrection and crossover spoilers for Daredevil (2003), Elektra (2005), and Deadpool & Wolverine (2024)",
+    "powers": [
+      "Master ninjutsu, acrobatics, and twin-sai combat",
+      "Kimagure precognitive awareness (taught by Stick)"
+    ],
+    "equipment": [
+      "Twin forged combat sai"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Daredevil",
+      "year": 2003,
+      "filmId": "daredevil-2003"
+    },
+    "appearances": [
+      {
+        "filmId": "daredevil-2003",
+        "title": "Daredevil",
+        "year": 2003,
+        "type": "starring"
+      },
+      {
+        "filmId": "elektra-2005",
+        "title": "Elektra",
+        "year": 2005,
+        "type": "starring"
+      },
+      {
+        "filmId": "deadpool-and-wolverine",
+        "title": "Deadpool & Wolverine",
+        "year": 2024,
+        "type": "supporting"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Matt Murdock (Daredevil)",
+        "relation": "Former Love Interest",
+        "portrayalSlug": "daredevil-ben-affleck"
+      },
+      {
+        "characterName": "Stick",
+        "relation": "Resurrector & Sensei",
+        "portrayalSlug": "stick-terence-stamp"
+      },
+      {
+        "characterName": "Blade (Eric Brooks)",
+        "relation": "Void Resistance Ally",
+        "portrayalSlug": "blade-wesley-snipes"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Elektra (2005) Archive",
+        "url": "https://www.marvel.com/movies/elektra",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-kingpin-michael-clarke-duncan",
+    "slug": "kingpin-michael-clarke-duncan",
+    "identityId": "wilson-fisk",
+    "name": "Kingpin",
+    "realName": "Wilson Fisk",
+    "aliases": [
+      "The Kingpin"
+    ],
+    "actor": "Michael Clarke Duncan",
+    "universeId": "fox-daredevil",
+    "role": "villain",
+    "tagline": "Imposing New York crime syndicate boss who ordered Jack Murdock's and Nikolas Natchios's murders",
+    "biography": "A physically colossal criminal mastermind posing as a legitimate New York philanthropist, Wilson Fisk ruled the city's underworld as the Kingpin. Years after personally beating boxer Jack Murdock to death as a mob enforcer, Fisk hired Bullseye to assassinate Nikolas Natchios, drawing the wrath of Daredevil.",
+    "spoilerBio": "When Daredevil infiltrated Fisk's penthouse and used breaking sprinklers to visualize his towering frame, Fisk was overpowered, unmasked Matt Murdock, and was left in police custody vowing retribution.",
+    "spoilerWarning": "Contains ending spoilers for Daredevil (2003)",
+    "powers": [
+      "Colossal physical strength and brute-force brawling"
+    ],
+    "equipment": [
+      "Diamond-topped walking cane"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Daredevil",
+      "year": 2003,
+      "filmId": "daredevil-2003"
+    },
+    "appearances": [
+      {
+        "filmId": "daredevil-2003",
+        "title": "Daredevil",
+        "year": 2003,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Matt Murdock (Daredevil)",
+        "relation": "Arch-Adversary",
+        "portrayalSlug": "daredevil-ben-affleck"
+      },
+      {
+        "characterName": "Bullseye",
+        "relation": "Hired Assassin",
+        "portrayalSlug": "bullseye-colin-farrell"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "20th Century Studios Daredevil (2003) Archive",
+        "url": "https://www.marvel.com/movies/daredevil",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-bullseye-colin-farrell",
+    "slug": "bullseye-colin-farrell",
+    "identityId": "bullseye",
+    "name": "Bullseye",
+    "realName": "Bullseye",
+    "aliases": [
+      "Bullseye"
+    ],
+    "actor": "Colin Farrell",
+    "universeId": "fox-daredevil",
+    "role": "villain",
+    "tagline": "Sadistic Irish contract killer with flawless projectile accuracy hired by Kingpin",
+    "biography": "A tattooed, trench-coat-wearing assassin obsessed with never missing a target, Bullseye could kill effortlessly with paperclips, peanuts, playing cards, or shards of glass. Hired by Wilson Fisk to eliminate Nikolas Natchios, Bullseye framed Daredevil for the murder and pursued Elektra into St. Patrick's Cathedral.",
+    "spoilerBio": "After fatally stabbing Elektra with her own sai inside the cathedral, Bullseye dueled Daredevil atop the pipe organ, where Daredevil manipulated a sniper's bullet to pierce both of Bullseye's hands before throwing him through a stained-glass window.",
+    "spoilerWarning": "Contains climax spoilers for Daredevil (2003)",
+    "powers": [
+      "Infallible projectile aim with any improvised object"
+    ],
+    "equipment": [
+      "Throwing stars, daggers, and improvised projectiles"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Daredevil",
+      "year": 2003,
+      "filmId": "daredevil-2003"
+    },
+    "appearances": [
+      {
+        "filmId": "daredevil-2003",
+        "title": "Daredevil",
+        "year": 2003,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Wilson Fisk (Kingpin)",
+        "relation": "Employer",
+        "portrayalSlug": "kingpin-michael-clarke-duncan"
+      },
+      {
+        "characterName": "Matt Murdock (Daredevil)",
+        "relation": "Rival",
+        "portrayalSlug": "daredevil-ben-affleck"
+      },
+      {
+        "characterName": "Elektra Natchios",
+        "relation": "Target",
+        "portrayalSlug": "elektra-jennifer-garner"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "20th Century Studios Daredevil (2003) Archive",
+        "url": "https://www.marvel.com/movies/daredevil",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-stick-terence-stamp",
+    "slug": "stick-terence-stamp",
+    "identityId": "stick",
+    "name": "Stick",
+    "realName": "Stick",
+    "aliases": [
+      "Sensei"
+    ],
+    "actor": "Terence Stamp",
+    "universeId": "fox-daredevil",
+    "role": "supporting",
+    "tagline": "Blind Chaste grandmaster who resurrected Elektra and trained her in Kimagure",
+    "biography": "Leader of the virtuous Chaste order opposing the Hand, the blind martial arts master Stick resurrected Elektra Natchios after her death in New York and trained her in sensory mastery and the ancient Kimagure technique. Though he dismissed Elektra when her inner rage proved too volatile, he secretly arranged her final redemption test.",
+    "spoilerBio": "Stick revealed that he had hired Elektra to assassinate Mark and Abby Miller specifically so she would choose to protect Abby—the next 'Treasure' sought by the Hand—proving her heart remained pure.",
+    "spoilerWarning": "Contains ending plot twist spoilers for Elektra (2005)",
+    "powers": [
+      "Grandmaster bo-staff combat and Kimagure resurrection mastery",
+      "Heightened blind sensory awareness"
+    ],
+    "equipment": [
+      "Wooden bo staff"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Elektra",
+      "year": 2005,
+      "filmId": "elektra-2005"
+    },
+    "appearances": [
+      {
+        "filmId": "elektra-2005",
+        "title": "Elektra",
+        "year": 2005,
+        "type": "supporting"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Elektra Natchios",
+        "relation": "Student & Resurrected Protégé",
+        "portrayalSlug": "elektra-jennifer-garner"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Elektra (2005) Archive",
+        "url": "https://www.marvel.com/movies/elektra",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-ghost-rider-nicolas-cage",
+    "slug": "ghost-rider-nicolas-cage",
+    "identityId": "johnny-blaze",
+    "name": "Ghost Rider",
+    "realName": "Johnathan 'Johnny' Blaze",
+    "aliases": [
+      "Ghost Rider",
+      "Spirit of Vengeance"
+    ],
+    "actor": "Nicolas Cage",
+    "universeId": "sony-ghost-rider",
+    "role": "anti-hero",
+    "tagline": "Daredevil stunt motorcyclist bound by Mephistopheles's pact to ride as the flaming Spirit of Vengeance",
+    "biography": "To save his dying father Barton Blaze from cancer, young stunt motorcyclist Johnny Blaze signed a pact in blood with Mephistopheles—only for his father to die the next day in a stunt crash. Years later, Mephistopheles activated the contract, transforming Johnny by night into the hellfire-wreathed Ghost Rider to hunt rogue demons.",
+    "spoilerBio": "After defeating Blackheart in Ghost Rider (2007), Johnny refused Mephistopheles's offer to return his soul, choosing to keep the curse to fight evil. In the soft-rebooted sequel Spirit of Vengeance (2012), Blaze exiled himself to Eastern Europe before rescuing young Danny Ketch from Roarke, purging the dark side of Zarathos to wield angelic blue hellfire.",
+    "spoilerWarning": "Contains ending spoilers for Ghost Rider (2007) and Spirit of Vengeance (2012)",
+    "powers": [
+      "Hellfire manipulation and Penance Stare",
+      "Superhuman strength, durability, and demonic vehicle possession"
+    ],
+    "equipment": [
+      "Hellfire-infused chopper motorcycle",
+      "Flaming iron chain"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Ghost Rider",
+      "year": 2007,
+      "filmId": "ghost-rider-2007"
+    },
+    "appearances": [
+      {
+        "filmId": "ghost-rider-2007",
+        "title": "Ghost Rider",
+        "year": 2007,
+        "type": "starring"
+      },
+      {
+        "filmId": "ghost-rider-spirit-of-vengeance-2012",
+        "title": "Ghost Rider: Spirit of Vengeance",
+        "year": 2012,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Roxanne Simpson",
+        "relation": "Childhood Sweetheart",
+        "portrayalSlug": "roxanne-simpson-eva-mendes"
+      },
+      {
+        "characterName": "Mephistopheles",
+        "relation": "Soul Contractor",
+        "portrayalSlug": "mephistopheles-peter-fonda"
+      },
+      {
+        "characterName": "Blackheart",
+        "relation": "Adversary",
+        "portrayalSlug": "blackheart-wes-bentley"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Sony Pictures Ghost Rider (2007)",
+        "url": "https://www.sonypictures.com/movies/ghostrider",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-blackheart-wes-bentley",
+    "slug": "blackheart-wes-bentley",
+    "identityId": "blackheart",
+    "name": "Blackheart",
+    "realName": "Blackheart",
+    "aliases": [
+      "Legion"
+    ],
+    "actor": "Wes Bentley",
+    "universeId": "sony-ghost-rider",
+    "role": "villain",
+    "tagline": "Rebellious demonic son of Mephistopheles seeking the Contract of San Venganza",
+    "biography": "Straying from his father Mephistopheles's rule, the fallen demon Blackheart arrived on Earth alongside three elemental allies—Abigor, Gressil, and Wallow—to locate the ancient Contract of San Venganza. Commanding a touch that decays mortal flesh, Blackheart sought to absorb a thousand damned souls and overthrow Hell.",
+    "spoilerBio": "After absorbing the souls of San Venganza to become 'Legion', Blackheart overwhelmed Ghost Rider in daylight until Roxanne tossed Johnny a shotgun—empowering Ghost Rider in the shadows to burn away Blackheart's stolen souls with the Penance Stare.",
+    "spoilerWarning": "Contains climax spoilers for Ghost Rider (2007)",
+    "powers": [
+      "Lethal necrotic touch and shadow teleportation",
+      "Absorption of damned souls ('Legion' form)"
+    ],
+    "equipment": [],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Ghost Rider",
+      "year": 2007,
+      "filmId": "ghost-rider-2007"
+    },
+    "appearances": [
+      {
+        "filmId": "ghost-rider-2007",
+        "title": "Ghost Rider",
+        "year": 2007,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Mephistopheles",
+        "relation": "Father & Rival",
+        "portrayalSlug": "mephistopheles-peter-fonda"
+      },
+      {
+        "characterName": "Johnny Blaze (Ghost Rider)",
+        "relation": "Adversary",
+        "portrayalSlug": "ghost-rider-nicolas-cage"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Sony Pictures Ghost Rider (2007)",
+        "url": "https://www.sonypictures.com/movies/ghostrider",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-mephistopheles-peter-fonda",
+    "slug": "mephistopheles-peter-fonda",
+    "identityId": "mephistopheles",
+    "name": "Mephistopheles",
+    "realName": "Mephistopheles",
+    "aliases": [
+      "The Devil"
+    ],
+    "actor": "Peter Fonda",
+    "universeId": "sony-ghost-rider",
+    "role": "villain",
+    "tagline": "Silver-tongued Lord of Hell who tricked Johnny Blaze into becoming his bounty hunter",
+    "biography": "Posing as a sharp-suited stranger, the Devil Mephistopheles coerced seventeen-year-old Johnny Blaze into trading his soul to cure his father's cancer, only to orchestrate Barton Blaze's fatal stunt accident the next day. Decades later, Mephistopheles activated Johnny's Ghost Rider curse to hunt down his rebellious son Blackheart.",
+    "spoilerBio": "Following Blackheart's defeat, Mephistopheles offered to release Johnny from the Ghost Rider curse, only for Johnny to refuse—vowing to turn the Devil's own power against him.",
+    "spoilerWarning": "Contains ending spoilers for Ghost Rider (2007)",
+    "powers": [
+      "Soul-contract magic, demonic immortality, and time-freezing presence"
+    ],
+    "equipment": [],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Ghost Rider",
+      "year": 2007,
+      "filmId": "ghost-rider-2007"
+    },
+    "appearances": [
+      {
+        "filmId": "ghost-rider-2007",
+        "title": "Ghost Rider",
+        "year": 2007,
+        "type": "supporting"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Johnny Blaze (Ghost Rider)",
+        "relation": "Bounty Hunter & Vassal",
+        "portrayalSlug": "ghost-rider-nicolas-cage"
+      },
+      {
+        "characterName": "Blackheart",
+        "relation": "Rebellious Son",
+        "portrayalSlug": "blackheart-wes-bentley"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Sony Pictures Ghost Rider (2007)",
+        "url": "https://www.sonypictures.com/movies/ghostrider",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-roxanne-simpson-eva-mendes",
+    "slug": "roxanne-simpson-eva-mendes",
+    "identityId": "roxanne-simpson",
+    "name": "Roxanne Simpson",
+    "realName": "Roxanne Simpson",
+    "aliases": [
+      "Roxanne"
+    ],
+    "actor": "Eva Mendes",
+    "universeId": "sony-ghost-rider",
+    "role": "supporting",
+    "tagline": "Investigative reporter and Johnny Blaze's lost love drawn into the Ghost Rider's supernatural war",
+    "biography": "Separated from Johnny Blaze when he abruptly fled town after his father's death, Roxanne Simpson became a respected television reporter in Texas. Reunited with Johnny during an interview assignment, she uncovered the truth behind his demonic transformation and was targeted by Blackheart to force Blaze's compliance.",
+    "spoilerBio": "Held captive in San Venganza, Roxanne helped tip the final battle by tossing Carter Slade's shotgun to Johnny, enabling Ghost Rider to defeat Blackheart before bidding Johnny a bittersweet farewell.",
+    "spoilerWarning": "Contains climax spoilers for Ghost Rider (2007)",
+    "powers": [
+      "Investigative journalism and resourcefulness under crisis"
+    ],
+    "equipment": [],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Ghost Rider",
+      "year": 2007,
+      "filmId": "ghost-rider-2007"
+    },
+    "appearances": [
+      {
+        "filmId": "ghost-rider-2007",
+        "title": "Ghost Rider",
+        "year": 2007,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Johnny Blaze (Ghost Rider)",
+        "relation": "Partner",
+        "portrayalSlug": "ghost-rider-nicolas-cage"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Sony Pictures Ghost Rider (2007)",
+        "url": "https://www.sonypictures.com/movies/ghostrider",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-punisher-thomas-jane",
+    "slug": "punisher-thomas-jane",
+    "identityId": "frank-castle",
+    "name": "The Punisher (2004)",
+    "realName": "Francis 'Frank' Castle",
+    "aliases": [
+      "The Punisher"
+    ],
+    "actor": "Thomas Jane",
+    "universeId": "punisher-2004",
+    "role": "anti-hero",
+    "tagline": "Former Delta Force & FBI agent waging psychological and tactical war on Howard Saint's empire",
+    "biography": "A decorated Delta Force veteran and undercover FBI agent retiring after one final sting operation, Frank Castle watched his wife Maria, son Will, and entire extended family massacred in Puerto Rico on Howard Saint's orders. Surviving a gunshot to the chest, Castle shed his former life to become the skull-chested Punisher.",
+    "spoilerBio": "Rather than merely shooting Saint, Castle systematically manipulated Saint's paranoia—tricking him into executing his own best friend Quentin Glass and his wife Livia—before killing Saint in an explosive car-lot ambush and choosing to continue his vigilante war.",
+    "spoilerWarning": "Contains ending spoilers for The Punisher (2004)",
+    "powers": [
+      "Delta Force & FBI tactical combat, marksmanship, and explosives mastery",
+      "Psychological warfare and counter-intelligence"
+    ],
+    "equipment": [
+      "Dual customized M1911 pistols",
+      "Skull-emblem tactical Kevlar shirt",
+      "Armored GTO muscle car"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "The Punisher",
+      "year": 2004,
+      "filmId": "the-punisher-2004"
+    },
+    "appearances": [
+      {
+        "filmId": "the-punisher-2004",
+        "title": "The Punisher",
+        "year": 2004,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Howard Saint",
+        "relation": "Arch-Nemesis",
+        "portrayalSlug": "howard-saint-john-travolta"
+      },
+      {
+        "characterName": "The Punisher (War Zone, 2008)",
+        "relation": "Alternate-Adaptation Counterpart",
+        "portrayalSlug": "punisher-ray-stevenson"
+      },
+      {
+        "characterName": "The Punisher (1989)",
+        "relation": "Alternate-Adaptation Counterpart",
+        "portrayalSlug": "punisher-dolph-lundgren"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com The Punisher (2004)",
+        "url": "https://www.marvel.com/movies/the-punisher",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-howard-saint-john-travolta",
+    "slug": "howard-saint-john-travolta",
+    "identityId": "howard-saint",
+    "name": "Howard Saint",
+    "realName": "Howard Saint",
+    "aliases": [
+      "Howard Saint"
+    ],
+    "actor": "John Travolta",
+    "universeId": "punisher-2004",
+    "role": "villain",
+    "tagline": "Vindictive Tampa crime boss and money launderer whose order to kill Castle's family sealed his doom",
+    "biography": "A wealthy Tampa money launderer and club owner operating behind a polished socialite facade, Howard Saint lost his favorite son Bobby during an FBI arms sting led by Frank Castle. Driven by grief and his wife Livia's demand for total vengeance, Saint ordered the slaughter of Castle's entire family reunion.",
+    "spoilerBio": "Blinded by Castle's planted evidence, Saint murdered his loyal lieutenant Quentin Glass and had his wife Livia thrown onto train tracks before Castle revealed the deception and strapped Saint to an exploding line of rigged cars.",
+    "spoilerWarning": "Contains climax spoilers for The Punisher (2004)",
+    "powers": [
+      "Criminal syndicate wealth and ruthless underworld influence"
+    ],
+    "equipment": [],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "The Punisher",
+      "year": 2004,
+      "filmId": "the-punisher-2004"
+    },
+    "appearances": [
+      {
+        "filmId": "the-punisher-2004",
+        "title": "The Punisher",
+        "year": 2004,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "The Punisher (2004)",
+        "relation": "Nemesis",
+        "portrayalSlug": "punisher-thomas-jane"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com The Punisher (2004)",
+        "url": "https://www.marvel.com/movies/the-punisher",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-punisher-ray-stevenson",
+    "slug": "punisher-ray-stevenson",
+    "identityId": "frank-castle",
+    "name": "The Punisher (War Zone)",
+    "realName": "Frank Castle",
+    "aliases": [
+      "The Punisher"
+    ],
+    "actor": "Ray Stevenson",
+    "universeId": "punisher-war-zone-2008",
+    "role": "anti-hero",
+    "tagline": "Relentless one-man army in New York's War Zone facing Jigsaw and Loony Bin Jim",
+    "biography": "In Lionsgate's standalone 2008 reboot, former Force Recon Marine Frank Castle has waged a brutal five-year war against New York's Mafia families after his wife and children were caught in a mob crossfire. Operating out of abandoned safehouses with armorer Microchip, Castle relentlessly hunts down every crime syndicate in the city.",
+    "spoilerBio": "After accidentally killing an undercover FBI agent during a raid on mobster Billy Russoti, Castle nearly retired—until Jigsaw kidnapped the slain agent's widow and daughter, prompting Castle to storm the Bradstreet Hotel, execute Loony Bin Jim, and burn Jigsaw alive.",
+    "spoilerWarning": "Contains climax spoilers for Punisher: War Zone (2008)",
+    "powers": [
+      "Force Recon heavy-weapons mastery and relentless close-quarters lethality"
+    ],
+    "equipment": [
+      "Skull-painted Kevlar body armor",
+      "Heavy ordnance, grenade launchers, and combat knives"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Punisher: War Zone",
+      "year": 2008,
+      "filmId": "punisher-war-zone-2008"
+    },
+    "appearances": [
+      {
+        "filmId": "punisher-war-zone-2008",
+        "title": "Punisher: War Zone",
+        "year": 2008,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "Jigsaw (Billy Russoti)",
+        "relation": "Arch-Adversary",
+        "portrayalSlug": "jigsaw-dominic-west"
+      },
+      {
+        "characterName": "The Punisher (2004)",
+        "relation": "Alternate-Adaptation Counterpart",
+        "portrayalSlug": "punisher-thomas-jane"
+      },
+      {
+        "characterName": "The Punisher (1989)",
+        "relation": "Alternate-Adaptation Counterpart",
+        "portrayalSlug": "punisher-dolph-lundgren"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Punisher: War Zone (2008)",
+        "url": "https://www.marvel.com/movies/punisher-war-zone",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-jigsaw-dominic-west",
+    "slug": "jigsaw-dominic-west",
+    "identityId": "billy-russo",
+    "name": "Jigsaw",
+    "realName": "Billy Russoti",
+    "aliases": [
+      "Jigsaw",
+      "Billy 'The Beaut' Russoti"
+    ],
+    "actor": "Dominic West",
+    "universeId": "punisher-war-zone-2008",
+    "role": "villain",
+    "tagline": "Sadistic mobster horribly scarred by glass-crushing machinery who united New York's gangs against Castle",
+    "biography": "Once a vain, flamboyant Mafia enforcer known as 'Billy The Beaut', Billy Russoti fell into an industrial glass-crushing vat when the Punisher raided his recycling plant. Surviving reconstructive surgery with a twisted, patchwork face, Russoti renamed himself Jigsaw and freed his psychotic brother Loony Bin Jim to destroy Frank Castle.",
+    "spoilerBio": "After killing Microchip and seizing hostages at the Bradstreet Hotel, Jigsaw watched Castle kill his brother before Castle impaled Jigsaw on a spike and hurled him into a roaring fire.",
+    "spoilerWarning": "Contains climax spoilers for Punisher: War Zone (2008)",
+    "powers": [
+      "Criminal leadership and extreme pain tolerance"
+    ],
+    "equipment": [
+      "Heavy firearms and street-gang arsenal"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "Punisher: War Zone",
+      "year": 2008,
+      "filmId": "punisher-war-zone-2008"
+    },
+    "appearances": [
+      {
+        "filmId": "punisher-war-zone-2008",
+        "title": "Punisher: War Zone",
+        "year": 2008,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "The Punisher (War Zone)",
+        "relation": "Arch-Adversary",
+        "portrayalSlug": "punisher-ray-stevenson"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "Marvel.com Punisher: War Zone (2008)",
+        "url": "https://www.marvel.com/movies/punisher-war-zone",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "portrayal-punisher-dolph-lundgren",
+    "slug": "punisher-dolph-lundgren",
+    "identityId": "frank-castle",
+    "name": "The Punisher (1989)",
+    "realName": "Frank Castle",
+    "aliases": [
+      "The Punisher"
+    ],
+    "actor": "Dolph Lundgren",
+    "universeId": "punisher-1989",
+    "role": "anti-hero",
+    "tagline": "Presumed-dead police veteran waging a five-year subterranean war against the Mafia and Yakuza",
+    "biography": "A decorated police officer presumed killed in the car bombing that murdered his wife and two daughters, Frank Castle retreated into the city sewers for five years, executing 125 mobsters as the Punisher. When Lady Tanaka's Yakuza kidnapped Mafia bosses' children to seize control of organized crime, Castle forged a reluctant truce to rescue the hostages.",
+    "spoilerBio": "Infiltrating Lady Tanaka's headquarters alongside mob boss Gianni Franco, Castle slayed the Yakuza leadership—and when Franco betrayed him immediately afterward, Castle shot Franco dead before vanishing back into the shadows.",
+    "spoilerWarning": "Contains ending spoilers for The Punisher (1989)",
+    "powers": [
+      "Elite police tactical combat, martial arts, and weapons proficiency"
+    ],
+    "equipment": [
+      "Skull-hilted combat knives and submachine guns"
+    ],
+    "teamMemberships": [],
+    "filmDebut": {
+      "title": "The Punisher",
+      "year": 1989,
+      "filmId": "the-punisher-1989"
+    },
+    "appearances": [
+      {
+        "filmId": "the-punisher-1989",
+        "title": "The Punisher",
+        "year": 1989,
+        "type": "starring"
+      }
+    ],
+    "relationships": [
+      {
+        "characterName": "The Punisher (2004)",
+        "relation": "Alternate-Adaptation Counterpart",
+        "portrayalSlug": "punisher-thomas-jane"
+      },
+      {
+        "characterName": "The Punisher (War Zone, 2008)",
+        "relation": "Alternate-Adaptation Counterpart",
+        "portrayalSlug": "punisher-ray-stevenson"
+      }
+    ],
+    "poster": null,
+    "status": "published",
+    "sources": [
+      {
+        "title": "AFI Catalog The Punisher (1989)",
+        "url": "https://catalog.afi.com/Catalog/moviedetails/58195",
+        "verifiedDate": "2026-11-28"
+      }
+    ]
   }
 ]

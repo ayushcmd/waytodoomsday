@@ -1212,5 +1212,365 @@
         "mediaType": "movie"
       }
     }
+  },
+  {
+    "actorName": "Pedro Pascal",
+    "portrayalSlugs": [
+      "reed-richards-pedro-pascal"
+    ],
+    "tmdb": {
+      "personId": 1253360,
+      "profilePath": "/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 617126,
+      "matchCredit": {
+        "title": "The Fantastic 4: First Steps",
+        "year": 2025,
+        "character": "Reed Richards",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Vanessa Kirby",
+    "portrayalSlugs": [
+      "sue-storm-vanessa-kirby"
+    ],
+    "tmdb": {
+      "personId": 556356,
+      "profilePath": "/5fbvIkZ02RdcXfZHUUk4cQ9kILK.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 617126,
+      "matchCredit": {
+        "title": "The Fantastic 4: First Steps",
+        "year": 2025,
+        "character": "Sue Storm",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Joseph Quinn",
+    "portrayalSlugs": [
+      "johnny-storm-joseph-quinn"
+    ],
+    "tmdb": {
+      "personId": 1597365,
+      "profilePath": "/zshhuioZaH8S5ZKdMcojzWi1ntl.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 617126,
+      "matchCredit": {
+        "title": "The Fantastic 4: First Steps",
+        "year": 2025,
+        "character": "Johnny Storm",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Ebon Moss-Bachrach",
+    "portrayalSlugs": [
+      "ben-grimm-ebon-moss-bachrach"
+    ],
+    "tmdb": {
+      "personId": 21042,
+      "profilePath": "/xD8GVNayMpiTZxLfahy2DseYcQq.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 617126,
+      "matchCredit": {
+        "title": "The Fantastic 4: First Steps",
+        "year": 2025,
+        "character": "Ben Grimm",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Ralph Ineson",
+    "portrayalSlugs": [
+      "galactus-ralph-ineson"
+    ],
+    "tmdb": {
+      "personId": 202032,
+      "profilePath": "/sn3ONJw2pJxMHiCqPwvkaiWr5mc.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 617126,
+      "matchCredit": {
+        "title": "The Fantastic 4: First Steps",
+        "year": 2025,
+        "character": "Galactus",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Julia Garner",
+    "portrayalSlugs": [
+      "silver-surfer-shalla-bal"
+    ],
+    "tmdb": {
+      "personId": 936970,
+      "profilePath": "/ud1RXbvW70J89iqeic7no8olxvb.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 617126,
+      "matchCredit": {
+        "title": "The Fantastic 4: First Steps",
+        "year": 2025,
+        "character": "Shalla-Bal",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Ben Affleck",
+    "portrayalSlugs": [
+      "daredevil-ben-affleck"
+    ],
+    "tmdb": {
+      "personId": 880,
+      "profilePath": "/aTcqu8cI4wMohU17xTdqmXKTGrw.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 9480,
+      "matchCredit": {
+        "title": "Daredevil",
+        "year": 2003,
+        "character": "Matt Murdock",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Jennifer Garner",
+    "portrayalSlugs": [
+      "elektra-jennifer-garner"
+    ],
+    "tmdb": {
+      "personId": 9278,
+      "profilePath": "/eiX083VOa0RCGSgwENZgVi5MgDi.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 9480,
+      "matchCredit": {
+        "title": "Daredevil",
+        "year": 2003,
+        "character": "Elektra",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Michael Clarke Duncan",
+    "portrayalSlugs": [
+      "kingpin-michael-clarke-duncan"
+    ],
+    "tmdb": {
+      "personId": 61981,
+      "profilePath": "/3RX8OBqt3gbvFwKYZqiom4O3Ta6.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 9480,
+      "matchCredit": {
+        "title": "Daredevil",
+        "year": 2003,
+        "character": "Kingpin",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Colin Farrell",
+    "portrayalSlugs": [
+      "bullseye-colin-farrell"
+    ],
+    "tmdb": {
+      "personId": 72466,
+      "profilePath": "/5FdalJbrbZ5UCsED5rFrXpvbqJa.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 9480,
+      "matchCredit": {
+        "title": "Daredevil",
+        "year": 2003,
+        "character": "Bullseye",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Terence Stamp",
+    "portrayalSlugs": [
+      "stick-terence-stamp"
+    ],
+    "tmdb": {
+      "personId": 28641,
+      "profilePath": "/ept9urkuhPbGndVXkERw39R9oid.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 9947,
+      "matchCredit": {
+        "title": "Elektra",
+        "year": 2005,
+        "character": "Stick",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Nicolas Cage",
+    "portrayalSlugs": [
+      "ghost-rider-nicolas-cage"
+    ],
+    "tmdb": {
+      "personId": 2963,
+      "profilePath": "/y1RtezurZYveYkVNRht7CwEgSYY.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1250,
+      "matchCredit": {
+        "title": "Ghost Rider",
+        "year": 2007,
+        "character": "Johnny Blaze",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Wes Bentley",
+    "portrayalSlugs": [
+      "blackheart-wes-bentley"
+    ],
+    "tmdb": {
+      "personId": 8210,
+      "profilePath": "/voD93lzFZrr9xfAggwFcPRBi84i.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1250,
+      "matchCredit": {
+        "title": "Ghost Rider",
+        "year": 2007,
+        "character": "Blackheart",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Peter Fonda",
+    "portrayalSlugs": [
+      "mephistopheles-peter-fonda"
+    ],
+    "tmdb": {
+      "personId": 8949,
+      "profilePath": "/dgorN06SQ9ZNL2NY3I7BNxg93lc.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1250,
+      "matchCredit": {
+        "title": "Ghost Rider",
+        "year": 2007,
+        "character": "Mephistopheles",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Eva Mendes",
+    "portrayalSlugs": [
+      "roxanne-simpson-eva-mendes"
+    ],
+    "tmdb": {
+      "personId": 8170,
+      "profilePath": "/4xptMw7AjNamFgfGt75sHaT0wsI.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1250,
+      "matchCredit": {
+        "title": "Ghost Rider",
+        "year": 2007,
+        "character": "Roxanne Simpson",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Thomas Jane",
+    "portrayalSlugs": [
+      "punisher-thomas-jane"
+    ],
+    "tmdb": {
+      "personId": 11155,
+      "profilePath": "/9frnlc2zoDcoeqZALB6aeYSQddl.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 7220,
+      "matchCredit": {
+        "title": "The Punisher",
+        "year": 2004,
+        "character": "Frank Castle",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "John Travolta",
+    "portrayalSlugs": [
+      "howard-saint-john-travolta"
+    ],
+    "tmdb": {
+      "personId": 8891,
+      "profilePath": "/ap8eEYfBKTLixmVVpRlq4NslDD5.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 7220,
+      "matchCredit": {
+        "title": "The Punisher",
+        "year": 2004,
+        "character": "Howard Saint",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Ray Stevenson",
+    "portrayalSlugs": [
+      "punisher-ray-stevenson"
+    ],
+    "tmdb": {
+      "personId": 56614,
+      "profilePath": "/msafbswGI6uisRuNvQ8a1wMF5Ca.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 13056,
+      "matchCredit": {
+        "title": "Punisher: War Zone",
+        "year": 2008,
+        "character": "Frank Castle",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Dominic West",
+    "portrayalSlugs": [
+      "jigsaw-dominic-west"
+    ],
+    "tmdb": {
+      "personId": 17287,
+      "profilePath": "/6y2M3EWslBPwPlugEFg8XDHfSJ0.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 13056,
+      "matchCredit": {
+        "title": "Punisher: War Zone",
+        "year": 2008,
+        "character": "Jigsaw",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Dolph Lundgren",
+    "portrayalSlugs": [
+      "punisher-dolph-lundgren"
+    ],
+    "tmdb": {
+      "personId": 16644,
+      "profilePath": "/fB1tOws6Gav0xE8LYlELEb82hJt.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 8867,
+      "matchCredit": {
+        "title": "The Punisher",
+        "year": 1989,
+        "character": "Frank Castle",
+        "mediaType": "movie"
+      }
+    }
   }
 ]

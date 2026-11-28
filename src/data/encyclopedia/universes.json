@@ -79,5 +79,59 @@
     "description": "The groundbreaking New Line Cinema vampire-hunter trilogy starring Wesley Snipes as the Daywalker.",
     "badgeColor": "border-rose-500/30 text-rose-400 bg-rose-500/10",
     "accentColor": "#f43f5e"
+  },
+  {
+    "id": "mcu-828",
+    "name": "Earth-828 (Fantastic Four: First Steps)",
+    "shortName": "Earth-828",
+    "designation": "Earth-828",
+    "description": "A retro-futuristic 1960s alternate reality protected by the Fantastic Four, distinct from Earth-616.",
+    "badgeColor": "border-sky-400/30 text-sky-300 bg-sky-500/10",
+    "accentColor": "#38bdf8"
+  },
+  {
+    "id": "fox-daredevil",
+    "name": "Daredevil & Elektra (2003 / 2005)",
+    "shortName": "Daredevil (Fox)",
+    "designation": "Earth-701306",
+    "description": "The shared 20th Century Fox and New Regency theatrical continuity of Daredevil (2003) and Elektra (2005).",
+    "badgeColor": "border-red-700/40 text-red-300 bg-red-900/20",
+    "accentColor": "#dc2626"
+  },
+  {
+    "id": "sony-ghost-rider",
+    "name": "Ghost Rider Films (2007 / 2012)",
+    "shortName": "Ghost Rider",
+    "designation": "Earth-121347 / Soft-Reboot",
+    "description": "Columbia Pictures' Ghost Rider duology starring Nicolas Cage as Johnny Blaze, where Spirit of Vengeance (2012) acts as a soft-rebooted continuation.",
+    "badgeColor": "border-orange-500/30 text-orange-400 bg-orange-500/10",
+    "accentColor": "#f97316"
+  },
+  {
+    "id": "punisher-2004",
+    "name": "The Punisher (2004)",
+    "shortName": "Punisher (2004)",
+    "designation": "Earth-58732",
+    "description": "Lionsgate's 2004 theatrical adaptation starring Thomas Jane as Frank Castle, independent of other Punisher films.",
+    "badgeColor": "border-zinc-500/30 text-zinc-300 bg-zinc-500/10",
+    "accentColor": "#a1a1aa"
+  },
+  {
+    "id": "punisher-war-zone-2008",
+    "name": "Punisher: War Zone (2008)",
+    "shortName": "War Zone (2008)",
+    "designation": "Earth-20082",
+    "description": "Lionsgate's 2008 standalone reboot starring Ray Stevenson as Frank Castle, separate from the 2004 film.",
+    "badgeColor": "border-slate-500/30 text-slate-300 bg-slate-500/10",
+    "accentColor": "#64748b"
+  },
+  {
+    "id": "punisher-1989",
+    "name": "The Punisher (1989)",
+    "shortName": "Punisher (1989)",
+    "designation": "Earth-58627",
+    "description": "New World Pictures' 1989 theatrical adaptation starring Dolph Lundgren as Frank Castle.",
+    "badgeColor": "border-stone-500/30 text-stone-300 bg-stone-500/10",
+    "accentColor": "#78716c"
   }
 ]
