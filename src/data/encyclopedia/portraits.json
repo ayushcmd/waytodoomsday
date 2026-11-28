@@ -1,0 +1,762 @@
+[
+  {
+    "actorName": "Robert Downey Jr.",
+    "portrayalSlugs": [
+      "iron-man"
+    ],
+    "tmdb": {
+      "personId": 3223,
+      "profilePath": "/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1726,
+      "matchCredit": {
+        "title": "Iron Man",
+        "year": 2008,
+        "character": "Tony Stark",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Chris Hemsworth",
+    "portrayalSlugs": [
+      "thor"
+    ],
+    "tmdb": {
+      "personId": 74568,
+      "profilePath": "/piQGdoIQOF3C1EI5cbYZLAW1gfj.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 10195,
+      "matchCredit": {
+        "title": "Thor",
+        "year": 2011,
+        "character": "Thor",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Chris Evans",
+    "portrayalSlugs": [
+      "captain-america",
+      "human-torch-chris-evans"
+    ],
+    "tmdb": {
+      "personId": 16828,
+      "profilePath": "/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1771,
+      "matchCredit": {
+        "title": "Captain America: The First Avenger",
+        "year": 2011,
+        "character": "Steve Rogers",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Tom Holland",
+    "portrayalSlugs": [
+      "spider-man"
+    ],
+    "tmdb": {
+      "personId": 1136406,
+      "profilePath": "/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 315635,
+      "matchCredit": {
+        "title": "Spider-Man: Homecoming",
+        "year": 2017,
+        "character": "Peter Parker",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Chris Pratt",
+    "portrayalSlugs": [
+      "star-lord"
+    ],
+    "tmdb": {
+      "personId": 73457,
+      "profilePath": "/cRH6HPAQ98PlOwwEvhYO4CM9lwu.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 118340,
+      "matchCredit": {
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "character": "Peter Quill",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Tobey Maguire",
+    "portrayalSlugs": [
+      "spider-man-tobey-maguire"
+    ],
+    "tmdb": {
+      "personId": 2219,
+      "profilePath": "/s6PwSvq6gC7PGEjIku69tPbvR8M.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 557,
+      "matchCredit": {
+        "title": "Spider-Man",
+        "year": 2002,
+        "character": "Peter Parker",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Andrew Garfield",
+    "portrayalSlugs": [
+      "spider-man-andrew-garfield"
+    ],
+    "tmdb": {
+      "personId": 37625,
+      "profilePath": "/beO5YvbTjrr5yy8hW26KVDMSr35.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1930,
+      "matchCredit": {
+        "title": "The Amazing Spider-Man",
+        "year": 2012,
+        "character": "Peter Parker",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Shameik Moore",
+    "portrayalSlugs": [
+      "miles-morales-spider-verse"
+    ],
+    "tmdb": {
+      "personId": 587506,
+      "profilePath": "/ovUKfVOwJ7CadEHaG3NDsfA5xRq.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 324857,
+      "matchCredit": {
+        "title": "Spider-Man: Into the Spider-Verse",
+        "year": 2018,
+        "character": "Miles Morales",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Hailee Steinfeld",
+    "portrayalSlugs": [
+      "spider-gwen-hailee-steinfeld"
+    ],
+    "tmdb": {
+      "personId": 130640,
+      "profilePath": "/dxSDWkiVaC6JYjrV3XRAZI7HOSS.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 324857,
+      "matchCredit": {
+        "title": "Spider-Man: Into the Spider-Verse",
+        "year": 2018,
+        "character": "Gwen Stacy",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Oscar Isaac",
+    "portrayalSlugs": [
+      "spider-man-2099-oscar-isaac"
+    ],
+    "tmdb": {
+      "personId": 25072,
+      "profilePath": "/dW5U5yrIIPmMjRThR9KT2xH6nTz.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 569094,
+      "matchCredit": {
+        "title": "Spider-Man: Across the Spider-Verse",
+        "year": 2023,
+        "character": "Miguel O'Hara",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Hugh Jackman",
+    "portrayalSlugs": [
+      "wolverine-hugh-jackman",
+      "wolverine-alternate-variant"
+    ],
+    "tmdb": {
+      "personId": 6968,
+      "profilePath": "/4Xujtewxqt6aU0Y81tsS9gkjizk.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Logan",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Patrick Stewart",
+    "portrayalSlugs": [
+      "professor-x-patrick-stewart",
+      "professor-x-earth-838"
+    ],
+    "tmdb": {
+      "personId": 2387,
+      "profilePath": "/3yExCGqCMfSOVVHdEYTJhXaTtFZ.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Xavier",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "James McAvoy",
+    "portrayalSlugs": [
+      "professor-x-james-mcavoy"
+    ],
+    "tmdb": {
+      "personId": 5530,
+      "profilePath": "/u4REKbm3zhFI2J5tVyqRovGRYUJ.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 49538,
+      "matchCredit": {
+        "title": "X-Men: First Class",
+        "year": 2011,
+        "character": "Charles Xavier",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Ian McKellen",
+    "portrayalSlugs": [
+      "magneto-ian-mckellen"
+    ],
+    "tmdb": {
+      "personId": 1327,
+      "profilePath": "/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Magneto",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Michael Fassbender",
+    "portrayalSlugs": [
+      "magneto-michael-fassbender"
+    ],
+    "tmdb": {
+      "personId": 17288,
+      "profilePath": "/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 49538,
+      "matchCredit": {
+        "title": "X-Men: First Class",
+        "year": 2011,
+        "character": "Erik Lehnsherr",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Ryan Reynolds",
+    "portrayalSlugs": [
+      "deadpool-ryan-reynolds",
+      "weapon-xi-wade-wilson"
+    ],
+    "tmdb": {
+      "personId": 10859,
+      "profilePath": "/trzgptffGvAlAT6MEu01fz47cLW.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 293660,
+      "matchCredit": {
+        "title": "Deadpool",
+        "year": 2016,
+        "character": "Wade / Deadpool",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Ioan Gruffudd",
+    "portrayalSlugs": [
+      "reed-richards-ioan-gruffudd"
+    ],
+    "tmdb": {
+      "personId": 65524,
+      "profilePath": "/h2pg2XwJPcOWotHgiohXjEZUBLa.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 9738,
+      "matchCredit": {
+        "title": "Fantastic Four",
+        "year": 2005,
+        "character": "Reed Richards",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Jessica Alba",
+    "portrayalSlugs": [
+      "invisible-woman-jessica-alba"
+    ],
+    "tmdb": {
+      "personId": 56731,
+      "profilePath": "/hPoy6FRfiCIxguX3w2CoBbDoaEV.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 9738,
+      "matchCredit": {
+        "title": "Fantastic Four",
+        "year": 2005,
+        "character": "Sue Storm",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Michael Chiklis",
+    "portrayalSlugs": [
+      "the-thing-michael-chiklis"
+    ],
+    "tmdb": {
+      "personId": 19654,
+      "profilePath": "/pAkKjbzxP6Z6Y5zAGpwmWQo1iji.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 9738,
+      "matchCredit": {
+        "title": "Fantastic Four",
+        "year": 2005,
+        "character": "Ben Grimm",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Julian McMahon",
+    "portrayalSlugs": [
+      "doctor-doom-julian-mcmahon"
+    ],
+    "tmdb": {
+      "personId": 20402,
+      "profilePath": "/PirhJFimrT5iK0qru4SzlwLW4G.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 9738,
+      "matchCredit": {
+        "title": "Fantastic Four",
+        "year": 2005,
+        "character": "Victor Von Doom",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "John Krasinski",
+    "portrayalSlugs": [
+      "reed-richards-earth-838"
+    ],
+    "tmdb": {
+      "personId": 17697,
+      "profilePath": "/pmVGDb6Yl6OyFcHVGbu1EYNfyFK.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 453395,
+      "matchCredit": {
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "year": 2022,
+        "character": "Reed Richards",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Wesley Snipes",
+    "portrayalSlugs": [
+      "blade-wesley-snipes"
+    ],
+    "tmdb": {
+      "personId": 10814,
+      "profilePath": "/oOjRfYKQOBS6XsRyXaZktmSQBph.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36647,
+      "matchCredit": {
+        "title": "Blade",
+        "year": 1998,
+        "character": "Blade",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Tom Hardy",
+    "portrayalSlugs": [
+      "venom-tom-hardy"
+    ],
+    "tmdb": {
+      "personId": 2524,
+      "profilePath": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 335983,
+      "matchCredit": {
+        "title": "Venom",
+        "year": 2018,
+        "character": "Eddie Brock",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Willem Dafoe",
+    "portrayalSlugs": [
+      "green-goblin-willem-dafoe"
+    ],
+    "tmdb": {
+      "personId": 5293,
+      "profilePath": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 557,
+      "matchCredit": {
+        "title": "Spider-Man",
+        "year": 2002,
+        "character": "Norman Osborn",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Alfred Molina",
+    "portrayalSlugs": [
+      "doctor-octopus-alfred-molina"
+    ],
+    "tmdb": {
+      "personId": 658,
+      "profilePath": "/nJo91Czesn6z0d0pkfbDoVZY3sg.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 558,
+      "matchCredit": {
+        "title": "Spider-Man 2",
+        "year": 2004,
+        "character": "Otto Octavius",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Jamie Foxx",
+    "portrayalSlugs": [
+      "electro-jamie-foxx"
+    ],
+    "tmdb": {
+      "personId": 134,
+      "profilePath": "/zD8Nsy4Xrghp7WunwpCj5JKBPeU.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 102382,
+      "matchCredit": {
+        "title": "The Amazing Spider-Man 2",
+        "year": 2014,
+        "character": "Max Dillon",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Benedict Cumberbatch",
+    "portrayalSlugs": [
+      "doctor-strange"
+    ],
+    "tmdb": {
+      "personId": 71580,
+      "profilePath": "/wz3MRiMmoz6b5X3oSzMRC9nLxY1.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 284052,
+      "matchCredit": {
+        "title": "Doctor Strange",
+        "year": 2016,
+        "character": "Stephen Strange",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Scarlett Johansson",
+    "portrayalSlugs": [
+      "black-widow"
+    ],
+    "tmdb": {
+      "personId": 1245,
+      "profilePath": "/2I2xAQmL87k5YswCnc4vHjpXxE0.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 10138,
+      "matchCredit": {
+        "title": "Iron Man 2",
+        "year": 2010,
+        "character": "Natasha Romanoff",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Mark Ruffalo",
+    "portrayalSlugs": [
+      "hulk-bruce-banner"
+    ],
+    "tmdb": {
+      "personId": 103,
+      "profilePath": "/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 24428,
+      "matchCredit": {
+        "title": "The Avengers",
+        "year": 2012,
+        "character": "Bruce Banner",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Elizabeth Olsen",
+    "portrayalSlugs": [
+      "scarlet-witch"
+    ],
+    "tmdb": {
+      "personId": 550843,
+      "profilePath": "/kV1PPpUtxRE7lXYvur7DW41LEDn.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 99861,
+      "matchCredit": {
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "character": "Wanda Maximoff",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Jeremy Renner",
+    "portrayalSlugs": [
+      "hawkeye"
+    ],
+    "tmdb": {
+      "personId": 17604,
+      "profilePath": "/yB84D1neTYXfWBaV0QOE9RF2VCu.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 24428,
+      "matchCredit": {
+        "title": "The Avengers",
+        "year": 2012,
+        "character": "Clint Barton",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Chadwick Boseman",
+    "portrayalSlugs": [
+      "black-panther"
+    ],
+    "tmdb": {
+      "personId": 172069,
+      "profilePath": "/nL16SKfyP1b7Hk6LsuWiqMfbdb8.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 284054,
+      "matchCredit": {
+        "title": "Black Panther",
+        "year": 2018,
+        "character": "T'Challa",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Letitia Wright",
+    "portrayalSlugs": [
+      "shuri"
+    ],
+    "tmdb": {
+      "personId": 1083010,
+      "profilePath": "/f7PevpEeBqwzACPhoZ8K3ktrKvE.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 284054,
+      "matchCredit": {
+        "title": "Black Panther",
+        "year": 2018,
+        "character": "Shuri",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Brie Larson",
+    "portrayalSlugs": [
+      "captain-marvel"
+    ],
+    "tmdb": {
+      "personId": 60073,
+      "profilePath": "/xSGvMwNNJcEQvVcjiIUTyxyMfkZ.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 299537,
+      "matchCredit": {
+        "title": "Captain Marvel",
+        "year": 2019,
+        "character": "Carol Danvers",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Paul Rudd",
+    "portrayalSlugs": [
+      "ant-man"
+    ],
+    "tmdb": {
+      "personId": 22226,
+      "profilePath": "/6jtwNOLKy0LdsRAKwZqgYMAfd5n.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 102899,
+      "matchCredit": {
+        "title": "Ant-Man",
+        "year": 2015,
+        "character": "Scott Lang",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Sebastian Stan",
+    "portrayalSlugs": [
+      "winter-soldier"
+    ],
+    "tmdb": {
+      "personId": 60898,
+      "profilePath": "/v20RLWst39klatsqUgSrwHxhwee.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 1771,
+      "matchCredit": {
+        "title": "Captain America: The First Avenger",
+        "year": 2011,
+        "character": "James Buchanan 'Bucky' Barnes",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Anthony Mackie",
+    "portrayalSlugs": [
+      "sam-wilson"
+    ],
+    "tmdb": {
+      "personId": 53650,
+      "profilePath": "/vecvTm7SimizluJkyIwBxeLbvRm.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 100402,
+      "matchCredit": {
+        "title": "Captain America: The Winter Soldier",
+        "year": 2014,
+        "character": "Sam Wilson",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Tom Hiddleston",
+    "portrayalSlugs": [
+      "loki"
+    ],
+    "tmdb": {
+      "personId": 91606,
+      "profilePath": "/mclHxMm8aPlCPKptP67257F5GPo.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 10195,
+      "matchCredit": {
+        "title": "Thor",
+        "year": 2011,
+        "character": "Loki",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Samuel L. Jackson",
+    "portrayalSlugs": [
+      "nick-fury"
+    ],
+    "tmdb": {
+      "personId": 2231,
+      "profilePath": "/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 24428,
+      "matchCredit": {
+        "title": "The Avengers",
+        "year": 2012,
+        "character": "Nick Fury",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Halle Berry",
+    "portrayalSlugs": [
+      "storm-halle-berry"
+    ],
+    "tmdb": {
+      "personId": 4587,
+      "profilePath": "/84HRDZodRCuBSpYGSc3ow8WucI4.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Storm",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "Famke Janssen",
+    "portrayalSlugs": [
+      "jean-grey-famke-janssen"
+    ],
+    "tmdb": {
+      "personId": 10696,
+      "profilePath": "/uvZGwNsLqe9NyA57Qlt46IkO8Bd.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Jean Grey",
+        "mediaType": "movie"
+      }
+    }
+  },
+  {
+    "actorName": "James Marsden",
+    "portrayalSlugs": [
+      "cyclops-james-marsden"
+    ],
+    "tmdb": {
+      "personId": 11006,
+      "profilePath": "/lf7OnfKZnMgNh9b98764tqSocGK.jpg",
+      "verifiedAt": "2026-11-28",
+      "creditId": 36657,
+      "matchCredit": {
+        "title": "X-Men",
+        "year": 2000,
+        "character": "Cyclops",
+        "mediaType": "movie"
+      }
+    }
+  }
+]

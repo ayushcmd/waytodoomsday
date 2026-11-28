@@ -8,6 +8,7 @@ import {
   getTeamAllies,
   getUniverseById,
   getFilmById,
+  getPortrayalPortraitUrl,
 } from "../../data/encyclopedia/index.js";
 
 export function getStaticPaths() {
@@ -130,8 +131,9 @@ const films = (team.filmAppearances || [])
                 <div class="aspect-[3/4] w-full rounded-xl overflow-hidden mb-3">
                   <CharacterAvatar
                     client:load
-                    src={member.poster}
-                    alt={member.name}
+                    src={getPortrayalPortraitUrl(member)}
+                    alt={`Actor portrait of ${member.actor} (${member.name})`}
+                    fallbackName={member.name}
                     accentColor={universe?.accentColor}
                     aspectRatio="aspect-[3/4]"
                   />
@@ -188,8 +190,9 @@ const films = (team.filmAppearances || [])
                 <div class="aspect-[3/4] w-full rounded-xl overflow-hidden mb-3">
                   <CharacterAvatar
                     client:load
-                    src={ally.poster}
-                    alt={ally.name}
+                    src={getPortrayalPortraitUrl(ally)}
+                    alt={`Actor portrait of ${ally.actor} (${ally.name})`}
+                    fallbackName={ally.name}
                     accentColor="#f59e0b"
                     aspectRatio="aspect-[3/4]"
                   />

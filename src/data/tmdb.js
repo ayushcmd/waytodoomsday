@@ -2,6 +2,8 @@
 // https://developer.themoviedb.org/docs/image-basics
 export const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/";
 export const TMDB_PROFILE_SIZE = "w185";
+export const TMDB_PROFILE_LARGE_SIZE = "h632";
+const ALLOWED_PROFILE_SIZES = new Set([TMDB_PROFILE_SIZE, TMDB_PROFILE_LARGE_SIZE]);
 export const isProfilePath = (path) => typeof path === "string" && /^\/[a-zA-Z0-9_-]+\.(jpg|png|webp)$/.test(path);
 
 export function portraitIsCurrent(tmdb, now = new Date()) {
@@ -15,8 +17,9 @@ export function portraitIsCurrent(tmdb, now = new Date()) {
   return now < expiry;
 }
 
-export function getActorPortraitUrl(entry, now) {
-  return portraitIsCurrent(entry.tmdb, now)
-    ? `${TMDB_IMAGE_BASE}${TMDB_PROFILE_SIZE}${entry.tmdb.profilePath}`
+export function getActorPortraitUrl(entry, now, size = TMDB_PROFILE_SIZE) {
+  const safeSize = ALLOWED_PROFILE_SIZES.has(size) ? size : TMDB_PROFILE_SIZE;
+  return portraitIsCurrent(entry?.tmdb, now)
+    ? `${TMDB_IMAGE_BASE}${safeSize}${entry.tmdb.profilePath}`
     : null;
 }

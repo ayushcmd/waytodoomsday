@@ -8,6 +8,7 @@
   "scripts": {
     "test": "node --test tests/*.test.js",
     "portraits:refresh": "node scripts/refresh-doomsday-portraits.mjs",
+    "encyclopedia:portraits:refresh": "node scripts/refresh-encyclopedia-portraits.mjs",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",

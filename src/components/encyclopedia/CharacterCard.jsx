@@ -1,8 +1,9 @@
 import CharacterAvatar from "./CharacterAvatar.jsx";
-import { getUniverseById, getTeamById } from "../../data/encyclopedia/index.js";
+import { getUniverseById, getTeamById, getPortrayalPortraitUrl } from "../../data/encyclopedia/index.js";
 
 export default function CharacterCard({ character }) {
   const universe = getUniverseById(character.universeId);
+  const portraitUrl = getPortrayalPortraitUrl(character);
   const primaryTeam = character.teamMemberships?.[0]
     ? getTeamById(character.teamMemberships[0].teamId)
     : null;
@@ -30,8 +31,9 @@ export default function CharacterCard({ character }) {
       {/* Top Banner / Avatar */}
       <div className="relative aspect-[3/4] w-full overflow-hidden">
         <CharacterAvatar
-          src={character.poster}
-          alt={character.name}
+          src={portraitUrl}
+          alt={`Actor portrait of ${character.actor} (${character.name})`}
+          fallbackName={character.name}
           accentColor={universe?.accentColor}
           aspectRatio="aspect-[3/4]"
           className="transition-transform duration-500 group-hover:scale-105"
